@@ -3,9 +3,9 @@ A repository for tracking my learning and progress with Data.
 
 ![cover](./resources/img/cover.png)
 
-Before starting this challenge, I already had [**intermediate proficiency**](https://github.com/paudelsamir/python-mastery) in **Python** and had worked on several basic to advanced [**EDA projects**](https://github.com/paudelsamir/EDA-Projects). I’m also familiar with **Statistics** and **Mathematics**, so now my goal is to revisit these topics with a **practical, data-driven focus**.
-<br><br>
-*And so, the #365DaysofData journey begins!*
+> Before starting this challenge, I already had [**intermediate proficiency**](https://github.com/paudelsamir/python-mastery) in **Python** and had worked on several basic to advanced [**EDA projects**](https://github.com/paudelsamir/EDA-Projects). I’m also familiar with **Statistics** and **Mathematics**
+
+
 
 ## Progress
 
