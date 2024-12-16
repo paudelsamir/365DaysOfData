@@ -1,9 +1,13 @@
-![cover](./resources/img/cover.png)
+![cover](./resources/images/cover.png)
 
 > Before starting this challenge, I already had [**intermediate proficiency**](https://github.com/paudelsamir/python-mastery) in **Python** and had worked on several basic to advanced [**EDA projects**](https://github.com/paudelsamir/EDA-Projects). I’m also familiar with **Statistics** and **Mathematics**
 
 
 
+| Books & Resources  | Completion Status |
+|--------------------|-------------------|
+| [Machine Learning Specialization @Coursera](https://www.coursera.org/specializations/machine-learning-introduction) | 🏊 |
+| [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3)| 🏊 |
 
 
 # Progress
