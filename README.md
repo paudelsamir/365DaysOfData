@@ -3,6 +3,7 @@
 > Before starting this challenge, I already had [**intermediate proficiency**](https://github.com/paudelsamir/python-mastery) in **Python** and had worked on several basic to advanced [**EDA projects**](https://github.com/paudelsamir/EDA-Projects). I’m also familiar with **Statistics** and **Mathematics**
 
 
+<br>
 
 | Books & Resources  | Completion Status |
 |--------------------|-------------------|
@@ -10,16 +11,18 @@
 | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3)| 🏊 |
 
 
-# Progress
+<br>
 
+# Progress
 | Day | Date | Topics Learned | Resources |
 |-----|------|----------------|-----------|
 | [Day 1](#day-01-setting-up--basics-of-linear-algebra) | 2024-12-14 | Setting Up + Basics of Linear Algebra  | [3blue1brown](https://www.3blue1brown.com/topics/linear-algebra) |
 | [Day 2](#day-02-decomposition-derivation-integration-and-gradient-descent) | 2024-12-15 | Decomposition, Derivation, Integration, and Gradient Descent | [3blue1brown](https://www.3blue1brown.com/topics/calculus) |
 | [Day X]() | YYYY-MM-DD |XXXXXXXXXXXXXXXXXXXXXXX| Resource X |
 
-# Day 01: Setting Up + Basics of Linear Algebra
+<br><br>
 
+# Day 01: Setting Up + Basics of Linear Algebra
 ![Importance of Linear Algebra](./01-Supervised-Learning/images/importance_of_linear_algebra.png)
 
 - Scalars, Vectors, Matrices, Tensors: Basic data structures for ML.
