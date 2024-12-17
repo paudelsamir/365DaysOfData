@@ -75,11 +75,11 @@ Revised statistics and probability concepts. Ready for the ML Specialization cou
 
 # Day 03: Supervised Machine Learning: Regression and Classificaiton
 [Notes credit](https://drive.google.com/file/d/1SO3WJZGSPx2jypBUugJkkwO8LZozBK7B/view?usp=sharing)
-- Supervised Learning: 
+- Supervised Learning: <br>
 ![](./01-Supervised-Learning/images/Supervised%20Learning.png)
-- Regression:
+- Regression:<br>
 ![](./01-Supervised-Learning/images/Regression_model.png)
-- Classification:
+- Classification:<br>
 ![](./01-Supervised-Learning/images/classification_model.png)
 ![](./01-Supervised-Learning/images/classification_model2.png)
 
