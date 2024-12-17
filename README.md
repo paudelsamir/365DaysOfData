@@ -14,13 +14,14 @@
 <br>
 
 # Progress
-| Day | Date | Topics Learned | Resources |
+| Days | Date | Topics Learned | Resources |
 |-----|------|----------------|-----------|
 | [Day 1](#day-01-setting-up--basics-of-linear-algebra) | 2024-12-14 | Setting Up + Basics of Linear Algebra  | [3blue1brown](https://www.3blue1brown.com/topics/linear-algebra) |
 | [Day 2](#day-02-decomposition-derivation-integration-and-gradient-descent) | 2024-12-15 | Decomposition, Derivation, Integration, and Gradient Descent | [3blue1brown](https://www.3blue1brown.com/topics/calculus) |
+| [Day 3]() | 2024-12-16 |Supervised Learning, Regression and classification|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
 | [Day X]() | YYYY-MM-DD |XXXXXXXXXXXXXXXXXXXXXXX| Resource X |
 
-<br><br>
+<br>
 
 # Day 01: Setting Up + Basics of Linear Algebra
 ![Importance of Linear Algebra](./01-Supervised-Learning/images/importance_of_linear_algebra.png)
@@ -68,4 +69,14 @@ Revised statistics and probability concepts. Ready for the ML Specialization cou
 
 ---
 
-# Day 03:
+# Day 03: Supervised Machine Learning: Regression and Classificaiton
+[Notes credit](https://drive.google.com/file/d/1SO3WJZGSPx2jypBUugJkkwO8LZozBK7B/view?usp=sharing)
+- Supervised Learning: 
+![](./01-Supervised-Learning/images/Supervised%20Learning.png)
+- Regression:
+![](./01-Supervised-Learning/images/Regression_model.png)
+- Classification:
+![](./01-Supervised-Learning/images/classification_model.png)
+![](./01-Supervised-Learning/images/classification_model2.png)
+
+---
