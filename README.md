@@ -74,7 +74,7 @@ Revised statistics and probability concepts. Ready for the ML Specialization cou
 ---
 
 # Day 03: Supervised Machine Learning: Regression and Classificaiton
-[Notes credit](https://drive.google.com/file/d/1SO3WJZGSPx2jypBUugJkkwO8LZozBK7B/view?usp=sharing)
+<!-- [Notes credit](https://drive.google.com/file/d/1SO3WJZGSPx2jypBUugJkkwO8LZozBK7B/view?usp=sharing) -->
 - Supervised Learning: <br>
 ![](./01-Supervised-Learning/images/Supervised%20Learning.png)
 - Regression:<br>
@@ -82,6 +82,18 @@ Revised statistics and probability concepts. Ready for the ML Specialization cou
 - Classification:<br>
 ![](./01-Supervised-Learning/images/classification_model.png)
 ![](./01-Supervised-Learning/images/classification_model2.png)
+
+---
+
+# Day 04: Unsupervised Learning: Clustering, dimensionality reduction
+
+data only comes with input x, but not output labels y. Algorithm has to find structure in data.
+
+- Clustering: group similar data points together <br>
+![alt text](./01-Supervised-Learning/images/clustering.png)
+- dimensionality reduction: compress data using fewer numbers eg image compression<br>
+![alt text](./01-Supervised-Learning/images/dimensionality_reduction.png)
+- anomaly detection: find unusual data points eg fraud detection<br>
 
 ---
 
