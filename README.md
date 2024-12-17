@@ -1,6 +1,7 @@
 ![cover](./resources/images/cover.png)
 
-> Before starting this challenge, I already had [**intermediate proficiency**](https://github.com/paudelsamir/python-mastery) in **Python** and had worked on several basic to advanced [**EDA projects**](https://github.com/paudelsamir/EDA-Projects). I’m also familiar with **Statistics** and **Mathematics**
+> Before starting this challenge, I already had [**intermediate proficiency**](https://github.com/paudelsamir/python-mastery) in **Python** and had worked on several basic to advanced [**EDA projects**](https://github.com/paudelsamir/EDA-Projects). I’m also familiar with Statistics and Mathematics.
+*Thanks man for the motivation [Utshav](https://github.com/Utshav-paudel)*
 
 
 <br>
@@ -8,7 +9,7 @@
 | Books & Resources  | Completion Status |
 |--------------------|-------------------|
 | [Machine Learning Specialization @Coursera](https://www.coursera.org/specializations/machine-learning-introduction) | 🏊 |
-| [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3)| 🏊 |
+| [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/yanshengjia/ml-road/blob/master/resources/Hands%20On%20Machine%20Learning%20with%20Scikit%20Learn%20and%20TensorFlow.pdf)| 🏊 |
 
 
 <br>
@@ -16,10 +17,13 @@
 # Progress
 | Days | Date | Topics Learned | Resources |
 |-----|------|----------------|-----------|
-| [Day 1](#day-01-setting-up--basics-of-linear-algebra) | 2024-12-14 | Setting Up + Basics of Linear Algebra  | [3blue1brown](https://www.3blue1brown.com/topics/linear-algebra) |
-| [Day 2](#day-02-decomposition-derivation-integration-and-gradient-descent) | 2024-12-15 | Decomposition, Derivation, Integration, and Gradient Descent | [3blue1brown](https://www.3blue1brown.com/topics/calculus) |
-| [Day 3]() | 2024-12-16 |Supervised Learning, Regression and classification|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
-| [Day X]() | YYYY-MM-DD |XXXXXXXXXXXXXXXXXXXXXXX| Resource X |
+| [Day1](#day-01-setting-up--basics-of-linear-algebra) | 2024-12-14 | Setting Up + Basics of Linear Algebra  | [3blue1brown](https://www.3blue1brown.com/topics/linear-algebra) |
+| [Day2](#day-02-decomposition-derivation-integration-and-gradient-descent) | 2024-12-15 | Decomposition, Derivation, Integration, and Gradient Descent | [3blue1brown](https://www.3blue1brown.com/topics/calculus) |
+| [Day3](#day-03-supervised-machine-learning-regression-and-classificaiton) | 2024-12-16 |Supervised Learning, Regression and classification|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
+| [Day4]() | 2024-12-16 |Unsupervised Learning: Clustering and dimensionality reduction|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
+| [Day5]() | 2024-12-17 |Univariate linear Regression, cost function|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
+| [Day6]() | 2024-12-18 |Gradient Descent, Learning rate|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
+| [DayX]() | YYYY-MM-DD |XXXXXXXXXXXXXXXXXXXXXXX| Resource X |
 
 <br>
 
@@ -80,3 +84,4 @@ Revised statistics and probability concepts. Ready for the ML Specialization cou
 ![](./01-Supervised-Learning/images/classification_model2.png)
 
 ---
+
