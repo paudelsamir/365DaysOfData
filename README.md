@@ -21,8 +21,8 @@
 | [Day2](#day-02-decomposition-derivation-integration-and-gradient-descent) | 2024-12-15 | Decomposition, Derivation, Integration, and Gradient Descent | [3blue1brown](https://www.3blue1brown.com/topics/calculus) |
 | [Day3](#day-03-supervised-machine-learning-regression-and-classificaiton) | 2024-12-16 |Supervised Learning, Regression and classification|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
 | [Day4](#day-04-unsupervised-learning-clustering-dimensionality-reduction) | 2024-12-17 |Unsupervised Learning: Clustering and dimensionality reduction|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
-| [Day5]() | 2024-12-18 |Univariate linear Regression, cost function|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
-| [Day6]() | 2024-12-19 |Gradient Descent, Learning rate|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
+| [Day5]() | 2024-12-18 |Univariate linear Regression|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
+| [Day6]() | 2024-12-19 |cost function, Gradient Descent, Learning rate|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
 | [DayX]() | YYYY-MM-DD |XXXXXXXXXXXXXXXXXXXXXXX| Resource X |
 
 <br>
@@ -97,3 +97,11 @@ data only comes with input x, but not output labels y. Algorithm has to find str
 
 ---
 
+# Day 05: Univariate Linear Regression:
+- Learned univariate linear regression and practiced building a model to predict house prices using size as input, including defining the hypothesis function, making predictions, and visualizing results.
+[Notebook](./01-Supervised-Learning/code/day_04_model_representation.ipynb)
+<br>
+![alt text](01-Supervised-Learning/images/notes_univariate_linear_regression.jpg)<br>
+![alt text](./01-Supervised-Learning/images/notations_summary.png)
+- Univariate Linear Regression Quiz<br>
+![alt text](01-Supervised-Learning/images/univariate_linear_regression_quiz.png)
