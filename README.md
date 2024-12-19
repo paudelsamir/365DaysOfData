@@ -99,9 +99,14 @@ data only comes with input x, but not output labels y. Algorithm has to find str
 
 # Day 05: Univariate Linear Regression:
 - Learned univariate linear regression and practiced building a model to predict house prices using size as input, including defining the hypothesis function, making predictions, and visualizing results.
+<br>
 [Notebook](./01-Supervised-Learning/code/day_04_model_representation.ipynb)
 <br>
-![alt text](01-Supervised-Learning/images/notes_univariate_linear_regression.jpg)<br>
-![alt text](./01-Supervised-Learning/images/notations_summary.png)
-- Univariate Linear Regression Quiz<br>
-![alt text](01-Supervised-Learning/images/univariate_linear_regression_quiz.png)
+![](01-Supervised-Learning/images/notes_univariate_linear_regression.jpg)
+<br>
+![](./01-Supervised-Learning/images/notations_summary.png)
+- Univariate Linear Regression Quiz
+<br>
+![](01-Supervised-Learning/images/univariate_linear_regression_quiz.png)
+
+---
