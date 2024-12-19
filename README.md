@@ -102,11 +102,11 @@ data only comes with input x, but not output labels y. Algorithm has to find str
 <br>
 [Notebook](./01-Supervised-Learning/code/day_04_model_representation.ipynb)
 <br>
-![](01-Supervised-Learning/images/notes_univariate_linear_regression.jpg)
+![](./01-Supervised-Learning/images/notes_univariate_linear_regression.jpg)
 <br>
 ![](./01-Supervised-Learning/images/notations_summary.png)
 - Univariate Linear Regression Quiz
 <br>
-![](01-Supervised-Learning/images/univariate_linear_regression_quiz.png)
+![](./01-Supervised-Learning/images/univariate_linear_regression_quiz.png)
 
 ---
