@@ -115,6 +115,9 @@ data only comes with input x, but not output labels y. Algorithm has to find str
 Visualization of cost function:
 ![Visualization of cost function](./01-Supervised-Learning/images/visualization_costfunction.png)
 
-manually reading these contour plot is not effective or correct, as the complexity increases, we need an algorithm which figures out the values w, b (parameters) to get the best fit time, minimizing cost function
+- manually reading these contour plot is not effective or correct, as the complexity increases, we need an algorithm which figures out the values w, b (parameters) to get the best fit time, minimizing cost function
 
 *Gradient descent is an algorithm which does this task*
+---
+
+# Day 07:
