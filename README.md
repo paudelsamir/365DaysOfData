@@ -23,6 +23,7 @@
 | [Day4](#day-04-unsupervised-learning-clustering-dimensionality-reduction) | 2024-12-17 |Unsupervised Learning: Clustering and dimensionality reduction|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
 | [Day5](#day-05-univariate-linear-regression) | 2024-12-18 |Univariate linear Regression|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
 | [Day6](#day-06-cost-function) | 2024-12-19 |cost functions|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
+| [Day7](#day-07-gradient-descent) | 2024-12-20 |Gradient Descent|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
 | [DayX]() | YYYY-MM-DD |XXXXXXXXXXXXXXXXXXXXXXX| Resource X |
 
 <br>
@@ -120,4 +121,4 @@ Visualization of cost function:
 *Gradient descent is an algorithm which does this task*
 ---
 
-# Day 07:
+# Day 07: Gradient Descent
