@@ -1,3 +1,10 @@
+<style>
+img {
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+</style>
+
 ![cover](./resources/images/cover.png)
 
 > Before starting this challenge, I already had [**intermediate proficiency**](https://github.com/paudelsamir/python-mastery) in **Python** and had worked on several basic to advanced [**EDA projects**](https://github.com/paudelsamir/EDA-Projects). I’m also familiar with Statistics and Mathematics.
