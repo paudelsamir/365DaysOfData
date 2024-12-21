@@ -25,8 +25,8 @@ Follow my journey with daily posts on [linkedin](https://www.linkedin.com/in/pau
 | [Day4](#day-04-unsupervised-learning-clustering-dimensionality-reduction) | 2024-12-17 |Unsupervised Learning: Clustering and dimensionality reduction|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
 | [Day5](#day-05-univariate-linear-regression) | 2024-12-18 |Univariate linear Regression|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
 | [Day6](#day-06-cost-function) | 2024-12-19 |Cost Functions|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
-| [Day7](#day-07-gradient-descent) | 2024-12-20 |Gradient Descent|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
-| [Day8](#day-08-effect-of-learning-rate-cost-function-and-data-on-gd) | 2024-12-21 |Effect of learning Rate, Cost function and Data on GD|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
+| [Day7](#day-07-gradient-descent) | 2024-12-20 |Gradient Descent|[CampusX](https://www.youtube.com/watch?v=ORyfPJypKuU)[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
+| [Day8](#day-08-effect-of-learning-rate-cost-function-and-data-on-gd) | 2024-12-21 |Effect of learning Rate, Cost function and Data on GD|[CampusX](https://www.youtube.com/watch?v=ORyfPJypKuU)[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
 | [DayX]() | YYYY-MM-DD |XXXXXXXXXXXXXXXXXXXXXXX| Resource X |
 
 <br>
@@ -128,14 +128,15 @@ Visualization of cost function:
 learned the basics by assuming slope constant and with only the vertical shift.
 later learned GD with both the parameters w and b.
 ![alt text](./01-Supervised-Learning/images/gradientdescent.png)
+<!-- 
+![alt text](./01-Supervised-Learning/images/implementation_of_gradient_descent.png) -->
+![alt text](01-Supervised-Learning/images/gdnote1.jpg) ![alt text](01-Supervised-Learning/images/gdnote2.jpg) 
 
-![alt text](./01-Supervised-Learning/images/implementation_of_gradient_descent.png)
+# Day 08: Effect of learning Rate, Cost function and Data on GD
+![alt text](01-Supervised-Learning/images/gdnote3.jpg)
+- learning rate on GD:Affects the step size; too high can overshoot, too low can slow convergence
+![alt text](./01-Supervised-Learning/images/learningrate_eg1.png)
+![alt text](./01-Supervised-Learning/images/learningrate_eg2.png)
+- cost function on GD:Smooth, convex functions help faster convergence; complex ones may trap in local minima
 
-
-# Day 08: Effect of learning Rate, Cost function and Data on GD\
-
-- learning rate on GD:
-
-- cost function on GD:
-
-- Data on GD:
+- Data on GD:Quality and scaling affect stability; more data improves gradient estimates
