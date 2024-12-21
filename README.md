@@ -2,9 +2,11 @@
 
 > Before starting this challenge, I already had [**intermediate proficiency**](https://github.com/paudelsamir/python-mastery) in **Python** and had worked on several basic to advanced [**EDA projects**](https://github.com/paudelsamir/EDA-Projects). I’m also familiar with Statistics and Mathematics.
 
-
-
 <br>
+
+Follow my journey with daily posts on [linkedin](https://www.linkedin.com/in/paudelsamir/)
+
+
 
 | Books & Resources  | Completion Status |
 |--------------------|-------------------|
@@ -22,8 +24,9 @@
 | [Day3](#day-03-supervised-machine-learning-regression-and-classificaiton) | 2024-12-16 |Supervised Learning, Regression and classification|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
 | [Day4](#day-04-unsupervised-learning-clustering-dimensionality-reduction) | 2024-12-17 |Unsupervised Learning: Clustering and dimensionality reduction|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
 | [Day5](#day-05-univariate-linear-regression) | 2024-12-18 |Univariate linear Regression|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
-| [Day6](#day-06-cost-function) | 2024-12-19 |cost functions|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
+| [Day6](#day-06-cost-function) | 2024-12-19 |Cost Functions|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
 | [Day7](#day-07-gradient-descent) | 2024-12-20 |Gradient Descent|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
+| [Day8](#day-08-effect-of-learning-rate-cost-function-and-data-on-gd) | 2024-12-21 |Effect of learning Rate, Cost function and Data on GD|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
 | [DayX]() | YYYY-MM-DD |XXXXXXXXXXXXXXXXXXXXXXX| Resource X |
 
 <br>
@@ -122,3 +125,17 @@ Visualization of cost function:
 ---
 
 # Day 07: Gradient Descent
+learned the basics by assuming slope constant and with only the vertical shift.
+later learned GD with both the parameters w and b.
+![alt text](./01-Supervised-Learning/images/gradientdescent.png)
+
+![alt text](./01-Supervised-Learning/images/implementation_of_gradient_descent.png)
+
+
+# Day 08: Effect of learning Rate, Cost function and Data on GD\
+
+- learning rate on GD:
+
+- cost function on GD:
+
+- Data on GD:
