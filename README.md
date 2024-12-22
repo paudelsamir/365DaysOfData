@@ -145,6 +145,16 @@ later learned GD with both the parameters w and b.
 - Data on GD:Quality and scaling affect stability; more data improves gradient estimates
 
 [gradient descent animation 3d](./01-Supervised-Learning/code/day8_gradient-descent-animation(both-m-and-b).ipynb)
+
 ---
 
 # Day 09: Linear Regression with multiple features, Vectorization
+
+Predicts target using multiple features, minimizing error.
+- Vectorization: Matrix operations replace loops for faster calculations.
+
+![alt text\](image.png](01-Supervised-Learning/images/multifeatureLR.png)
+
+[Lab1: Vectorization](./01-Supervised-Learning/code/day9_Python_Numpy_Vectorization_Soln.ipynb)
+<br>
+[Lab2: Multiple Variable](./01-Supervised-Learning/code/day9_Lab02_Multiple_Variable_Soln.ipynb)
