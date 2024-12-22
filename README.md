@@ -157,4 +157,7 @@ Predicts target using multiple features, minimizing error.
 
 [Lab1: Vectorization](./01-Supervised-Learning/code/day9_Python_Numpy_Vectorization_Soln.ipynb)
 <br>
+
+# Day 10: 
+
 [Lab2: Multiple Variable](./01-Supervised-Learning/code/day9_Lab02_Multiple_Variable_Soln.ipynb)
