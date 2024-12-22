@@ -115,8 +115,7 @@ data only comes with input x, but not output labels y. Algorithm has to find str
 
 ---
 # Day 06: Cost Function:
-![alt text](<01-Supervised-Learning/images/notes 12-19.jpg>) <br>
-![alt text](<01-Supervised-Learning/images/notes2 12-19.jpg>)
+![alt text](./01-Supervised-Learning/images/costfunction.jpg)
 Visualization of cost function:
 ![Visualization of cost function](./01-Supervised-Learning/images/visualization_costfunction.png)
 
