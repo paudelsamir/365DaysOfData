@@ -28,6 +28,7 @@ Follow my journey with daily posts on [linkedin](https://www.linkedin.com/in/pau
 | [Day7](#day-07-gradient-descent) | 2024-12-20 |Gradient Descent|[CampusX](https://www.youtube.com/watch?v=ORyfPJypKuU), [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
 | [Day8](#day-08-effect-of-learning-rate-cost-function-and-data-on-gd) | 2024-12-21 |Effect of learning Rate, Cost function and Data on GD|[CampusX](https://www.youtube.com/watch?v=ORyfPJypKuU), [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
 | [Day9](#day-09-linear-regression-with-multiple-features-vectorization) | 2024-12-22 |Linear Regression with multiple features, Vectorization| [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
+| [Day10](#day10-feature-scaling) | 2024-12-22 |Feature Scaling, Visualization of Multiple Regression and Polynomial Regression| [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
 | [DayX]() | YYYY-MM-DD |XXXXXXXXXXXXXXXXXXXXXXX| Resource X |
 
 <br>
@@ -158,6 +159,28 @@ Predicts target using multiple features, minimizing error.
 [Lab1: Vectorization](./01-Supervised-Learning/code/day9_Python_Numpy_Vectorization_Soln.ipynb)
 <br>
 
-# Day 10: 
-
+# Day10: Feature Scaling
 [Lab2: Multiple Variable](./01-Supervised-Learning/code/day9_Lab02_Multiple_Variable_Soln.ipynb)
+
+Today, I learned about feature scaling and how it helps improve predictions. There are multiple methods for feature scaling, including
+- Min-Max Scaling
+- Mean Normalization
+- Z-Score Normalization
+![alt text](./01-Supervised-Learning/images/notesfeature_scaling.png
+)
+To ensure proper convergence:
+check the learning curve to confirm the loss is decreasing.
+Start with a small learning rate and gradually increase to find the optimal value.
+
+![alt text](./01-Supervised-Learning/images/gdforconvergence.png) 
+![alt text](01-Supervised-Learning/images/choosinglearningrate.png)
+---
+
+
+# Day 11: Feature engineering and Polynomial Regression
+explored polynomial regression that models the relationship between variables as a polynomial curve instead of a straight line
+
+**Equation:**  
+y = b₀ + b₁x + b₂x² + ... + bₙxⁿ 
+
+It is useful for capturing nonlinear relationships in data.
