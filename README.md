@@ -29,6 +29,8 @@ Follow my journey with daily posts on [linkedin](https://www.linkedin.com/in/pau
 | [Day8](#day-08-effect-of-learning-rate-cost-function-and-data-on-gd) | 2024-12-21 |Effect of learning Rate, Cost function and Data on GD|[CampusX](https://www.youtube.com/watch?v=ORyfPJypKuU), [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
 | [Day9](#day-09-linear-regression-with-multiple-features-vectorization) | 2024-12-22 |Linear Regression with multiple features, Vectorization| [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
 | [Day10](#day10-feature-scaling) | 2024-12-22 |Feature Scaling, Visualization of Multiple Regression and Polynomial Regression| [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
+| [Day11](#day-11-feature-engineering-and-polynomial-regression) | 2024-12-23 |Feature Engineering, Polynomial Regression| [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
+| [Day12](#day-12-linear-regression-using-scikit-learn) | 2024-12-24 |Linear Regression using Scikit Learn from Scratch| [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
 | [DayX]() | YYYY-MM-DD |XXXXXXXXXXXXXXXXXXXXXXX| Resource X |
 
 <br>
@@ -178,9 +180,20 @@ Start with a small learning rate and gradually increase to find the optimal valu
 
 
 # Day 11: Feature engineering and Polynomial Regression
+feature engineering improves features to better predict the target.
+
+eg If we need to predict the cost of flooring and have length and breadth of the room as features, we can use feature engineering to create a new feature, area (length × breadth), which directly impacts the flooring cost.
+
+![alt text](01-Supervised-Learning/images/notes_featureengineering.jpg)
+
 explored polynomial regression that models the relationship between variables as a polynomial curve instead of a straight line
 
 **Equation:**  
 y = b₀ + b₁x + b₂x² + ... + bₙxⁿ 
-
 It is useful for capturing nonlinear relationships in data.
+![alt text](01-Supervised-Learning/images/visualizationof_polynomialfunctions.png)
+
+![alt text](01-Supervised-Learning/images/scalingfeatures_complexfunctions.png)
+---
+
+# Day 12: Linear Regression using Scikit Learn
