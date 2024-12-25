@@ -201,7 +201,7 @@ It is useful for capturing nonlinear relationships in data.
 ![alt text](01-Supervised-Learning/images/scalingfeatures_complexfunctions.png)
 
 
-[Lab1: Feature Scaling and Learning Rate](01-Supervised-Learning/code/day11_Feature_Scaling_and_Learning_Rate_Soln.ipynb)
+[Lab1: Feature Scaling and Learning Rate](01-Supervised-Learning/code/day11_Feature_Scaling_and_Learning_Rate_Soln.ipynb) <br>
 [Lab2: Feature Engineering and PolyRegression](01-Supervised-Learning/code/day11_FeatEng_PolyReg_Soln.ipynb)
 
 ---
