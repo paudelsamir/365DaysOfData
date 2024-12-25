@@ -113,7 +113,7 @@ data only comes with input x, but not output labels y. Algorithm has to find str
 # Day 05: Univariate Linear Regression:
 - Learned univariate linear regression and practiced building a model to predict house prices using size as input, including defining the hypothesis function, making predictions, and visualizing results.
 
-[Notebook](./01-Supervised-Learning/code/day_04_model_representation.ipynb)
+[Notebook](./01-Supervised-Learning/code/day04_model_representation.ipynb)
 
 ![](./01-Supervised-Learning/images/notes_univariate_linear_regression.jpg)
 
@@ -129,13 +129,13 @@ Visualization of cost function:
 
 - manually reading these contour plot is not effective or correct, as the complexity increases, we need an algorithm which figures out the values w, b (parameters) to get the best fit time, minimizing cost function
 
-[model representation notebook](./01-Supervised-Learning/code/day_04_model_representation.ipynb)
+[model representation notebook](./01-Supervised-Learning/code/day04_model_representation.ipynb)
 
 *Gradient descent is an algorithm which does this task*
 ---
 
 # Day 07: Gradient Descent
-[Gradient descent notebook](./01-Supervised-Learning/code/day7_gradient-descent-code-from-scratch.ipynb)
+[Gradient descent notebook](./01-Supervised-Learning/code/day07_gradient-descent-code-from-scratch.ipynb)
 
 learned the basics by assuming slope constant and with only the vertical shift.
 later learned GD with both the parameters w and b.
@@ -152,7 +152,7 @@ later learned GD with both the parameters w and b.
 
 - Data on GD:Quality and scaling affect stability; more data improves gradient estimates
 
-[gradient descent animation 3d](./01-Supervised-Learning/code/day8_gradient-descent-animation(both-m-and-b).ipynb)
+[gradient descent animation 3d](./01-Supervised-Learning/code/day08_gradient-descent-animation(both-m-and-b).ipynb)
 
 ---
 
@@ -163,11 +163,11 @@ Predicts target using multiple features, minimizing error.
 
 ![alt text\](image.png](01-Supervised-Learning/images/multifeatureLR.png)
 
-[Lab1: Vectorization](./01-Supervised-Learning/code/day9_Python_Numpy_Vectorization_Soln.ipynb)
+[Lab1: Vectorization](./01-Supervised-Learning/code/day09_Python_Numpy_Vectorization_Soln.ipynb)
 <br>
 
 # Day10: Feature Scaling
-[Lab2: Multiple Variable](./01-Supervised-Learning/code/day9_Lab02_Multiple_Variable_Soln.ipynb)
+[Lab2: Multiple Variable](./01-Supervised-Learning/code/day09_Lab02_Multiple_Variable_Soln.ipynb)
 
 Today, I learned about feature scaling and how it helps improve predictions. There are multiple methods for feature scaling, including
 - Min-Max Scaling
