@@ -207,5 +207,9 @@ It is useful for capturing nonlinear relationships in data.
 ---
 
 # Day 12: Linear Regression using Scikit Learn
+Had a productive session with linear regression in scikit learn. The lab helped me get a better grasp of the process, though I need more practice with tuning models. Also revisited the Scikit-Learn models ,more comfortable with them now
 
+![alt text](01-Supervised-Learning/images/LRusingscikitlearn.png)
+![alt text](01-Supervised-Learning/images/scikitlearn_cleansheet1.png) 
+![alt text](01-Supervised-Learning/images/scikitlearn_cleansheet2.png) <br>
 [Notebook: ScikitLearn GD](01-Supervised-Learning/code/day12_Sklearn_GD_Soln.ipynb)
