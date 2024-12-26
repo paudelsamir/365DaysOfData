@@ -40,8 +40,7 @@ Follow my journey with daily posts on [linkedin](https://www.linkedin.com/in/pau
 
 <br>
 
-# Day 01: Setting Up + Basics of Linear Algebra
-<img src="01-Supervised-Learning/images/importance_of_linear_algebra.png" width="400" />
+# Day 01: Setting Up + Basics of Linear Algebra <img src="01-Supervised-Learning/images/importance_of_linear_algebra.png" width="400" />
 
 <!-- 
 ![Importance of Linear Algebra](./01-Supervised-Learning/images/importance_of_linear_algebra.png) -->
@@ -107,8 +106,7 @@ data only comes with input x, but not output labels y. Algorithm has to find str
 
 - Clustering: group similar data points together <br>
 ![alt text](./01-Supervised-Learning/images/clustering.png)
-- dimensionality reduction: compress data using fewer numbers eg image compression<br>
-<img src="./01-Supervised-Learning/images/dimensionality_reduction.png" width = "300">
+- dimensionality reduction: compress data using fewer numbers eg image compression<br> <img src="./01-Supervised-Learning/images/dimensionality_reduction.png" width = "300">
 <!-- ![alt text](./01-Supervised-Learning/images/dimensionality_reduction.png) -->
 - anomaly detection: find unusual data points eg fraud detection<br>
 
