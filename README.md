@@ -2,8 +2,6 @@
 
 > Before starting this challenge, I already had [**intermediate proficiency**](https://github.com/paudelsamir/python-mastery) in **Python** and had worked on several basic to advanced [**EDA projects**](https://github.com/paudelsamir/EDA-Projects). I’m also familiar with Statistics and Mathematics.
 
-<br>
-
 Follow my journey with daily posts on [linkedin](https://www.linkedin.com/in/paudelsamir/)
 
 
@@ -11,10 +9,11 @@ Follow my journey with daily posts on [linkedin](https://www.linkedin.com/in/pau
 | Books & Resources  | Completion Status |
 |--------------------|-------------------|
 | [Machine Learning Specialization @Coursera](https://www.coursera.org/specializations/machine-learning-introduction) | 🏊 |
-| [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/yanshengjia/ml-road/blob/master/resources/Hands%20On%20Machine%20Learning%20with%20Scikit%20Learn%20and%20TensorFlow.pdf)| 🏊 |
-
+| [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/yanshengjia/ml-road/blob/master/resources/Hands%20On%20Machine%20Learning%20with%20Scikit%20Learn%20and%20TensorFlow.pdf)| 🏊 | 
 
 <br>
+
+
 
 # Progress
 | Days | Date               | Topics                      | Resources    |
@@ -31,7 +30,7 @@ Follow my journey with daily posts on [linkedin](https://www.linkedin.com/in/pau
 | [Day10](#day10-feature-scaling) | 2024-12-23 |Feature Scaling, Visualization of Multiple Regression and Polynomial Regression| [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
 | [Day11](#day-11-feature-engineering-and-polynomial-regression) | 2024-12-24 |Feature Engineering, Polynomial Regression| [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
 | [Day12](#day-12-linear-regression-using-scikit-learn) | 2024-12-25 |Linear Regression using Scikit Learn from Scratch| [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
-| [Day13]() | 2024-12-26 |-----------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
+| [Day13](#day-13-classification) | 2024-12-26 |-----------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day14]() | 2024-12-27 |-----------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day15]() | 2024-12-28 |-----------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day16]() | 2024-12-29 |-----------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
@@ -39,6 +38,21 @@ Follow my journey with daily posts on [linkedin](https://www.linkedin.com/in/pau
 | [Day18]() | 2024-12-31 |-----------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 
 <br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Day 01: Basics of Linear Algebra 
 <!-- <img src="01-Supervised-Learning/images/importance_of_linear_algebra.png" width="400" /> -->
@@ -58,7 +72,6 @@ Follow my journey with daily posts on [linkedin](https://www.linkedin.com/in/pau
     ![](./01-Supervised-Learning/images/dot_product.png)
 
 *Slow progress right?? but consistent wins the race!*
-
 ---
 
 # Day 02: Decomposition, Derivation, Integration, and Gradient Descent
@@ -88,7 +101,6 @@ Follow my journey with daily posts on [linkedin](https://www.linkedin.com/in/pau
     ![](./01-Supervised-Learning/images/integration.png)
 
 Revised statistics and probability concepts. Ready for the ML Specialization course!
-
 ---
 
 # Day 03: Supervised Machine Learning: Regression and Classificaiton
@@ -100,7 +112,6 @@ Revised statistics and probability concepts. Ready for the ML Specialization cou
 - Classification:<br>
 ![](./01-Supervised-Learning/images/classification_model.png)
 ![](./01-Supervised-Learning/images/classification_model2.png)
-
 ---
 
 # Day 04: Unsupervised Learning: Clustering, dimensionality reduction
@@ -112,7 +123,6 @@ data only comes with input x, but not output labels y. Algorithm has to find str
 - dimensionality reduction: compress data using fewer numbers eg image compression<br> <img src="./01-Supervised-Learning/images/dimensionality_reduction.png" width = "300">
 <!-- ![alt text](./01-Supervised-Learning/images/dimensionality_reduction.png) -->
 - anomaly detection: find unusual data points eg fraud detection<br>
-
 ---
 
 # Day 05: Univariate Linear Regression:
@@ -127,8 +137,8 @@ data only comes with input x, but not output labels y. Algorithm has to find str
 ![](./01-Supervised-Learning/images/notations_summary.png) - Univariate Linear Regression Quiz
 
 ![](./01-Supervised-Learning/images/univariate_linear_regression_quiz.png)
-
 ---
+
 # Day 06: Cost Function:
 ![alt text](./01-Supervised-Learning/images/costfunction.jpg)
 Visualization of cost function:
@@ -150,6 +160,7 @@ later learned GD with both the parameters w and b.
 <!-- 
 ![alt text](./01-Supervised-Learning/images/implementation_of_gradient_descent.png) -->
  ![alt text](01-Supervised-Learning/images/gdnote.jpg) 
+---
 
 # Day 08: Effect of learning Rate, Cost function and Data on GD
 - learning rate on GD:Affects the step size; too high can overshoot, too low can slow convergence
@@ -162,7 +173,6 @@ later learned GD with both the parameters w and b.
 - Data on GD:Quality and scaling affect stability; more data improves gradient estimates
 
 [Notebook: gradient descent animation 3d](./01-Supervised-Learning/code/day08_gradient-descent-animation(both-m-and-b).ipynb)
-
 ---
 
 # Day 09: Linear Regression with multiple features, Vectorization
@@ -174,6 +184,7 @@ Predicts target using multiple features, minimizing error.
 
 [Lab1: Vectorization](./01-Supervised-Learning/code/day09_Python_Numpy_Vectorization_Soln.ipynb)
 <br>
+---
 
 # Day10: Feature Scaling
 [Lab2: Multiple Variable](./01-Supervised-Learning/code/day09_Lab02_Multiple_Variable_Soln.ipynb)
@@ -191,7 +202,6 @@ Start with a small learning rate and gradually increase to find the optimal valu
 ![alt text](./01-Supervised-Learning/images/gdforconvergence.png) 
 ![alt text](01-Supervised-Learning/images/choosinglearningrate.png)
 ---
-
 
 # Day 11: Feature engineering and Polynomial Regression
 feature engineering improves features to better predict the target.
@@ -213,7 +223,6 @@ It is useful for capturing nonlinear relationships in data.
 
 [Lab1: Feature Scaling and Learning Rate](01-Supervised-Learning/code/day11_Feature_Scaling_and_Learning_Rate_Soln.ipynb) <br>
 [Lab2: Feature Engineering and PolyRegression](01-Supervised-Learning/code/day11_FeatEng_PolyReg_Soln.ipynb)
-
 ---
 
 # Day 12: Linear Regression using Scikit Learn
@@ -224,3 +233,7 @@ Had a productive session with linear regression in scikit learn. The lab helped 
 ![alt text](01-Supervised-Learning/images/scikitlearn_cleansheet1.png) 
 ![alt text](01-Supervised-Learning/images/scikitlearn_cleansheet2.png) <br>
 [Notebook: ScikitLearn GD](01-Supervised-Learning/code/day12_Sklearn_GD_Soln.ipynb)
+---
+
+# Day 13: Classification
+
