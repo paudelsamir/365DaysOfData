@@ -153,8 +153,10 @@ later learned GD with both the parameters w and b.
 
 # Day 08: Effect of learning Rate, Cost function and Data on GD
 - learning rate on GD:Affects the step size; too high can overshoot, too low can slow convergence
-![alt text](./01-Supervised-Learning/images/learningrate_eg1.png)
-![alt text](./01-Supervised-Learning/images/learningrate_eg2.png)
+<img src="./01-Supervised-Learning/images/learningrate_eg1.png" width = "400">
+<!-- ![alt text](./01-Supervised-Learning/images/learningrate_eg1.png) -->
+<img src="./01-Supervised-Learning/images/learningrate_eg2.png" width = "400">
+<!-- ![alt text](./01-Supervised-Learning/images/learningrate_eg2.png) -->
 - cost function on GD:Smooth, convex functions help faster convergence; complex ones may trap in local minima
 
 - Data on GD:Quality and scaling affect stability; more data improves gradient estimates
@@ -167,9 +169,8 @@ later learned GD with both the parameters w and b.
 
 Predicts target using multiple features, minimizing error.
 - Vectorization: Matrix operations replace loops for faster calculations.
-<img src="./01-Supervised-Learning/images/multifeatureLR.png" width = "400">
 
-<!-- ![alt text\](image.png](01-Supervised-Learning/images/multifeatureLR.png) -->
+![alt text\](image.png](01-Supervised-Learning/images/multifeatureLR.png)
 
 [Lab1: Vectorization](./01-Supervised-Learning/code/day09_Python_Numpy_Vectorization_Soln.ipynb)
 <br>
