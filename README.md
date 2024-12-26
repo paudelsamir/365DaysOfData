@@ -77,8 +77,8 @@ Follow my journey with daily posts on [linkedin](https://www.linkedin.com/in/pau
     ![](./01-Supervised-Learning/images/dot_product.png)
 
 *Slow progress right?? but consistent wins the race!*
----
 
+---
 # Day 02: Decomposition, Derivation, Integration, and Gradient Descent
 
 - Identity and Inverse Matrices: Solving equations (e.g., linear regression) and optimization (e.g., gradient descent).
@@ -106,8 +106,8 @@ Follow my journey with daily posts on [linkedin](https://www.linkedin.com/in/pau
     ![](./01-Supervised-Learning/images/integration.png)
 
 Revised statistics and probability concepts. Ready for the ML Specialization course!
----
 
+---
 # Day 03: Supervised Machine Learning: Regression and Classificaiton
 <!-- [Notes credit](https://drive.google.com/file/d/1SO3WJZGSPx2jypBUugJkkwO8LZozBK7B/view?usp=sharing) -->
 - Supervised Learning: <br>
@@ -117,8 +117,8 @@ Revised statistics and probability concepts. Ready for the ML Specialization cou
 - Classification:<br>
 ![](./01-Supervised-Learning/images/classification_model.png)
 ![](./01-Supervised-Learning/images/classification_model2.png)
----
 
+---
 # Day 04: Unsupervised Learning: Clustering, dimensionality reduction
 
 data only comes with input x, but not output labels y. Algorithm has to find structure in data.
@@ -128,8 +128,8 @@ data only comes with input x, but not output labels y. Algorithm has to find str
 - dimensionality reduction: compress data using fewer numbers eg image compression<br> <img src="./01-Supervised-Learning/images/dimensionality_reduction.png" width = "300">
 <!-- ![alt text](./01-Supervised-Learning/images/dimensionality_reduction.png) -->
 - anomaly detection: find unusual data points eg fraud detection<br>
----
 
+---
 # Day 05: Univariate Linear Regression:
 - Learned univariate linear regression and practiced building a model to predict house prices using size as input, including defining the hypothesis function, making predictions, and visualizing results.
 
@@ -142,8 +142,8 @@ data only comes with input x, but not output labels y. Algorithm has to find str
 ![](./01-Supervised-Learning/images/notations_summary.png) - Univariate Linear Regression Quiz
 
 ![](./01-Supervised-Learning/images/univariate_linear_regression_quiz.png)
----
 
+---
 # Day 06: Cost Function:
 ![alt text](./01-Supervised-Learning/images/costfunction.jpg)
 Visualization of cost function:
@@ -154,8 +154,8 @@ Visualization of cost function:
 [Notebook: Model Representation](./01-Supervised-Learning/code/day04_model_representation.ipynb)
 
 *Gradient descent is an algorithm which does this task*
----
 
+---
 # Day 07: Gradient Descent
 [Notebook: Gradient descent](./01-Supervised-Learning/code/day07_gradient-descent-code-from-scratch.ipynb)
 
@@ -165,8 +165,8 @@ later learned GD with both the parameters w and b.
 <!-- 
 ![alt text](./01-Supervised-Learning/images/implementation_of_gradient_descent.png) -->
  ![alt text](01-Supervised-Learning/images/gdnote.jpg) 
----
 
+---
 # Day 08: Effect of learning Rate, Cost function and Data on GD
 - learning rate on GD:Affects the step size; too high can overshoot, too low can slow convergence
 <img src="./01-Supervised-Learning/images/learningrate_eg1.png" width = "400">
@@ -178,8 +178,8 @@ later learned GD with both the parameters w and b.
 - Data on GD:Quality and scaling affect stability; more data improves gradient estimates
 
 [Notebook: gradient descent animation 3d](./01-Supervised-Learning/code/day08_gradient-descent-animation(both-m-and-b).ipynb)
----
 
+---
 # Day 09: Linear Regression with multiple features, Vectorization
 
 Predicts target using multiple features, minimizing error.
@@ -189,8 +189,8 @@ Predicts target using multiple features, minimizing error.
 
 [Lab1: Vectorization](./01-Supervised-Learning/code/day09_Python_Numpy_Vectorization_Soln.ipynb)
 <br>
----
 
+---
 # Day10: Feature Scaling
 [Lab2: Multiple Variable](./01-Supervised-Learning/code/day09_Lab02_Multiple_Variable_Soln.ipynb)
 
@@ -206,8 +206,8 @@ Start with a small learning rate and gradually increase to find the optimal valu
 
 ![alt text](./01-Supervised-Learning/images/gdforconvergence.png) 
 ![alt text](01-Supervised-Learning/images/choosinglearningrate.png)
----
 
+---
 # Day 11: Feature engineering and Polynomial Regression
 feature engineering improves features to better predict the target.
 
@@ -228,8 +228,8 @@ It is useful for capturing nonlinear relationships in data.
 
 [Lab1: Feature Scaling and Learning Rate](01-Supervised-Learning/code/day11_Feature_Scaling_and_Learning_Rate_Soln.ipynb) <br>
 [Lab2: Feature Engineering and PolyRegression](01-Supervised-Learning/code/day11_FeatEng_PolyReg_Soln.ipynb)
----
 
+---
 # Day 12: Linear Regression using Scikit Learn
 Had a productive session with linear regression in scikit learn. The lab helped me get a better grasp of the process, though I need more practice with tuning models. Also revisited the Scikit-Learn models ,more comfortable with them now
 
@@ -238,7 +238,7 @@ Had a productive session with linear regression in scikit learn. The lab helped 
 ![alt text](01-Supervised-Learning/images/scikitlearn_cleansheet1.png) 
 ![alt text](01-Supervised-Learning/images/scikitlearn_cleansheet2.png) <br>
 [Notebook: ScikitLearn GD](01-Supervised-Learning/code/day12_Sklearn_GD_Soln.ipynb)
----
 
+---
 # Day 13: Classification
 
