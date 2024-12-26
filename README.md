@@ -4,6 +4,8 @@
 
 Follow my journey with daily posts on [linkedin](https://www.linkedin.com/in/paudelsamir/)
 
+![Last Updated](https://img.shields.io/github/last-commit/paudelsamir/365DaysOfData)
+![Repo Size](https://img.shields.io/github/repo-size/paudelsamir/365DaysOfData) 
 
 
 | Books & Resources  | Completion Status |
