@@ -1,11 +1,14 @@
+
+![Last Updated](https://img.shields.io/github/last-commit/paudelsamir/365DaysOfData)
+![Repo Size](https://img.shields.io/github/repo-size/paudelsamir/365DaysOfData) 
+
 ![cover](./resources/images/cover.png)
 
 > Before starting this challenge, I already had [**intermediate proficiency**](https://github.com/paudelsamir/python-mastery) in **Python** and had worked on several basic to advanced [**EDA projects**](https://github.com/paudelsamir/EDA-Projects). I’m also familiar with Statistics and Mathematics.
 
-Follow my journey with daily posts on [linkedin](https://www.linkedin.com/in/paudelsamir/)
+<br>
 
-![Last Updated](https://img.shields.io/github/last-commit/paudelsamir/365DaysOfData)
-![Repo Size](https://img.shields.io/github/repo-size/paudelsamir/365DaysOfData) 
+Follow my journey with daily posts on [linkedin](https://www.linkedin.com/in/paudelsamir/)
 
 
 | Books & Resources  | Completion Status |
