@@ -57,7 +57,8 @@ Follow my journey with daily posts on [linkedin](https://www.linkedin.com/in/pau
 - Dot and Cross Product: Similarity (e.g., in SVMs) and vector transformations.
     ![](./01-Supervised-Learning/images/dot_product.png)
 
-Slow progress right?? but consistent wins the race!
+*Slow progress right?? but consistent wins the race!*
+
 ---
 
 # Day 02: Decomposition, Derivation, Integration, and Gradient Descent
