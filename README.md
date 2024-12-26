@@ -35,8 +35,8 @@ Follow my journey with daily posts on [linkedin](https://www.linkedin.com/in/pau
 | [Day10](#day10-feature-scaling) | 2024-12-23 |Feature Scaling, Visualization of Multiple Regression and Polynomial Regression| [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
 | [Day11](#day-11-feature-engineering-and-polynomial-regression) | 2024-12-24 |Feature Engineering, Polynomial Regression| [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
 | [Day12](#day-12-linear-regression-using-scikit-learn) | 2024-12-25 |Linear Regression using Scikit Learn from Scratch| [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
-| [Day13](#day-13-classification) | 2024-12-26 |-----------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
-| [Day14]() | 2024-12-27 |-----------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
+| [Day13](#day-13-classification) | 2024-12-26 |LR lab, Classification|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
+| [Day14](#day-14-logistic-regression-sigmoid-function-decision-boundary) | 2024-12-27 |Logistic Regression, Sigmoid Function, Decision Boundary|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day15]() | 2024-12-28 |-----------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day16]() | 2024-12-29 |-----------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day17]() | 2024-12-30 |-----------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
@@ -242,3 +242,13 @@ Had a productive session with linear regression in scikit learn. The lab helped 
 ---
 # Day 13: Classification
 
+[Notebook: Graded Lab](./01-Supervised-Learning/code/day13_Linear_Regression_Lab.ipynb) 
+![alt text](01-Supervised-Learning/images/code-snapshot_GD_LR.png)
+<br>
+[Notebook: Classification solution](./01-Supervised-Learning/code/day13_Classification_Soln.ipynb)
+
+![](./01-Supervised-Learning/images/example_of_lr_on_categoricaldata.png)
+The example above demonstrates that the linear model is insufficient to model categorical data. The model can be extended as described in the following lab.
+
+---
+# Day 14: Logistic Regression, Sigmoid Function, Decision Boundary
