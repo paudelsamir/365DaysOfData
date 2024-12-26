@@ -167,8 +167,9 @@ later learned GD with both the parameters w and b.
 
 Predicts target using multiple features, minimizing error.
 - Vectorization: Matrix operations replace loops for faster calculations.
+<img src="./01-Supervised-Learning/images/multifeatureLR.png" width = "400">
 
-![alt text\](image.png](01-Supervised-Learning/images/multifeatureLR.png)
+<!-- ![alt text\](image.png](01-Supervised-Learning/images/multifeatureLR.png) -->
 
 [Lab1: Vectorization](./01-Supervised-Learning/code/day09_Python_Numpy_Vectorization_Soln.ipynb)
 <br>
