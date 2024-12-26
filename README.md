@@ -198,6 +198,7 @@ feature engineering improves features to better predict the target.
 
 eg If we need to predict the cost of flooring and have length and breadth of the room as features, we can use feature engineering to create a new feature, area (length × breadth), which directly impacts the flooring cost.
 
+<img src="./01-Supervised-Learning/images/notes_featureengineering.jpg" width = "400">
 ![alt text](01-Supervised-Learning/images/notes_featureengineering.jpg)
 
 explored polynomial regression that models the relationship between variables as a polynomial curve instead of a straight line
