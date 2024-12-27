@@ -64,7 +64,7 @@ Follow my journey with daily posts on [linkedin](https://www.linkedin.com/in/pau
 
 <!-- 
 ![Importance of Linear Algebra](./01-Supervised-Learning/images/importance_of_linear_algebra.png) -->
-
+linear algebra is used to represent data, perform matrix operations, and solve equations in algorithms like regression, pca, and neural networks.
 - Scalars, Vectors, Matrices, Tensors: Basic data structures for ML.
     ![](./01-Supervised-Learning/images/example_of_tensor.png)
 
@@ -233,6 +233,8 @@ It is useful for capturing nonlinear relationships in data.
 # Day 12: Linear Regression using Scikit Learn
 Had a productive session with linear regression in scikit learn. The lab helped me get a better grasp of the process, though I need more practice with tuning models. Also revisited the Scikit-Learn models ,more comfortable with them now
 
+- Scikit-learn is an open-source Python library used for machine learning that provides simple and efficient tools for data analysis, including algorithms for classification, regression, clustering, and dimensionality reduction.
+
 ![](https://github.com/paudelsamir/365DaysOfData/blob/main/01-Supervised-Learning/images/LRusingscikitlearn.png)
 ![alt text](01-Supervised-Learning/images/LRusingscikitlearn.png)
 ![alt text](01-Supervised-Learning/images/scikitlearn_cleansheet1.png) 
@@ -247,8 +249,15 @@ Had a productive session with linear regression in scikit learn. The lab helped 
 <br>
 [Notebook: Classification solution](./01-Supervised-Learning/code/day13_Classification_Soln.ipynb)
 
+- Classification is the process of categorizing items into different groups based on shared characteristics, like classifying tumors into benign (non-cancerous) and malignant (cancerous) based on their growth behavior and potential to spread.
 ![](./01-Supervised-Learning/images/example_of_lr_on_categoricaldata.png)
 The example above demonstrates that the linear model is insufficient to model categorical data. The model can be extended as described in the following lab.
 
 ---
 # Day 14: Logistic Regression, Sigmoid Function, Decision Boundary
+
+- Logistic Regression: A classification algorithm used to predict probabilities of binary outcomes.
+- Sigmoid Function: A mathematical function that maps any input to a value between 0 and 1, used in logistic regression to model probabilities.
+- Decision Boundary: A line or surface that separates different classes in a classification problem based on the model’s predictions.
+
+More tomorrow
