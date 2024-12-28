@@ -36,9 +36,9 @@ Follow my journey with daily posts on [linkedin](https://www.linkedin.com/in/pau
 | [Day11](#day-11-feature-engineering-and-polynomial-regression) | 2024-12-24 |Feature Engineering, Polynomial Regression| [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
 | [Day12](#day-12-linear-regression-using-scikit-learn) | 2024-12-25 |Linear Regression using Scikit Learn from Scratch| [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
 | [Day13](#day-13-classification) | 2024-12-26 |LR lab, Classification|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
-| [Day14](#day-14-logistic-regression-sigmoid-function-decision-boundary) | 2024-12-27 |Logistic Regression, Sigmoid Function, Decision Boundary|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
-| [Day15]() | 2024-12-28 |-----------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
-| [Day16]() | 2024-12-29 |-----------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
+| [Day14](#day-14-logistic-regression-sigmoid-function) | 2024-12-27 |Logistic Regression, Sigmoid Function|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) [, CampusX](https://www.youtube.com/watch?v=ABrrSwMYWSg&list=PLKnIA16_Rmvb-ZTsM1QS-tlwmlkeGSnru&index=6)|
+| [Day15](#day-15-decision-boundary-cost-function) | 2024-12-28 |Decision Boundary, Cost Function|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) [, CampusX](https://www.youtube.com/watch?v=ABrrSwMYWSg&list=PLKnIA16_Rmvb-ZTsM1QS-tlwmlkeGSnru&index=6)|
+| [Day16](#day-16-gradient-descent-for-logical-regression) | 2024-12-29 |Gradient Descent for logical regression|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) [, CampusX](https://www.youtube.com/watch?v=ABrrSwMYWSg&list=PLKnIA16_Rmvb-ZTsM1QS-tlwmlkeGSnru&index=6)|
 | [Day17]() | 2024-12-30 |-----------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day18]() | 2024-12-31 |-----------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 
@@ -260,12 +260,17 @@ The example above demonstrates that the linear model is insufficient to model ca
 ![Logistic regression on categorical data](01-Supervised-Learning/images/day14_egoflogisticrregression.png)
 - Sigmoid Function: A mathematical function that maps any input to a value between 0 and 1, used in logistic regression to model probabilities.
  ![sigmoid-function](01-Supervised-Learning/images/sigmoid_function.png)
+
 [Notebook: Sigmoid Function](01-Supervised-Learning/code/day14_Sigmoid_function_Soln.ipynb)
 
 ---
 # Day 15: Decision Boundary, Cost Function
 - Decision Boundary: A line or surface that separates different classes in a classification problem based on the model’s predictions.
-
+- cost function:
+![formula cost function](01-Supervised-Learning/images/formula_costfunction.png)
 ![notes](01-Supervised-Learning/images/day14_15notes.jpg)
  
 [Notebook: Decision boundary](01-Supervised-Learning/code/day15_Decision_Boundary_Soln.ipynb)
+
+---
+# Day 16: Gradient Descent for Logical Regression
