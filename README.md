@@ -254,10 +254,18 @@ Had a productive session with linear regression in scikit learn. The lab helped 
 The example above demonstrates that the linear model is insufficient to model categorical data. The model can be extended as described in the following lab.
 
 ---
-# Day 14: Logistic Regression, Sigmoid Function, Decision Boundary
+# Day 14: Logistic Regression, Sigmoid Function
 
 - Logistic Regression: A classification algorithm used to predict probabilities of binary outcomes.
+![Logistic regression on categorical data](01-Supervised-Learning/images/day14_egoflogisticrregression.png)
 - Sigmoid Function: A mathematical function that maps any input to a value between 0 and 1, used in logistic regression to model probabilities.
+ ![sigmoid-function](01-Supervised-Learning/images/sigmoid_function.png)
+[Notebook: Sigmoid Function](01-Supervised-Learning/code/day14_Sigmoid_function_Soln.ipynb)
+
+---
+# Day 15: Decision Boundary, Cost Function
 - Decision Boundary: A line or surface that separates different classes in a classification problem based on the model’s predictions.
 
-More tomorrow
+![notes](01-Supervised-Learning/images/day14_15notes.jpg)
+ 
+[Notebook: Decision boundary](01-Supervised-Learning/code/day15_Decision_Boundary_Soln.ipynb)
