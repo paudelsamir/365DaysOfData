@@ -1,3 +1,5 @@
+
+<div id="top"></div>
 <div align="left">
   <!-- Left Badges (Last Updated & Repo Size) -->
   <img src="https://img.shields.io/github/last-commit/paudelsamir/365DaysOfData" alt="Last Updated" />
@@ -13,8 +15,6 @@
 <br>
 
 I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/in/paudelsamir/).
-
-<div id="top"></div>
 
 <!-- Go to Bottom Button -->
 <div align="right">
