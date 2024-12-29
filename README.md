@@ -13,7 +13,12 @@
 <br>
 
 I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/in/paudelsamir/).
-
+<p align="right">
+  <a href="#bottom" target="_blank">
+    <img src="https://img.shields.io/badge/Go%20to%20Bottom%20🔽-e67e22?style=flat&logo=none&logoColor=white" 
+         alt="Go to Bottom" />
+  </a>
+</p>
 
 # Resources
 | Books & Resources  | Completion Status |
@@ -21,13 +26,6 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 | [Machine Learning Specialization @Coursera](https://www.coursera.org/specializations/machine-learning-introduction) | 🏊 |
 <!-- | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/yanshengjia/ml-road/blob/master/resources/Hands%20On%20Machine%20Learning%20with%20Scikit%20Learn%20and%20TensorFlow.pdf)| 🏊 |  -->
 
-<br>
-<p align="right">
-  <a href="#bottom" target="_blank">
-    <img src="https://img.shields.io/badge/Go%20to%20Bottom%20🔽-e67e22?style=flat&logo=none&logoColor=white" 
-         alt="Go to Bottom" />
-  </a>
-</p>
 
 # Progress
 | Days | Date               | Topics                      | Resources    |
