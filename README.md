@@ -273,7 +273,7 @@ The example above demonstrates that the linear model is insufficient to model ca
 Learned logistic regression cost, gradient descent, and sigmoid derivatives through step-by-step derivations and comparisons with linear regression.
 
 ![notes_day16](01-Supervised-Learning/images/day16_notes_GD.jpg)
+![alt text](01-Supervised-Learning/images/gdoflogisticregression.png)
 
 ---
 # Day 17: Underfitting, Overfitting.
-
