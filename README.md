@@ -1,23 +1,12 @@
-<div id="top"></div>
-
-<!-- Container for Left and Right Badges -->
-<div style="display: flex; justify-content: space-between; width: 100%; align-items: center;">
+<div align="center">
   <!-- Left Badges (Last Updated & Repo Size) -->
-  <div>
-    <img src="https://img.shields.io/github/last-commit/paudelsamir/365DaysOfData" alt="Last Updated" />
-    <img src="https://img.shields.io/github/repo-size/paudelsamir/365DaysOfData" alt="Repo Size" />
-  </div>
+  <img src="https://img.shields.io/github/last-commit/paudelsamir/365DaysOfData" alt="Last Updated" />
+  <img src="https://img.shields.io/github/repo-size/paudelsamir/365DaysOfData" alt="Repo Size" />
+  <img src="https://img.shields.io/badge/Go%20to%20Bottom%20🔽-e67e22?style=flat&logo=none&logoColor=white" 
+        alt="Go to Bottom" />
 
-  <!-- Right Badge (Go to Bottom) -->
-  <div style="text-align: right;">
-    <a href="#bottom" target="_blank">
-      <img src="https://img.shields.io/badge/Go%20to%20Bottom%20🔽-e67e22?style=flat&logo=none&logoColor=white" 
-           alt="Go to Bottom" />
-    </a>
-  </div>
+
 </div>
-
-<div id="bottom"></div> <!-- Marker for Bottom -->
 
 
 ![cover](./resources/images/cover.png)
