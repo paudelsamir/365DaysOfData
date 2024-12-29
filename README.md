@@ -316,10 +316,12 @@ Learned logistic regression cost, gradient descent, and sigmoid derivatives thro
 
 
 <div id="bottom"></div>
-<div style="display: flex; justify-content: flex-end; width: 100%;">
-  <!-- Go to Top Badge (Orange Arrow) -->
+<!-- "Go to Top" Badge (Right Aligned) -->
+<div style="text-align: right;">
   <a href="#top" target="_blank" style="text-decoration: none;">
     <img src="https://img.shields.io/badge/Go%20to%20Top%20🔼-e67e22?style=flat&logo=none&logoColor=white" 
          alt="Go to Top" />
   </a>
 </div>
+
+<div id="top"></div> <!-- Marker for Top -->
