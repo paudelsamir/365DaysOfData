@@ -4,7 +4,9 @@
 
 ![cover](./resources/images/cover.png)
 
-> Before starting this challenge, I already had [**intermediate proficiency**](https://github.com/paudelsamir/python-mastery) in **Python** and had worked on several basic to advanced [**EDA projects**](https://github.com/paudelsamir/EDA-Projects). I’m also familiar with Statistics and Mathematics.
+> Before starting this challenge, I built [**intermediate proficiency**](https://github.com/paudelsamir/python-mastery) in **Python** through practice and [**EDA projects**](https://github.com/paudelsamir/EDA-Projects). I also spent a month exploring **Data Science**, logging my progress in the [**30DaysOfData**](https://github.com/paudelsamir/30DaysOfData-LearningUtsav) repository. With a solid foundation in Statistics and Mathematics, I’m excited to embark on this journey. Let’s begin!
+
+
 
 <br>
 
@@ -14,7 +16,7 @@ Follow my journey with daily posts on [linkedin](https://www.linkedin.com/in/pau
 | Books & Resources  | Completion Status |
 |--------------------|-------------------|
 | [Machine Learning Specialization @Coursera](https://www.coursera.org/specializations/machine-learning-introduction) | 🏊 |
-| [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/yanshengjia/ml-road/blob/master/resources/Hands%20On%20Machine%20Learning%20with%20Scikit%20Learn%20and%20TensorFlow.pdf)| 🏊 | 
+<!-- | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/yanshengjia/ml-road/blob/master/resources/Hands%20On%20Machine%20Learning%20with%20Scikit%20Learn%20and%20TensorFlow.pdf)| 🏊 |  -->
 
 <br>
 
@@ -265,6 +267,7 @@ The example above demonstrates that the linear model is insufficient to model ca
 
 ---
 # Day 15: Decision Boundary, Cost Function
+[Notebook: Cost Function ](01-Supervised-Learning/code/day16_Cost_Function_Soln.ipynb)
 - Decision Boundary: A line or surface that separates different classes in a classification problem based on the model’s predictions.
 - cost function:
 ![formula cost function](01-Supervised-Learning/images/formula_costfunction.png)
@@ -272,5 +275,13 @@ The example above demonstrates that the linear model is insufficient to model ca
  
 [Notebook: Decision boundary](01-Supervised-Learning/code/day15_Decision_Boundary_Soln.ipynb)
 
+[Notebook Logistic Loss ](01-Supervised-Learning/code/day16_LogisticLoss_Soln.ipynb)
+
 ---
 # Day 16: Gradient Descent for Logical Regression
+
+
+[Notebook: Gradient Descent Model implementation](01-Supervised-Learning/code/day16_Gradient_Descent_Soln.ipynb)
+
+
+[Notebook: GD with Scikit-learn](01-Supervised-Learning/code/day16_Scikit_Learn_Soln.ipynb)
