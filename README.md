@@ -41,7 +41,7 @@ Follow my journey with daily posts on [linkedin](https://www.linkedin.com/in/pau
 | [Day14](#day-14-logistic-regression-sigmoid-function) | 2024-12-27 |Logistic Regression, Sigmoid Function|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) [, CampusX](https://www.youtube.com/watch?v=ABrrSwMYWSg&list=PLKnIA16_Rmvb-ZTsM1QS-tlwmlkeGSnru&index=6)|
 | [Day15](#day-15-decision-boundary-cost-function) | 2024-12-28 |Decision Boundary, Cost Function|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) [, CampusX](https://www.youtube.com/watch?v=ABrrSwMYWSg&list=PLKnIA16_Rmvb-ZTsM1QS-tlwmlkeGSnru&index=6)|
 | [Day16](#day-16-gradient-descent-for-logical-regression) | 2024-12-29 |Gradient Descent for logical regression|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) [, CampusX](https://www.youtube.com/watch?v=ABrrSwMYWSg&list=PLKnIA16_Rmvb-ZTsM1QS-tlwmlkeGSnru&index=6)|
-| [Day17]() | 2024-12-30 |-----------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
+| [Day17](#day-17-underfitting-overfitting) | 2024-12-30 |Underfitting, Overfitting, Polynomial Features, Hyperparameters|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day18]() | 2024-12-31 |-----------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 
 <br>
@@ -280,8 +280,13 @@ The example above demonstrates that the linear model is insufficient to model ca
 ---
 # Day 16: Gradient Descent for Logical Regression
 
-
 [Notebook: Gradient Descent Model implementation](01-Supervised-Learning/code/day16_Gradient_Descent_Soln.ipynb)
 
-
 [Notebook: GD with Scikit-learn](01-Supervised-Learning/code/day16_Scikit_Learn_Soln.ipynb)
+
+Learned logistic regression cost, gradient descent, and sigmoid derivatives through step-by-step derivations and comparisons with linear regression.
+
+![notes_day16](01-Supervised-Learning/images/day16_notes_GD.jpg)
+
+---
+# Day 17: Underfitting, Overfitting.
