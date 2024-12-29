@@ -13,12 +13,17 @@
 <br>
 
 I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/in/paudelsamir/).
-<p align="right">
+
+<div id="top"></div>
+
+<!-- Go to Bottom Button -->
+<div align="right">
   <a href="#bottom" target="_blank">
     <img src="https://img.shields.io/badge/Go%20to%20Bottom%20🔽-e67e22?style=flat&logo=none&logoColor=white" 
          alt="Go to Bottom" />
   </a>
-</p>
+</div>
+
 
 # Resources
 | Books & Resources  | Completion Status |
@@ -314,11 +319,10 @@ Learned logistic regression cost, gradient descent, and sigmoid derivatives thro
 
 <div id="bottom"></div>
 
-<!-- Go to Top Badge with Right Alignment Using HTML and Markdown -->
+<!-- Go to Top Button -->
 <p align="right">
   <a href="#top" target="_blank">
     <img src="https://img.shields.io/badge/Go%20to%20Top%20🔼-e67e22?style=flat&logo=none&logoColor=white" 
          alt="Go to Top" />
   </a>
 </p>
-
