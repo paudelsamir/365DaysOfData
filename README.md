@@ -4,13 +4,12 @@
 
 ![cover](./resources/images/cover.png)
 
+
 > Before starting this challenge, I built [**intermediate proficiency**](https://github.com/paudelsamir/python-mastery) in **Python** through practice and [**EDA projects**](https://github.com/paudelsamir/EDA-Projects). I also spent a month exploring **Data Science**, logging my progress in the [**30DaysOfData**](https://github.com/paudelsamir/30DaysOfData-LearningUtsav) repository. With a solid foundation in Statistics and Mathematics, I’m excited to embark on this journey. Let’s begin!
-
-
-
 <br>
 
 I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/in/paudelsamir/).
+
 
 # Resources
 | Books & Resources  | Completion Status |
@@ -19,8 +18,6 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 <!-- | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/yanshengjia/ml-road/blob/master/resources/Hands%20On%20Machine%20Learning%20with%20Scikit%20Learn%20and%20TensorFlow.pdf)| 🏊 |  -->
 
 <br>
-
-
 
 # Progress
 | Days | Date               | Topics                      | Resources    |
@@ -44,22 +41,9 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 | [Day17](#day-17-underfitting-overfitting) | 2024-12-30 |Underfitting, Overfitting, Polynomial Features, Hyperparameters|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day18]() | 2024-12-31 |-----------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 
-> 🔗 Check out individual logs for detailed notes, code snippets, and reflections!
 ---
 <br>
 <br>
-<br>
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -292,4 +276,18 @@ Learned logistic regression cost, gradient descent, and sigmoid derivatives thro
 
 ---
 # Day 17: Underfitting, Overfitting.
+## Roadmap
 
+## Quick Navigation
+[📖 Daily Logs](#progress) • [🚀 Milestones](#milestones) • [📂 Projects](#featured-projects) • [📬 Feedback](#feedback)
+## Repository Insights
+![GitHub Views](https://komarev.com/ghpvc/?username=paudelsamir&color=brightgreen)
+
+## Get Involved
+
+- **📥 Suggest Topics**: [Open an Issue](https://github.com/paudelsamir/365DaysOfData/issues/new)
+- **📧 Share Feedback**: [Fill out the Feedback Form](https://forms.gle/example)
+- **🤝 Collaborate**: [Explore Opportunities](https://linkedin.com/in/yourprofile)
+
+![Banner](https://raw.githubusercontent.com/username/repository/main/banner.svg)
+# Welcome to My 365 Days of Data Challenge
