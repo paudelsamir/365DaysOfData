@@ -1,6 +1,17 @@
+<div id="top"></div>
+<div style="display: flex; justify-content: space-between; width: 100%;">
+  <!-- Left Badges (Last Updated & Repo Size) -->
+  <div>
+    <img src="https://img.shields.io/github/last-commit/paudelsamir/365DaysOfData" alt="Last Updated" />
+    <img src="https://img.shields.io/github/repo-size/paudelsamir/365DaysOfData" alt="Repo Size" />
+  </div>
 
-![Last Updated](https://img.shields.io/github/last-commit/paudelsamir/365DaysOfData)
-![Repo Size](https://img.shields.io/github/repo-size/paudelsamir/365DaysOfData) 
+  <!-- Right Badge (Go to Bottom with Orange Arrow) -->
+  <a href="#bottom" target="_blank" style="text-decoration: none;">
+    <img src="https://img.shields.io/badge/Go%20to%20Bottom%20🔽-e67e22?style=flat&logo=none&logoColor=white" 
+         alt="Go to Bottom" />
+  </a>
+</div>
 
 ![cover](./resources/images/cover.png)
 
@@ -18,7 +29,6 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 <!-- | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/yanshengjia/ml-road/blob/master/resources/Hands%20On%20Machine%20Learning%20with%20Scikit%20Learn%20and%20TensorFlow.pdf)| 🏊 |  -->
 
 <br>
-<div id="top"></div>
 
 # Progress
 | Days | Date               | Topics                      | Resources    |
@@ -305,9 +315,11 @@ Learned logistic regression cost, gradient descent, and sigmoid derivatives thro
 
 
 
-<div align="right">
+<div id="bottom"></div>
+<div style="display: flex; justify-content: flex-end; width: 100%;">
+  <!-- Go to Top Badge (Orange Arrow) -->
   <a href="#top" target="_blank" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/Go%20Back%20to%20Top-4CAF50?style=flat&logo=arrow-up&logoColor=white" 
-         alt="Go Back to Top" />
+    <img src="https://img.shields.io/badge/Go%20to%20Top%20🔼-e67e22?style=flat&logo=none&logoColor=white" 
+         alt="Go to Top" />
   </a>
 </div>
