@@ -10,9 +10,9 @@
 
 <br>
 
-Follow my journey with daily posts on [linkedin](https://www.linkedin.com/in/paudelsamir/)
+I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/in/paudelsamir/).
 
-
+# Resources
 | Books & Resources  | Completion Status |
 |--------------------|-------------------|
 | [Machine Learning Specialization @Coursera](https://www.coursera.org/specializations/machine-learning-introduction) | 🏊 |
@@ -44,6 +44,8 @@ Follow my journey with daily posts on [linkedin](https://www.linkedin.com/in/pau
 | [Day17](#day-17-underfitting-overfitting) | 2024-12-30 |Underfitting, Overfitting, Polynomial Features, Hyperparameters|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day18]() | 2024-12-31 |-----------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 
+> 🔗 Check out individual logs for detailed notes, code snippets, and reflections!
+---
 <br>
 <br>
 <br>
@@ -290,3 +292,4 @@ Learned logistic regression cost, gradient descent, and sigmoid derivatives thro
 
 ---
 # Day 17: Underfitting, Overfitting.
+
