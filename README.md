@@ -1,5 +1,5 @@
 <div id="top"></div>
-<div style="display: flex; justify-content: space-between; width: 100%;">
+<div style="display: flex; justify-content: space-between; width: 100%; align-items: center;">
   <!-- Left Badges (Last Updated & Repo Size) -->
   <div>
     <img src="https://img.shields.io/github/last-commit/paudelsamir/365DaysOfData" alt="Last Updated" />
@@ -12,6 +12,7 @@
          alt="Go to Bottom" />
   </a>
 </div>
+
 
 ![cover](./resources/images/cover.png)
 
