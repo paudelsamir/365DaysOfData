@@ -276,18 +276,4 @@ Learned logistic regression cost, gradient descent, and sigmoid derivatives thro
 
 ---
 # Day 17: Underfitting, Overfitting.
-## Roadmap
 
-## Quick Navigation
-[📖 Daily Logs](#progress) • [🚀 Milestones](#milestones) • [📂 Projects](#featured-projects) • [📬 Feedback](#feedback)
-## Repository Insights
-![GitHub Views](https://komarev.com/ghpvc/?username=paudelsamir&color=brightgreen)
-
-## Get Involved
-
-- **📥 Suggest Topics**: [Open an Issue](https://github.com/paudelsamir/365DaysOfData/issues/new)
-- **📧 Share Feedback**: [Fill out the Feedback Form](https://forms.gle/example)
-- **🤝 Collaborate**: [Explore Opportunities](https://linkedin.com/in/yourprofile)
-
-![Banner](https://raw.githubusercontent.com/username/repository/main/banner.svg)
-# Welcome to My 365 Days of Data Challenge
