@@ -18,9 +18,7 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 
 <div align="right">
   <a href="#bottom" target="_blank">
-    <img src="https://img.shields.io/badge/Go%20to%20Bottom%20👇-orange?style=for-the-badge&logo=arrow-down-right&logoColor=white" style="height: 25px; width: auto; border-radius: 12px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); transition: transform 0.2s ease-in-out;" 
-         onmouseover="this.style.transform='scale(1.1)'" 
-         onmouseout="this.style.transform='scale(1)'"/>
+    <img src="https://img.shields.io/badge/Go%20to%20Bottom%20👇-orange?style=for-the-badge&logo=arrow-down-right&logoColor=white" style="height: 25px; width: auto;" />
   </a>
 </div>
 
@@ -308,8 +306,6 @@ Learned logistic regression cost, gradient descent, and sigmoid derivatives thro
 <div id="bottom"></div>
 <div align="right">
   <a href="#top" target="_blank">
-    <img src="https://img.shields.io/badge/Back%20to%20top-orange?style=for-the-badge&logo=expo&logoColor=white" style="height: 25px; width: auto; border-radius: 12px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); transition: transform 0.2s ease-in-out;" 
-         onmouseover="this.style.transform='scale(1.1)'" 
-         onmouseout="this.style.transform='scale(1)'"/>
+    <img src="https://img.shields.io/badge/Back%20to%20top-orange?style=for-the-badge&logo=expo&logoColor=white" style="height: 25px;" />
   </a>
 </div>
