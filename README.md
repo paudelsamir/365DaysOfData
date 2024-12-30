@@ -18,7 +18,7 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 
 <div align="right">
   <a href="#bottom" target="_blank">
-    <img src="https://img.shields.io/badge/Go%20to%20Bottom%20👇-orange?style=for-the-badge&logo=arrow-down-right&logoColor=white" style="height: 25px; width: auto;" />
+    <img src="https://img.shields.io/badge/Go%20to%20Bottom%20🡻-orange?style=for-the-badge&logo=arrow-down-right&logoColor=white" style="height: 25px; width: auto;" />
   </a>
 </div>
 
