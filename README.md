@@ -16,14 +16,11 @@
 
 I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/in/paudelsamir/).
 
-<!-- Go to Bottom Button -->
 <div align="right">
   <a href="#bottom" target="_blank">
-    <img src="https://img.shields.io/badge/Go%20to%20Bottom%20🔽-e67e22?style=flat&logo=none&logoColor=white" 
-         alt="Go to Bottom" />
+    <img src="https://img.shields.io/badge/Go%20to%20Bottom%20👇-orange?style=for-the-badge&logo=arrow-down-right&logoColor=white" />
   </a>
 </div>
-
 
 # Resources
 | Books & Resources  | Completion Status |
@@ -306,23 +303,8 @@ Learned logistic regression cost, gradient descent, and sigmoid derivatives thro
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-<div id="bottom"></div>
-
-<!-- Go to Top Button -->
-<p align="right">
+<div align="right">
   <a href="#top" target="_blank">
-    <img src="https://img.shields.io/badge/Go%20to%20Top%20🔼-e67e22?style=flat&logo=none&logoColor=white" 
-         alt="Go to Top" />
+    <img src="https://img.shields.io/badge/Back%20to%20top-orange?style=for-the-badge&logo=expo&logoColor=white" style="height: 25px;" />
   </a>
-</p>
+</div>
