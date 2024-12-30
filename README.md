@@ -290,10 +290,6 @@ Learned logistic regression cost, gradient descent, and sigmoid derivatives thro
 # Day 17: Underfitting, Overfitting
 
 
-
-[Notebook:Overfitting Solution ](01-Supervised-Learning/code/day17_Overfitting_Soln.ipynb)
-![text](01-Supervised-Learning/images/day17_overfittingexample.png)
-
 Today, explored teh concepts, overfitting (high variance), underfitting (high bias) and generalization(just right). 
 Regularization to reduce Overfitting. Explored Regularized logistic regression.
 - If the data is in non linear behaviour then we have to appply Ml algos like decision tree, random forest and svm.
@@ -301,6 +297,9 @@ Regularization to reduce Overfitting. Explored Regularized logistic regression.
 Explored hypermeters of logistic regression, and gained some knowledge.
 ![text](01-Supervised-Learning/images/day17_notes2.jpg) 
 ![text](01-Supervised-Learning/images/day17_notes1.jpg)
+
+[Notebook:Overfitting Solution ](01-Supervised-Learning/code/day17_Overfitting_Soln.ipynb)
+![text](01-Supervised-Learning/images/day17_overfittingexample.png)
 
 
 [Notebook:Regularization ](01-Supervised-Learning/code/day17_regularization.ipynb)
