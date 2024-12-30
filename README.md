@@ -44,13 +44,13 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 | [Day9](#day-09-linear-regression-with-multiple-features-vectorization) | 2024-12-22 |Linear Regression with multiple features, Vectorization| [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
 | [Day10](#day10-feature-scaling) | 2024-12-23 |Feature Scaling, Visualization of Multiple Regression and Polynomial Regression| [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
 | [Day11](#day-11-feature-engineering-and-polynomial-regression) | 2024-12-24 |Feature Engineering, Polynomial Regression| [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
-| [Day12](#day-12-linear-regression-using-scikit-learn) | 2024-12-25 |Linear Regression using Scikit Learn from Scratch| [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
+| [Day12](#day-12-linear-regression-using-scikit-learn) | 2024-12-25 |Scikit-Learn revision, Linear Regression using Scikit Learn| [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
 | [Day13](#day-13-classification) | 2024-12-26 |LR lab, Classification|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day14](#day-14-logistic-regression-sigmoid-function) | 2024-12-27 |Logistic Regression, Sigmoid Function|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) [, CampusX](https://www.youtube.com/watch?v=ABrrSwMYWSg&list=PLKnIA16_Rmvb-ZTsM1QS-tlwmlkeGSnru&index=6)|
 | [Day15](#day-15-decision-boundary-cost-function) | 2024-12-28 |Decision Boundary, Cost Function|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) [, CampusX](https://www.youtube.com/watch?v=ABrrSwMYWSg&list=PLKnIA16_Rmvb-ZTsM1QS-tlwmlkeGSnru&index=6)|
 | [Day16](#day-16-gradient-descent-for-logical-regression) | 2024-12-29 |Gradient Descent for logical regression|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) [, CampusX](https://www.youtube.com/watch?v=ABrrSwMYWSg&list=PLKnIA16_Rmvb-ZTsM1QS-tlwmlkeGSnru&index=6)|
-| [Day17](#day-17-underfitting-overfitting) | 2024-12-30 |Underfitting, Overfitting, Polynomial Features, Hyperparameters|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
-| [Day18]() | 2024-12-31 |-----------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
+| [Day17](#day-17-underfitting-overfitting) | 2024-12-30 |Underfitting, Overfitting, Regularization Polynomial Features, Hyperparameters|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
+| [Day18]() | 2024-12-31 |Build Liner Regression model logistic regression model from Scratch|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 
 ---
 <br>
@@ -287,17 +287,24 @@ Learned logistic regression cost, gradient descent, and sigmoid derivatives thro
 ![alt text](01-Supervised-Learning/images/gdoflogisticregression.png)
 
 ---
-# Day 17: Underfitting, Overfitting.
+# Day 17: Underfitting, Overfitting
 
 
 
+[Notebook:Overfitting Solution ](01-Supervised-Learning/code/day17_Overfitting_Soln.ipynb)
+![text](01-Supervised-Learning/images/day17_overfittingexample.png)
+
+Today, explored teh concepts, overfitting (high variance), underfitting (high bias) and generalization(just right). 
+Regularization to reduce Overfitting. Explored Regularized logistic regression.
+- If the data is in non linear behaviour then we have to appply Ml algos like decision tree, random forest and svm.
+
+Explored hypermeters of logistic regression, and gained some knowledge.
+![text](01-Supervised-Learning/images/day17_notes2.jpg) 
+![text](01-Supervised-Learning/images/day17_notes1.jpg)
 
 
-
-
-
-
-
+[Notebook:Regularization ](01-Supervised-Learning/code/day17_regularization.ipynb)
+![text](01-Supervised-Learning/images/day17_regularizatiom.png) 
 
 
 
