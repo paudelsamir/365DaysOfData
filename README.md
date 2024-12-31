@@ -322,11 +322,30 @@ Explored hypermeters of logistic regression, and gained some knowledge.
 
 ---
 # Day 18: Neurons, Layer, Neural netowrk, forward propagation
-- Neural networks are a class of machine learning algorithms used to model complex patterns in datasets using multiple hidden layers and non-linear activation functions. A neural network takes an input, passes it through multiple layers of hidden neurons (mini-functions with unique coefficients that must be learned), and outputs a prediction representing the combined input of all the neurons.
+- neural network: 
+neural networks are machine learning algorithms that model complex patterns using multiple hidden layers and non-linear activation functions. they take inputs, pass them through hidden layers of neurons, and output a prediction.
+![alt text](02-Advanced-Learning-Algorithms/images/day18_NeuralNetowkr.png) 
 
-- A neuron takes a group of weighted inputs, applies an activation function, and returns an output.
+- Neurons:
+a neuron takes weighted inputs, applies an activation function, and outputs a result. inputs can be features or outputs from previous neurons, with weights adjusting their influence.
+![alt text](02-Advanced-Learning-Algorithms/images/day18_single_neuroninaction.gif)
+fig: single neuron in action
 
-![alt text](02-Advanced-Learning-Algorithms/images/day18_Layers.png) ![alt text](02-Advanced-Learning-Algorithms/images/day18_NeuralNetowkr.png) ![alt text](02-Advanced-Learning-Algorithms/images/day18_Neurons.png)
+- Synapse: 
+synapses connect neurons and carry the weighted inputs. each connection has a weight that adjusts during training.
+
+- weights: 
+weights control the strength of connections between neurons. they are multiplied by inputs to influence the output, and are adjusted during training.
+
+- Bias: 
+bias is a constant added to the weighted input before applying the activation function, helping the model represent patterns that don’t pass through the origin.
+
+- Layers: 
+![alt text](02-Advanced-Learning-Algorithms/images/day18_Layers.png) 
+  - **input layer**: holds the data for the model, with each neuron representing an attribute.
+  - **hidden layer**: applies activation functions to the inputs and passes results to the next layer.
+  - **output layer**: receives input from the last hidden layer and returns the model’s prediction.
+
 
 <div id="bottom"></div>
 <div align="right">
