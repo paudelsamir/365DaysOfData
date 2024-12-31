@@ -324,8 +324,7 @@ Explored hypermeters of logistic regression, and gained some knowledge.
 
 - A neuron takes a group of weighted inputs, applies an activation function, and returns an output.
 
-![Figure](02-Advanced-Learning/images/day18_Neurons.png) ![Figure](02-Advanced-Learning/images/day18_NeuralNetowkr.png) ![Figure](02-Advanced-Learning/images/day18_Layers.png)
-
+![alt text](02-Advanced-Learning-Algorithms/images/day18_Layers.png) ![alt text](02-Advanced-Learning-Algorithms/images/day18_NeuralNetowkr.png) ![alt text](02-Advanced-Learning-Algorithms/images/day18_Neurons.png)
 
 <div id="bottom"></div>
 <div align="right">
