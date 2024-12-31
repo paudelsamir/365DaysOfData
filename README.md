@@ -320,7 +320,11 @@ Explored hypermeters of logistic regression, and gained some knowledge.
 
 ---
 # Day 18: Neurons, Layer, Neural netowrk, forward propagation
+- Neural networks are a class of machine learning algorithms used to model complex patterns in datasets using multiple hidden layers and non-linear activation functions. A neural network takes an input, passes it through multiple layers of hidden neurons (mini-functions with unique coefficients that must be learned), and outputs a prediction representing the combined input of all the neurons.
 
+- A neuron takes a group of weighted inputs, applies an activation function, and returns an output.
+
+![Figure](02-Advanced-Learning/images/day18_Neurons.png) ![Figure](02-Advanced-Learning/images/day18_NeuralNetowkr.png) ![Figure](02-Advanced-Learning/images/day18_Layers.png)
 
 
 <div id="bottom"></div>
