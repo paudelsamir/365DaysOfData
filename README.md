@@ -312,6 +312,7 @@ Explored hypermeters of logistic regression, and gained some knowledge.
 ![text](01-Supervised-Learning/images/day17_notes1.jpg)
 
 [Notebook:Overfitting Solution ](01-Supervised-Learning/code/day17_Overfitting_Soln.ipynb)
+
 ![text](01-Supervised-Learning/images/day17_overfittingexample.png)
 
 
