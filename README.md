@@ -7,7 +7,6 @@
   
 </div>
 
-
 ![cover](./resources/images/cover.png)
 
 
