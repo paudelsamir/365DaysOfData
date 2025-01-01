@@ -121,7 +121,9 @@ Revised statistics and probability concepts. Ready for the ML Specialization cou
 ---
 # Day 03: Supervised Machine Learning: Regression and Classificaiton
 <!-- [Notes credit](https://drive.google.com/file/d/1SO3WJZGSPx2jypBUugJkkwO8LZozBK7B/view?usp=sharing) -->
+
 - Supervised Learning: <br>
+![Supervised Learning](01-Supervised-Learning/images/day1_supervisedlearning.gif)
 ![](./01-Supervised-Learning/images/Supervised%20Learning.png)
 - Regression:<br>
 ![](./01-Supervised-Learning/images/Regression_model.png)
@@ -133,7 +135,7 @@ Revised statistics and probability concepts. Ready for the ML Specialization cou
 # Day 04: Unsupervised Learning: Clustering, dimensionality reduction
 
 data only comes with input x, but not output labels y. Algorithm has to find structure in data.
-
+![Unsupervised Learinging](01-Supervised-Learning/images/day2_supervisedvsunsupervised.gif)
 - Clustering: group similar data points together <br>
 ![alt text](./01-Supervised-Learning/images/clustering.png)
 - dimensionality reduction: compress data using fewer numbers eg image compression<br> <img src="./01-Supervised-Learning/images/dimensionality_reduction.png" width = "300">
@@ -170,6 +172,7 @@ Visualization of cost function:
 # Day 07: Gradient Descent
 [Notebook: Gradient descent](./01-Supervised-Learning/code/day07_gradient-descent-code-from-scratch.ipynb)
 
+![gradient descent](01-Supervised-Learning/images/day4_gradient_descent_parameter_a.gif)
 learned the basics by assuming slope constant and with only the vertical shift.
 later learned GD with both the parameters w and b.
 ![alt text](./01-Supervised-Learning/images/gradientdescent.png)
@@ -336,6 +339,8 @@ synapses connect neurons and carry the weighted inputs. each connection has a we
 - weights: 
 weights control the strength of connections between neurons. they are multiplied by inputs to influence the output, and are adjusted during training.
 
+Popular activation functions include relu and sigmoid.
+
 - Bias: 
 bias is a constant added to the weighted input before applying the activation function, helping the model represent patterns that don’t pass through the origin.
 
@@ -345,6 +350,27 @@ bias is a constant added to the weighted input before applying the activation fu
   - **hidden layer**: applies activation functions to the inputs and passes results to the next layer.
   - **output layer**: receives input from the last hidden layer and returns the model’s prediction.
 
+
+---
+# Day 19: Forward Propagation
+- Forward Propagation: Input data is “forward propagated” through the network layer by layer to the final layer which outputs a prediction.
+ 
+``` python
+# x is the input to the network. 
+def relu(z):
+    return max(0,z)
+
+def feed_forward(x, Wh, Wo):
+    # Hidden layer
+    Zh = x * Wh
+    H = relu(Zh)
+
+    # Output layer
+    Zo = H * Wo
+    output = relu(Zo)
+    return output
+
+```
 
 <div id="bottom"></div>
 <div align="right">
