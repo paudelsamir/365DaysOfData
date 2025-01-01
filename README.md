@@ -398,8 +398,6 @@ How forward Prop works for digit classification??
         1. define layers:
             
             ```python
-            python
-            Copy code
             layer1 = dense(units=25, activation='sigmoid')
             layer2 = dense(units=15, activation='sigmoid')
             layer3 = dense(units=1, activation='sigmoid')
@@ -409,8 +407,6 @@ How forward Prop works for digit classification??
         2. stack layers in a model:
             
             ```python
-            python
-            Copy code
             model = sequential([layer1, layer2, layer3])
             
             ```
@@ -418,8 +414,6 @@ How forward Prop works for digit classification??
         3. compile and train:
             
             ```python
-            python
-            Copy code
             model.compile(optimizer='adam', loss='binary_crossentropy')
             model.fit(x, y, epochs=10)
             
