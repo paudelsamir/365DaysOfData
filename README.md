@@ -354,6 +354,9 @@ bias is a constant added to the weighted input before applying the activation fu
 ---
 # Day 19: Forward Propagation
 - Forward Propagation: Input data is “forward propagated” through the network layer by layer to the final layer which outputs a prediction.
+
+![alt text](02-Advanced-Learning-Algorithms/images/day19_notes1.jpg) 
+![alt text](02-Advanced-Learning-Algorithms/images/day19_notes2.jpg)
  
 ``` python
 # x is the input to the network. 
@@ -371,6 +374,11 @@ def feed_forward(x, Wh, Wo):
     return output
 
 ```
+![text](02-Advanced-Learning-Algorithms/images/day19_matrixrepn.png) 
+How forward Prop works for digit classification??
+![text](02-Advanced-Learning-Algorithms/images/day19_UnderstandingNN.gif)
+[Notebook: Neurons and Layers](02-Advanced-Learning-Algorithms/code/day19_Neurons_and_Layers.ipynb) 
+[Notebook: A small Neural Netowrk using tensoflow](02-Advanced-Learning-Algorithms/code/day19_NN_CoffeeRoasting_TF.ipynb)
 
 <div id="bottom"></div>
 <div align="right">
