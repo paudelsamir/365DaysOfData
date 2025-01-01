@@ -51,7 +51,7 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 | [Day16](#day-16-gradient-descent-for-logical-regression) | 2024-12-29 |Gradient Descent for logical regression|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) [, CampusX](https://www.youtube.com/watch?v=ABrrSwMYWSg&list=PLKnIA16_Rmvb-ZTsM1QS-tlwmlkeGSnru&index=6)|
 | [Day17](#day-17-underfitting-overfitting) | 2024-12-30 |Underfitting, Overfitting, Regularization Polynomial Features, Hyperparameters|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day18](#day-18-neurons-layer-neural-netowrk-forward-propagation) | 2024-12-31 |Neurons, Neural Netowrk, Forward Propagation|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
-| [Day19]() | 2025-01-01 |-------------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
+| [Day19](#day-19-forward-propagation) | 2025-01-01 |Forward Propagation, Tensorflow implementations|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day20]() | 2025-01-02 |-------------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day21]() | 2025-01-03 |-------------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day22]() | 2025-01-04 |-------------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
