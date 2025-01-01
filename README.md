@@ -354,10 +354,6 @@ bias is a constant added to the weighted input before applying the activation fu
 ---
 # Day 19: Forward Propagation
 - Forward Propagation: Input data is “forward propagated” through the network layer by layer to the final layer which outputs a prediction.
-
-![alt text](02-Advanced-Learning-Algorithms/images/day19_notes1.jpg) 
-![alt text](02-Advanced-Learning-Algorithms/images/day19_notes2.jpg)
- 
 ``` python
 # x is the input to the network. 
 def relu(z):
@@ -374,12 +370,64 @@ def feed_forward(x, Wh, Wo):
     return output
 
 ```
+
+Notes for today:
+![alt text](02-Advanced-Learning-Algorithms/images/day19_notes1.jpg) 
+![alt text](02-Advanced-Learning-Algorithms/images/day19_notes2.jpg)
+ 
+
+Matrix Representation:
 ![text](02-Advanced-Learning-Algorithms/images/day19_matrixrepn.png) 
 How forward Prop works for digit classification??
 ![text](02-Advanced-Learning-Algorithms/images/day19_UnderstandingNN.gif)
 [Notebook: Neurons and Layers](02-Advanced-Learning-Algorithms/code/day19_Neurons_and_Layers.ipynb) 
 [Notebook: A small Neural Netowrk using tensoflow](02-Advanced-Learning-Algorithms/code/day19_NN_CoffeeRoasting_TF.ipynb)
 
+
+- **tensorflow basics**:
+    - **representation of data**:numpy arrays used for input (e.g., 2D arrays).
+        
+        ```python
+        python
+        Copy code
+        x = np.array([[1, 2, 3], [4, 5, 6]])
+        
+        ```
+        
+    - **building a neural network**:
+        1. define layers:
+            
+            ```python
+            python
+            Copy code
+            layer1 = dense(units=25, activation='sigmoid')
+            layer2 = dense(units=15, activation='sigmoid')
+            layer3 = dense(units=1, activation='sigmoid')
+            
+            ```
+            
+        2. stack layers in a model:
+            
+            ```python
+            python
+            Copy code
+            model = sequential([layer1, layer2, layer3])
+            
+            ```
+            
+        3. compile and train:
+            
+            ```python
+            python
+            Copy code
+            model.compile(optimizer='adam', loss='binary_crossentropy')
+            model.fit(x, y, epochs=10)
+            
+            ```
+            
+    - **visualization**:neurons connect layer by layer, with weights and biases computed at each step (refer to attached gif).
+
+    
 <div id="bottom"></div>
 <div align="right">
   <a href="#top" target="_blank">
