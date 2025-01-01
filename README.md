@@ -388,8 +388,6 @@ How forward Prop works for digit classification??
     - **representation of data**:numpy arrays used for input (e.g., 2D arrays).
         
         ```python
-        python
-        Copy code
         x = np.array([[1, 2, 3], [4, 5, 6]])
         
         ```
