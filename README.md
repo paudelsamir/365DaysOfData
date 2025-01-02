@@ -406,8 +406,14 @@ How forward Prop works for digit classification??
 
 ---
 # Day 20: Python Implementation from Scratch
+
+Implemented forward propagation to compute predictions and backpropagation to optimize weights for binary classification.
+
+- AGI: An advanced AI capable of generalizing across tasks like humans.
 ![loss graph](02-Advanced-Learning-Algorithms/images/day20_modelaccuracies.png)
 ![model accuracy](02-Advanced-Learning-Algorithms/images/day_20_comparisonforwardvsbackward.png)
+
+[Notebook: Building Models](02-Advanced-Learning-Algorithms/code/day20_BuildingForwardPropagation.ipynb)
 
 <div id="bottom"></div>
 <div align="right">
