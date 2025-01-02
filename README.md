@@ -37,7 +37,7 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 | [Day2](#day-02-decomposition-derivation-integration-and-gradient-descent) | 2024-12-15 | Decomposition, Derivation, Integration, and Gradient Descent | [3blue1brown](https://www.3blue1brown.com/topics/calculus) |
 | [Day3](#day-03-supervised-machine-learning-regression-and-classificaiton) | 2024-12-16 |Supervised Learning, Regression and classification|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
 | [Day4](#day-04-unsupervised-learning-clustering-dimensionality-reduction) | 2024-12-17 |Unsupervised Learning: Clustering and dimensionality reduction|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
-| [Day5](#day-05-univariate-linear-regression) | 2024-12-18 |Univariate linear Regression|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
+| [Day5](#day-05-univariate-linear-regression) | 2024-12-18 () |Univariate linear Regression|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
 | [Day6](#day-06-cost-function) | 2024-12-19 |Cost Functions|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
 | [Day7](#day-07-gradient-descent) | 2024-12-20 |Gradient Descent|[CampusX, ](https://www.youtube.com/watch?v=ORyfPJypKuU) [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
 | [Day8](#day-08-effect-of-learning-rate-cost-function-and-data-on-gd) | 2024-12-21 |Effect of learning Rate, Cost function and Data on GD|[CampusX, ](https://www.youtube.com/watch?v=ORyfPJypKuU) [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
@@ -354,22 +354,7 @@ bias is a constant added to the weighted input before applying the activation fu
 ---
 # Day 19: Forward Propagation
 - Forward Propagation: Input data is “forward propagated” through the network layer by layer to the final layer which outputs a prediction.
-``` python
-# x is the input to the network. 
-def relu(z):
-    return max(0,z)
 
-def feed_forward(x, Wh, Wo):
-    # Hidden layer
-    Zh = x * Wh
-    H = relu(Zh)
-
-    # Output layer
-    Zo = H * Wo
-    output = relu(Zo)
-    return output
-
-```
 
 Notes for today:
 ![alt text](02-Advanced-Learning-Algorithms/images/day19_notes1.jpg) 
@@ -419,7 +404,11 @@ How forward Prop works for digit classification??
             
     - **visualization**:neurons connect layer by layer, with weights and biases computed at each step (refer to attached gif).
 
-    
+---
+# Day 20: Python Implementation from Scratch
+![loss graph](02-Advanced-Learning-Algorithms/images/day20_modelaccuracies.png)
+![model accuracy](02-Advanced-Learning-Algorithms/images/day_20_comparisonforwardvsbackward.png)
+
 <div id="bottom"></div>
 <div align="right">
   <a href="#top" target="_blank">
