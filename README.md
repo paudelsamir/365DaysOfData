@@ -52,9 +52,9 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 | [Day17](#day-17-underfitting-overfitting) | 2024-12-30 |Underfitting, Overfitting, Regularization Polynomial Features, Hyperparameters|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day18](#day-18-neurons-layer-neural-netowrk-forward-propagation) | 2024-12-31 |Neurons, Neural Netowrk, Forward Propagation|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day19](#day-19-forward-propagation) | 2025-01-01 |Forward Propagation, Tensorflow implementations|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
-| [Day20]() | 2025-01-02 |-------------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
-| [Day21]() | 2025-01-03 |-------------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
-| [Day22]() | 2025-01-04 |-------------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
+| [Day20](#day-20-python-implementation-from-scratch) | 2025-01-02 |Building and comparing models|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
+| [Day21](#day-21-vectorization-model-training) | 2025-01-03 |Vectorization, Model training using Tensoflow|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
+| [Day22](#day-22-activation-functions) | 2025-01-04 |Activation Functions|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day23]() | 2025-01-05 |-------------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day24]() | 2025-01-06 |-------------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day25]() | 2025-01-07 |-------------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
@@ -408,12 +408,30 @@ How forward Prop works for digit classification??
 # Day 20: Python Implementation from Scratch
 
 Implemented forward propagation to compute predictions and backpropagation to optimize weights for binary classification.
-
 - AGI: An advanced AI capable of generalizing across tasks like humans.
+
 ![loss graph](02-Advanced-Learning-Algorithms/images/day20_modelaccuracies.png)
+
 ![model accuracy](02-Advanced-Learning-Algorithms/images/day_20_comparisonforwardvsbackward.png)
 
 [Notebook: Building Models](02-Advanced-Learning-Algorithms/code/day20_BuildingForwardPropagation.ipynb)
+
+---
+# Day 21: Vectorization, Model Training
+Exploredd Vectorization for efficient computation
+- Tensorflow: model.compile, binary_crossentropy, model.fit
+trained a binary classification model and tested its accuracy
+
+![alt text](02-Advanced-Learning-Algorithms/images/day21_testaccuracy.png) 
+Training Model with tensorflow:
+![alt text](02-Advanced-Learning-Algorithms/images/day21_trainingNNwithtenserflow.png)
+Notes for today:
+![Notes for today](02-Advanced-Learning-Algorithms/images/day21_notes.jpg)
+
+
+---
+# Day 22: Activation Functions
+
 
 <div id="bottom"></div>
 <div align="right">
