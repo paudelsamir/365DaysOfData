@@ -54,7 +54,7 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 | [Day19](#day-19-forward-propagation) | 2025-01-01 |Forward Propagation, Tensorflow implementations|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day20](#day-20-python-implementation-from-scratch) | 2025-01-02 |Building and comparing models (Binary Classification)|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day21](#day-21-vectorization-model-training) | 2025-01-03 |Vectorization, Model training using Tensoflow|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
-| [Day22](#day-22-activation-functions) | 2025-01-04 |Activation Functions|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
+| [Day22](#day-22-activation-functions-softmax) | 2025-01-04 |Activation Functions, Softmax Intution|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day23]() | 2025-01-05 |-------------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day24]() | 2025-01-06 |-------------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day25]() | 2025-01-07 |-------------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
@@ -430,15 +430,30 @@ Notes for today:
 
 
 ---
-# Day 22: Activation Functions
-*the universal approximation theorem means a neural network can learn almost any pattern or function. for example, if you have a wavy graph, the network can draw a curve that matches it closely, as long as it has enough hidden neurons and uses non-linear activations like sigmoid or ReLU.*
+# Day 22: Activation Functions, Softmax
+*the universal approximation theorem explains that a neural network with enough hidden neurons and non-linear activations like sigmoid or relu can approximate almost any function, even complex patterns like wavy graphs.*
 
-- Sigmoid
-- ReLU
-- tanh
+#### Activation Functions:
+commonly used activation functions include:
+- sigmoid: squashes values between 0 and 1, often used for binary classification.
+- relu: outputs 0 for negatives and the input itself for positives, commonly used in hidden layers.
+- tanh: outputs between -1 and 1, useful for centered data.
 
-choosing Activaiton Funciton:
+![multiclass example](./02-Advanced-Learning-Algorithms/images/day22_eg_multiclassclassn.png)
 
+for multiclass classification, softmax is ideal in the output layer as it converts logits into probabilities that sum to 1. during training, the model adjusts weights to maximize the correct class probability, using categorical cross-entropy loss. softmax generalizes logistic regression, which is typically used for binary classification. in both, activation and loss functions differ based on the output type.
+
+
+Logistic Vs softmax:
+
+![logistic vs softmax](./02-Advanced-Learning-Algorithms/images/day22_logisticvssoftmax.png)
+
+Notes:
+
+![Notes](02-Advanced-Learning-Algorithms/images/day22_notes1.jpg) 
+![Notes](02-Advanced-Learning-Algorithms/images/day22_notes2.jpg)
+---
+# Day 23: Implementation of Softmax Regression
 
 
 <div id="bottom"></div>
