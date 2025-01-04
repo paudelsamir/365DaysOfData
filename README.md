@@ -52,7 +52,7 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 | [Day17](#day-17-underfitting-overfitting) | 2024-12-30 |Underfitting, Overfitting, Regularization Polynomial Features, Hyperparameters|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day18](#day-18-neurons-layer-neural-netowrk-forward-propagation) | 2024-12-31 |Neurons, Neural Netowrk, Forward Propagation|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day19](#day-19-forward-propagation) | 2025-01-01 |Forward Propagation, Tensorflow implementations|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
-| [Day20](#day-20-python-implementation-from-scratch) | 2025-01-02 |Building and comparing models|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
+| [Day20](#day-20-python-implementation-from-scratch) | 2025-01-02 |Building and comparing models (Binary Classification)|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day21](#day-21-vectorization-model-training) | 2025-01-03 |Vectorization, Model training using Tensoflow|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day22](#day-22-activation-functions) | 2025-01-04 |Activation Functions|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day23]() | 2025-01-05 |-------------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
@@ -431,6 +431,14 @@ Notes for today:
 
 ---
 # Day 22: Activation Functions
+*the universal approximation theorem means a neural network can learn almost any pattern or function. for example, if you have a wavy graph, the network can draw a curve that matches it closely, as long as it has enough hidden neurons and uses non-linear activations like sigmoid or ReLU.*
+
+- Sigmoid
+- ReLU
+- tanh
+
+choosing Activaiton Funciton:
+
 
 
 <div id="bottom"></div>
