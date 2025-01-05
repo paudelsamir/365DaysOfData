@@ -455,7 +455,38 @@ Notes:
 ---
 # Day 23: Implementation of Softmax Regression
 
+- Classification with multiple Outputs:
+PS: there's difference between multiclass classificaiton and multilabel classification
+[Notebook: Softmax/Multinomial in Iris dataset- Multilabel](02-Advanced-Learning-Algorithms/code/day23_softmax_demo.ipynb)
 
+> *NOTE: softmax regression is a classification algorithm that calculates probabilities for multiple classes using a linear combination of inputs and the softmax function. the class with the highest probability is chosen as the prediction*
+
+Improved Implementation of Softmax:
+![Roundoff](02-Advanced-Learning-Algorithms/images/day23_roundofferrors.png)
+
+Tensorflow implementation:
+```python
+model = Sequential(
+    [ 
+        Dense(25, activation = 'relu'),
+        Dense(15, activation = 'relu'),
+        Dense(4, activation = 'softmax')    # < softmax activation here
+
+        ##         Dense(4, activation = 'linear')   #<-- Note
+    ]
+)
+model.compile(
+    loss=tf.keras.losses.SparseCategoricalCrossentropy(),
+    ##     loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),  #<-- Note ---- This is preferred model softmax and loss are combined for more accurate result.
+    optimizer=tf.keras.optimizers.Adam(0.001),
+)
+
+model.fit(
+    X_train,y_train,
+    epochs=10
+)
+    
+```
 <div id="bottom"></div>
 <div align="right">
   <a href="#top" target="_blank">
