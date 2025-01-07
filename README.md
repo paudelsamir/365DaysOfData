@@ -55,9 +55,10 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 | [Day20](#day-20-python-implementation-from-scratch) | 2025-01-02 |Building and comparing models (Binary Classification)|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day21](#day-21-vectorization-model-training) | 2025-01-03 |Vectorization, Model training using Tensoflow|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day22](#day-22-activation-functions-softmax) | 2025-01-04 |Activation Functions, Softmax Intution|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
-| [Day23]() | 2025-01-05 |-------------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
-| [Day24]() | 2025-01-06 |-------------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
-| [Day25]() | 2025-01-07 |-------------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
+| [Day23](#day-23-implementation-of-softmax-regression) | 2025-01-05 |Implementing Softmax|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
+| [Day24](#day-24-backpropagation---what-and-how-) | 2025-01-06 |Backpropagaton, What and how??|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
+| [Day25](#day-25-backpropagation---why-advices-for-applying-machine-learning) | 2025-01-07 | Backpropagation - Why? Advices for applying machine Learning
+|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day26]() | 2025-01-08 |-------------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day27]() | 2025-01-09 |-------------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day28]() | 2025-01-10 |-------------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
@@ -487,6 +488,44 @@ model.fit(
 )
     
 ```
+
+---
+# Day 24: Backpropagation - what and how ?
+- what? Backpropagation adjusts nneural network weights by propagating errors backward using the chain rule and optimizing them with gradient descent.
+- how? Forward pass to compute outputs, Calculate errors, propagate them backward, and update weights iteratively. Take a look at document below.
+
+Backpropagation example with Neural Network:
+![Backpropagation example with Neural Network](02-Advanced-Learning-Algorithms/images/day24_backpropagation_example.png)
+
+[Notebook: Backprop](02-Advanced-Learning-Algorithms/code/day25_Backprop.ipynb)
+
+[pdf- How to implement??](02-Advanced-Learning-Algorithms/backpropagation_how.pdf)
+
+*Notes:*
+
+![alt text](02-Advanced-Learning-Algorithms/images/day24_notes.jpg) 
+---
+# Day 24: Backpropagation - Why? Advices for applying machine Learning
+
+Today, I dived into the reasons behind backpropagation's effectiveness in training neural networks. It's not just about adjusting weights; it's the gradients that guide optimization, helping the model minimize error and improve predictions. The backpropagation process makes sure that the error gets distributed in a way that leads to better learning.
+
+*How????*
+- **Gradients**: they ensure efficient error minimization by guiding weight updates.
+- **Optimization**: properly tuned gradients lead to smoother optimization and faster convergence.
+- **Model Evaluation**: evaluating model performance becomes easier with backpropagation because of the systematic error propagation and weight adjustments.
+
+*Notes:*
+
+![alt text](02-Advanced-Learning-Algorithms/images/day25_notes.jpg)
+
+
+---
+# Day 25: Model selection and training/cross validation/test sets
+
+
+
+---
+
 <div id="bottom"></div>
 <div align="right">
   <a href="#top" target="_blank">
