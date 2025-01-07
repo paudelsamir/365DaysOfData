@@ -57,8 +57,7 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 | [Day22](#day-22-activation-functions-softmax) | 2025-01-04 |Activation Functions, Softmax Intution|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day23](#day-23-implementation-of-softmax-regression) | 2025-01-05 |Implementing Softmax|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day24](#day-24-backpropagation---what-and-how-) | 2025-01-06 |Backpropagaton, What and how??|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
-| [Day25](#day-25-backpropagation---why-advices-for-applying-machine-learning) | 2025-01-07 | Backpropagation - Why? Advices for applying machine Learning
-|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
+| [Day25](#day-25-backpropagation---why-advices-for-applying-machine-learning) | 2025-01-07 |Backpropagation - Why? Advices for applying machine Learning|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day26]() | 2025-01-08 |-------------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day27]() | 2025-01-09 |-------------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day28]() | 2025-01-10 |-------------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
