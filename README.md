@@ -504,7 +504,7 @@ Backpropagation example with Neural Network:
 
 ![alt text](02-Advanced-Learning-Algorithms/images/day24_notes.jpg) 
 ---
-# Day 24: Backpropagation - Why? Advices for applying machine Learning
+# Day 25: Backpropagation - Why? Advices for applying machine Learning
 
 Today, I dived into the reasons behind backpropagation's effectiveness in training neural networks. It's not just about adjusting weights; it's the gradients that guide optimization, helping the model minimize error and improve predictions. The backpropagation process makes sure that the error gets distributed in a way that leads to better learning.
 
@@ -519,7 +519,7 @@ Today, I dived into the reasons behind backpropagation's effectiveness in traini
 
 
 ---
-# Day 25: Model selection and training/cross validation/test sets
+# Day 26: Model selection and training/cross validation/test sets
 
 
 
