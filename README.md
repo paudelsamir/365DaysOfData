@@ -522,9 +522,9 @@ Today, I dived into the reasons behind backpropagation's effectiveness in traini
 # Day 26: Model selection and training/cross validation/test sets, Bias and Variance
 
 mnist dataset: Label and our prediction after training
-![alt text](02-Advanced-Learning-Algorithms/images/day25_predictionvslabel.png)
+![alt text](02-Advanced-Learning-Algorithms/images/day26_predictionvslabel.png)
 Errors in our prediction:
-![alt text](02-Advanced-Learning-Algorithms/images/day25_errors_inMNIST.png) 
+![alt text](02-Advanced-Learning-Algorithms/images/day26_errors_inMNIST.png) 
 - the importance of splitting data into training, validation, and test sets 
 cross-validation and its role in hyperparameter tuning.
 - Diagnosing bias and variance with error trends: high bias = underfit, high variance = overfit.
