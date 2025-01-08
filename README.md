@@ -520,8 +520,10 @@ Today, I dived into the reasons behind backpropagation's effectiveness in traini
 
 ---
 # Day 26: Model selection and training/cross validation/test sets
+[Notebook: Practice Lab: Neural Networks for Handwritten Digit Recognition, Multiclass](02-Advanced-Learning-Algorithms/code/day25_NN_multiclass_mnist.ipynb)
 
-
+![alt text](02-Advanced-Learning-Algorithms/images/day25_errors_inMNIST.png) 
+![alt text](02-Advanced-Learning-Algorithms/images/day25_predictionvslabel.png)
 
 ---
 
