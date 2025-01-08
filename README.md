@@ -542,7 +542,7 @@ Notes:
 [Notebook: Model Evaluation and selection](02-Advanced-Learning-Algorithms/code/day26_Model_Evaluation_and_Selection.ipynb)
 
 ---
-# Day 27: 
+
 
 <div id="bottom"></div>
 <div align="right">
