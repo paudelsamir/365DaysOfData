@@ -58,7 +58,7 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 | [Day23](#day-23-implementation-of-softmax-regression) | 2025-01-05 |Implementing Softmax|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day24](#day-24-backpropagation---what-and-how-) | 2025-01-06 |Backpropagaton, What and how??|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day25](#day-25-backpropagation---why-advices-for-applying-machine-learning) | 2025-01-07 |Backpropagation - Why? Advices for applying machine Learning|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
-| [Day26]() | 2025-01-08 |-------------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
+| [Day26](#day-26-model-selection-and-trainingcross-validationtest-sets-bias-and-variance) | 2025-01-08 |Model selection, training test, cross validation, Bias and Variance, Learning curves|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day27]() | 2025-01-09 |-------------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day28]() | 2025-01-10 |-------------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day29]() | 2025-01-11 |-------------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
@@ -519,11 +519,27 @@ Today, I dived into the reasons behind backpropagation's effectiveness in traini
 
 
 ---
-# Day 26: Model selection and training/cross validation/test sets
+# Day 26: Model selection and training/cross validation/test sets, Bias and Variance
+
+mnist dataset: Label and our prediction after training
+![alt text](02-Advanced-Learning-Algorithms/images/day25_predictionvslabel.png)
+Errors in our prediction:
+![alt text](02-Advanced-Learning-Algorithms/images/day25_errors_inMNIST.png) 
+- the importance of splitting data into training, validation, and test sets 
+cross-validation and its role in hyperparameter tuning.
+- Diagnosing bias and variance with error trends: high bias = underfit, high variance = overfit.
+- regulariaztion to handle the tradeoff between bias and variance.
+- how learning curves reveal insights about model performance and whether gathering more data will help.
+![summary of learning algorithm:](02-Advanced-Learning-Algorithms/images/day26_biasandvar_as_regularization.png) ![summary of learning algorithm:](02-Advanced-Learning-Algorithms/images/day26_debugging_learningalgo.png)
+
+Notes: 
+![notes](02-Advanced-Learning-Algorithms/images/day26_notes.jpg)
+
 [Notebook: Practice Lab: Neural Networks for Handwritten Digit Recognition, Multiclass](02-Advanced-Learning-Algorithms/code/day25_NN_multiclass_mnist.ipynb)
 
-![alt text](02-Advanced-Learning-Algorithms/images/day25_errors_inMNIST.png) 
-![alt text](02-Advanced-Learning-Algorithms/images/day25_predictionvslabel.png)
+[Notebook: Diagnosing Bias and Variance](02-Advanced-Learning-Algorithms/code/day26_Diagnosing_Bias_and_Variance.ipynb) 
+
+[Notebook: Model Evaluation and selection](02-Advanced-Learning-Algorithms/code/day26_Model_Evaluation_and_Selection.ipynb)
 
 ---
 
