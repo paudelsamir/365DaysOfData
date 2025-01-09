@@ -59,7 +59,7 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 | [Day24](#day-24-backpropagation---what-and-how-) | 2025-01-06 |Backpropagaton, What and how??|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day25](#day-25-backpropagation---why-advices-for-applying-machine-learning) | 2025-01-07 |Backpropagation - Why? Advices for applying machine Learning|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day26](#day-26-model-selection-and-trainingcross-validationtest-sets-bias-and-variance) | 2025-01-08 |Model selection, training test, cross validation, Bias and Variance, Learning curves|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
-| [Day27]() | 2025-01-09 |-------------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
+| [Day27](#day-27-machine-learning-development-process-ml-workflow) | 2025-01-09 |Machine Learning Development Process, ML workflow|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day28]() | 2025-01-10 |-------------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day29]() | 2025-01-11 |-------------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day30]() | 2025-01-12 |-------------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
@@ -542,6 +542,41 @@ Notes:
 [Notebook: Model Evaluation and selection](02-Advanced-Learning-Algorithms/code/day26_Model_Evaluation_and_Selection.ipynb)
 
 ---
+# Day 27: Machine Learning Development Process, ML workflow
+machine learning development process  
+
+1. ml development is iterative, involving:  
+   - choosing model and data architecture.  
+   - training the model.  
+   - diagnosing bias, variance, and errors.  
+
+![alt text](02-Advanced-Learning-Algorithms/images/day27_fullMLworkflow.png)
+2. error analysis: identify and fix patterns in model failures.  
+3. adding data:  
+   - data augmentation: modify existing data (e.g., distortions).  
+   - data synthesis: create artificial data.  
+4. transfer learning:  
+   - reuse pre-trained models for similar tasks.  
+   - fine-tune them with your own data.  
+  
+
+5. ml projects follow these steps:  
+   - data collection.  
+   - preprocessing.  
+   - modeling.  
+   - evaluation.  
+   - deployment.  
+   ![alt text](02-Advanced-Learning-Algorithms/images/day27_model_deployment.png)
+   - monitoring.  
+
+
+6. ethics and fairness -  
+    ensure ethical use by:  
+   - avoiding biased decisions in loans, jobs, etc.  
+   - preventing harmful applications like deepfakes. 
+
+Notes:
+![Notes](02-Advanced-Learning-Algorithms/images/day27_notes.jpg)
 
 
 <div id="bottom"></div>
@@ -550,3 +585,4 @@ Notes:
     <img src="https://img.shields.io/badge/Back%20to%20top-orange?style=for-the-badge&logo=expo&logoColor=white" style="height: 25px;" />
   </a>
 </div>
+
