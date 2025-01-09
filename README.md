@@ -578,6 +578,8 @@ machine learning development process
 Notes:
 ![Notes](02-Advanced-Learning-Algorithms/images/day27_notes.jpg)
 
+---
+# Day 28: Practical Implementation
 
 <div id="bottom"></div>
 <div align="right">
