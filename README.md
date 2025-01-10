@@ -583,10 +583,10 @@ Notes:
 
 [Notebook: Code Implementation from Scratch](02-Advanced-Learning-Algorithms/code/day28_implementation.ipynb)
 
-- *Confusion Matrix Analysis:* the most frequent error is misclassifying "5" as "3". overall, the error rate is around 8%.
+- *Confusion Matrix Analysis:* the most frequent error is misclassifying 5 as 3. overall, the error rate is around 8%.
 ![alt text](02-Advanced-Learning-Algorithms/images/day28_confusion_matrix_mnist_first.png)
 
-- *Iterations Insight:* after 1000 iterations, the error rate does not decrease significantly, suggesting that 1000 iterations are enough for the model to converge.
+- *Iterations Insight:* after 200 iterations, the error rate does not decrease significantly, suggesting that 200 iterations are enough for the model to converge.
 ![alt text](02-Advanced-Learning-Algorithms/images/day28_error_reduction_with_tuning.png)
 
 - *Data Augmentation Insight:* despite applying data augmentation, there was no improvement in accuracy. this is because the MNIST dataset is already preprocessed, with centered and normalized images, making the augmentation techniques less effective. in general, data augmentation works best when the dataset is smaller or images are not preprocessed.
