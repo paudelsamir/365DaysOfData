@@ -60,7 +60,7 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 | [Day25](#day-25-backpropagation---why-advices-for-applying-machine-learning) | 2025-01-07 |Backpropagation - Why? Advices for applying machine Learning|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day26](#day-26-model-selection-and-trainingcross-validationtest-sets-bias-and-variance) | 2025-01-08 |Model selection, training test, cross validation, Bias and Variance, Learning curves|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day27](#day-27-machine-learning-development-process-ml-workflow) | 2025-01-09 |Machine Learning Development Process, ML workflow|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
-| [Day28]() | 2025-01-10 |-------------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
+| [Day28](#day-28-machine-learning-model-error-analysis-and-transfer-learning) | 2025-01-10 |Implementing ML model: Error Analysis and Transfer Learning|[Notebook: Implementation, ](02-Advanced-Learning-Algorithms/code/day28_implementation.ipynb)[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day29]() | 2025-01-11 |-------------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day30]() | 2025-01-12 |-------------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 
@@ -579,7 +579,29 @@ Notes:
 ![Notes](02-Advanced-Learning-Algorithms/images/day27_notes.jpg)
 
 ---
-# Day 28: Practical Implementation
+# Day 28: Machine Learning Model: Error Analysis and Transfer Learning
+
+[Notebook: Code Implementation from Scratch](02-Advanced-Learning-Algorithms/code/day28_implementation.ipynb)
+
+- *Confusion Matrix Analysis:* the most frequent error is misclassifying "5" as "3". overall, the error rate is around 8%.
+![alt text](02-Advanced-Learning-Algorithms/images/day28_confusion_matrix_mnist_first.png)
+
+- *Iterations Insight:* after 1000 iterations, the error rate does not decrease significantly, suggesting that 1000 iterations are enough for the model to converge.
+![alt text](02-Advanced-Learning-Algorithms/images/day28_error_reduction_with_tuning.png)
+
+- *Data Augmentation Insight:* despite applying data augmentation, there was no improvement in accuracy. this is because the MNIST dataset is already preprocessed, with centered and normalized images, making the augmentation techniques less effective. in general, data augmentation works best when the dataset is smaller or images are not preprocessed.
+![alt text](02-Advanced-Learning-Algorithms/images/day28_model_accuracy_beforeandafter.png)
+
+- *Transfer Learning with MobileNetV2:* 
+  - Training set accuracy improved from 56.95% to 73.02%.
+  - Validation accuracy increased from 70.52% to 74.06%.
+  - Loss decreased consistently for both training and validation sets, signaling better learning and generalization.
+  - The model shows significant improvement over epochs. 
+  - Using transfer learning, the model started with an initial accuracy of 74% (pre-trained on ImageNet). As training progressed, the model continued to adapt, improving with each epoch. transfer learning was effective, yielding good results with fewer epochs.
+![alt text](02-Advanced-Learning-Algorithms/images/day28_transfer_learningimage.png)
+
+---
+# Day 29: 
 
 <div id="bottom"></div>
 <div align="right">
