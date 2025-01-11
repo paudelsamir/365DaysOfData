@@ -603,6 +603,26 @@ Notes:
 ---
 # Day 29: 
 
+[Notebook: Lab week 3: Improving Model ](02-Advanced-Learning-Algorithms/code/day29_improvingML_models.ipynb) 
+
+[Notebook: Error Metrics ](02-Advanced-Learning-Algorithms/code/day29_error_metrics.ipynb)
+### Precision vs. Recall Trade-Off: 
+
+- High Precision:
+Only hire candidates you’re sure are good.
+Result: Fewer bad hires, but you might miss some great ones.
+Example: You hire 5 people, all are good, but you missed 10 other good ones.
+- High Recall:
+Hire as many as possible to ensure no good candidate is missed.
+Result: You catch all great candidates but end up with some bad hires too.
+Example: You hire 50 people, 20 are good, but 30 are bad.
+- When to Focus on Each?
+1. Precision: When mistakes (bad hires) are costly.
+Example: Hiring a brain surgeon.
+
+2. Recall: When missing good candidates is worse.
+Example: Hiring for a customer service team.
+
 <div id="bottom"></div>
 <div align="right">
   <a href="#top" target="_blank">
