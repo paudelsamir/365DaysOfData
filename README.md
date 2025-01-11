@@ -601,7 +601,7 @@ Notes:
 ![alt text](02-Advanced-Learning-Algorithms/images/day28_transfer_learningimage.png)
 
 ---
-# Day 29: 
+# Day 29: Error Metrices, Encoding of Categorical Data, Transoformers
 
 [Notebook: Lab week 3: Improving Model ](02-Advanced-Learning-Algorithms/code/day29_improvingML_models.ipynb) 
 
@@ -622,6 +622,27 @@ Example: Hiring a brain surgeon.
 
 2. Recall: When missing good candidates is worse.
 Example: Hiring for a customer service team.
+
+
+#### Encoding of Categoriical Data:
+
+| **Encoding Type** | **Use When** | **Example** |
+| --- | --- | --- |
+| **Label Encoding** | Small, unordered categories | Colors: `[Red, Blue]` |
+| **Ordinal Encoding** | Ordered categories | Education: `[Low, High]` |
+| **One-Hot Encoding** | Nominal data, fewer unique categories | Days: `[Mon, Tue, Wed]` |
+<br>
+
+#### Types of Transformers: 
+
+| **Transformer** | **Purpose** | **Example Use Case** | **Input** | **Output** |
+| --- | --- | --- | --- | --- |
+| **Column Transformer** | Apply different transformations to different columns (e.g., scaling and encoding). | Scale age and one-hot encode city names. | `Age: [25, 35, 45]`, `City: [NY, LA, CHI]` | `[-1.22, 0, 0, 1]`, `[0, 1, 0, 0]`, `[1.22, 0, 1, 0]` |
+| **Function Transformer** | Apply a mathematical function (e.g., log or sqrt) to all values. | Apply logarithmic transformation to data. | `[1, 10, 100]` | `[0.69, 2.39, 4.61]` |
+| **Power Transformer** | Normalize and reduce skewness in data, making it more Gaussian-like. | Stabilize variance in highly skewed data. | `[1, 10, 100]` | `[-1.22, 0.0, 1.22]` |
+
+---
+# Day 30: 
 
 <div id="bottom"></div>
 <div align="right">
