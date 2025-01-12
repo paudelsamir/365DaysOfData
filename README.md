@@ -61,8 +61,8 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 | [Day26](#day-26-model-selection-and-trainingcross-validationtest-sets-bias-and-variance) | 2025-01-08 |Model selection, training test, cross validation, Bias and Variance, Learning curves|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day27](#day-27-machine-learning-development-process-ml-workflow) | 2025-01-09 |Machine Learning Development Process, ML workflow|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day28](#day-28-machine-learning-model-error-analysis-and-transfer-learning) | 2025-01-10 |Implementing ML model: Error Analysis and Transfer Learning|[Notebook: Implementation, ](02-Advanced-Learning-Algorithms/code/day28_implementation.ipynb)[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
-| [Day29]() | 2025-01-11 |-------------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
-| [Day30]() | 2025-01-12 |-------------------|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
+| [Day29](#day-29-error-metrices-encoding-of-categorical-data-transoformers) | 2025-01-11 |Error Metrices, Encoding of Categorical Data, Transoformers|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) [, CampusX](https://www.youtube.com/watch?v=8osKeShYVRQ&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH&index=65)|
+| [Day30](#day-30-scikit-learn-pipelines--ridge-regression-l2-regularization) | 2025-01-12 | Scikit-Learn Pipelines & Ridge Regression (L2 Regularization) |[Documentation: Scikit-Learn](https://scikit-learn.org/1.5/modules/linear_model.html)  [, CampusX](https://www.youtube.com/watch?v=8osKeShYVRQ&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH&index=65)|
 
 ---
 <br>
@@ -642,7 +642,38 @@ Example: Hiring for a customer service team.
 | **Power Transformer** | Normalize and reduce skewness in data, making it more Gaussian-like. | Stabilize variance in highly skewed data. | `[1, 10, 100]` | `[-1.22, 0.0, 1.22]` |
 
 ---
-# Day 30: 
+# Day 30: Scikit-Learn Pipelines & Ridge Regression (L2 Regularization) 
+
+I explored how to create pipelines in Scikit-learn to streamline the process of combining multiple steps (like preprocessing, model fitting, and regularization) into a single object. This simplifies workflows and ensures reproducibility.
+
+There are three techniques of regularization:
+- Ridge (L2)
+- Lasso (L1)
+- Elastic Net (Combination)
+
+#### Key Understanding of Ridge Regression:
+ 1. How the coefficient Get affected?
+ - Regularization shrinks the coefficients, preventing them from becoming too large, which reduces overfitting.
+ ![alt text](02-Advanced-Learning-Algorithms/images/day30_howcoeff_effected.png)
+ 2. Higher Values are impacted more
+ - The larger the regularization value (alpha), the more the coefficients are reduced.
+ ![alt text](02-Advanced-Learning-Algorithms/images/day30_higher_coeff_effected_more.png)
+ 3. Impact on Bias Variance Tradeoff
+ - Higher regularization increases bias but reduces variance, making the model more generalizable.
+ ![alt text](02-Advanced-Learning-Algorithms/images/day30_impacton_biasvariance.png)
+ 4. Effect on Loss Function
+ - adds a penalty term that limits the magnitude of the coefficients.
+ ![alt text](02-Advanced-Learning-Algorithms/images/day30_effectonlossfunction.png)
+ 5. Why Ridge Regression is called so?
+ - Named after the concept of creating a "ridge" or constraint on the model’s coefficients, preventing them from growing too large.
+
+ <img src='https://explained.ai/regularization/images/lagrange-animation.gif'>
+
+[Notebook: Key Understandings of ridge Regression](02-Advanced-Learning-Algorithms/code/day30_visualizing_ridgeregression_key_understanding.ipynb)
+
+---
+# Day 31: 
+
 
 <div id="bottom"></div>
 <div align="right">
