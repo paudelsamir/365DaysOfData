@@ -684,7 +684,33 @@ There are three techniques of regularization:
 [Notebook: Key Understandings of ridge Regression](02-Advanced-Learning-Algorithms/code/day30_visualizing_ridgeregression_key_understanding.ipynb)
 
 ---
-# Day 31: 
+# Day 31: Lasso Regression (L1 Regularization), Elastic Net Regularization 
+
+#### Lasso Regression:
+1. **How are coefficients affected by λ (alpha)?**
+    As λ increases, regularization strength grows, shrinking less important coefficients to **exactly zero**. Larger λ values lead to feature selection by removing irrelevant features.
+    ![alt text](02-Advanced-Learning-Algorithms/images/day31_howcoeffafected.png)
+    
+2. **Are higher coefficients affected more?**
+    No. Lasso affects **smaller coefficients more**, shrinking them to zero first. Larger coefficients remain relatively unaffected if they contribute significantly to the model.
+    ![alt text](02-Advanced-Learning-Algorithms/images/day31_higher_coeff.png)
+    
+3. **Impact of λ on bias and variance**:
+    - **Higher λ** increases bias (simpler model) and reduces variance.
+    - **Lower λ** reduces bias (complex model) but increases variance.
+    ![alt text](02-Advanced-Learning-Algorithms/images/day31_biasandvariance.png)
+
+4. **Effect of Regularization on Loss Function**:
+    - Lasso add λ sum(w_i) to the loss, promoting sparsity by penalizing the absolute magnitude of coefficients. Unlike Ridge, it can remove features entirely, improving interpretability.
+    ![alt text](02-Advanced-Learning-Algorithms/images/day31_effectofregularizationon_costfunction.png)
+
+#### Elastic Net Regularization:
+Elastic Net combines L1 (Lasso) and L2 (Ridge) penalties. It selects important features by shrinking some coefficients to zero (like Lasso) and handles correlated features by shrinking coefficients without setting them to zero (like Ridge). It’s useful when features are both highly correlated and some are irrelevant. Elastic Net is controlled by two parameters: 
+α (mix of Lasso and Ridge) and 
+λ (regularization strength).
+![alt text](02-Advanced-Learning-Algorithms/images/day31elasticvsridgevslasso.png)
+
+
 
 
 <div id="bottom"></div>
