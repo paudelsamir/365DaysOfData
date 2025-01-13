@@ -63,7 +63,7 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 | [Day28](#day-28-machine-learning-model-error-analysis-and-transfer-learning) | 2025-01-10 |Implementing ML model: Error Analysis and Transfer Learning|[Notebook: Implementation, ](02-Advanced-Learning-Algorithms/code/day28_implementation.ipynb)[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day29](#day-29-error-metrices-encoding-of-categorical-data-transoformers) | 2025-01-11 |Error Metrices, Encoding of Categorical Data, Transoformers|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) [, CampusX](https://www.youtube.com/watch?v=8osKeShYVRQ&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH&index=65)|
 | [Day30](#day-30-scikit-learn-pipelines--ridge-regression-l2-regularization) | 2025-01-12 | Scikit-Learn Pipelines & Ridge Regression (L2 Regularization) |[Documentation: Scikit-Learn](https://scikit-learn.org/1.5/modules/linear_model.html)  [, CampusX](https://www.youtube.com/watch?v=8osKeShYVRQ&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH&index=65)|
-| [Day31](#day-31-lasso-regression-l1-regularization-elastic-net-regularization) | 2025-01-13 |  |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
+| [Day31](#day-31-lasso-regression-l1-regularization-elastic-net-regularization) | 2025-01-13 | Lasso Regression (L1 Regularization), Elastic Net Regularization |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
 | [Day32]() | 2025-01-14 |  |[]() []()|
 | [Day33]() | 2025-01-15 |  |[]() []()|
 | [Day34]() | 2025-01-16 |  |[]() []()|
