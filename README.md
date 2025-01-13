@@ -681,6 +681,10 @@ There are three techniques of regularization:
 
  <img src='https://explained.ai/regularization/images/lagrange-animation.gif'>
 
+Notes:
+![alt text](02-Advanced-Learning-Algorithms/images/day30_notes1.jpg)
+![alt text](02-Advanced-Learning-Algorithms/images/day30_notes2.jpg) 
+
 [Notebook: Key Understandings of ridge Regression](02-Advanced-Learning-Algorithms/code/day30_visualizing_ridgeregression_key_understanding.ipynb)
 
 ---
@@ -710,8 +714,13 @@ Elastic Net combines L1 (Lasso) and L2 (Ridge) penalties. It selects important f
 λ (regularization strength).
 ![alt text](02-Advanced-Learning-Algorithms/images/day31elasticvsridgevslasso.png)
 
+Notes:
+![alt text](02-Advanced-Learning-Algorithms/images/day31_notes.jpg)
 
 
+
+---
+# Day 32: Hyperparameter Tuning
 
 <div id="bottom"></div>
 <div align="right">
