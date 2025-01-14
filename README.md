@@ -720,7 +720,25 @@ Notes:
 
 
 ---
-# Day 32: Hyperparameter Tuning
+# Day 32: Decision Tree: Entropy and Information Gain
+A decision tree is a flowchart-like structure used for classification or regression, where data is split into branches based on conditions until a final decision (leaf) is reached.
+![alt text](02-Advanced-Learning-Algorithms/images/day32_decisiontree.gif)
+
+- Decision Tree on Categorical Variables: Splits data based on categories like "Sunny" or "Rainy".
+- Decision Tree on Numerical Variables: Splits data using thresholds like Age > 30.
+- How Decision Tree Works: Repeatedly splits data into smaller groups based on conditions.
+- Terminology: Root (start), Branch (path), Leaf (decision).
+-  Pro - Simple to understand; Con - Can overfit.
+- Entropy: Measures uncertainty; low entropy = purer data.
+- Entropy Calculation: ```∑ p(x) * log2(p(x)).```
+- Information Gain: Reduction in entropy after splitting data. ``` IG=Entropy(before)−Weighted Entropy(after)``` 
+- Gini Impurity: Measures group purity, faster than entropy.
+- Why Use Gini Over Entropy: Simpler and computationally faster.
+
+Notes;
+![alt text](02-Advanced-Learning-Algorithms/images/day32_notes.jpg)
+---
+# Day 33: 
 
 <div id="bottom"></div>
 <div align="right">
