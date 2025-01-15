@@ -742,6 +742,8 @@ Notes;
 ---
 # Day 33: Hyperparameters of DT with sclearn, Regression Trees:
 
+![alt text](02-Advanced-Learning-Algorithms/images/day33_notes.jpg)
+
 Studied hyperparameters of Decision Trees in Scikit-learn and techniques to handle overfitting and underfitting.
 - Criterion (gini, entropy, log loss): Determines the quality of a split.
 - Splitter: Helps reduce overfitting with better random splits.
@@ -754,12 +756,15 @@ Studied hyperparameters of Decision Trees in Scikit-learn and techniques to hand
 
 A Regression Tree predicts continuous variables by splitting data to minimize variance. The best split is determined by maximizing variance reduction, calculated as the variance of the root node minus the weighted average variance of the leaf nodes.
 
-![alt text](02-Advanced-Learning-Algorithms/images/day33_notes.jpg)
 
 Code:
 ![alt text](02-Advanced-Learning-Algorithms/images/day33_dt_code.png) 
 Output:
 ![alt text](02-Advanced-Learning-Algorithms/images/day33_dt_output.png)
+
+
+---
+# Day 34: 
 
 <div id="bottom"></div>
 <div align="right">
