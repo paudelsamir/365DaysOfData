@@ -737,8 +737,29 @@ A decision tree is a flowchart-like structure used for classification or regress
 
 Notes;
 ![alt text](02-Advanced-Learning-Algorithms/images/day32_notes.jpg)
+
+
 ---
-# Day 33: 
+# Day 33: Hyperparameters of DT with sclearn, Regression Trees:
+
+Studied hyperparameters of Decision Trees in Scikit-learn and techniques to handle overfitting and underfitting.
+- Criterion (gini, entropy, log loss): Determines the quality of a split.
+- Splitter: Helps reduce overfitting with better random splits.
+- Max Depth: Controls tree depth; too high causes overfitting, too low causes underfitting.
+- Min Sample Split: Sets the minimum samples required to split a node.
+- Min Sample Leaf: Sets the minimum samples per leaf.
+- Max Features: Determines how many features to use for splits.
+- Max Leaf Nodes: Limits the number of leaf nodes.
+- Min Impurity Decrease: Controls splitting based on impurity reduction.
+
+A Regression Tree predicts continuous variables by splitting data to minimize variance. The best split is determined by maximizing variance reduction, calculated as the variance of the root node minus the weighted average variance of the leaf nodes.
+
+![alt text](02-Advanced-Learning-Algorithms/images/day33_notes.jpg)
+
+Code:
+![alt text](02-Advanced-Learning-Algorithms/images/day33_dt_code.png) 
+Output:
+![alt text](02-Advanced-Learning-Algorithms/images/day33_dt_output.png)
 
 <div id="bottom"></div>
 <div align="right">
