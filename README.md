@@ -64,10 +64,16 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 | [Day29](#day-29-error-metrices-encoding-of-categorical-data-transoformers) | 2025-01-11 |Error Metrices, Encoding of Categorical Data, Transoformers|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) [, CampusX](https://www.youtube.com/watch?v=8osKeShYVRQ&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH&index=65)|
 | [Day30](#day-30-scikit-learn-pipelines--ridge-regression-l2-regularization) | 2025-01-12 | Scikit-Learn Pipelines & Ridge Regression (L2 Regularization) |[Documentation: Scikit-Learn](https://scikit-learn.org/1.5/modules/linear_model.html)  [, CampusX](https://www.youtube.com/watch?v=8osKeShYVRQ&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH&index=65)|
 | [Day31](#day-31-lasso-regression-l1-regularization-elastic-net-regularization) | 2025-01-13 | Lasso Regression (L1 Regularization), Elastic Net Regularization |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
-| [Day32]() | 2025-01-14 |  |[]() []()|
-| [Day33]() | 2025-01-15 |  |[]() []()|
-| [Day34]() | 2025-01-16 |  |[]() []()|
-| [Day35]() | 2025-01-17 |  |[]() []()|
+| [Day32](#day-32-decision-tree-entropy-and-information-gain) | 2025-01-14 | Decision Tree Emtropy and Information Gain |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
+| [Day33](#day-33-hyperparameters-of-dt-with-sclearn-regression-trees) | 2025-01-15 | Hyperparameters of Decision Tree with Scikit Learn, Regression Trees |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
+| [Day34](#day-34-visualization-using-dtreeviz-ensemble-learning) | 2025-01-16 | Visualization Using DtreeViz, Ensemble Learning |[Github Repo: Dtreeviz, ](https://github.com/parrt/dtreeviz) [ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
+| [Day35]() | 2025-01-17 | ----------------- |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
+| [Day36]() | 2025-01-18 | ----------------- |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
+| [Day37]() | 2025-01-19 | ----------------- |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
+| [Day38]() | 2025-01-20 | ----------------- |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
+| [Day39]() | 2025-01-21 | ----------------- |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
+| [Day40]() | 2025-01-22 | ----------------- |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
+| [Dayxx]() | 2025-01-23 | ----------------- |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
 <!-- | [Day36]() | 2025-01-18 |  |[]() []()|
 | [Day37]() | 2025-01-19 |  |[]() []()|
 | [Day38]() | 2025-01-20 |  |[]() []()|
@@ -764,7 +770,7 @@ Output:
 
 
 ---
-# Day 34: 
+# Day 34: Visualization Using dtreeviz, Ensemble Learning
 
 <div id="bottom"></div>
 <div align="right">
