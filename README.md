@@ -772,7 +772,8 @@ Output:
 ---
 # Day 34: Visualization Using dtreeviz, Ensemble Learning Overview
 
-[Notebook: Visualization of Decision Tree Official](02-Advanced-Learning-Algorithms/code/day34_dtreeviz_sklearn_visualisations.ipynb) [Notebook: Visualization of Decision Tree ](02-Advanced-Learning-Algorithms/code/day34_dtreeviz_sklearn_pipeline_visualisations.ipynb)
+[Notebook: Visualization of Decision Tree Official](02-Advanced-Learning-Algorithms/code/day34_dtreeviz_sklearn_visualisations.ipynb) 
+[Notebook: Visualization of Decision Tree ](02-Advanced-Learning-Algorithms/code/day34_dtreeviz_sklearn_pipeline_visualisations.ipynb)
 
 - started learning about ensemble learning:
 understood the concept of "wisdom of the crowd" in ensemble methods.
