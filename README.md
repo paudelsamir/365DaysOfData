@@ -65,8 +65,8 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 | [Day30](#day-30-scikit-learn-pipelines--ridge-regression-l2-regularization) | 2025-01-12 | Scikit-Learn Pipelines & Ridge Regression (L2 Regularization) |[Documentation: Scikit-Learn](https://scikit-learn.org/1.5/modules/linear_model.html)  [, CampusX](https://www.youtube.com/watch?v=8osKeShYVRQ&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH&index=65)|
 | [Day31](#day-31-lasso-regression-l1-regularization-elastic-net-regularization) | 2025-01-13 | Lasso Regression (L1 Regularization), Elastic Net Regularization |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
 | [Day32](#day-32-decision-tree-entropy-and-information-gain) | 2025-01-14 | Decision Tree Emtropy and Information Gain |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
-| [Day33](#day-33-hyperparameters-of-dt-with-sclearn-regression-trees) | 2025-01-15 | Hyperparameters of Decision Tree with Scikit Learn, Regression Trees |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
-| [Day34](#day-34-visualization-using-dtreeviz-ensemble-learning) | 2025-01-16 | Visualization Using DtreeViz, Ensemble Learning |[Github Repo: Dtreeviz, ](https://github.com/parrt/dtreeviz) [ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
+| [Day33](#day-33-hyperparameters-of-dt-with-sclearn-regression-trees) | 2025-01-15 | Hyperparameters of Decision Tree with Scikit Learn, Regression Trees |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH) [, Visualize Yourself>>](https://decisiontreeclassifier.streamlit.app/)|
+| [Day34](#day-34-visualization-using-dtreeviz-ensemble-learning-overview) | 2025-01-16 | Visualization Using DtreeViz(), Ensemble Learning |[Github Repo: Dtreeviz, ](https://github.com/parrt/dtreeviz) [ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
 | [Day35]() | 2025-01-17 | ----------------- |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
 | [Day36]() | 2025-01-18 | ----------------- |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
 | [Day37]() | 2025-01-19 | ----------------- |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
@@ -770,7 +770,18 @@ Output:
 
 
 ---
-# Day 34: Visualization Using dtreeviz, Ensemble Learning
+# Day 34: Visualization Using dtreeviz, Ensemble Learning Overview
+
+- started learning about ensemble learning:
+understood the concept of "wisdom of the crowd" in ensemble methods.
+types of ensemble methods: voting, bagging, boosting, and stacking.
+overview of random forest and bootstrapped aggregation (bagging).
+learned how boosting adjusts predictions iteratively.
+
+Visuals of Bagging, boosting and stacking:
+![Notes](02-Advanced-Learning-Algorithms/images/day34_bagging-boosting-stacking.webp) 
+Notes;
+![Notes](02-Advanced-Learning-Algorithms/images/day34_notes.jpg)
 
 <div id="bottom"></div>
 <div align="right">
