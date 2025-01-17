@@ -796,7 +796,6 @@ Notes;
 
 - Hard voting: majority wins, logistic regression predicts "fraud," random forest predicts "not fraud," and svm predicts "fraud" → final prediction: "fraud."
 
-Visualize voting classifier here: [link](https://votingclassifier.streamlit.app/)
 
 
 Conclusions from [Notebook: voting Classifier](02-Advanced-Learning-Algorithms/code/day35_votingClassifier.ipynb)
@@ -824,9 +823,29 @@ What to use? soft voting or hard voting, depends if possible use both and then t
 ![alt text](02-Advanced-Learning-Algorithms/images/day35_hard_voting.png) ![alt text](02-Advanced-Learning-Algorithms/images/day35_soft_voting.png)
 
 #### Regression:
+- voting regressor combines multiple regression models to predict continuous values.
 
+similarly, in regression, soft voting averages continuous predictions, and weighted voting helps models with higher performance contribute more.
 
+![Voting regressor:](02-Advanced-Learning-Algorithms/images/day35_voting_regressor.png)
 
+Visualize voting regression here: [link](https://votingclassifier.streamlit.app/)
+
+``` python
+voting_reg = VotingRegressor(
+    estimators=[
+        ('lr', lin_reg),  # linear regression: good for linear relationships
+        ('rf', rand_forest_reg),  # random forest regressor: handles non-linear patterns
+        ('svr', svr_clf)  # support vector regressor: captures complex relationships
+    ],
+    weights=[2, 1, 1],  # assigns higher importance to linear regression
+    n_jobs=-1  # enables parallel processing for faster training
+)
+
+```
+
+---
+# Day 36: 
 
 <div id="bottom"></div>
 <div align="right">
