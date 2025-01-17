@@ -786,6 +786,48 @@ Visuals of Bagging, boosting and stacking:
 Notes;
 ![Notes](02-Advanced-Learning-Algorithms/images/day34_notes.jpg)
 
+
+---
+# Day 35: Voting Ensemble > Classification and Regression
+
+- Soft voting: logistic regression: 60% fraud, random forest: 80% fraud, svm: 40% fraud 
+→ final probability: (60% + 80% + 40%) / 3 = 60%. 
+![alt text](02-Advanced-Learning-Algorithms/images/day35_Voting.jpg)
+
+- Hard voting: majority wins, logistic regression predicts "fraud," random forest predicts "not fraud," and svm predicts "fraud" → final prediction: "fraud."
+
+Visualize voting classifier here: [link](https://votingclassifier.streamlit.app/)
+
+
+Conclusions from [Notebook: voting Classifier](02-Advanced-Learning-Algorithms/code/day35_votingClassifier.ipynb)
+
+- weighted voting: assigning weights to classifiers helps emphasize stronger models, further improving performance.
+
+- same algorithm, different hyperparameters: tweaking hyperparameters (e.g., kernel degree in SVM) can lead to significant accuracy changes, highlighting the value of hyperparameter optimization.
+#### Classification:
+```python
+
+voting_clf = VotingClassifier(
+    estimators=[
+        ('lr', log_reg),  # logistic regression: good for linear patterns
+        ('rf', rand_forest),  # random forest: captures complex relationships
+        ('svc', svm_clf)  # support vector machine: handles edge cases
+    ],
+    voting='soft',  # averages probabilities from all models for final prediction
+    weights=[2, 1, 1],  # gives higher importance to logistic regression
+    n_jobs=-1  # enables parallel processing for faster training
+)
+
+
+```
+What to use? soft voting or hard voting, depends if possible use both and then try to find out:
+![alt text](02-Advanced-Learning-Algorithms/images/day35_hard_voting.png) ![alt text](02-Advanced-Learning-Algorithms/images/day35_soft_voting.png)
+
+#### Regression:
+
+
+
+
 <div id="bottom"></div>
 <div align="right">
   <a href="#top" target="_blank">
