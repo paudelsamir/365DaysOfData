@@ -851,7 +851,7 @@ voting_reg = VotingRegressor(
 
 - Intution: 
 
-![alt text](02-Advanced-Learning-Algorithms/images/day36_bagging.gif)
+    ![alt text](02-Advanced-Learning-Algorithms/images/day36_bagging.gif)
     - random sampling: create multiple datasets by sampling with replacement from the original dataset.
     - train independently: train a model (single preferred) on each bootstrapped dataset (e.g., decision trees).
     - combine predictions: aggregate their predictions by majority voting (classification) or averaging (regression).
