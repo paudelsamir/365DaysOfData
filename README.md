@@ -850,12 +850,13 @@ voting_reg = VotingRegressor(
 - bagging (bootstrap aggregating) is an ensemble learning technique that combines predictions from multiple models trained on different subsets of the data (created via bootstrapping) to improve accuracy and reduce variance.
 
 - Intution: 
+
 ![alt text](02-Advanced-Learning-Algorithms/images/day36_bagging.gif)
     - random sampling: create multiple datasets by sampling with replacement from the original dataset.
     - train independently: train a model (single preferred) on each bootstrapped dataset (e.g., decision trees).
     - combine predictions: aggregate their predictions by majority voting (classification) or averaging (regression).
     this reduces overfitting and increases stability, especially for high-variance models.
-    
+
 [Notebook: Bagging Intution](02-Advanced-Learning-Algorithms/code/day36_bagging_demo.ipynb)
 
 #### Classification:
