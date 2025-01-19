@@ -911,6 +911,7 @@ Sampling Techniques:
 [Notebook Random Forest](02-Advanced-Learning-Algorithms/code/day37_RandomForest.ipynb)
 
 #### Random Forest vs bagging:
+![alt text](02-Advanced-Learning-Algorithms/images/day37_notes.jpg)
 
 [Notebook: Random forest Vs bagging](02-Advanced-Learning-Algorithms/code/day37_randomForestVsBagging.ipynb)
 
