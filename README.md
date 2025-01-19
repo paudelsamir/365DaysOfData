@@ -898,6 +898,50 @@ bagging_model = BaggingRegressor(
 
 ```
 
+---
+# Day 37: Random Forest: Intution, Working and difference with bagging, Random Forest Hyperparameters
+
+random forest is like a bunch of decision trees making a group decision. each tree gets a vote on the outcome, and the most votes win. it's like asking a bunch of experts for advice and going with the majority.
+
+Sampling Techniques:
+- row sampling
+- column sampling
+- combination
+
+[Notebook Random Forest](02-Advanced-Learning-Algorithms/code/day37_RandomForest.ipynb)
+
+#### Random Forest vs bagging:
+
+[Notebook: Random forest Vs bagging](02-Advanced-Learning-Algorithms/code/day37_randomForestVsBagging.ipynb)
+
+#### Random forest Hyperparameters:
+``` python
+
+model = RandomForestClassifier(
+    # core hyperparameters
+    n_estimators=100,         # number of decision trees in the forest
+    max_features="sqrt",      # max features to consider at each split
+    max_depth=None,           # max depth of each tree; None = grow fully
+    min_samples_split=2,      # min samples needed to split a node
+    min_samples_leaf=1,       # min samples required in a leaf node
+    bootstrap=True,           # with replacement or without replacement
+
+    # advanced hyperparameters
+    max_leaf_nodes=None,      # max number of leaf nodes per tree; None = unlimited
+    min_weight_fraction_leaf=0.0,  # min fraction of total weight for a leaf node
+    class_weight=None,        # weights for handling class imbalance (e.g., 'balanced')
+    ccp_alpha=0.0,            # complexity parameter for pruning; trade-off between size and accuracy
+    criterion="gini",         # metric to evaluate splits: "gini" (default) or "entropy"
+    warm_start=False,         # reuse previous trees for incremental training; False = train from scratch
+    oob_score=False,          # whether to use out-of-bag samples to estimate generalization accuracy
+    verbose=0,                # verbosity of output (0 = silent)
+    n_jobs=-1,                # number of CPU cores for parallel processing; -1 = use all cores
+    random_state=42           # seed for reproducibility
+)
+
+```
+
+
 <div id="bottom"></div>
 <div align="right">
   <a href="#top" target="_blank">
