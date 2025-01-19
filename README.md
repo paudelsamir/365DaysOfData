@@ -911,6 +911,11 @@ Sampling Techniques:
 [Notebook Random Forest](02-Advanced-Learning-Algorithms/code/day37_RandomForest.ipynb)
 
 #### Random Forest vs bagging:
+
+- why random forest performs well: it reduces overfitting by averaging multiple decision trees trained on different random subsets of data and features, improving accuracy and robustness.
+
+- random forest vs bagging: both use multiple trees, but random forest adds feature randomness at each split, making trees less correlated and boosting performance.
+
 ![alt text](02-Advanced-Learning-Algorithms/images/day37_notes.jpg)
 
 [Notebook: Random forest Vs bagging](02-Advanced-Learning-Algorithms/code/day37_randomForestVsBagging.ipynb)
