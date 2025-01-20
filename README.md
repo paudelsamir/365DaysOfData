@@ -953,6 +953,9 @@ model = RandomForestClassifier(
 combines weak learners (like decision stumps) to create a strong predictive model.
 ![Boosting](02-Advanced-Learning-Algorithms/images/day38_boosting.png)
 
+Notes:
+![alt text](02-Advanced-Learning-Algorithms/images/day38_notes.jpg)
+
 #### AdaBoost Exploration:
 
 step-by-step understanding of adaboost’s workflow, including:
