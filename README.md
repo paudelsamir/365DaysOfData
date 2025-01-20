@@ -946,7 +946,25 @@ model = RandomForestClassifier(
 )
 
 ```
+---
+# Day 38: Boosting Ensemble: Adaboost Boosting
 
+- boosting is a sequential ensemble learning method where models correct the errors of previous models to reduce bias.
+combines weak learners (like decision stumps) to create a strong predictive model.
+![Boosting](02-Advanced-Learning-Algorithms/images/day38_boosting.png)
+
+#### AdaBoost Exploration:
+
+step-by-step understanding of adaboost’s workflow, including:
+- calculating sample weights and weak learner errors.
+- updating model contributions based on performance.
+- final prediction via weighted majority vote.
+- visualized how adaboost focuses on difficult samples.
+
+implemented adaboost from scratch without using sklearn.
+![Adaboost from scratch](02-Advanced-Learning-Algorithms/images/day38_adaboostfromscratch.gif)
+
+[Notebook: Adaboost Implementation](02-Advanced-Learning-Algorithms/code/day38_adaboost_from_scratch.ipynb)
 
 <div id="bottom"></div>
 <div align="right">
