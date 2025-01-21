@@ -1010,6 +1010,7 @@ new prediction = old prediction + (learning_rate × residual)
 ```
 
 Notes:
+![alt text](02-Advanced-Learning-Algorithms/images/day39_notes.jpg)
 
 
 ---
