@@ -969,6 +969,52 @@ implemented adaboost from scratch without using sklearn.
 
 [Notebook: Adaboost Implementation](02-Advanced-Learning-Algorithms/code/day38_adaboost_from_scratch.ipynb)
 
+
+---
+# Day 39: Understanding GradientBoosting with Regression:
+
+ "a model that learns step-by-step by fixing the mistakes of the previous model."
+ ![Algorithm:](02-Advanced-Learning-Algorithms/images/day39_gradient_boost_algorithm.png)
+ ![alt text](02-Advanced-Learning-Algorithms/images/day39_gradient_boosting.png)
+
+- Comparision between Adaboost and Gradietn boost:
+![alt text](02-Advanced-Learning-Algorithms/images/day39_adaboost_vs_gradientboost.jpg)
+
+
+ > boosting + gradients (gradients = direction to minimize error).
+
+``` 
+pseudo-  residual = actual - predicted
+new prediction = old prediction + (learning_rate × residual)
+```
+
+
+- Practice:  [Notebook: gradient boosting regressor using scikit learn](02-Advanced-Learning-Algorithms/code/day39_gradient_boosting_regressor.ipynb)
+
+#### gradient boosting variations:
+- xgboost: uses regularization and handles missing data efficiently.
+- lightgbm: faster with large datasets.
+- catboost: great for categorical data.
+
+```python
+    gb = GradientBoostingRegressor(
+        n_estimators=100,      # number of trees
+        learning_rate=0.1,     # step size for updates
+        max_depth=3,           # depth of each tree
+        min_samples_split=2,   # min samples to split a node
+        min_samples_leaf=1,    # min samples per leaf
+        subsample=1.0,         # fraction of samples per tree
+        max_features=None,     # use all features
+        random_state=42        # ensures reproducibility
+    )
+```
+
+Notes:
+
+
+---
+# Day 40: Understanding Gradient Boosting with Classification:
+
 <div id="bottom"></div>
 <div align="right">
   <a href="#top" target="_blank">
