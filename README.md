@@ -1015,6 +1015,48 @@ Notes:
 
 ---
 # Day 40: Understanding Gradient Boosting with Classification:
+# Day 40: Gradient Boosting with Classification
+
+## Overview
+- Gradient boosting improves classification by minimizing log-loss iteratively.
+- Each tree focuses on correcting errors made by previous trees.
+- Uses gradients of the loss function to guide updates.
+
+#### Algorithm
+1. Initialize predictions: `F0(x)` (log-odds for classification).
+2. For each iteration:
+   - Compute pseudo-residuals:  
+     `ri = - ∂(loss) / ∂F(xi)`
+   - Fit a weak learner (tree) to `ri`.
+   - Update predictions:  
+     `F(x) = F(x) + η * h(x)`  
+     where `η` is the learning rate.
+
+#### Loss Function
+- Binary classification: log-loss.  
+  `Loss = -[y log(p) + (1 - y) log(1 - p)]`
+- Multiclass classification: softmax loss.
+```python
+gb = GradientBoostingClassifier(
+    n_estimators=100,
+    learning_rate=0.1,
+    max_depth=3,
+    random_state=42
+)
+```
+
+Notes:
+![alt text](02-Advanced-Learning-Algorithms/images/day40_notes.jpg)
+
+[Notebook: Gradient Boosting Classification](02-Advanced-Learning-Algorithms/code/day40_gradient_boosting_classification.ipynb)
+
+Visuals:
+![Visualizations](02-Advanced-Learning-Algorithms/images/day40_geometric_intution1.png)
+![Visualizations](02-Advanced-Learning-Algorithms/images/day40_geometric_intution2.png) 
+
+
+---
+# Day 41: 
 
 <div id="bottom"></div>
 <div align="right">
