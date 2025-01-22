@@ -72,7 +72,7 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 | [Day37]() | 2025-01-19 | ----------------- |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
 | [Day38]() | 2025-01-20 | ----------------- |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
 | [Day39]() | 2025-01-21 | ----------------- |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
-| [Day40]() | 2025-01-22 | ----------------- |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
+| [Day40]() | 2025-01-22 | ----------------- |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH) [, Vlog Link](https://towardsdatascience.com/all-you-need-to-know-about-gradient-boosting-algorithm-part-2-classification-d3ed8f56541e)|
 | [Dayxx]() | 2025-01-23 | ----------------- |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
 <!-- | [Day36]() | 2025-01-18 |  |[]() []()|
 | [Day37]() | 2025-01-19 |  |[]() []()|
@@ -1014,7 +1014,6 @@ Notes:
 
 
 ---
-# Day 40: Understanding Gradient Boosting with Classification:
 # Day 40: Gradient Boosting with Classification
 
 ## Overview
@@ -1049,6 +1048,8 @@ Notes:
 ![alt text](02-Advanced-Learning-Algorithms/images/day40_notes.jpg)
 
 [Notebook: Gradient Boosting Classification](02-Advanced-Learning-Algorithms/code/day40_gradient_boosting_classification.ipynb)
+
+[Blog Link](https://towardsdatascience.com/all-you-need-to-know-about-gradient-boosting-algorithm-part-2-classification-d3ed8f56541e)
 
 Visuals:
 ![Visualizations](02-Advanced-Learning-Algorithms/images/day40_geometric_intution1.png)
