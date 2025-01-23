@@ -1095,7 +1095,8 @@ here's a quick rundown of what i've learned so far.
     - tree pruning helps reduce tree size after training, improving the model’s performance on unseen data.
 
 
-
+---
+# Day 42:
 
 <div id="bottom"></div>
 <div align="right">
