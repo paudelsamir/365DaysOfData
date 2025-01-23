@@ -68,12 +68,17 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 | [Day33](#day-33-hyperparameters-of-dt-with-sclearn-regression-trees) | 2025-01-15 | Hyperparameters of Decision Tree with Scikit Learn, Regression Trees |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH) [, Visualize Yourself>>](https://decisiontreeclassifier.streamlit.app/)|
 | [Day34](#day-34-visualization-using-dtreeviz-ensemble-learning-overview) | 2025-01-16 | Visualization Using DtreeViz(), Ensemble Learning |[Github Repo: Dtreeviz, ](https://github.com/parrt/dtreeviz) [ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
 | [Day35](#day-35-voting-ensemble--classification-and-regression) | 2025-01-17 | Voting Ensemble >> Classification and Regression |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH) [, Visualize Yourself](https://votingclassifier.streamlit.app/)|
-| [Day36]() | 2025-01-18 | ----------------- |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
-| [Day37]() | 2025-01-19 | ----------------- |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
-| [Day38]() | 2025-01-20 | ----------------- |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
-| [Day39]() | 2025-01-21 | ----------------- |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
-| [Day40]() | 2025-01-22 | ----------------- |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH) [, Vlog Link](https://towardsdatascience.com/all-you-need-to-know-about-gradient-boosting-algorithm-part-2-classification-d3ed8f56541e)|
-| [Dayxx]() | 2025-01-23 | ----------------- |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
+| [Day36](#day-36-bagging-ensemble--classification-and-regression) | 2025-01-18 |  Bagging Ensemble > Classification and Regression |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
+| [Day37](#day-37-random-forest-intution-working-and-difference-with-bagging-random-forest-hyperparameters) | 2025-01-19 | Random Forest: Intution, Working and difference with bagging, Random Forest Hyperparameters |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
+| [Day38](#day-38-boosting-ensemble-adaboost-boosting) | 2025-01-20 |  Boosting Ensemble: Adaboost Boosting |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
+| [Day39](#day-39-understanding-gradientboosting-with-regression) | 2025-01-21 |  Understanding GradientBoosting with Regression |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
+| [Day40](#day-40-gradient-boosting-with-classification) | 2025-01-22 | Gradient Boosting with Classification|[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH) [, Vlog Link](https://towardsdatascience.com/all-you-need-to-know-about-gradient-boosting-algorithm-part-2-classification-d3ed8f56541e)|
+| [Day41]() | 2025-01-23 | ----------------- |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
+| [Day42]() | 2025-01-24 | ----------------- |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
+| [Day43]() | 2025-01-25 | ----------------- |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
+| [Day44]() | 2025-01-26 | ----------------- |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
+| [Day45]() | 2025-01-27 | ----------------- |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
+| [Dayxx]() | 2025-01-28 | ----------------- |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
 <!-- | [Day36]() | 2025-01-18 |  |[]() []()|
 | [Day37]() | 2025-01-19 |  |[]() []()|
 | [Day38]() | 2025-01-20 |  |[]() []()|
