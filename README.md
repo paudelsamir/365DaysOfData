@@ -73,8 +73,8 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 | [Day38](#day-38-boosting-ensemble-adaboost-boosting) | 2025-01-20 |  Boosting Ensemble: Adaboost Boosting |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
 | [Day39](#day-39-understanding-gradientboosting-with-regression) | 2025-01-21 |  Understanding GradientBoosting with Regression |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
 | [Day40](#day-40-gradient-boosting-with-classification) | 2025-01-22 | Gradient Boosting with Classification|[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH) [, Vlog Link](https://towardsdatascience.com/all-you-need-to-know-about-gradient-boosting-algorithm-part-2-classification-d3ed8f56541e)|
-| [Day41]() | 2025-01-23 | ----------------- |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
-| [Day42]() | 2025-01-24 | ----------------- |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
+| [Day41](#day-41-variations-of-gradient-boosting-xgboost---introduction) | 2025-01-23 | XGboost Introduction |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
+| [Day42](#day-42-xgboost-for-regression-and-classification-catboost-vs-xgboost-vs-lightgbm) | 2025-01-24 | XGBoost for Regression and Classification, Catboost Vs XGboost Vs LightGBM |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH) [,Research Paper](https://www.kdd.org/kdd2016/papers/files/rfp0697-chenAemb.pdf)|
 | [Day43]() | 2025-01-25 | ----------------- |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
 | [Day44]() | 2025-01-26 | ----------------- |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
 | [Day45]() | 2025-01-27 | ----------------- |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
@@ -1096,7 +1096,7 @@ here's a quick rundown of what i've learned so far.
 
 
 ---
-# Day 42:
+# Day 42: XGBoost for Regression and Classification, Catboost Vs XGboost Vs LightGBM
 
 Notes on what i explored:
 ![Notes](02-Advanced-Learning-Algorithms/images/day42_notes1.jpg) 
