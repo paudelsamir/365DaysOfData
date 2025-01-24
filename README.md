@@ -1117,7 +1117,7 @@ newer versions: native support for categorical features—no encoding needed.
 
 
 #### Catboost Vs LightGBM Vs XGBoost:
-![alt text](image-1.png)
+![alt text](02-Advanced-Learning-Algorithms/images/day42_catboostVsLightGbmvsXGboost.png)
 - **categorical features**
     - **catboost** handles them natively—no encoding needed.
     - **lightgbm/xgboost** require encoding, but xgboost supports label encoding in newer versions.
