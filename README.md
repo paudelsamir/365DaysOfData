@@ -1135,7 +1135,8 @@ newer versions: native support for categorical features—no encoding needed.
     - **lightgbm**: large datasets where speed and memory are critical.
     - **xgboost**: general-purpose, robust across various dataset types.
 
-
+---
+# Day 43: 
 <div id="bottom"></div>
 <div align="right">
   <a href="#top" target="_blank">
