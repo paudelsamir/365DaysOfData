@@ -1098,6 +1098,44 @@ here's a quick rundown of what i've learned so far.
 ---
 # Day 42:
 
+Notes on what i explored:
+![Notes](02-Advanced-Learning-Algorithms/images/day42_notes1.jpg) 
+![Notes](02-Advanced-Learning-Algorithms/images/day42_notes2.jpg) 
+![Notes](02-Advanced-Learning-Algorithms/images/day42_notes3.jpg)
+
+
+1. What if we have two or more than two features?
+We can scan all features , and do all possible splits for all features, then we will calculate gain and similarity score , and select feature which has max gain, algo use greedy search
+
+2. What if multiple feature and second feature is categorical (like binary: yes/no, male/female or muticlass: colors)?
+You have to encode them using OHE or other. or use othre variants of GDboost. idenntify unique values in catagorical columns , and consider both as a potential split point ., then calculate gain and similarity scores ., and select with maximum gain .
+
+2. What if the feature is binary categorical or multiclass categorical?
+older versions: encode them (e.g., one-hot, label, or target encoding).
+newer versions: native support for categorical features—no encoding needed.
+
+
+
+#### Catboost Vs LightGBM Vs XGBoost:
+![alt text](image-1.png)
+- **categorical features**
+    - **catboost** handles them natively—no encoding needed.
+    - **lightgbm/xgboost** require encoding, but xgboost supports label encoding in newer versions.
+- **speed**
+    - **lightgbm** is the fastest, especially for large datasets.
+    - **catboost** is slower but optimized for small/mid datasets.
+    - **xgboost** is slower than both due to its exhaustive computations.
+- **memory usage**
+    - **lightgbm** uses the least memory.
+    - **catboost** and **xgboost** consume more, especially xgboost for large datasets.
+- **overfitting prevention**
+    - all three handle overfitting well, but **catboost** excels in datasets prone to overfitting due to ordered boosting.
+- **use case**
+    - **catboost**: small/mid datasets with many categorical features.
+    - **lightgbm**: large datasets where speed and memory are critical.
+    - **xgboost**: general-purpose, robust across various dataset types.
+
+
 <div id="bottom"></div>
 <div align="right">
   <a href="#top" target="_blank">
