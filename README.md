@@ -1136,7 +1136,90 @@ newer versions: native support for categorical features—no encoding needed.
     - **xgboost**: general-purpose, robust across various dataset types.
 
 ---
-# Day 43: 
+# Day 43: Stacking Ensemble: Understanding Blending and K-fold methods
+~ blending: splits the data into a training set and a holdout set to train base models and then a meta-model on the predictions of the base models.~
+
+~ k-fold stacking: uses cross-validation to generate predictions for the meta-model by training base models on different training folds and predicting on the validation fold.
+~
+
+![Notes:](02-Advanced-Learning-Algorithms/images/day43_notes.jpg) 
+![Notes:](02-Advanced-Learning-Algorithms/images/day43_notes2.jpg)
+
+#### !Hyperparameters Tuning:
+- identify hyperparameters:
+for decision trees: max_depth, min_samples_split, etc.
+for neural networks: learning rate, batch size, number of layers, etc.
+- choose a tuning method:
+grid search: try every combination of parameters (computationally expensive).
+random search: test random combinations (faster).
+bayesian optimization: automatically find the best parameters using probabilistic methods.
+automated tuning: libraries like optuna or hyperopt.
+- cross-validate:
+use k-fold cross-validation to test parameter combinations.
+- pick the best:
+finalize hyperparameters that minimize error metrics or maximize accuracy.
+![alt text](02-Advanced-Learning-Algorithms/images/day43_hyperparameter_and_models.png)
+
+#### 1. manual tuning
+
+- tweak hyperparameters based on experience or trial-and-error.
+- works for simple models but not scalable.
+
+#### 2. grid search
+
+- systematically tests all combinations of hyperparameter values.
+- pros: exhaustive, finds the best combo (if time permits).
+- cons: computationally expensive, impractical for large spaces.
+- example:
+    
+    ```python
+    from sklearn.model_selection import GridSearchCV
+    param_grid = {'max_depth': [3, 5, 10], 'min_samples_split': [2, 5, 10]}
+    grid_search = GridSearchCV(DecisionTreeClassifier(), param_grid, cv=5)
+    grid_search.fit(X_train, y_train)
+    print(grid_search.best_params_)
+    
+    ```
+    
+
+#### 3. random search
+
+- samples random combinations of hyperparameters.
+- pros: faster, effective for large search spaces.
+- cons: might miss optimal combinations.
+- example:
+    
+    ```python
+    from sklearn.model_selection import RandomizedSearchCV
+    from scipy.stats import randint
+    param_dist = {'max_depth': randint(3, 20), 'min_samples_split': randint(2, 20)}
+    random_search = RandomizedSearchCV(DecisionTreeClassifier(), param_dist, n_iter=100, cv=5)
+    random_search.fit(X_train, y_train)
+    print(random_search.best_params_)
+    
+    ```
+
+#### 4. bayesian optimization
+
+- predicts the best hyperparameters using probabilistic models (e.g., Gaussian processes).
+- pros: efficient in high-dimensional spaces.
+- cons: complex implementation.
+- libraries: `Optuna`, `Hyperopt`, `BayesSearchCV`.
+
+#### 5. evolutionary algorithms
+
+- optimizes hyperparameters using natural selection (e.g., genetic algorithms).
+- library: `TPOT`.
+
+#### 6. automated tools
+
+- `auto-sklearn`: automates model selection + hyperparameter tuning.
+- `H2O.ai`: distributed hyperparameter tuning.
+- `Optuna`: fast, user-friendly library for hyperparameter search.
+
+[Link to the blogpost](https://www.analytixlabs.co.in/blog/what-are-hyperparameters/#What_is_a_Hyperparameter)
+
+
 <div id="bottom"></div>
 <div align="right">
   <a href="#top" target="_blank">
