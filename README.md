@@ -1219,6 +1219,41 @@ finalize hyperparameters that minimize error metrics or maximize accuracy.
 
 [Link to the blogpost](https://www.analytixlabs.co.in/blog/what-are-hyperparameters/#What_is_a_Hyperparameter)
 
+---
+# Day 44: K Nearest Neighbor, Coding KNN from scratch and applying on different datasets:
+Predictions are based on the majority vote (classification) or average (regression) of the K closest data points in the training set.
+
+#### **Step-by-Step Workflow**:
+
+1. **Choose K**: Number of neighbors to consider.
+2. **Calculate Distance**:
+    - Common metrics: **Euclidean** (default), Manhattan, or Minkowski.
+3. **Find K Nearest Neighbors**: Identify the K points closest to the query.
+4. **Make Prediction**:
+    - **Classification**: Majority class among neighbors.
+    - **Regression**: Average value of neighbors.
+
+#### **3. Choosing the Right K**
+
+- **Small K** (e.g., K=1): High variance, sensitive to noise (overfitting).
+- **Large K** (e.g., K=50): High bias, smoother boundaries (underfitting).
+- **Rule of Thumb**: Start with K=n*K*=*n* (where n*n* = number of samples) or use **cross-validation**.
+
+Overfitting and Underfitting:
+![alt text](02-Advanced-Learning-Algorithms/images/day44_fitting.png) 
+![alt text](02-Advanced-Learning-Algorithms/images/day44_overfits.png)
+
+Code of KNN using Python:
+![alt text](02-Advanced-Learning-Algorithms/images/day44_KNNclass.png) 
+
+Finally After Hyperparameter tuning, KNN models imporves for California House price prediction:
+![alt text](02-Advanced-Learning-Algorithms/images/day44_california_house_prediction_hyperparam_tuuning.png) 
+
+Notes:
+![Notes:](02-Advanced-Learning-Algorithms/images/day44_notes.jpg)
+
+---
+# Day 45: 
 
 <div id="bottom"></div>
 <div align="right">
