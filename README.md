@@ -1271,7 +1271,7 @@ Key Idea: Maximize the margin (distance between the hyperplane and the nearest d
 - **kernel trick**: useful when the data isn’t linearly separable. it projects data into a higher dimension to make it separable.
     - **example**: in handwriting recognition, svm can map curvy letters into a higher space to separate them more easily.
 
-Notes:
+More Notes like optimization regularization:
 ![Notes](02-Advanced-Learning-Algorithms/images/day45_notes.jpg)
 
 
