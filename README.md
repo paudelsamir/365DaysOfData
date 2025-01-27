@@ -1253,7 +1253,26 @@ Notes:
 ![Notes:](02-Advanced-Learning-Algorithms/images/day44_notes.jpg)
 
 ---
-# Day 45: 
+# Day 45: Support Vector Machines:
+
+1. What is SVM?
+Goal: SVM finds the "best" hyperplane to separate data into classes.
+
+Key Idea: Maximize the margin (distance between the hyperplane and the nearest data points, called support vectors).
+
+- svm helps classify data by finding the best dividing line (hyperplane).
+- **support vectors**: closest points to the line that influence its position. kind of like the apples and oranges closest to the ruler.
+- **margin**: the gap between the line and the nearest points. svm tries to make this as wide as possible for better separation.
+    ![Svm](02-Advanced-Learning-Algorithms/images/day45_svm.png)
+- **hard margin svm**: works only when data is clean and separable. not great for noisy or messy data.
+    - **example**: classifying perfectly labeled "cat" vs. "dog" images where there’s no overlap.
+- **soft margin svm**: allows some mistakes for better flexibility with noisy/overlapping data.
+    - **example**: separating spam and non-spam emails, where some emails are hard to classify.
+- **kernel trick**: useful when the data isn’t linearly separable. it projects data into a higher dimension to make it separable.
+    - **example**: in handwriting recognition, svm can map curvy letters into a higher space to separate them more easily.
+
+Notes:
+![Notes](02-Advanced-Learning-Algorithms/images/day45_notes.jpg)
 
 <div id="bottom"></div>
 <div align="right">
