@@ -1274,6 +1274,9 @@ Key Idea: Maximize the margin (distance between the hyperplane and the nearest d
 Notes:
 ![Notes](02-Advanced-Learning-Algorithms/images/day45_notes.jpg)
 
+
+---
+# Day 46: 
 <div id="bottom"></div>
 <div align="right">
   <a href="#top" target="_blank">
