@@ -1276,7 +1276,98 @@ More Notes like optimization regularization:
 
 
 ---
-# Day 46: 
+# Day 46: K-Means Clustering, DBSCAN
+
+## K-Means (centeroid based):
+
+#### **Algorithm Steps**
+
+1. Initialize Centroids: Randomly select **K data points** as initial centroids(Can lead to suboptimal clusters.) (or use **k-means++**(Distributes initial centroids to improve stability and speed) for smarter initialization).
+2. Assign Points to Clusters: For each data point, compute the **Euclidean distance- used by default** to all centroids. Assign the point to the **nearest centroid**.
+3. Recalculate Centroids: Compute the **mean** of all points in each cluster to update centroids.
+4. Repeat: Reassign points and update centroids until:
+    - Centroids stabilize (change < tolerance threshold).
+    - Maximum iterations are reached.
+
+![Kmeans](02-Advanced-Learning-Algorithms/images/day46_Kmeans_algo.gif)
+
+#### **Applications**
+- Customer Segmentation
+- Image Compression
+- Document Clustering
+
+
+``` python
+from sklearn.cluster import KMeans
+from sklearn.preprocessing import StandardScaler
+
+# Preprocess data
+scaler = StandardScaler()
+X_scaled = scaler.fit_transform(X)
+
+# Fit K-means
+kmeans = KMeans(n_clusters=3, init='k-means++', n_init=10)
+kmeans.fit(X_scaled)
+
+# Get labels and centroids
+labels = kmeans.labels_
+centroids = scaler.inverse_transform(kmeans.cluster_centers_)
+```
+
+
+#### Choosing the Optimal K
+
+1. Elbow Method: Plot inertia vs. K; the "elbow" (point where inertia decline slows) suggests optimal K.
+2. Silhouette Score: Measures how similar a point is to its cluster vs others. Higher score (closer to 1) = better clustering.
+3. Domain Knowledge: Use prior understanding of the data to guide K selection (e.g., customer segments in marketing).
+
+[Notebook: K-Means clustering Demo](02-Advanced-Learning-Algorithms/code/day46_kmeans-clustering-demo.ipynb)
+
+*One limitation of K-means is that you must specify the number of clusters beforehand.*
+
+## DBSCAN (density based clustering)
+[Visualize: DBSCAN here](https://www.naftaliharris.com/blog/visualizing-dbscan-clustering/)
+
+![Why DBSCAN](02-Advanced-Learning-Algorithms/images/day46_whyDBSCAN.png)
+
+[Notebook: DBSCAN demo](02-Advanced-Learning-Algorithms/code/day46_dbscan_demo.ipynb)
+
+Groups data into density-based clusters (arbitrary shapes) and flags outliers.
+
+- Core Point: Has ≥ `min_samples` neighbors within radius `eps`.
+- Border Point: In a core point’s neighborhood but lacks enough neighbors.
+- Noise: Neither core nor border.
+![alt text](02-Advanced-Learning-Algorithms/images/day46_corebordernoise.png)
+
+- `eps`: Use a k-distance plot (k = `min_samples`) to find the “knee” for optimal ε.
+- `min_samples`: Start with `2 * data dimensions` (adjust for noise tolerance).
+
+
+#### Steps
+
+1. Pick Parameters: `eps` (radius) and `min_samples` (density threshold).
+2. Expand Clusters:
+    - For each unvisited point, check if it’s a core point (enough neighbors in `eps`).
+    - If yes, form a cluster by adding all density-reachable points (core neighbors + their neighbors).
+    - Mark non-core reachable points as border.
+3. Label Noise: Points not assigned to any cluster.
+
+
+
+| **Strengths** | **Weaknesses** |  |
+| --- | --- | --- |
+| Finds **any cluster shape** | Struggles with **varying densities** |  |
+| **No need for K** | Sensitive to **ε and min_samples** |  |
+| **Robust to outliers** | Poor performance in **high dimensions** |  |
+
+
+#### When to Use?
+
+- Data has noise or complex shapes (e.g., geospatial data, anomaly detection).
+![dbscan vs k means](02-Advanced-Learning-Algorithms/images/day46_dbscan_vs_kmeans.png)
+- Avoid if clusters have highly varying densities (use HDBSCAN instead).
+
+---
 <div id="bottom"></div>
 <div align="right">
   <a href="#top" target="_blank">
