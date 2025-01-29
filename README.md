@@ -1368,6 +1368,9 @@ Groups data into density-based clusters (arbitrary shapes) and flags outliers
 - Avoid if clusters have highly varying densities (use HDBSCAN instead).
 
 ---
+# Day 47: Revising K-Means with Andrew NG
+
+
 <div id="bottom"></div>
 <div align="right">
   <a href="#top" target="_blank">
