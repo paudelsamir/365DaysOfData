@@ -9,10 +9,6 @@
 
 ![cover](./resources/images/cover.png)
 
-
-> Before starting this challenge, I built [**intermediate proficiency**](https://github.com/paudelsamir/python-mastery) in **Python** through practice and [**EDA projects**](https://github.com/paudelsamir/EDA-Projects). I also spent a month exploring **Data Science**, logging my progress in the [**30DaysOfData**](https://github.com/paudelsamir/30DaysOfData-LearningUtsav) repository. With a solid foundation in Statistics and Mathematics, I’m excited to embark on this journey. Let’s begin!
-<br>
-
 I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/in/paudelsamir/).
 
 <div align="right">
