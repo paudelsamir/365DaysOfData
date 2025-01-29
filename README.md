@@ -1364,7 +1364,42 @@ Groups data into density-based clusters (arbitrary shapes) and flags outliers
 - Avoid if clusters have highly varying densities (use HDBSCAN instead).
 
 ---
-# Day 47: Revising K-Means with Andrew NG
+# Day 47: Hierarchical clustering, Silhouette score
+
+#### Hierarchical Clustering
+Hierarchical clustering builds a tree-like hierarchy (*dendrogram* - a tree diagram showing how clusters merge/split. height shows the distance of merging, and cutting at a height defines the number of clusters.) of clusters. Two main approaches:
+![alt text](03-Unsupervised-Learning-And-Reinforcement-Learning/images/day47_hierarchical_clustering.png)
+1. Agglomerative (Given below): Start with each point as its own cluster, iteratively merge closest clusters.
+2. Divisive (Reverse of Agglomerative): Start with all points in one cluster, recursively split into smaller clusters.
+
+#### Agglomerative Clustering Steps:
+1. Initialize: Treat each data point as a singleton cluster.
+2. Compute Distance Matrix: Measure pairwise distances (e.g., Euclidean, Manhattan).
+3. Merge Clusters: Combine the two closest clusters; update the distance matrix.
+4. Repeat: Continue merging until one cluster remains.
+
+| **Pros** | **Cons** |
+| --- | --- |
+| No need to specify cluster count upfront | Computationally heavy (*O(n³)* time, *O(n²)* space) |
+| Dendrograms aid visualization | Sensitive to noise/outliers |
+| Works well for small/mid-sized data | Merges are irreversible (local optima) |
+
+#### Linkage Criteria
+Defines how distances between clusters are calculated:
+- Single Linkage: Minimum distance between clusters (prone to "chaining").
+- Complete Linkage: Maximum distance (creates compact clusters).
+- Average Linkage: Average distance between all pairs.
+![alt text](03-Unsupervised-Learning-And-Reinforcement-Learning/images/day47_linkage_criteria.png)
+- Ward’s Method: Minimizes variance when merging (minimizes total within-cluster variance).
+
+
+#### Silhouette Score
+A metric to evaluate clustering quality by measuring how similar a data point is to its own cluster (cohesion) compared to other clusters (separation).
+![silhouettescore](03-Unsupervised-Learning-And-Reinforcement-Learning/images/day47_silhouettescore.png)
+
+- Range:  −1 (poor clustering) to  +1 (well-defined clusters).
+
+![Notes](03-Unsupervised-Learning-And-Reinforcement-Learning/images/day47_notes.jpg)
 
 
 <div id="bottom"></div>
