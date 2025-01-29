@@ -29,7 +29,7 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 # Progress
 | Days | Date               | Topics                      | Resources    |
 |------|--------------------|-----------------------------|--------------|
-| [Day1](#day-01-basics-of-linear-algebra) |2024ᚑ12ᚑ14 | Setting Up + Basics of Linear Algebra  | [3blue1brown](https://www.3blue1brown.com/topics/linear-algebra) |
+| [Day1](#day-01-basics-of-linear-algebra) |2024ᚑ12ᚑ14 |Basics of Linear Algebra  | [3blue1brown](https://www.3blue1brown.com/topics/linear-algebra) |
 | [Day2](#day-02-decomposition-derivation-integration-and-gradient-descent) | 2024-12-15 | Decomposition, Derivation, Integration, and Gradient Descent | [3blue1brown](https://www.3blue1brown.com/topics/calculus) |
 | [Day3](#day-03-supervised-machine-learning-regression-and-classificaiton) | 2024-12-16 |Supervised Learning, Regression and classification|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
 | [Day4](#day-04-unsupervised-learning-clustering-dimensionality-reduction) | 2024-12-17 |Unsupervised Learning: Clustering and dimensionality reduction|[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) |
@@ -71,10 +71,10 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 | [Day40](#day-40-gradient-boosting-with-classification) | 2025-01-22 | Gradient Boosting with Classification|[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH) [, Vlog Link](https://towardsdatascience.com/all-you-need-to-know-about-gradient-boosting-algorithm-part-2-classification-d3ed8f56541e)|
 | [Day41](#day-41-variations-of-gradient-boosting-xgboost---introduction) | 2025-01-23 | XGboost Introduction |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
 | [Day42](#day-42-xgboost-for-regression-and-classification-catboost-vs-xgboost-vs-lightgbm) | 2025-01-24 | XGBoost for Regression and Classification, Catboost Vs XGboost Vs LightGBM |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH) [,Research Paper](https://www.kdd.org/kdd2016/papers/files/rfp0697-chenAemb.pdf)|
-| [Day43]() | 2025-01-25 | ----------------- |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
-| [Day44]() | 2025-01-26 | ----------------- |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
-| [Day45]() | 2025-01-27 | ----------------- |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
-| [Dayxx]() | 2025-01-28 | ----------------- |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
+| [Day43](#day-43-stacking-ensemble-understanding-blending-and-k-fold-methods) | 2025-01-25 | Stacking Ensemble, Understanding Blending and K fold |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
+| [Day44](#day-44-k-nearest-neighbor-coding-knn-from-scratch-and-applying-on-different-datasets) | 2025-01-26 | K-Nearest Neighbor, Coding KNN from Scratch |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
+| [Day45](#day-45-support-vector-machines) | 2025-01-27 | Support Vector Machine  |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
+| [Dayxx](#day-46-k-means-clustering-dbscan) | 2025-01-28 | Clustering: K-Means and DBSCAN |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
 <!-- | [Day36]() | 2025-01-18 |  |[]() []()|
 | [Day37]() | 2025-01-19 |  |[]() []()|
 | [Day38]() | 2025-01-20 |  |[]() []()|
