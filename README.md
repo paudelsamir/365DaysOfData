@@ -74,7 +74,7 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 | [Day43](#day-43-stacking-ensemble-understanding-blending-and-k-fold-methods) | 2025-01-25 | Stacking Ensemble, Understanding Blending and K fold |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
 | [Day44](#day-44-k-nearest-neighbor-coding-knn-from-scratch-and-applying-on-different-datasets) | 2025-01-26 | K-Nearest Neighbor, Coding KNN from Scratch |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
 | [Day45](#day-45-support-vector-machines) | 2025-01-27 | Support Vector Machine  |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
-| [Dayxx](#day-46-k-means-clustering-dbscan) | 2025-01-28 | Clustering: K-Means and DBSCAN |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
+| [Day46](#day-46-k-means-clustering-dbscan) | 2025-01-28 | Clustering: K-Means and DBSCAN |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
 <!-- | [Day36]() | 2025-01-18 |  |[]() []()|
 | [Day37]() | 2025-01-19 |  |[]() []()|
 | [Day38]() | 2025-01-20 |  |[]() []()|
