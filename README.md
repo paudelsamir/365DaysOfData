@@ -1368,7 +1368,7 @@ Groups data into density-based clusters (arbitrary shapes) and flags outliers
 
 #### Hierarchical Clustering
 Hierarchical clustering builds a tree-like hierarchy (*dendrogram* - a tree diagram showing how clusters merge/split. height shows the distance of merging, and cutting at a height defines the number of clusters.) of clusters. Two main approaches:
-![alt text](03-Unsupervised-Learning-And-Reinforcement-Learning/images/day47_hierarchical_clustering.png)
+![alt text](03-Unsupervised-Learning-And-Reinforcement-Learning/images/day47_hierarchcal.gif)
 1. Agglomerative (Given below): Start with each point as its own cluster, iteratively merge closest clusters.
 2. Divisive (Reverse of Agglomerative): Start with all points in one cluster, recursively split into smaller clusters.
 
