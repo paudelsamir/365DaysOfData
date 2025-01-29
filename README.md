@@ -1328,16 +1328,16 @@ centroids = scaler.inverse_transform(kmeans.cluster_centers_)
 ## DBSCAN (density based clustering)
 [Visualize: DBSCAN here](https://www.naftaliharris.com/blog/visualizing-dbscan-clustering/)
 
-![Why DBSCAN](02-Advanced-Learning-Algorithms/images/day46_whyDBSCAN.png)
+![Why DBSCAN](03-Unsupervised-Learning-Recommenders-Reinforcement-Learning/images/day46_whyDBSCAN.png)
 
-[Notebook: DBSCAN demo](02-Advanced-Learning-Algorithms/code/day46_dbscan_demo.ipynb)
+[Notebook: DBSCAN demo](03-Unsupervised-Learning-Recommenders-Reinforcement-Learning/code/day46_dbscan_demo.ipynb)
 
 Groups data into density-based clusters (arbitrary shapes) and flags outliers.
 
 - Core Point: Has ≥ `min_samples` neighbors within radius `eps`.
 - Border Point: In a core point’s neighborhood but lacks enough neighbors.
 - Noise: Neither core nor border.
-![alt text](02-Advanced-Learning-Algorithms/images/day46_corebordernoise.png)
+![alt text](03-Unsupervised-Learning-Recommenders-Reinforcement-Learning/images/day46_corebordernoise.png)
 
 - `eps`: Use a k-distance plot (k = `min_samples`) to find the “knee” for optimal ε.
 - `min_samples`: Start with `2 * data dimensions` (adjust for noise tolerance).
@@ -1364,7 +1364,7 @@ Groups data into density-based clusters (arbitrary shapes) and flags outliers
 #### When to Use?
 
 - Data has noise or complex shapes (e.g., geospatial data, anomaly detection).
-![dbscan vs k means](02-Advanced-Learning-Algorithms/images/day46_dbscan_vs_kmeans.png)
+![dbscan vs k means](./03-Unsupervised-Learning-Recommenders-Reinforcement-Learning/images/day46_dbscan_vs_kmeans.png)
 - Avoid if clusters have highly varying densities (use HDBSCAN instead).
 
 ---
