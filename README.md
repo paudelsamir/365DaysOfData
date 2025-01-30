@@ -1401,6 +1401,24 @@ A metric to evaluate clustering quality by measuring how similar a data point is
 
 ![Notes](03-Unsupervised-Learning-And-Reinforcement-Learning/images/day47_notes.jpg)
 
+---
+# Day 48: Dimensionality Reduction
+
+Reduces the number of features in data while retaining meaningful patterns, addressing noise, computational cost, and visualization. Methods are hierarchically grouped into feature selection (keeping relevant features) and feature extraction (creating new features).
+
+Dimensionality Redduction Hierarchy:
+![alt text](03-Unsupervised-Learning-And-Reinforcement-Learning/images/day48_hierarchy_DR.png)
+Feature Selection:
+![alt text](03-Unsupervised-Learning-And-Reinforcement-Learning/images/day48_feature_selection.png) 
+
+
+Dimensionality Reduction of a Data:
+![alt text](03-Unsupervised-Learning-And-Reinforcement-Learning/images/day48_dimensionality_reduction_of_data.png) 
+
+- Curse of Dimensionality: The curse of dimensionality refers to the challenges and inefficiencies that arise when analyzing data in high-dimensional spaces, such as sparsity, computational complexity, and loss of meaningful patterns.
+
+![alt text](03-Unsupervised-Learning-And-Reinforcement-Learning/images/day48_curseofdimensionality.png)
+fig: As the dimensionality of data increases, the feature space becomes sparser, and the data is easier to separate. This is the curse of dimensionality in a nutshell.
 
 <div id="bottom"></div>
 <div align="right">
