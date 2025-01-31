@@ -1420,6 +1420,41 @@ Dimensionality Reduction of a Data:
 ![alt text](03-Unsupervised-Learning-And-Reinforcement-Learning/images/day48_curseofdimensionality.png)
 fig: As the dimensionality of data increases, the feature space becomes sparser, and the data is easier to separate. This is the curse of dimensionality in a nutshell.
 
+![Notes: ](03-Unsupervised-Learning-And-Reinforcement-Learning/images/day48_notes.jpg)
+---
+# Day 49: PCA (Principle Component analysis), Implementing with MNIST dataset
+
+Goal: reduce dimensions while preserving maximum variance.
+
+fig: pca projecting 2d data into 1d pc.
+![project illustration](03-Unsupervised-Learning-And-Reinforcement-Learning/images/day49_PCA_Projection_Illustration.gif)
+
+Example: Reducing 10D data to 2D → Use top 2 eigenvectors (highest eigenvalues).
+#### Key Concepts
+- Variance: Spread of data along a feature.
+- Covariance: Measures how two variables vary together.
+- Eigenvectors: Directions of maximum variance (principal components).
+- Eigenvalues: Magnitude of variance along eigenvectors.
+- Transformation: Project data onto new axes (eigenvectors) to reduce dimensions.
+
+ #### Steps →
+![Steps PCA](03-Unsupervised-Learning-And-Reinforcement-Learning/images/day49_steps_pca.png)
+
+How to choose the Optimal PC??
+- select the optimal number of pcs by checking the cumulative explained variance, aiming to retain 90%-95% of the total variance, or by using the elbow method on the explained variance plot where additional pcs add minimal value
+![alt text](03-Unsupervised-Learning-And-Reinforcement-Learning/images/day49_choosing_best_pc.png)
+Notes: 
+![Notes](03-Unsupervised-Learning-And-Reinforcement-Learning/images/day49_notes.jpg)
+
+#### Visualizing MNIST dataset on 2D and 3D:
+![alt text](03-Unsupervised-Learning-And-Reinforcement-Learning/images/day49_mnist_dataset_2d.png) 
+![alt text](03-Unsupervised-Learning-And-Reinforcement-Learning/images/day49_mnist_dataset_3d.png)
+
+[Notebook: Applying PCA on MNIST dataset](03-Unsupervised-Learning-And-Reinforcement-Learning/code/day49_pca_on_mnist.ipynb)
+
+Conclusion: 
+With about 100 PCs, our model predicts an accuracy of approximately 96%. In comparison, other models like KNN predict around 97% because KNN can capture more complex patterns in the data.
+
 <div id="bottom"></div>
 <div align="right">
   <a href="#top" target="_blank">
