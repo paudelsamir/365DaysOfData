@@ -74,14 +74,20 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 | [Day43](#day-43-stacking-ensemble-understanding-blending-and-k-fold-methods) | 2025-01-25 | Stacking Ensemble, Understanding Blending and K fold |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
 | [Day44](#day-44-k-nearest-neighbor-coding-knn-from-scratch-and-applying-on-different-datasets) | 2025-01-26 | K-Nearest Neighbor, Coding KNN from Scratch |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
 | [Day45](#day-45-support-vector-machines) | 2025-01-27 | Support Vector Machine  |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
-| [Day46](#day-46-k-means-clustering-dbscan) | 2025-01-28 | Clustering: K-Means and DBSCAN |[ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)|
-<!-- | [Day36]() | 2025-01-18 |  |[]() []()|
-| [Day37]() | 2025-01-19 |  |[]() []()|
-| [Day38]() | 2025-01-20 |  |[]() []()|
-| [Day39]() | 2025-01-21 |  |[]() []()|
-| [Day40]() | 2025-01-22 |  |[]() []()| -->
-
-
+| [Day47](#day-47-hierarchical-clustering-silhouette-score) | 2025-01-29 | Hierarchical Clustering, Silhouette Score | [Kaggle](https://www.kaggle.com/) |
+| [Day48](#day-48-dimensionality-reduction) | 2025-01-30 | Dimensionality Reduction, Curse of Dimensionality | [Kris Naik, ](https://www.youtube.com/watch?v=H99JRtDDnvk&t=2248s), [Medium](https://medium.com/analytics-vidhya/understanding-dimensional-reduction-321d4f1f770d) |
+| [Day49](#day-49-pca-principle-component-analysis-implementing-with-mnist-dataset) | 2025-01-31 | PCA (Principle Component Analysis), Implementing with MNIST dataset | [Kaggle, ](https://www.kaggle.com/code/jonathankristanto/experimenting-with-pca-on-mnist-dataset) [ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH) [, Code](03-Unsupervised-Learning-And-Reinforcement-Learning/code/day49_pca_on_mnist.ipynb) |
+| [Day50]() | 2025-02-01 | ---------------- | ------------------ |
+| [Day51]() | 2025-02-02 | ---------------- | ------------------ |
+| [Day52]() | 2025-02-03 | ---------------- | ------------------ |
+| [Day53]() | 2025-02-04 | ---------------- | ------------------ |
+| [Day54]() | 2025-02-05 | ---------------- | ------------------ |
+| [Day55]() | 2025-02-06 | ---------------- | ------------------ |
+| [Day56]() | 2025-02-07 | ---------------- | ------------------ |
+| [Day57]() | 2025-02-08 | ---------------- | ------------------ |
+| [Day58]() | 2025-02-09 | ---------------- | ------------------ |
+| [Day59]() | 2025-02-10 | ---------------- | ------------------ |
+| [Day60]() | 2025-02-11 | ---------------- | ------------------ |
 
 ---
 <br>
@@ -1455,6 +1461,8 @@ Notes:
 Conclusion: 
 With about 100 PCs, our model predicts an accuracy of approximately 96%. In comparison, other models like KNN predict around 97% because KNN can capture more complex patterns in the data.
 
+---
+# Day 50: 
 <div id="bottom"></div>
 <div align="right">
   <a href="#top" target="_blank">
