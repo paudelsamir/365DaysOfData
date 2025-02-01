@@ -1462,8 +1462,44 @@ Notes:
 Conclusion: 
 With about 100 PCs, our model predicts an accuracy of approximately 96%. In comparison, other models like KNN predict around 97% because KNN can capture more complex patterns in the data.
 
+
+# Day 50: Visualizing and Comparing PCA, t-SNE, UMAP, and LDA + Revision with the course ML specialization:
+
+Today was a bit hectic as I tried to understand and visualize various dimensionality reduction techniques. Here's a summary of my learnings and comparisons:
+
+### Final Thoughts
+- **t-SNE**: Captures local similarities well but sometimes distorts the global structure.
+    ![t-SNE Visuals](03-Unsupervised-Learning-And-Reinforcement-Learning/images/day50_t-SNE_visuals.gif)
+- **UMAP**: Faster than t-SNE and preserves both local and global relationships better.
+- **LDA**: Supervised technique, works best when class separation is important.
+
+### Comparisons
+![Comparisons](03-Unsupervised-Learning-And-Reinforcement-Learning/images/day50_comparisions_pcs_tsne_umap_lda.png)
+
+We explored four dimensionality reduction techniques for data visualization: PCA, t-SNE, UMAP, and LDA. We used them to visualize a high-dimensional dataset in 2D and 3D plots.
+
+**Note**: It's easy to fall into the trap of considering one technique better than the other. At the end of the day, there's no perfect way to map high-dimensional data into low dimensions while preserving the entire structure. There's always a trade-off in the qualities each technique offers.
+
+### Resources
+- [Notebook: 3D Visualizations of PCA, t-SNE, UMAP, LDA](03-Unsupervised-Learning-And-Reinforcement-Learning/code/day50_pca_tsne_umap_lda_visualization.ipynb)
+- [Article: Dimensionality Reduction for Data Visualization: PCA vs t-SNE vs UMAP](https://medium.com/towards-data-science/dimensionality-reduction-for-data-visualization-pca-vs-tsne-vs-umap-be4aa7b1cb29)
+
+
+
+The learning is so hectic today, so I decided to revise the concepts we studied today with the help of Andrew NG. Here's the revision:
+
+1. What is clustering?
+    - Clustering is grouping data points into clusters where points in the same cluster are more similar to each other than to those in other clusters.
+2. K-means?
+    - K-means is a clustering algorithm that partitions data into K clusters by minimizing the distance between data points and their respective cluster centroids.
+3. optimization objective?
+    - The goal is to minimize the sum of squared distances between data points and their nearest cluster centroid.
+4. Lab?? done// [Notebook: Lab Assignment](03-Unsupervised-Learning-And-Reinforcement-Learning/code/day50_C3_W1_KMeans_Assignment.ipynb)
+
+
 ---
-# Day 50: 
+# Day 51: Anomaly Detection
+
 <div id="bottom"></div>
 <div align="right">
   <a href="#top" target="_blank">
