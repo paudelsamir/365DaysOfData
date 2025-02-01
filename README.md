@@ -19,10 +19,10 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 
 
 # Resources
-| Books & Resources  | Completion Status |
+| Books & Courses  | Completion Status |
 |--------------------|-------------------|
-| [Machine Learning Specialization @Coursera](https://www.coursera.org/specializations/machine-learning-introduction) | 🏊 |
-| [100 Days ML @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH) | 🏊 |
+| [Machine Learning Specialization @Coursera](https://www.coursera.org/specializations/machine-learning-introduction) | ⌛ |
+| [100 Days ML @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH) | ✅ |
 <!-- | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/yanshengjia/ml-road/blob/master/resources/Hands%20On%20Machine%20Learning%20with%20Scikit%20Learn%20and%20TensorFlow.pdf)| 🏊 |  -->
 
 
@@ -1506,4 +1506,16 @@ The learning is so hectic today, so I decided to revise the concepts we studied 
     <img src="https://img.shields.io/badge/Back%20to%20top-orange?style=for-the-badge&logo=expo&logoColor=white" style="height: 25px;" />
   </a>
 </div>
+
+<!-- 
+### Helping Hands
+- [Kris Naik - YouTube](https://www.youtube.com/channel/UCNU_lfiiWBdtULKOw6X0Dig)
+- [Statquest - YouTube](https://www.youtube.com/c/joshstarmer)
+- [GitHub Repos](https://github.com/paudelsamir?tab=stars)
+- [Medium Articles](https://medium.com/)
+- [Machine Learning Mastery](https://machinelearningmastery.com/)
+- [Kaggle Datasets - Glossary](https://www.kaggle.com/code/shivamb/data-science-glossary-on-kaggle)
+- [Arxiv.org](https://arxiv.org/)
+ -->
+
 
