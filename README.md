@@ -1484,6 +1484,13 @@ We explored four dimensionality reduction techniques for data visualization: PCA
 - [Notebook: 3D Visualizations of PCA, t-SNE, UMAP, LDA](03-Unsupervised-Learning-And-Reinforcement-Learning/code/day50_pca_tsne_umap_lda_visualization.ipynb)
 - [Article: Dimensionality Reduction for Data Visualization: PCA vs t-SNE vs UMAP](https://medium.com/towards-data-science/dimensionality-reduction-for-data-visualization-pca-vs-tsne-vs-umap-be4aa7b1cb29)
 
+#### **Comparison of Results on MNIST**
+
+| **Technique** | **Local Structure** | **Global Structure** | **Supervised?** | **Example Result** |
+| --- | --- | --- | --- | --- |
+| t-SNE | Preserved | Not preserved | No | Tight clusters of "2"s and "7"s, but arbitrary spacing between clusters. |
+| UMAP | Preserved | Partially preserved | No | Tight clusters of "2"s and "7"s, with meaningful spacing between clusters. |
+| LDA | Preserved | Preserved (class separation) | Yes | Distinct groups for each digit, optimized for classification. |
 
 
 The learning is so hectic today, so I decided to revise the concepts we studied today with the help of Andrew NG. Here's the revision:
@@ -1499,6 +1506,7 @@ The learning is so hectic today, so I decided to revise the concepts we studied 
 
 ---
 # Day 51: Anomaly Detection
+
 
 <div id="bottom"></div>
 <div align="right">
