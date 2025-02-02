@@ -1505,8 +1505,40 @@ The learning is so hectic today, so I decided to revise the concepts we studied 
 
 
 ---
-# Day 51: Anomaly Detection
+# Day 51: Anomaly Detection:
 
+#### What is Anomaly Detection?
+
+- Identifying rare data points (anomalies) that deviate significantly from the majority of the data.
+- Fraud detection, system failure prediction, intrusion detection, healthcare monitoring.
+![alt text](03-Unsupervised-Learning-And-Reinforcement-Learning/images/day51_anomaly_detection_example.png)
+
+#### Approaches for Anomaly Detection:
+
+- Gaussian Distribution: Flag data points outside ±3σ (99.7% of data).
+![alt text](03-Unsupervised-Learning-And-Reinforcement-Learning/images/day51_gaussian_distribution.png)
+- Z-Score: Z=(x−μ)σ*Z*=*σ*(*x*−*μ*); if ∣Z∣>3∣*Z*∣>3, mark as anomaly.
+1. Unsupervised:
+    - Clustering (K-means, DBSCAN): Anomalies lie far from cluster centers.
+    - Isolation Forest: Randomly splits data; anomalies are easier to isolate.
+    - Autoencoders: Neural networks that reconstruct input. High reconstruction error = anomaly.
+
+### Evaluation Metrics
+- Precision: % of detected anomalies that are real.
+- Recall: % of true anomalies detected.
+- F1-Score: Harmonic mean of precision and recall.
+- ROC-AUC: Measures trade-off between TPR (recall) and FPR.
+
+#### Choose Algorithm:
+- Small data? Use statistical methods (Z-score).
+- Large data? Try Isolation Forest or Autoencoders.
+
+### Notes:
+![alt text](03-Unsupervised-Learning-And-Reinforcement-Learning/images/day51_density_estimation.png)
+![alt text](03-Unsupervised-Learning-And-Reinforcement-Learning/images/day51_classified_anomalies.png)
+- Assuming data is normally distributed.
+- Ignoring temporal/spatial context (e.g., seasonal trends).
+- Not updating models as data evolves.
 
 <div id="bottom"></div>
 <div align="right">
