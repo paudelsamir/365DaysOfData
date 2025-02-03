@@ -80,7 +80,6 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 | [Day50](#day-50-visualizing-and-comparing-pca-t-sne-umap-and-lda--revision-with-the-course-ml-specialization) | 2025-02-01 | Visualizing and Comparing PCA, t-SNE, UMAP, and LDA + Revision with the course ML specialization | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day51](#day-51-anomaly-detection) | 2025-02-02 | Anomaly Detection |[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)[, Notebook: Anomaly Detection](03-Unsupervised-Learning-And-Reinforcement-Learning/code/day51_anomaly_detection.ipynb) |
 | [Day52](#day-52-collaborative-filtering) | 2025-02-03 | Collaborative Filtering |[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
- |
 | [Day53]() | 2025-02-04 | ---------------- | ------------------ |
 | [Day54]() | 2025-02-05 | ---------------- | ------------------ |
 | [Day55]() | 2025-02-06 | ---------------- | ------------------ |
