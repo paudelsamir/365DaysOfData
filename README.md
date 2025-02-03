@@ -21,9 +21,9 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 # Resources
 | Books & Courses  | Completion Status |
 |--------------------|-------------------|
-| [Machine Learning Specialization @Coursera](https://www.coursera.org/specializations/machine-learning-introduction) | ⌛ |
+| [Machine Learning Specialization @Coursera](https://www.coursera.org/specializations/machine-learning-introduction) | ✅ |
 | [100 Days ML @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH) | ✅ |
-<!-- | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/yanshengjia/ml-road/blob/master/resources/Hands%20On%20Machine%20Learning%20with%20Scikit%20Learn%20and%20TensorFlow.pdf)| 🏊 |  -->
+<!-- | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/yanshengjia/ml-road/blob/master/resources/Hands%20On%20Machine%20Learning%20with%20Scikit%20Learn%20and%20TensorFlow.pdf)| 🏊⌛|  -->
 
 
 # Progress
@@ -77,10 +77,10 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 | [Day46](#day-46-k-means-clustering-dbscan) | 2025-01-28 | K-Means Clustering, DBSCAN | [Notebook: K-Means clustering Demo](02-Advanced-Learning-Algorithms/code/day46_kmeans-clustering-demo.ipynb) [, Notebook: DBSCAN demo](02-Advanced-Learning-Algorithms/code/day46_dbscan_demo.ipynb) |
 | [Day47](#day-47-hierarchical-clustering-silhouette-score) | 2025-01-29 | Hierarchical Clustering, Silhouette Score | [Kaggle, ](https://www.kaggle.com/) [ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH) |
 | [Day48](#day-48-dimensionality-reduction) | 2025-01-30 | Dimensionality Reduction, Curse of Dimensionality | [Kris Naik, ](https://www.youtube.com/watch?v=H99JRtDDnvk&t=2248s) [Medium](https://medium.com/analytics-vidhya/understanding-dimensional-reduction-321d4f1f770d) |
-| [Day49](#day-49-pca-principle-component-analysis-implementing-with-mnist-dataset) | 2025-01-31 | PCA (Principle Component Analysis), Implementing with MNIST dataset | [Kaggle, ](https://www.kaggle.com/code/jonathankristanto/experimenting-with-pca-on-mnist-dataset) [ML playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH) [, Code](03-Unsupervised-Learning-And-Reinforcement-Learning/code/day49_pca_on_mnist.ipynb) |
-| [Day50]() | 2025-02-01 | ---------------- | ------------------ |
-| [Day51]() | 2025-02-02 | ---------------- | ------------------ |
-| [Day52]() | 2025-02-03 | ---------------- | ------------------ |
+| [Day50](#day-50-visualizing-and-comparing-pca-t-sne-umap-and-lda--revision-with-the-course-ml-specialization) | 2025-02-01 | Visualizing and Comparing PCA, t-SNE, UMAP, and LDA + Revision with the course ML specialization | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
+| [Day51](#day-51-anomaly-detection) | 2025-02-02 | Anomaly Detection |[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)[, Notebook: Anomaly Detection](03-Unsupervised-Learning-And-Reinforcement-Learning/code/day51_anomaly_detection.ipynb) |
+| [Day52](#day-52-collaborative-filtering) | 2025-02-03 | Collaborative Filtering |[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
+ |
 | [Day53]() | 2025-02-04 | ---------------- | ------------------ |
 | [Day54]() | 2025-02-05 | ---------------- | ------------------ |
 | [Day55]() | 2025-02-06 | ---------------- | ------------------ |
