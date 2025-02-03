@@ -1540,6 +1540,39 @@ The learning is so hectic today, so I decided to revise the concepts we studied 
 - Ignoring temporal/spatial context (e.g., seasonal trends).
 - Not updating models as data evolves.
 
+# Day 52: collaborative filtering
+
+Best Article (Working behind CF): https://medium.com/@ashmi_banerjee/understanding-collaborative-filtering-f1f496c673fd
+
+
+Collaborative Filtering is a recommendation algorithm that considers the similarities between different users when recommending an item to another user.
+
+#### Making Recommendations
+- Predict what a user might like based on similar users/items.
+![alt text](03-Unsupervised-Learning-And-Reinforcement-Learning/images/day52_userbased_itembased.png)
+1. User-User CF: Find users like you → recommend what they liked.
+2. Item-Item CF: Find items similar to what you liked → recommend those.
+
+the approach minimizes a regularized cost function using gradient descent, adjusting user and item parameters iteratively. the learning rate (α) controls step size, balancing convergence speed and stability.
+![alt text](03-Unsupervised-Learning-And-Reinforcement-Learning/images/day52_LossFuncitonin_CF.png)
+
+while effective, it suffers from the cold start problem (new users/items lack data) and sparsity issues (many missing ratings). despite these challenges, it remains a widely used technique in recommender systems.
+
+#### Mean Normalization
+- Why? Handle users who rate everything too high/low.
+
+
+#### Collaborative Filtering vs Content-Based Filtering
+![alt text](03-Unsupervised-Learning-And-Reinforcement-Learning/images/day52_differencces.png)
+| **CF** | **Content-Based** |
+| --- | --- |
+| Uses user-item interactions | Uses item features (e.g., text, genre) |
+| Example: Netflix recommendations | Example: News articles recommended based on text keywords |
+
+
+----
+# Day 53: Reinforcement learning: Overview
+
 <div id="bottom"></div>
 <div align="right">
   <a href="#top" target="_blank">
