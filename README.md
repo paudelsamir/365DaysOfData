@@ -1570,7 +1570,63 @@ while effective, it suffers from the cold start problem (new users/items lack da
 
 
 ----
-# Day 53: Reinforcement learning: Overview
+# Day 53: Project @ Football Players Market Value Prediction - Introduction and Planning
+Inspired by the work of [Youla Sozen](https://github.com/youlasozen/predicting-the-Market-Value-of-Footballers)
+
+Every project starts with a problem or question. However, this project is different. it's all about having fun. As a football enthusiast, creating these kinds of projects is always enjoyable. The plan is straightforward, and I will implement it step by step.
+
+### Project plan
+
+Although this is a fun project, i aim to ensure the following:
+
+- **accurate player valuation**: estimating market values to benefit clubs, agents, and investors.
+- **transfer market efficiency**: preventing overpayment, aiding negotiation, and optimizing resource allocation.
+- **risk assessment & player development**: evaluating investments while identifying young talents with high growth potential.
+- **data-driven insights**: supporting fairer contract negotiations and improving decision-making in fantasy football & betting.
+- **model implementation**: using linear regression & random forest for reliable valuations.
+
+this is a future plan, and i will work towards achieving these goals in the coming days.
+
+![Plan of Project](04-ML-Based-Football-Players-Market-Value-Prediction/images/project_plan.png)
+
+#### Tips for the project (crafted with deepseek):
+![Tips](<04-ML-Based-Football-Players-Market-Value-Prediction/images/Tips for the project.jpg>)
+
+----
+# Day 54: Project @ Football Players Market Value Prediction - Collecting Data (Scraping), Cleaning Data
+
+
+
+----
+# Day 55: Project @ Football Players Market Value Prediction - Feature Engineering: (Creating features, Transforming Features, Dimensionality Reduction)
+
+
+
+----
+# Day 56: Project @ Football Players Market Value Prediction - EDA (Visualizations, Cluster Analysis)
+
+
+
+----
+# Day 57: Project @ Football Players Market Value Prediction - ML model building day 1
+
+
+
+----
+# Day 58: Project @ Football Players Market Value Prediction - ML model building day 2
+
+
+
+----
+# Day 59: Project @ Football Players Market Value Prediction - Hyperparameter Tuning and Optimization
+
+
+
+----
+# Day 60: Project @ Football Players Market Value Prediction - Model interpretability, Deployement
+
+----
+
 
 <div id="bottom"></div>
 <div align="right">
