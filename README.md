@@ -1583,7 +1583,6 @@ Although this is a fun project, i aim to ensure the following:
 - **transfer market efficiency**: preventing overpayment, aiding negotiation, and optimizing resource allocation.
 - **risk assessment & player development**: evaluating investments while identifying young talents with high growth potential.
 - **data-driven insights**: supporting fairer contract negotiations and improving decision-making in fantasy football & betting.
-- **model implementation**: using linear regression & random forest for reliable valuations.
 
 this is a future plan, and i will work towards achieving these goals in the coming days.
 
@@ -1593,7 +1592,18 @@ this is a future plan, and i will work towards achieving these goals in the comi
 ![Tips](<04-ML-Based-Football-Players-Market-Value-Prediction/images/Tips for the project.jpg>)
 
 ----
-# Day 54: Project @ Football Players Market Value Prediction - Collecting Data (Scraping), Cleaning Data
+# Day 54: Project @ Football Players Market Value Prediction - Collecting Data (Scraping)
+web scraping is a technique to collect data from the internet and convert it into a meaningful format, like a data frame, when direct downloads aren't available. in this project, i used the sofifa dataset. here's the main page of sofifa
+![main page](04-ML-Based-Football-Players-Market-Value-Prediction/images/day54_sofifa_mainpage.png)
+
+Code to scrape data:
+![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day54_data_scraping.png)
+
+Plan for cleaning Data:
+![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day54_data_cleaning_plan.png) 
+
+----
+# Day 55: Project @ Football Players Market Value Prediction - Cleaning Data
 
 
 
