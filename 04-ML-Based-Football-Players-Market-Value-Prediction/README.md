@@ -10,7 +10,6 @@ Although this is a fun project, i aim to ensure the following:
 - **transfer market efficiency**: preventing overpayment, aiding negotiation, and optimizing resource allocation.
 - **risk assessment & player development**: evaluating investments while identifying young talents with high growth potential.
 - **data-driven insights**: supporting fairer contract negotiations and improving decision-making in fantasy football & betting.
-- **model implementation**: using linear regression & random forest for reliable valuations.
 
 this is a future plan, and i will work towards achieving these goals in the coming days.
 
