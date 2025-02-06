@@ -1605,7 +1605,13 @@ Plan for cleaning Data:
 ----
 # Day 55: Project @ Football Players Market Value Prediction - Cleaning Data
 
+just finished a major data cleaning session for my project. went through steps like handling missing values, converting currencies, splitting combined columns (height/weight), and ensuring consistent data types. cleaned up outliers, removed duplicates, and made sure everything’s ready for the next phase: EDA and model training. feeling good with the progress 😁
 
+Here's a final look:
+[Notebook: Data Cleaning](04-ML-Based-Football-Players-Market-Value-Prediction/notebooks/cleaning.ipynb)
+
+Code:
+![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day55_data_cleaning.png)
 
 <!-- ----
 # Day 55: Project @ Football Players Market Value Prediction - Feature Engineering: (Creating features, Transforming Features, Dimensionality Reduction)
