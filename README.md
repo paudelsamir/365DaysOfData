@@ -1613,16 +1613,55 @@ Here's a final look:
 Code:
 ![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day55_data_cleaning.png)
 
-<!-- ----
-# Day 55: Project @ Football Players Market Value Prediction - Feature Engineering: (Creating features, Transforming Features, Dimensionality Reduction)
+# Day 56: Project @ Football Players Market Value Prediction - EDA
+
+[Notebook: EDA (With Complete Documentation)](04-ML-Based-Football-Players-Market-Value-Prediction/notebooks/eda.ipynb)
+
+I have mostly used Plotly to visualize as it is interactive and for such beginners like me, the visualization impact is powerful. as well as the codes are also easy to write.
+
+### ***overall dataset insights***
+1. ***what are the top 10 most valuable players?***
+![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day56_top10valueableplayers.png)
+2. ***how does market value vary by position (e.g., are strikers more expensive than defenders)?***
+![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day56_market_value_with_position.png)
+3. ***which teams have the highest average market value?***
+![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day56_correlation_attributes_marketValue.png)
+4. ***what’s the distribution of market values (is it skewed towards a few expensive players)?***
+![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day56_dist_of_marketvalue.png)
+5. ***how does age correlate with market value (are younger players generally worth more)?***
+![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day56_value_age_potential.png)
+
+### ***player attributes vs. market value***
+
+1. ***how does a player’s overall rating affect their market value?***
+![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day56_overall_rating_vs_market_value.png)
+2. ***which individual attributes (e.g., pace, stamina, strength) correlate the most with market value?***
+3. ***does international reputation (1-5 stars) impact market value?***
+4. ***how do potential ratings compare to market value (are high-potential players priced higher)?***
+![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day56_marketvaleue_with_reaction_deribling.png)
+5. ***do physical attributes (height, weight, strength) play a role in market value?***
+![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day56_strength_vs_marketvalue.png)
+
+### ***position-specific insights***
+
+1. ***are attacking midfielders (CAM/CM) more valuable than defensive midfielders (CDM/CM)?***
+![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day56_position_specific_insights.png)
+2. ***how does pace affect wingers' (LW/RW) market value?***
+3. ***do goalkeepers follow the same market trends as outfield players?***
+![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day56_goalkeeper.png)
+
+### ***contract & transfer market impact***
+
+1. ***does a player's contract end year affect their market value (e.g., do players with 1 year left have lower values)?***
+![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day56_contract_end_year.png)
+2. ***are players on loan priced differently compared to permanent squad members?***
 
 
 
-----
-# Day 56: Project @ Football Players Market Value Prediction - EDA (Visualizations, Cluster Analysis)
+# Day 57: Project @ Football Players Market Value Prediction - Feature Engineering: (Creating features, Transforming Features, Dimensionality Reduction)
 
 
-
+<!--
 ----
 # Day 57: Project @ Football Players Market Value Prediction - ML model building day 1
 
