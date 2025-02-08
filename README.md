@@ -1658,9 +1658,19 @@ I have mostly used Plotly to visualize as it is interactive and for such beginne
 
 
 
-# Day 57: Project @ Football Players Market Value Prediction - Feature Engineering: (Creating features, Transforming Features, Dimensionality Reduction)
+# Day 57: Project @ Football Players Market Value Prediction - Feature Engineering: (Creating features, Transforming Features)
 
+[Notebook: Creating and Transforming Features](04-ML-Based-Football-Players-Market-Value-Prediction/notebooks/feature_engineering.ipynb)
 
+spent 6+ hours experimenting with feature engineering. ran into some challenges, but made progress:
+
+1. **position-based features**: grouped players into categories (attackers, midfielders, defenders, goalkeepers) with scores. will refine tomorrow.
+2. **club-based features**: switched from one-hot encoding (curse of dimensionality) to target encoding using the mean market value for each club.
+3. **contract-based features**: correlation with market value was neutral. most features, except age, overall, and potential, seemed less important.
+
+![pairplot](04-ML-Based-Football-Players-Market-Value-Prediction/images/day57_pairplot_for_important_relationship.png)
+
+![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day57_scores_fe.png)
 <!--
 ----
 # Day 57: Project @ Football Players Market Value Prediction - ML model building day 1
