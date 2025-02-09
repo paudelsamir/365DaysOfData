@@ -1671,11 +1671,24 @@ spent 6+ hours experimenting with feature engineering. ran into some challenges,
 ![pairplot](04-ML-Based-Football-Players-Market-Value-Prediction/images/day57_pairplot_for_important_relationship.png)
 
 ![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day57_scores_fe.png)
+# Day 58: Project @ Football Players Market Value Prediction - ML : (Linear Regression with Refined Features and deploying with Streamlit)
+Just for fun:
+![fun](04-ML-Based-Football-Players-Market-Value-Prediction/images/day58_fun.png)
+
+Pairplots: 
+![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day58_pairplots.png)
+
+So, before diving into feature engineering after cleaning the data, i tried out linear regression and got an r2 score of around 0.52. then, after applying some feature engineering and playing around with features, i ran the same model and got the r2 score up to 0.96 with only numerical features
+<br>
+today, i wasn’t fully happy with the result and got confused about feature selection and engineering. so i decided to convert all features into numerical, applied scaling and transformation, and reran the model , r2 score shot up to 0.97
+<br>
+Saved the model immediately, then tried deploying it with streamlit locally, with a user input form and inverse transformations (MOST HATED PART) . while the model’s still a work in progress and not perfect, i'm proud of what i’ve learned so far. next steps are all about finding the best model and getting it deployed with some solid predictions and managing the form with the backend properly. 
+
+![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day58_r2score.png)
+
+Streamlit Preview: https://www.linkedin.com/posts/paudelsamir_day-58365-linear-regression-with-refined-activity-7294398498777501697-2vWi?utm_source=share&utm_medium=member_desktop
 <!--
 ----
-# Day 57: Project @ Football Players Market Value Prediction - ML model building day 1
-
-
 
 ----
 # Day 58: Project @ Football Players Market Value Prediction - ML model building day 2
