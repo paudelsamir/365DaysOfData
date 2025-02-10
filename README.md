@@ -79,13 +79,12 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 | [Day48](#day-48-dimensionality-reduction) | 2025-01-30 | Dimensionality Reduction, Curse of Dimensionality | [Kris Naik, ](https://www.youtube.com/watch?v=H99JRtDDnvk&t=2248s) [Medium](https://medium.com/analytics-vidhya/understanding-dimensional-reduction-321d4f1f770d) |
 | [Day50](#day-50-visualizing-and-comparing-pca-t-sne-umap-and-lda--revision-with-the-course-ml-specialization) | 2025-02-01 | Visualizing and Comparing PCA, t-SNE, UMAP, and LDA + Revision with the course ML specialization | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day51](#day-51-anomaly-detection) | 2025-02-02 | Anomaly Detection |[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)[, Notebook: Anomaly Detection](03-Unsupervised-Learning-And-Reinforcement-Learning/code/day51_anomaly_detection.ipynb) |
-| [Day52](#day-52-collaborative-filtering) | 2025-02-03 | Collaborative Filtering |[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
-| [Day53]() | 2025-02-04 | ---------------- | ------------------ |
-| [Day54]() | 2025-02-05 | ---------------- | ------------------ |
-| [Day55]() | 2025-02-06 | ---------------- | ------------------ |
-| [Day56]() | 2025-02-07 | ---------------- | ------------------ |
-| [Day57]() | 2025-02-08 | ---------------- | ------------------ |
-| [Day58]() | 2025-02-09 | ---------------- | ------------------ |
+| [Day53](#day-53-project--football-players-market-value-prediction---introduction-and-planning) | 2025-02-04 | Project @ Football Players Market Value Prediction - Introduction and Planning | [Notebook](04-ML-Based-Football-Players-Market-Value-Prediction/notebooks/introduction_and_planning.ipynb) |
+| [Day54](#day-54-project--football-players-market-value-prediction---collecting-data-scraping) | 2025-02-05 | Project @ Football Players Market Value Prediction - Collecting Data (Scraping) | [Notebook](04-ML-Based-Football-Players-Market-Value-Prediction/notebooks/scraping.ipynb) |
+| [Day55](#day-55-project--football-players-market-value-prediction---cleaning-data) | 2025-02-06 | Project @ Football Players Market Value Prediction - Cleaning Data | [Notebook](04-ML-Based-Football-Players-Market-Value-Prediction/notebooks/cleaning.ipynb) |
+| [Day56](#day-56-project--football-players-market-value-prediction---eda) | 2025-02-07 | Project @ Football Players Market Value Prediction - EDA | [Notebook](04-ML-Based-Football-Players-Market-Value-Prediction/notebooks/eda.ipynb) |
+| [Day57](#day-57-project--football-players-market-value-prediction---feature-engineering-creating-features-transforming-features) | 2025-02-08 | Project @ Football Players Market Value Prediction - Feature Engineering: (Creating features, Transforming Features) | [Notebook](04-ML-Based-Football-Players-Market-Value-Prediction/notebooks/feature_engineering.ipynb) |
+| [Day58](#day-58-project--football-players-market-value-prediction---ml--linear-regression-with-refined-features-and-deploying-with-streamlit) | 2025-02-09 | Project @ Football Players Market Value Prediction - ML: (Linear Regression with Refined Features and deploying with Streamlit) | [Notebook](04-ML-Based-Football-Players-Market-Value-Prediction/notebooks/feature_engineering_2.ipynb.ipynb) |
 | [Day59]() | 2025-02-10 | ---------------- | ------------------ |
 | [Day60]() | 2025-02-11 | ---------------- | ------------------ |
 
