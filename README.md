@@ -1671,6 +1671,8 @@ spent 6+ hours experimenting with feature engineering. ran into some challenges,
 ![pairplot](04-ML-Based-Football-Players-Market-Value-Prediction/images/day57_pairplot_for_important_relationship.png)
 
 ![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day57_scores_fe.png)
+
+---
 # Day 58: Project @ Football Players Market Value Prediction - ML : (Linear Regression with Refined Features and deploying with Streamlit)
 Just for fun:
 ![fun](04-ML-Based-Football-Players-Market-Value-Prediction/images/day58_fun.png)
@@ -1687,11 +1689,16 @@ Saved the model immediately, then tried deploying it with streamlit locally, wit
 ![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day58_r2score.png)
 
 Streamlit Preview: https://www.linkedin.com/posts/paudelsamir_day-58365-linear-regression-with-refined-activity-7294398498777501697-2vWi?utm_source=share&utm_medium=member_desktop
-<!--
-----
 
 ----
-# Day 58: Project @ Football Players Market Value Prediction - ML model building day 2
+# Day 59: Project @ Football Players Market Value Prediction - Complete Streamlit Setup for our first Model - Linear Regression
+
+
+
+
+
+<!--
+----
 
 
 
