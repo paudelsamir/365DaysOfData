@@ -1693,16 +1693,29 @@ Streamlit Preview: https://www.linkedin.com/posts/paudelsamir_day-58365-linear-r
 ----
 # Day 59: Project @ Football Players Market Value Prediction - Complete Streamlit Setup for our first Model - Linear Regression
 
+Yesterday, I set up streamlit for my project with some help from ai tools. deploiyng isn't my strong suit, and it got pretty hectic trying to nail down the format and inputs and converting to model inputs. had to leave it unclear
 
+<br>
+So todayt's goal was get the ui sorted and code the input transformation for the model within streamlit. i could've tinkered with other models and tuned them, but finishing what i started felt right. a simple linear regression is doing surprisingly well for my needs. of course, i'll explore other algorithms and fine tune for better accuracy soon. planning to scale up from 5,000 to 20,000 rows in my dataset. let's see
 
+<br>
+Here's the demo where linear regression predicts player market values quite accurately. grabbed data from the site i scraped so that to visuailze properly. and its around 90 percent accurate for all the positions. that's already great !! Loving it
 
+Here are some previewsL:
 
-<!--
-----
+- KDB (Real Vs Predicted)
+![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day59_kdb_real.png) 
+![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day59_kdb_predicted.png)
 
+- Lamine (Real Vs Predicted)
+![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day59_lamine_real.png) 
+![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day59_yamal_predicted.png)
 
+-  Oblak (Real Vs Predicted)
+![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day59_oblak_real.png) 
+![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day59_oblak_predicted.png)
 
-----
+<!------
 # Day 59: Project @ Football Players Market Value Prediction - Hyperparameter Tuning and Optimization
 
 
