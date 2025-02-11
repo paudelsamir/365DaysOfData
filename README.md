@@ -1715,9 +1715,32 @@ Here are some previewsL:
 ![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day59_oblak_real.png) 
 ![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day59_oblak_predicted.png)
 
-<!------
-# Day 59: Project @ Football Players Market Value Prediction - Hyperparameter Tuning and Optimization
+# Day 60: Project @ Football Players Market Value Prediction - Hyperparameter Tuning and Optimization
 
+
+
+Today was fun! Started by handling outliers for the linear regression model, but didn’t see any improvement, so no luck there. Then I dove into applying PCA for dimensionality reduction. After converting everything to numerical features and applying all the feature engineering, I reduced the features from 50 to 40, and guess what? Model accuracy jumped to 99%! But here’s the twist, I can’t use this model for my project since I’m limited with deployment knowledge, and reverse transforming features while predicting is still the most hectic part of the process.
+
+![Applying PCA with 40 features](04-ML-Based-Football-Players-Market-Value-Prediction/images/day60_applying_pca_with_40features.png)
+
+Then I tried Ridge and Lasso regression. Ridge performed the best and outperformed Linear and Lasso, so I’ll stick with Ridge for now until a simpler model comes along.
+
+![Ridge Regression](04-ML-Based-Football-Players-Market-Value-Prediction/images/day60_Ridge_regression.png)
+![Lasso Regression](04-ML-Based-Football-Players-Market-Value-Prediction/images/day60_lasso_regression.png)
+
+Next up was Decision Tree Regressor. Applied it, and without hyperparameter tuning, I got around a 0.98 R2 score. I know Decision Trees are prone to overfitting, so I visualized, but couldn’t predict by myself. Decided to try hyperparameter tuning, but the results weren’t drastically different.
+
+![Decision Tree Regressor](04-ML-Based-Football-Players-Market-Value-Prediction/images/day60_decision_tree_regressor.png)
+
+At this point, the Decision Tree is the best model for the project. Let's see what’s coming next. Good luck, city. 𝐒𝐡𝐮𝐯𝐚𝐫𝐚𝐭𝐫𝐢 🌙
+![GridSearchCV Decision Tree](04-ML-Based-Football-Players-Market-Value-Prediction/images/day60_gridsearchcv_dt.png)
+
+![Decision Tree Insights](04-ML-Based-Football-Players-Market-Value-Prediction/images/day60_decision_tree_insights.png)
+
+Did i just wasted 2 hours?? 😅😅![Fun](04-ML-Based-Football-Players-Market-Value-Prediction/images/day60_fun.png)
+
+[Notebook: Experimentation 1](04-ML-Based-Football-Players-Market-Value-Prediction/notebooks/experimentation_1.ipynb)
+<!------
 
 
 ----
