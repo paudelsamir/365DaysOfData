@@ -1715,7 +1715,7 @@ Here are some previewsL:
 ![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day59_oblak_real.png) 
 ![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day59_oblak_predicted.png)
 
-# Day 60: Project @ Football Players Market Value Prediction - Hyperparameter Tuning and Optimization
+# Day 60: Project @ Football Players Market Value Prediction - Testing Ridge, Lasso, and Decision Trees
 
 
 
