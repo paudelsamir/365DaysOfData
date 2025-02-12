@@ -1715,6 +1715,7 @@ Here are some previewsL:
 ![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day59_oblak_real.png) 
 ![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day59_oblak_predicted.png)
 
+---
 # Day 60: Project @ Football Players Market Value Prediction - Testing Ridge, Lasso, and Decision Trees
 
 
@@ -1740,13 +1741,16 @@ At this point, the Decision Tree is the best model for the project. Let's see wh
 Did i just wasted 2 hours?? 😅😅![Fun](04-ML-Based-Football-Players-Market-Value-Prediction/images/day60_fun.png)
 
 [Notebook: Experimentation 1](04-ML-Based-Football-Players-Market-Value-Prediction/notebooks/experimentation_1.ipynb)
-<!------
 
+---
+# Day 61: Project @ Football Players Market Value Prediction -Applying Ensemble Methods, Final Insights
 
-----
-# Day 60: Project @ Football Players Market Value Prediction - Model interpretability, Deployement
+> Today's goal is:
+1. Apply Bagging (Random Forest with Multiple Decision Tree Regressor ) - evaluate performance and check if we can deploy it or not
+2. Apply Boosting Algorithms: XGboost, LightGBM, AdaBoost and compare model performances
+3. Apply stacking Random Forest, XGBoost, and LightGBM, with a simple model like Linear Regression as the final estimator.
+4. Documentation, deploy the best and simple model and Finalize the Project.
 
----- -->
 
 
 <div id="bottom"></div>
