@@ -1743,13 +1743,24 @@ Did i just wasted 2 hours?? 😅😅![Fun](04-ML-Based-Football-Players-Market-V
 [Notebook: Experimentation 1](04-ML-Based-Football-Players-Market-Value-Prediction/notebooks/experimentation_1.ipynb)
 
 ---
-# Day 61: Project @ Football Players Market Value Prediction -Applying Ensemble Methods, Final Insights
+# Day 61: Project @ Football Players Market Value Prediction -Had to hit reset from Feature Engineering
 
-> Today's goal is:
+<!-- > Today's goal is:
 1. Apply Bagging (Random Forest with Multiple Decision Tree Regressor ) - evaluate performance and check if we can deploy it or not
 2. Apply Boosting Algorithms: XGboost, LightGBM, AdaBoost and compare model performances
 3. Apply stacking Random Forest, XGBoost, and LightGBM, with a simple model like Linear Regression as the final estimator.
 4. Documentation, deploy the best and simple model and Finalize the Project.
+ -->
+
+Just 20 minutes ago, i realized i’ve been making a huge mistake since day 4 with feature engineering. i found out today that as a beginner, it’s easy to mess up, but it's all part of the learning process. the mistkae was thinking about how to transform features back for deployment without realizing that features like overall rating, best oiverall, and potential are actually super correlated with market value. i was happy with the 99% accuracy, but i didn’t see the problem until now. i knew about overfitting can cause it and tried to fix it, but i never thought about visualizing feature importance and how it can affect the model.
+
+<br>
+So, iwas almost done with the project and deployed it to my local server using streamlit. feeling soooo dumb at the moment. the day before yesterday, i tested it with real players like KDB, Lamine Yamal, and Oblak, and 𝐭𝐡𝐞 𝐩𝐫𝐞𝐝𝐢𝐜𝐭𝐢𝐨𝐧𝐬 𝐥𝐨𝐨𝐤𝐞𝐝 𝐠𝐨𝐨𝐝. 𝐰𝐡𝐲?? 𝐛𝐞𝐜𝐚𝐮𝐬𝐞 𝐢𝐭 𝐭𝐨𝐭𝐚𝐥𝐥𝐲 𝐫𝐞𝐥𝐲𝐢𝐧𝐠 𝐨𝐧 𝐣𝐮𝐬𝐭 𝐭𝐡𝐫𝐞𝐞 𝐢𝐧𝐩𝐮𝐭𝐬 𝐁𝐞𝐬𝐭 𝐎𝐯𝐞𝐫𝐚𝐥𝐥, 𝐎𝐯𝐞𝐫𝐚𝐥𝐥 𝐑𝐚𝐭𝐢𝐧𝐠, 𝐚𝐧𝐝 𝐏𝐨𝐭𝐞𝐧𝐭𝐢𝐚𝐥. 𝐲𝐨𝐮 𝐜𝐚𝐧 𝐞𝐯𝐞𝐧 𝐩𝐫𝐞𝐝𝐢𝐜𝐭 𝐰𝐡𝐨𝐥𝐞 𝐭𝐡𝐢𝐧𝐠𝐬 𝐰𝐢𝐭𝐡 𝐣𝐮𝐬𝐭 𝐭𝐡𝐞𝐬𝐞 𝐢𝐧𝐩𝐮𝐭𝐬. The impact of other features is literally minimal. now, i have to rebuild the model from scratch again with better feature engineering. 
+
+<br>
+Even after this dumbest mistake, total wasted grinding, wasted time, wasted energy---for the first time in my learning journey, it feels like now i'm actually learning something.
+
+![Context](04-ML-Based-Football-Players-Market-Value-Prediction/images/day61_context.webp)
 
 
 
