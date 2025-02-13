@@ -86,8 +86,12 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 | [Day56](#day-56-project--football-players-market-value-prediction---eda) | 2025-02-07 | Project @ Football Players Market Value Prediction - EDA | [Notebook](04-ML-Based-Football-Players-Market-Value-Prediction/notebooks/eda.ipynb) |
 | [Day57](#day-57-project--football-players-market-value-prediction---feature-engineering-creating-features-transforming-features) | 2025-02-08 | Project @ Football Players Market Value Prediction - Feature Engineering: (Creating features, Transforming Features) | [Notebook](04-ML-Based-Football-Players-Market-Value-Prediction/notebooks/feature_engineering.ipynb) |
 | [Day58](#day-58-project--football-players-market-value-prediction---ml--linear-regression-with-refined-features-and-deploying-with-streamlit) | 2025-02-09 | Project @ Football Players Market Value Prediction - ML: (Linear Regression with Refined Features and deploying with Streamlit) | [Notebook](04-ML-Based-Football-Players-Market-Value-Prediction/notebooks/feature_engineering_2.ipynb.ipynb) |
-| [Day59]() | 2025-02-10 | ---------------- | ------------------ |
-| [Day60]() | 2025-02-11 | ---------------- | ------------------ |
+| [Day59](#day-59-project--football-players-market-value-prediction---complete-streamlit-setup-for-our-first-model---linear-regression) | 2025-02-10 |Project @ Complete Streamlit setup for Linear Regression | [Streamlit Documentation](https://docs.streamlit.io/) |
+| [Day60](#day-60-project--football-players-market-value-prediction---testing-ridge-lasso-and-decision-trees) | 2025-02-11 |Project @  Testing Ridge, Lasso, and Decision Trees | [Project @ Football Players Market Value Prediction](https://paudelsamir.streamlit.app/) |
+| [Day61](#day-61-project--football-players-market-value-prediction--had-to-hit-reset-from-feature-engineering) | 2025-02-12 |Project @ Had to hit reset from Feature Engineering | [Project @ Football Players Market Value Prediction](https://paudelsamir.streamlit.app/) |
+| [Day62](#day-62-project--football-players-market-value-prediction---finalizing-project-and-deploying-it) | 2025-02-13 | Project @ Finalizing Project and Deploying it | [Project @ Football Players Market Value Prediction](https://paudelsamir.streamlit.app/) |
+
+
 
 ---
 <br>
