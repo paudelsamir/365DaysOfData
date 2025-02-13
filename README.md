@@ -1775,8 +1775,8 @@ Finally, i’m able to go live with my first end-to-end ml project! 🎉 you can
 
 - Today was all about polishing things i messed up, after some solid feature engineering, i was able to hit 85% accuracy, pretty solid start. then, i played around a hour with hyperparameter tuning, which bumped it up to 89%.
 <br>
-![actual vs predicted](04-ML-Based-Football-Players-Market-Value-Prediction/images/day61_actual_vs_predicted.png)
-![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day61_feature_importance.png)
+![actual vs predicted](./04-ML-Based-Football-Players-Market-Value-Prediction/images/day61_actual_vs_predicted.png)
+![alt text](./04-ML-Based-Football-Players-Market-Value-Prediction/images/day61_feature_importance.png)
 but the real magic happened when i tried ensemble learning techniques. after a bit of back and forth, gradient boosting took me all the way to 94% accuracy. and will be using the same algorithm for deployment too.
 <br>
 
