@@ -1764,8 +1764,25 @@ Even after this dumbest mistake, total wasted grinding, wasted time, wasted ener
 
 
 ---
-# Day 62: Project @ Football Players Market Value Prediction -Had to hit reset from Feature Engineering
+# Day 62: Project @ Football Players Market Value Prediction - Finalizing Project and Deploying it
 
+Finally, i’m able to go live with my first end-to-end ml project! 🎉 you can check it out here: https://paudelsamir.streamlit.app/
+
+
+- Today was all about polishing things i messed up, after some solid feature engineering, i was able to hit 85% accuracy, pretty solid start. then, i played around a hour with hyperparameter tuning, which bumped it up to 89%.
+<br>
+![actual vs predicted](04-ML-Based-Football-Players-Market-Value-Prediction/images/day61_actual_vs_predicted.png)
+![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day61_feature_importance.png)
+but the real magic happened when i tried ensemble learning techniques. after a bit of back and forth, gradient boosting took me all the way to 94% accuracy. and will be using the same algorithm for deployment too.
+<br>
+
+And with that, after 10 days of nonstop grinding, i’m officially closing this project. it’s been a fun ride, full of learning and surprises !!
+
+𝐆𝐢𝐭𝐇𝐮𝐛 𝐑𝐞𝐩𝐨 For the Project: https://github.com/paudelsamir/ML-Based-Football-Players-Market-Value-Prediction
+
+
+---
+# Day 63: 
 <div id="bottom"></div>
 <div align="right">
   <a href="#top" target="_blank">
