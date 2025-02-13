@@ -1763,6 +1763,8 @@ Even after this dumbest mistake, total wasted grinding, wasted time, wasted ener
 ![Context](04-ML-Based-Football-Players-Market-Value-Prediction/images/day61_context.webp)
 
 
+---
+# Day 62: Project @ Football Players Market Value Prediction -Had to hit reset from Feature Engineering
 
 <div id="bottom"></div>
 <div align="right">
