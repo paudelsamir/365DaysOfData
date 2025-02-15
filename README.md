@@ -1788,8 +1788,21 @@ And with that, after 10 days of nonstop grinding, i’m officially closing this 
 𝐆𝐢𝐭𝐇𝐮𝐛 𝐑𝐞𝐩𝐨 For the Project: https://github.com/paudelsamir/ML-Based-Football-Players-Market-Value-Prediction
 
 
+# Day 63: Content-Based Movie Recommender System - Preprocessing
+Today, I focused on the preprocessing phase of building a content-based movie recommender system. I created a `tags` feature by combining key keywords from columns like genres, descriptions, top 3 cast members, and crew, especially the director. This step was crucial to ensure that the recommendation engine has a rich set of features to work with.
+![Notes:](04-ML-Based-Football-Players-Market-Value-Prediction/images/day63_notes.jpg)
+
 ---
-# Day 63: 
+# Day 64: Content-Based Movie Recommender System - Building and Deployment
+
+Today, I built the recommendation engine based on movie content similarity using vectorization (bag of words). I also deployed it with Streamlit, so now you can input a movie name and get the top 5 similar movies based on the similarity matrix. Additionally, I integrated an API to pull movie posters in real-time from the website TMDB!
+
+𝐂𝐡𝐞𝐜𝐤 𝐨𝐮𝐭 𝐡𝐞 𝐥𝐢𝐯𝐞 𝐝𝐞𝐦𝐨 𝐡𝐞𝐫𝐞: https://lnkd.in/d7R3Wsnk
+
+---
+# Day 65: 
+
+
 <div id="bottom"></div>
 <div align="right">
   <a href="#top" target="_blank">
