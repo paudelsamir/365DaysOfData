@@ -1800,7 +1800,12 @@ Today, I built the recommendation engine based on movie content similarity using
 𝐂𝐡𝐞𝐜𝐤 𝐨𝐮𝐭 𝐡𝐞 𝐥𝐢𝐯𝐞 𝐝𝐞𝐦𝐨 𝐡𝐞𝐫𝐞: https://lnkd.in/d7R3Wsnk
 
 ---
-# Day 65: 
+# Day 65: Diving into Deep Learning
+
+Explored deep learning concepts, including its significance, how it differs from machine learning, and whether it will replace ML. Covered key architectures like Feedforward Neural Networks (FNNs), Convolutional Neural Networks (CNNs) for image processing, Recurrent Neural Networks (RNNs) for sequential data, Autoencoders for feature learning, and Generative Adversarial Networks (GANs) for data generation.
+Notes from the day:
+![Notes](05-Artificial-Neural-Network-And-Improvement/images/day65_notes1.jpg) 
+![Notes](05-Artificial-Neural-Network-And-Improvement/images/day65_notes2.jpg)
 
 
 <div id="bottom"></div>
