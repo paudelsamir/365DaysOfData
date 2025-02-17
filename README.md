@@ -1808,6 +1808,25 @@ Notes from the day:
 ![Notes](05-Artificial-Neural-Network-And-Improvement/images/day65_notes2.jpg)
 
 
+# Day 66: Perceptrons
+
+Today, I dived into the concept of perceptrons, which are the building blocks of neural networks. I explored the perceptron algorithm, its working mechanism, and how it can be used for binary classification tasks. A supervised learning algorithm used for binary classifiers.
+
+- Steps in Prceptron Algorithm:
+  ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day66_notes.jpg)
+
+- **Perceptron from Scratch**:
+  ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day66_perceptron_scratch.png)
+
+### Visuals:
+- **Training Data**:
+  ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day66_data.png)
+- **Perceptron Training**:
+  ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day66_after_perceptron_training.png)
+
+
+
+
 <div id="bottom"></div>
 <div align="right">
   <a href="#top" target="_blank">
