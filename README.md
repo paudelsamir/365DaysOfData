@@ -1824,7 +1824,7 @@ Today, I dived into the concept of perceptrons, which are the building blocks of
 - **Perceptron Training**:
   ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day66_after_perceptron_training.png)
 
-
+I explored the fundamentals of MLOps with this paper: Machine Learning Operations (MLOps): Overview, Definition, and Architecture : https://arxiv.org/pdf/2205.02302
 
 
 <div id="bottom"></div>
