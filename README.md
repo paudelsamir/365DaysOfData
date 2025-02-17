@@ -17,16 +17,25 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
   </a>
 </div>
 
+## Projects Completed
+| Projects | Description | Live Demo |
+|----------|-------------|-----------|
+|----------|-------------|-----------|
 
-# Resources
+ 
+
+## Resources
 | Books & Courses  | Completion Status |
 |--------------------|-------------------|
 | [Machine Learning Specialization @Coursera](https://www.coursera.org/specializations/machine-learning-introduction) | ✅ |
 | [100 Days ML @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH) | ✅ |
+| [Deep Learning @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) | ⌛ |
+| [Intro to Deep Learning @MIT](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) | ⌛ |
+| [Grokking Deep Learning @Andrew W. Trask](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) | ⌛ |
 <!-- | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/yanshengjia/ml-road/blob/master/resources/Hands%20On%20Machine%20Learning%20with%20Scikit%20Learn%20and%20TensorFlow.pdf)| 🏊⌛|  -->
 
 
-# Progress
+## Progress
 | Days | Date               | Topics                      | Resources    |
 |------|--------------------|-----------------------------|--------------|
 | [Day1](#day-01-basics-of-linear-algebra) |2024ᚑ12ᚑ14 |Basics of Linear Algebra  | [3blue1brown](https://www.3blue1brown.com/topics/linear-algebra) |
@@ -91,9 +100,27 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 | [Day61](#day-61-project--football-players-market-value-prediction--had-to-hit-reset-from-feature-engineering) | 2025-02-12 |Project @ Had to hit reset from Feature Engineering | [Project @ Football Players Market Value Prediction](https://paudelsamir.streamlit.app/) |
 | [Day62](#day-62-project--football-players-market-value-prediction---finalizing-project-and-deploying-it) | 2025-02-13 | Project @ Finalizing Project and Deploying it | [Project @ Football Players Market Value Prediction](https://paudelsamir.streamlit.app/) |
 | [Day63](#day-63-content-based-movie-recommender-system---preprocessing) | 2025-02-14 | Content-Based Movie Recommender System - Preprocessing | [Notebook](05-Content-Based-Movie-Recommender-System/notebooks/preprocessing.ipynb) |
-| [Day64](#day-64-content-based-movie-recommender-system---building-and-deployment) | 2025-02-15 | Content-Based Movie Recommender System - Building and Deployment | [Notebook](05-Content-Based-Movie-Recommender-System/notebooks/building_and_deployment.ipynb) |
-| [Day65](#day-65-diving-into-deep-learning) | 2025-02-16 | Diving into Deep Learning | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH) |
-| [Day66](#day-66-perceptrons) | 2025-02-17 | Perceptrons | [CampusX - Youtube](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH) |
+| [Day64](#day-64-content-based-movie-recommender-system---building-and-deployment) | 2025-02-15 | Content-Based Movie Recommender System - Building and Deployment | [Live Demo](https://movie-recommender-samir.streamlit.app/) |
+| [Day65](#day-65-diving-into-deep-learning) | 2025-02-16 | Diving into Deep Learning | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
+| [Day66](#day-66-perceptrons) | 2025-02-17 | Perceptrons | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
+| [Day67]() | 2025-02-18 | ---------------- | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
+| [Day68]() | 2025-02-19 | ---------------- | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
+| [Day69]() | 2025-02-20 | ---------------- | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
+| [Day70]() | 2025-02-21 | ---------------- | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
+| [Day71]() | 2025-02-22 | ---------------- | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
+| [Day72]() | 2025-02-23 | ---------------- | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
+| [Day73]() | 2025-02-24 | ---------------- | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
+| [Day74]() | 2025-02-25 | ---------------- | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
+| [Day75]() | 2025-02-26 | ---------------- | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
+| [Day76]() | 2025-02-27 | ---------------- | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
+| [Day77]() | 2025-02-28 | ---------------- | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
+| [Day78]() | 2025-03-01 | ---------------- | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
+| [Day79]() | 2025-03-02 | ---------------- | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
+| [Day80]() | 2025-03-03 | ---------------- | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
+
+
+
+
 
 
 
