@@ -90,6 +90,12 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 | [Day60](#day-60-project--football-players-market-value-prediction---testing-ridge-lasso-and-decision-trees) | 2025-02-11 |Project @  Testing Ridge, Lasso, and Decision Trees | [Project @ Football Players Market Value Prediction](https://paudelsamir.streamlit.app/) |
 | [Day61](#day-61-project--football-players-market-value-prediction--had-to-hit-reset-from-feature-engineering) | 2025-02-12 |Project @ Had to hit reset from Feature Engineering | [Project @ Football Players Market Value Prediction](https://paudelsamir.streamlit.app/) |
 | [Day62](#day-62-project--football-players-market-value-prediction---finalizing-project-and-deploying-it) | 2025-02-13 | Project @ Finalizing Project and Deploying it | [Project @ Football Players Market Value Prediction](https://paudelsamir.streamlit.app/) |
+| [Day63](#day-63-content-based-movie-recommender-system---preprocessing) | 2025-02-14 | Content-Based Movie Recommender System - Preprocessing | [Notebook](05-Content-Based-Movie-Recommender-System/notebooks/preprocessing.ipynb) |
+| [Day64](#day-64-content-based-movie-recommender-system---building-and-deployment) | 2025-02-15 | Content-Based Movie Recommender System - Building and Deployment | [Notebook](05-Content-Based-Movie-Recommender-System/notebooks/building_and_deployment.ipynb) |
+| [Day65](#day-65-diving-into-deep-learning) | 2025-02-16 | Diving into Deep Learning | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH) |
+| [Day66](#day-66-perceptrons) | 2025-02-17 | Perceptrons | [CampusX - Youtube](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH) |
+
+
 
 
 
