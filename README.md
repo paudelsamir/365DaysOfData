@@ -20,7 +20,8 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 ## Projects Completed
 | Projects | Description | Live Demo |
 |----------|-------------|-----------|
-|----------|-------------|-----------|
+|[Football Players Market Value Prediction](https://github.com/paudelsamir/365DaysOfData/tree/main/04-ML-Based-Football-Players-Market-Value-Prediction)| A 10 day end-to-end machine learning capstone project involving data scraping, cleaning, feature engineering, model training, and deployment to a cloud server. |[Link 👆🏽](https://paudelsamir.streamlit.app/)|
+|[Movie Recommender System]()|A content Based end to end Movie Recommender System based on 5000 movies from [Kaggle dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv)| [Link 👆🏽](https://movie-recommender-samir.streamlit.app/)|
 
  
 
