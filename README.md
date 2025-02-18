@@ -1863,6 +1863,16 @@ Today, I dived into the concept of perceptrons, which are the building blocks of
 
 I explored the fundamentals of MLOps with this paper: Machine Learning Operations (MLOps): Overview, Definition, and Architecture : https://arxiv.org/pdf/2205.02302
 
+---
+# Day 67: Perceptron Loss Function and Gradient Descent
+
+Today, I explored the Perceptron Loss Function, which helps adjust weights when misclassification occurs, ensuring better decision boundaries. I learned how the perceptron updates its weights using the weight update rule and how Gradient Descent optimizes the loss function by iteratively moving in the direction of the negative gradient.
+
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day67_train_perceptron.png) 
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day67_Gradient_Descent_Animation.gif)
+
+Notes:
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day67_notes.jpg)
 
 <div id="bottom"></div>
 <div align="right">
