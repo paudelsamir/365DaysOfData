@@ -1909,6 +1909,8 @@ each batch in mini-batch or full-batch contains multiple rows, and the loss is c
 
 so in SGD, you're updating weights after every single row (which makes it very random and noisy). in mini-batch, you take a chunk of rows, calculate gradients over that group, then update weights. in full-batch, you process all the rows at once and then update.
 
+Notes:
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day68_notes.jpg)
 
 ---
 # Day 69:
