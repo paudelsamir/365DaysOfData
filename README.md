@@ -1874,6 +1874,45 @@ Today, I explored the Perceptron Loss Function, which helps adjust weights when 
 Notes:
 ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day67_notes.jpg)
 
+
+---
+# Day 68: Multilayer Perceptron
+
+The problem with Perceptrons lies in their limitation to learn complex patterns and functions, especially those that are not linearly separable. A Perceptron is a single-layer neural network with binary outputs, and it can only solve problems where the data points are linearly separable. If the data is not linearly separable, a Perceptron cannot converge and find a solution.
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day68_xor.png)
+
+
+So the solution is Multilayer Perceptron:
+![GIF](05-Artificial-Neural-Network-And-Improvement/images/day68_multilayer_nn.gif)
+
+There's a website named: https://playground.tensorflow.org/
+
+I practiced different optimizations there some of them are,
+- Adding nodes to hidden layer
+- Adding nodes to input layer
+- Adding nodes to output layer (for multicalss)
+- Adding nuber of hidden layer
+
+The conclusion is you can classify any type of problem within regression and classifcion by optimizing those nodes and others like activation and regularization.
+
+
+### Batch and Gradient Descent:
+number of samples processed before updating model weights
+
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day68_batch_size.png)
+
+1. SGD (batch size = 1) → updates after each individual sample (one row at a time). noisy but good for escaping local minima.
+2. Mini-batch gradient descent (batch size = 16, 32, 64, etc.) → updates after a small group of samples (e.g., rows 1-100). balances speed and stability.
+3. Full-batch gradient descent (batch size = all samples) → updates after seeing the entire dataset. very stable but slow and memory-heavy.
+
+each batch in mini-batch or full-batch contains multiple rows, and the loss is computed over those samples before updating weights.
+
+so in SGD, you're updating weights after every single row (which makes it very random and noisy). in mini-batch, you take a chunk of rows, calculate gradients over that group, then update weights. in full-batch, you process all the rows at once and then update.
+
+
+---
+# Day 69:
+
 <div id="bottom"></div>
 <div align="right">
   <a href="#top" target="_blank">
