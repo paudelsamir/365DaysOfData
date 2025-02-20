@@ -1913,7 +1913,14 @@ Notes:
 ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day68_notes.jpg)
 
 ---
-# Day 69:
+# Day 69: MLP notation, Forward Propagation
+today, i deepened my understanding of multi-layer perceptrons (MLPs), including their formal notation and the calculation of weights and biases for each layer. i also explored forward propagation and practiced matrix multiplication by manually constructing and multiplying matrices to intuitively follow the perceptron’s computations.
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day69_notes.jpg)
+
+additionally, i studied MLP training with pytorch from the book deep learning with python by françois chollet.
+
+additionally, i explored Image processing with datacamp, here's image representation of what i learned today
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day69_bonus_imageprocessing.png)
 
 <div id="bottom"></div>
 <div align="right">
