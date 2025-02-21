@@ -1922,6 +1922,50 @@ additionally, i studied MLP training with pytorch from the book deep learning wi
 additionally, i explored Image processing with datacamp, here's image representation of what i learned today
 ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day69_bonus_imageprocessing.png)
 
+---
+# Day 70: Loss Functions for Deep Learning
+
+- Regression:
+    - MSE : squares errors, punishes big mistakes more.
+    - MAE : takes absolute difference, treats all errors equally.
+    - Huber Loss: mix of mse & mae, good for outliers.
+    ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day70_regression.png)
+
+- Classificaiton:
+    - Binary cross entropy : for yes/no classification (spam or not spam).
+    ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day70_binary_crosss.jpg)
+    - Categorical Cross entropy : for multiple classes (yes/no/ maybe).
+    ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day70_categorical.jpg)
+    - Sparse Categorical cross entropy - same as categorical but works with integer labels.
+    - Hinge Loss: used in SVMs, pushes correct class far from the wrong ones.
+    ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day70_hinge_loss.png)
+
+- Autoencoders / VAE loss:
+    - KL divergence
+- GANs:
+    - Discriminator loss : helps the discriminator tell real from fake.
+    - Minmax Loss : generator tries to fool discriminator by minimizing its best-case performance.
+- Object Detection and segmentation loss:
+    - interseciton over union loss
+    - smoooth l1 loss
+    - dice loss
+- Reinforcement loss:
+    - policy gradient - rewards good actions.
+    - Q-Learning loss : teaches agent to choose best long-term rewards.
+    - proximal policy optimization
+- Custom losss function:
+    - Perceptrual loss
+    - combined loss functions: mix of different losses for better results (e.g., cross-entropy + dice loss).
+
+Notes:
+
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day70_notes1.jpg) 
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day70_notes2.jpg)
+
+---
+# Day 71
+
+
 <div id="bottom"></div>
 <div align="right">
   <a href="#top" target="_blank">
