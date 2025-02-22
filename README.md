@@ -104,11 +104,11 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 | [Day64](#day-64-content-based-movie-recommender-system---building-and-deployment) | 2025-02-15 | Content-Based Movie Recommender System - Building and Deployment | [Live Demo](https://movie-recommender-samir.streamlit.app/) |
 | [Day65](#day-65-diving-into-deep-learning) | 2025-02-16 | Diving into Deep Learning | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
 | [Day66](#day-66-perceptrons) | 2025-02-17 | Perceptrons | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
-| [Day67]() | 2025-02-18 | ---------------- | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
-| [Day68]() | 2025-02-19 | ---------------- | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
-| [Day69]() | 2025-02-20 | ---------------- | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
-| [Day70]() | 2025-02-21 | ---------------- | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
-| [Day71]() | 2025-02-22 | ---------------- | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
+| [Day67](#day-67-perceptron-loss-function-and-gradient-descent) | 2025-02-18 | Perceptron, Loss function and gradient Descent | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) [, Grokking Deep Learning @Andrew W. Trask](https://edu.anarcho-copy.org/Algorithm/grokking-deep-learning.pdf) | |
+| [Day68](#day-68-multilayer-perceptron) | 2025-02-19 | Multilayer Perceptron | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
+| [Day69](#day-69-mlp-notation-forward-propagation) | 2025-02-20 | MLP notation, Forward Propagation | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
+| [Day70](#day-70-loss-functions-for-deep-learning) | 2025-02-21 | Loss Functions for deep learning | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
+| [Day71](#day-71-deep-diving-backpropagation) | 2025-02-22 | Backpropagation, deep diving this time | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
 | [Day72]() | 2025-02-23 | ---------------- | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
 | [Day73]() | 2025-02-24 | ---------------- | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
 | [Day74]() | 2025-02-25 | ---------------- | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
