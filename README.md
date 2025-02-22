@@ -1963,7 +1963,19 @@ Notes:
 ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day70_notes2.jpg)
 
 ---
-# Day 71
+# Day 71: Deep Diving Backpropagation
+
+I already explored backpropagation in andrew ng’s ml specialization course, but that was more of a surface level explanation just the mechanics of how it works.
+
+Today, i’m diving deep. like, REALLY deep. i want an intuitive, mathematical understanding of backpropagation, not just the algorithmic steps. all my tracing and derivations are going into my handwritten notes.
+
+Notes:
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day71_notes1.jpg) 
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day71_notes2.jpg)
+
+Tomorrow, i’ll probably implement backprop from scratch, test it on a proper dataset, and try to visualize what’s actually happening. the key question: how?
+
+Also, i might challenge myself to explain why backprop works in my own words. maybe even turn it into an article.
 
 
 <div id="bottom"></div>
