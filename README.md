@@ -1985,6 +1985,30 @@ Also, i might challenge myself to explain why backprop works in my own words. ma
   </a>
 </div>
 
+
+---
+# Day 72: Implementing backpropagation for regression  
+
+Today was all about applying what i learned yesterday to code and visualizing backpropagation.  
+
+first, i created a toy dataset that looks like this:  
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day72_sample_data.png)  
+
+Then, i wrote functions to implement backpropagation from scratch. after running the training loop, here’s what the final parameters looked like—no keras, no tensorflow, just raw python:  
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day72_final_weights_python.png)  
+
+all the code is in my notebook:  
+[Notebook: Backpropagation Regression](05-Artificial-Neural-Network-And-Improvement/code/day72_backpropagation_regression.ipynb)  
+
+I also tried using keras' sequential api to train the same model. after around 700 epochs, the error dropped significantly.  
+![Keras](05-Artificial-Neural-Network-And-Improvement/images/day72_regression_keras.png)  
+
+final weights with keras:  
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day72_final_weights_keras.png)  
+
+---
+# Day 73: Implementing backpropagation for Classification
+
 <!-- 
 ### Helping Hands
 - [Kris Naik - YouTube](https://www.youtube.com/channel/UCNU_lfiiWBdtULKOw6X0Dig)
