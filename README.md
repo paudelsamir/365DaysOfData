@@ -2006,6 +2006,8 @@ I also tried using keras' sequential api to train the same model. after around 7
 final weights with keras:  
 ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day72_final_weights_keras.png)  
 
+
+PS: intentionally chose a confusing dataset to mess with my own head. 
 ---
 # Day 73: Implementing backpropagation for Classification
 
