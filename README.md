@@ -2008,6 +2008,8 @@ final weights with keras:
 
 
 PS: intentionally chose a confusing dataset to mess with my own head. 
+
+
 ---
 # Day 73: Implementing backpropagation for Classification
 
