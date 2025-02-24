@@ -1967,7 +1967,7 @@ Notes:
 
 I already explored backpropagation in andrew ng’s ml specialization course, but that was more of a surface level explanation just the mechanics of how it works.
 
-Today, i’m diving deep. like, REALLY deep. i want an intuitive, mathematical understanding of backpropagation, not just the algorithmic steps. all my tracing and derivations are going into my handwritten notes.
+Today, i’m diving deep. like, REALLY deep. i want an intuitive, mathematical understanding of backpropagation, not just the algorithmic steps. all my tracing and derivations are going into my handwritten notes. this is for intutive approach to understand Regression part.
 
 Notes:
 ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day71_notes1.jpg) 
@@ -2011,7 +2011,32 @@ PS: intentionally chose a confusing dataset to mess with my own head.
 
 
 ---
-# Day 73: Implementing backpropagation for Classification
+# Day 73: Implementing Backpropagation for Classification
+
+i already implemented backprop for regression, both handwritten and in code. today, i'm tweaking it for classification.
+
+few things to change:  
+- loss function is **binary cross-entropy** instead of MSE  
+- activation function is **sigmoid** instead of linear  
+
+but the backprop algo stays the same. all derivatives are now based on the new log function. since i already get the intuition, i'm skipping the math and just coding it.  
+
+---
+
+### notebook: [implementation backprop classification](05-Artificial-Neural-Network-And-Improvement/code/day73_backpropagation_classification.ipynb)
+
+sample data looks like this:  
+![sample data](05-Artificial-Neural-Network-And-Improvement/images/day73_sample_data.png)
+
+final parameters after training:  
+![final parameters](05-Artificial-Neural-Network-And-Improvement/images/day73_final_params.png)
+
+function to update parameters:  
+![parameter update function](05-Artificial-Neural-Network-And-Improvement/images/day73_functionPto_update_parameter.png)
+
+at last, i tried implementing the same using tensorflow to see how it compares to my scratch implementation:  
+![tensorflow code](05-Artificial-Neural-Network-And-Improvement/images/day73_code_in_tensorflow.png)
+
 
 <!-- 
 ### Helping Hands
