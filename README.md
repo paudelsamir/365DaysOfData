@@ -1978,14 +1978,6 @@ Tomorrow, i’ll probably implement backprop from scratch, test it on a proper d
 Also, i might challenge myself to explain why backprop works in my own words. maybe even turn it into an article.
 
 
-<div id="bottom"></div>
-<div align="right">
-  <a href="#top" target="_blank">
-    <img src="https://img.shields.io/badge/Back%20to%20top-orange?style=for-the-badge&logo=expo&logoColor=white" style="height: 25px;" />
-  </a>
-</div>
-
-
 ---
 # Day 72: Implementing backpropagation for regression  
 
@@ -2021,9 +2013,7 @@ few things to change:
 
 but the backprop algo stays the same. all derivatives are now based on the new log function. since i already get the intuition, i'm skipping the math and just coding it.  
 
----
-
-### notebook: [implementation backprop classification](05-Artificial-Neural-Network-And-Improvement/code/day73_backpropagation_classification.ipynb)
+#### Notebook: [implementation backprop classification](05-Artificial-Neural-Network-And-Improvement/code/day73_backpropagation_classification.ipynb)
 
 sample data looks like this:  
 ![sample data](05-Artificial-Neural-Network-And-Improvement/images/day73_sample_data.png)
@@ -2036,6 +2026,16 @@ function to update parameters:
 
 at last, i tried implementing the same using tensorflow to see how it compares to my scratch implementation:  
 ![tensorflow code](05-Artificial-Neural-Network-And-Improvement/images/day73_code_in_tensorflow.png)
+
+---
+# Day 74: Tomorrow
+
+<div id="bottom"></div>
+<div align="right">
+  <a href="#top" target="_blank">
+    <img src="https://img.shields.io/badge/Back%20to%20top-orange?style=for-the-badge&logo=expo&logoColor=white" style="height: 25px;" />
+  </a>
+</div>
 
 
 <!-- 
