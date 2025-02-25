@@ -109,8 +109,8 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 | [Day69](#day-69-mlp-notation-forward-propagation) | 2025-02-20 | MLP notation, Forward Propagation | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
 | [Day70](#day-70-loss-functions-for-deep-learning) | 2025-02-21 | Loss Functions for deep learning | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
 | [Day71](#day-71-deep-diving-backpropagation) | 2025-02-22 | Backpropagation, deep diving this time | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
-| [Day72]() | 2025-02-23 | ---------------- | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
-| [Day73]() | 2025-02-24 | ---------------- | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
+| [Day72](#day-72-implementing-backpropagation-for-regression) | 2025-02-23 | Implementing Backpropagation for Regression | [Notebook: Backpropagation Regression](05-Artificial-Neural-Network-And-Improvement/code/day72_backpropagation_regression.ipynb) |
+| [Day73](#day-73-implementing-backpropagation-for-classification) | 2025-02-24 | Implementing Backpropagation for Classification | [Notebook: Implementation Backprop Classification](05-Artificial-Neural-Network-And-Improvement/code/day73_backpropagation_classification.ipynb) |
 | [Day74]() | 2025-02-25 | ---------------- | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
 | [Day75]() | 2025-02-26 | ---------------- | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
 | [Day76]() | 2025-02-27 | ---------------- | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
@@ -2036,6 +2036,7 @@ at last, i tried implementing the same using tensorflow to see how it compares t
     <img src="https://img.shields.io/badge/Back%20to%20top-orange?style=for-the-badge&logo=expo&logoColor=white" style="height: 25px;" />
   </a>
 </div>
+
 
 
 <!-- 
