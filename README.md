@@ -2028,7 +2028,12 @@ at last, i tried implementing the same using tensorflow to see how it compares t
 ![tensorflow code](05-Artificial-Neural-Network-And-Improvement/images/day73_code_in_tensorflow.png)
 
 ---
-# Day 74: Tomorrow
+# Day 74: Revising old days, Memoization
+
+Today, i revised concept of gradient and derivatives, focusing on how subtracting the gradient term is helping minimize loss. gradient  relies on derivatives to find the optimal weights, and the learning rate controls the step size too high can cause overshooting, while too low leads to slow convergence. another key takeaway was memoization, a technique to store previously computed values to optimize calculations. in neural networks, repeated derivative computations can slow down training, and memoization helps speed things up by avoiding redundant calculations. this approach is widely used in dynamic programming and can improve efficiency in deep learning models.
+
+Notes:
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day74_notes1.jpg) ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day74_notes2.jpg)
 
 <div id="bottom"></div>
 <div align="right">
