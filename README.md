@@ -2035,6 +2035,31 @@ Today, i revised concept of gradient and derivatives, focusing on how subtractin
 Notes:
 ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day74_notes1.jpg) ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day74_notes2.jpg)
 
+
+---
+# Day 75: Vanishing Gradient, Exploding Gradient
+
+
+- vanishing gradient: when gradients become too small, causing early layers to learn very slowly or not at all. example: in deep networks using sigmoid activation, earlier layers stop updating because gradients shrink to near zero.
+
+- exploding gradient: when gradients become too large, leading to unstable updates and divergence. example: in rnn training, weights keep multiplying large gradients, causing values to explode to infinity.
+
+![problems](05-Artificial-Neural-Network-And-Improvement/images/day75_gradients_problems.png)
+
+#### How to Handle VGD problem:
+
+- use better activation functions – replace sigmoid/tanh with relu, leaky relu, or elu.
+Using Sigmoid:
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day75_using_sigmoid.png)
+Using ReLU:
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day75_using_relu_insteadof_sigmoid.png)
+This is the final weights comparision:
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day75_old_vs_new_weights.png) 
+- use proper weight initialization – xavier/glorot for sigmoid/tanh, he initialization for relu.
+- batch normalization – normalizes activations to maintain stable gradients.
+- residual connections (skip connections) – used in resnets to allow gradients to flow easily.
+- gradient clipping – caps gradients to prevent them from becoming too small.
+
 <div id="bottom"></div>
 <div align="right">
   <a href="#top" target="_blank">
