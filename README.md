@@ -2040,6 +2040,12 @@ Notes:
 # Day 75: Vanishing Gradient, Exploding Gradient
 
 
+Today i first revised Gradient descent in NN:
+- Batch : faster to complete epochs ( batch size = all)
+- Stochastic : faster to converge ( batch size = 1)
+- Mini- Batch : mostly suitable ( batch size around center)
+
+
 - vanishing gradient: when gradients become too small, causing early layers to learn very slowly or not at all. example: in deep networks using sigmoid activation, earlier layers stop updating because gradients shrink to near zero.
 
 - exploding gradient: when gradients become too large, leading to unstable updates and divergence. example: in rnn training, weights keep multiplying large gradients, causing values to explode to infinity.
@@ -2059,6 +2065,41 @@ This is the final weights comparision:
 - batch normalization – normalizes activations to maintain stable gradients.
 - residual connections (skip connections) – used in resnets to allow gradients to flow easily.
 - gradient clipping – caps gradients to prevent them from becoming too small.
+
+
+---
+# Day 76: Implementing ANN for different datasets
+
+Today, i will be trying applying ANN to train the model to predict with following datasets:
+1. Handwritten digit classification using ANN - MNIST dataset
+
+    - Ann Training 30 epochs:
+    ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day76_mnist_training_30epochs.png) 
+    - Sequential Model Summary:
+    ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day76_mnist_model_summary.png)
+   - Model Prediction:
+    ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day76_mnist_prediction.png) 
+
+2. Graduate Admission Prediction - GRE dataset 
+    
+    - Sample dataset:
+    ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day76_gre_dataset_sample.png)
+    - ANN Training 100 epochs:
+    ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day76_gre_training_100epochs.png)
+    - Sequential Model Summary
+    ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day76_gre_model_summary.png) 
+    - GRE Model Accuracy: 
+    ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day76_gre_model_accuracy.png) 
+
+
+---
+# Day 77: Improving Neural Networks
+
+
+
+
+
+
 
 <div id="bottom"></div>
 <div align="right">
