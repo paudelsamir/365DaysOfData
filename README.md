@@ -2068,31 +2068,31 @@ This is the final weights comparision:
 
 
 ---
-# Day 76: Implementing ANN for different datasets
+# Day 76: Implementing artificial neural networks (ann) for different datasets  
 
-Today, i will be trying applying ANN to train the model to predict with following datasets:
-1. Handwritten digit classification using ANN - MNIST dataset
+- Experimented with ann on two datasets: mnist for handwritten digit classification and a gre dataset for graduate admission prediction. the goal was to train models and analyze performance across different domains. 
 
-    - Ann Training 30 epochs:
-    ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day76_mnist_training_30epochs.png) 
-    - Sequential Model Summary:
-    ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day76_mnist_model_summary.png)
-   - Model Prediction:
-    ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day76_mnist_prediction.png) 
+1. trained an ann on mnist to classify handwritten digits (0-9) using a sequential model with dense layers. training ran for 30 epochs with promising results.  
+    - **training results (30 epochs):**  
+        ![mnist training](05-Artificial-Neural-Network-And-Improvement/images/day76_mnist_training_30epochs.png)  
+    - **model summary:**  
+        ![mnist model summary](05-Artificial-Neural-Network-And-Improvement/images/day76_mnist_model_summary.png)  
+    - **sample predictions:**  
+        ![mnist prediction](05-Artificial-Neural-Network-And-Improvement/images/day76_mnist_prediction.png)  
 
-2. Graduate Admission Prediction - GRE dataset 
-    
-    - Sample dataset:
-    ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day76_gre_dataset_sample.png)
-    - ANN Training 100 epochs:
-    ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day76_gre_training_100epochs.png)
-    - Sequential Model Summary
-    ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day76_gre_model_summary.png) 
-    - GRE Model Accuracy: 
-    ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day76_gre_model_accuracy.png) 
+- applied ann to predict graduate school admission chances based on gre scores, gpa, and other factors. dataset required preprocessing before feeding into the model. trained for 100 epochs.  
+    - **sample dataset:**  
+        ![gre dataset sample](05-Artificial-Neural-Network-And-Improvement/images/day76_gre_dataset_sample.png)  
+    - **training results (100 epochs):**  
+        ![gre training](05-Artificial-Neural-Network-And-Improvement/images/day76_gre_training_100epochs.png)  
+    - **model summary:**  
+        ![gre model summary](05-Artificial-Neural-Network-And-Improvement/images/day76_gre_model_summary.png)  
+    - **model accuracy evaluation:**  
+        ![gre model accuracy](05-Artificial-Neural-Network-And-Improvement/images/day76_gre_model_accuracy.png)  
+
+*next steps: hyperparameter tuning, dropout layers for regularization, and testing on additional datasets.*
 
 
----
 # Day 77: Improving Neural Networks
 
 
