@@ -102,7 +102,7 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 | [Day62](#day-62-project--football-players-market-value-prediction---finalizing-project-and-deploying-it) | 2025-02-13 | Project @ Finalizing Project and Deploying it | [Project @ Football Players Market Value Prediction](https://paudelsamir.streamlit.app/) |
 | [Day63](#day-63-content-based-movie-recommender-system---preprocessing) | 2025-02-14 | Content-Based Movie Recommender System - Preprocessing | [Notebook](05-Content-Based-Movie-Recommender-System/notebooks/preprocessing.ipynb) |
 | [Day64](#day-64-content-based-movie-recommender-system---building-and-deployment) | 2025-02-15 | Content-Based Movie Recommender System - Building and Deployment | [Live Demo](https://movie-recommender-samir.streamlit.app/) |
-| [Day65](#day-65-diving-into-deep-learning) | 2025-02-16 | Diving into Deep Learning | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
+| [Day65](#day-65-diving-into-deep-learning) | 2025-02-16 | Diving into Deep Learning | [Intro to Deep Learning @MIT](https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI) |
 | [Day66](#day-66-perceptrons) | 2025-02-17 | Perceptrons | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
 | [Day67](#day-67-perceptron-loss-function-and-gradient-descent) | 2025-02-18 | Perceptron, Loss function and gradient Descent | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) [, Grokking Deep Learning @Andrew W. Trask](https://edu.anarcho-copy.org/Algorithm/grokking-deep-learning.pdf) | |
 | [Day68](#day-68-multilayer-perceptron) | 2025-02-19 | Multilayer Perceptron | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
@@ -110,14 +110,14 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 | [Day70](#day-70-loss-functions-for-deep-learning) | 2025-02-21 | Loss Functions for deep learning | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
 | [Day71](#day-71-deep-diving-backpropagation) | 2025-02-22 | Backpropagation, deep diving this time | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
 | [Day72](#day-72-implementing-backpropagation-for-regression) | 2025-02-23 | Implementing Backpropagation for Regression | [Notebook: Backpropagation Regression](05-Artificial-Neural-Network-And-Improvement/code/day72_backpropagation_regression.ipynb) |
-| [Day73](#day-73-implementing-backpropagation-for-classification) | 2025-02-24 | Implementing Backpropagation for Classification | [Notebook: Implementation Backprop Classification](05-Artificial-Neural-Network-And-Improvement/code/day73_backpropagation_classification.ipynb) |
-| [Day74]() | 2025-02-25 | ---------------- | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
-| [Day75]() | 2025-02-26 | ---------------- | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
-| [Day76]() | 2025-02-27 | ---------------- | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
-| [Day77]() | 2025-02-28 | ---------------- | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
-| [Day78]() | 2025-03-01 | ---------------- | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
-| [Day79]() | 2025-03-02 | ---------------- | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
-| [Day80]() | 2025-03-03 | ---------------- | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
+| [Day74](#day-74-revising-old-days-memoization) | 2025-02-25 | Revising old days, Memoization | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
+| [Day75](#day-75-vanishing-gradient-exploding-gradient) | 2025-02-26 | Vanishing Gradient, Exploding Gradient | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
+| [Day76](#day-76-implementing-artificial-neural-networks-ann-for-different-datasets) | 2025-02-27 | Implementing artificial neural networks (ann) for different datasets | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
+| [Day77](#day-77-improving-neural-networks) | 2025-02-28 | Improving Neural Networks | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
+| [Day78](#day-78-sequence-modeling--rnns---just-overview) | 2025-03-01 | Sequence Modeling / RNNs - Just Overview | [Intro to Deep Learning @MIT](https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI) |
+| [Day79](#day-79-transformers-attention---just-overview) | 2025-03-02 | Transformers Attention - Just Overview |[Intro to Deep Learning @MIT](https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI) |
+| [Day79]() | 2025-03-02 | ---------------- | [Intro to Deep Learning @MIT](https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI) |
+| [Day80]() | 2025-03-03 | ---------------- | [Intro to Deep Learning @MIT](https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI)|
 
 
 
