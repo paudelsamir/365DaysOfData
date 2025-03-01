@@ -2142,8 +2142,6 @@ Implementation Preview
 
 ---
 # Day 79: Transformers Attention - Just Overview
-
-
 <div id="bottom"></div>
 <div align="right">
   <a href="#top" target="_blank">
