@@ -2072,6 +2072,9 @@ This is the final weights comparision:
 
 - Experimented with ann on two datasets: mnist for handwritten digit classification and a gre dataset for graduate admission prediction. the goal was to train models and analyze performance across different domains. 
 
+[Notebook: GRE prediction](05-Artificial-Neural-Network-And-Improvement/code/day76_gre_prediction.ipynb) <br>
+[Notebook: MNIST Classification](05-Artificial-Neural-Network-And-Improvement/code/day76_mnist_classification.ipynb)
+
 1. trained an ann on mnist to classify handwritten digits (0-9) using a sequential model with dense layers. training ran for 30 epochs with promising results.  
     - **training results (30 epochs):**  
         ![mnist training](05-Artificial-Neural-Network-And-Improvement/images/day76_mnist_training_30epochs.png)  
@@ -2095,8 +2098,27 @@ This is the final weights comparision:
 
 # Day 77: Improving Neural Networks
 
+#### Fine-tuning Neural Network Hyperparameters
 
+Fine-tuning neural network hyperparameters is about adjusting key settings to improve learning:
 
+* *Learning rate* - controls how fast the model updates. Too high = unstable, too low = slow learning.
+* *Batch size* - number of samples processed before an update. Small = noisy but frequent updates, large = stable but slow.
+* *Epochs* - full passes through data. Too few = underfitting, too many = overfitting.
+* *Layers & neurons* - more can improve learning but make training harder.
+* *Activation function* - decides neuron output; common ones are ReLU, sigmoid, tanh.
+* *Dropout* - turns off some neurons randomly to prevent overfitting.
+* *Optimizer* - algorithm that adjusts weights efficiently (Adam, SGD, etc.).
+
+#### Problem Solving Strategies
+
+* *Vanishing/exploding gradient* – gradients shrink or blow up, stopping learning → use ReLU, batch norm, weight init, or residual connections.
+* *Not enough data* – small datasets cause poor generalization → apply data augmentation, transfer learning, or synthetic data generation.
+* *Slow training* – long training times due to large models or bad optimizers → use mini-batches, better optimizers, mixed precision, and GPUs.
+* *Overfitting* – model memorizes training data but fails on new data → apply dropout, regularization, early stopping, and data augmentation.
+* *Underfitting* – model is too simple and fails to learn patterns → increase complexity, train longer, improve features, and reduce regularization.
+* *Imbalanced data* – one class dominates, leading to biased predictions → use class weighting, oversampling, or synthetic data (SMOTE/GANs).
+* *Poor generalization* – model does well in training but fails on real-world data → ensure diverse data, reduce leakage, use domain adaptation, or adversarial training.
 
 
 
