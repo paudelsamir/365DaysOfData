@@ -2098,15 +2098,19 @@ This is the final weights comparision:
 
 # Day 77: Improving Neural Networks
 
+Notes:
+![notes](05-Artificial-Neural-Network-And-Improvement/images/day77_notes.jpg)
+
 #### Fine-tuning Neural Network Hyperparameters
 
-Fine-tuning neural network hyperparameters is about adjusting key settings to improve learning:
+Fine-tuning neural network hyperparameters is about adjusting key settings to improve learning
 
 * *Learning rate* - controls how fast the model updates. Too high = unstable, too low = slow learning.
 * *Batch size* - number of samples processed before an update. Small = noisy but frequent updates, large = stable but slow.
 * *Epochs* - full passes through data. Too few = underfitting, too many = overfitting.
-* *Layers & neurons* - more can improve learning but make training harder.
+* *Layers & neurons* - more can improve learning but make training harder. 
 * *Activation function* - decides neuron output; common ones are ReLU, sigmoid, tanh.
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day77_activation_function.png)
 * *Dropout* - turns off some neurons randomly to prevent overfitting.
 * *Optimizer* - algorithm that adjusts weights efficiently (Adam, SGD, etc.).
 
@@ -2120,8 +2124,9 @@ Fine-tuning neural network hyperparameters is about adjusting key settings to im
 * *Imbalanced data* – one class dominates, leading to biased predictions → use class weighting, oversampling, or synthetic data (SMOTE/GANs).
 * *Poor generalization* – model does well in training but fails on real-world data → ensure diverse data, reduce leakage, use domain adaptation, or adversarial training.
 
-
-
+##### Transfer Learning
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day77_transfer_learning.png)
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day77_how_tl_works.png)
 
 <div id="bottom"></div>
 <div align="right">
