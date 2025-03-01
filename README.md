@@ -2129,7 +2129,7 @@ Fine-tuning neural network hyperparameters is about adjusting key settings to im
 ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day77_how_tl_works.png)
 
 
-# Day 79: Just Overview- RNNs
+# Day 78: Sequence Modeling / RNNs - Just Overview
 > *I just thought ki Before diving deeper into neural network improvement techniques, I should first gain a surface-level understanding of deep learning concepts I'll be tackling in the future as this learning technique is helping me alot. For this purpose, I found an excellent YouTube playlist: [MIT 6.S191: Introduction to Deep Learning](https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI). There are approximately 10 to 15 videos that I plan to watch to build a foundational overview and i too will deep dive into these later*
 
 ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day78_notes.jpg) 
@@ -2140,6 +2140,8 @@ Implementation Preview
 ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day78_rnn_implement_intf.png) 
 
 
+---
+# Day 79: Transformers Attention - Just Overview
 <div id="bottom"></div>
 <div align="right">
   <a href="#top" target="_blank">
