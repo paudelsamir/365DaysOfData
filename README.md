@@ -2144,6 +2144,51 @@ Implementation Preview
 ---
 # Day 79: Transformers Attention - Just Overview
 
+Transformers replace RNNs by using **self-attention**, enabling parallel processing and handling long-range dependencies efficiently. Introduced in **"Attention Is All You Need" (2017)**, they power models like BERT and GPT.  
+
+Self-attention computes **Query (Q), Key (K), and Value (V)** matrices to determine word relationships. **Multi-head attention** allows the model to capture different contextual meanings.  
+
+The transformer consists of **encoder-decoder blocks** with **self-attention, feed-forward layers, and normalization**. Encoders learn representations, while decoders generate sequences.  
+
+Transformers are used in **chatbots, translation, search engines, and AI coding assistants**. Key models include **BERT (bi-directional understanding), GPT (text generation), and T5 (text-to-text tasks)**.  
+
+
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day79_notes.jpg) ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day79_transofrmer.png) ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day79_encoder_decoder_parts.png)
+
+---
+# Day 80: CNNs - Just Overview 
+- Computer vision enables machines to interpret visual data.  
+- Used in **self-driving cars, medical imaging, surveillance, AR**.  
+
+### What Computers "See"  
+- Images are **matrices of pixel values** (grayscale: single matrix, RGB: 3 matrices).  
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day80_what_computers_see.png)
+
+### Feature Extraction & Convolution  
+- CNNs learn **features** like edges, textures, and shapes automatically.  
+- **Convolution**: uses filters (kernels) to extract patterns from images.  
+- **Example Kernel (Edge Detection)**:  ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day80_edge_detection.png)
+
+### CNN Architecture  
+1. **Convolution Layers**: detect patterns.  
+2. **ReLU Activation**: makes model non-linear.  
+3. **Pooling Layers**: reduce size, keep key features.  
+4. **Fully Connected Layers**: classify objects.  
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day80_cnn_arch.png)
+
+### Object Detection  
+use yolo when speed matters more than precision (e.g., real-time apps).
+use rcnn when accuracy is critical and speed isn’t a constraint.
+use faster rcnn for a balance between accuracy and speed.
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day80_yolovsrcnn.png)
+
+### Self-Driving Cars  
+- CNNs help detect **lanes, pedestrians, and traffic signs**.  
+- End-to-end models predict **steering angles** using video input.  
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day80_Self-driving-car-simulator-deepdrive.webp) ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day80_self_driving_cars.png)
+---
+# Day 81: Deep Generative Modeling - Just Overview
+
 
 <div id="bottom"></div>
 <div align="right">
