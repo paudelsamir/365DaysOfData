@@ -2142,7 +2142,7 @@ Implementation Preview
 
 
 ---
-# Day 79: Transformers Attention - Just Overview
+# Day 79: Transformers , Attention - Just Overview
 
 Transformers replace RNNs by using **self-attention**, enabling parallel processing and handling long-range dependencies efficiently. Introduced in **"Attention Is All You Need" (2017)**, they power models like BERT and GPT.  
 
@@ -2156,7 +2156,7 @@ Transformers are used in **chatbots, translation, search engines, and AI coding 
 ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day79_notes.jpg) ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day79_transofrmer.png) ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day79_encoder_decoder_parts.png)
 
 ---
-# Day 80: CNNs - Just Overview 
+# Day 80: CNNs - Just Overview Part 1
 - Computer vision enables machines to interpret visual data.  
 - Used in **self-driving cars, medical imaging, surveillance, AR**.  
 
@@ -2167,7 +2167,8 @@ Transformers are used in **chatbots, translation, search engines, and AI coding 
 ### Feature Extraction & Convolution  
 - CNNs learn **features** like edges, textures, and shapes automatically.  
 - **Convolution**: uses filters (kernels) to extract patterns from images.  
-- **Example Kernel (Edge Detection)**:  ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day80_edge_detection.png)
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day80_cnn_filters.png)
+- **Example Kernel (Edge Detection - traditional filter)**:  ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day80_edge_detection.png)
 
 ### CNN Architecture  
 1. **Convolution Layers**: detect patterns.  
@@ -2187,8 +2188,16 @@ use faster rcnn for a balance between accuracy and speed.
 - End-to-end models predict **steering angles** using video input.  
 ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day80_Self-driving-car-simulator-deepdrive.webp) ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day80_self_driving_cars.png)
 ---
-# Day 81: Deep Generative Modeling - Just Overview
+# Day 81: CNNs - Just Overview Part 2
 
+yesterday, i watched a video on cnn. the goal was just to explore it for a day, but i feel like this is an interesting topic. so today, i want to learn more—like, in-depth—about the feature extraction part, which i find the most interesting aspect of cnn.
+
+i learned to use relu and understood convolution layers and how they work yesterday. but today, i learned about pooling and how it reduces the size. i also explored the classification process in more depth.
+
+note: cnn by itself doesn't handle rotation and scaling well. for that, use data augmentation.
+
+notes:
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day81_notes.jpg)
 
 <div id="bottom"></div>
 <div align="right">
