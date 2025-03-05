@@ -2194,10 +2194,9 @@ yesterday, i watched a video on cnn. the goal was just to explore it for a day, 
 
 i learned to use relu and understood convolution layers and how they work yesterday. but today, i learned about pooling and how it reduces the size. i also explored the classification process in more depth.
 
-note: cnn by itself doesn't handle rotation and scaling well. for that, use data augmentation.
-
 notes:
 ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day81_notes.jpg)
+note: cnn by itself doesn't handle rotation and scaling well. for that, use data augmentation.
 
 <div id="bottom"></div>
 <div align="right">
@@ -2205,6 +2204,51 @@ notes:
     <img src="https://img.shields.io/badge/Back%20to%20top-orange?style=for-the-badge&logo=expo&logoColor=white" style="height: 25px;" />
   </a>
 </div>
+
+
+---
+# Day 82: Deep Generative modeling - Just overview
+
+Watched this single video : https://www.youtube.com/watch?v=Dmm4UG-6jxA&t=3242s
+
+today’s deep dive into **generative models** gave me a solid grasp of how ai can not only recognize patterns but also **create** new data from scratch. these models are the backbone of modern generative ai, and understanding them is key to keeping up with the field.
+
+### **Generative models: what they do**
+
+- they don’t just classify or analyze data; they **generate entirely new data** that resembles what they learned from.
+- examples include **autoencoders, variational autoencoders (VAEs), GANs, and diffusion models**—each with its own strengths.
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day82_generative_discriminative.png) 
+
+### **Latent variable models: finding the hidden structure**
+
+- autoencoders learn to compress data into lower-dimensional representations and then reconstruct it.
+- vaes take this further by adding randomness, making them better at **generating diverse outputs** instead of just memorizing patterns.
+- plato’s cave analogy clicked here—observed data is like shadows on a wall, while latent variables represent the actual objects casting those shadows.
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day82_latent_variable.png) 
+
+### **Generative adversarial networks (GANs): competition makes better results**
+
+- a **generator** creates fake data, while a **discriminator** tries to catch the fakes.
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day82_gan_discriminator.png) 
+- through constant feedback, both improve, leading to **highly realistic outputs**.
+- training is tricky—imbalanced learning can cause **mode collapse**, where the generator keeps making similar outputs instead of diverse ones.
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day82_vae_encoder_decpder.png) 
+
+### **Regularization & structure in vaes**
+
+- forcing the latent space into a structured distribution (often gaussian) helps ensure **smoothness and continuity**, making vaes more useful for controlled generation.
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day82_vae_summary.png)
+
+### **Applications beyond images**
+
+- these models aren't just for ai art—they power **speech synthesis, text generation, and even domain adaptation** (like CycleGAN for translating images without paired data).
+
+### **Diffusion models: a new generative powerhouse**
+
+- instead of generating images all at once (like GANs), diffusion models **gradually refine noise into meaningful images**.
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day82_diffusion_model.png) 
+- they’re more stable and produce higher-quality results, making them the **future of generative ai**.
+
 
 
 
