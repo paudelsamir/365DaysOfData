@@ -2249,9 +2249,25 @@ today’s deep dive into **generative models** gave me a solid grasp of how ai c
 ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day82_diffusion_model.png) 
 - they’re more stable and produce higher-quality results, making them the **future of generative ai**.
 
+# Day 83: Reinforcement Learning - Just Overview
+- explored key concepts of reinforcement learning (RL), including Q-learning and policy learning algorithms.
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day83_downsides_q_learning.png) 
 
-# Day 83: Reinforcement Deep Learning - Just overview
+- dived into Deep Q Networks (DQN) and their role in handling complex environments, like Atari games.
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day83_deepq_network.png) 
 
+- understood the difference between discrete and continuous actions and how they impact RL models.
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day83_vista.png)
+
+- learned about real-world applications of RL, from robotics to game AI, and cutting-edge technologies like AlphaGo and MuZero.
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day83_alphago.png) 
+
+- explored training techniques like policy gradients and how they improve decision-making in RL agents.
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day83_policy_learning.png) 
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day83_policy_gradient_training.png) 
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day83_summary.png) 
+
+# Day 84: 
 <!-- 
 ### Helping Hands
 - [Kris Naik - YouTube](https://www.youtube.com/channel/UCNU_lfiiWBdtULKOw6X0Dig)
