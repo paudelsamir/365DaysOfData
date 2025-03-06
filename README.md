@@ -2198,12 +2198,6 @@ notes:
 ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day81_notes.jpg)
 note: cnn by itself doesn't handle rotation and scaling well. for that, use data augmentation.
 
-<div id="bottom"></div>
-<div align="right">
-  <a href="#top" target="_blank">
-    <img src="https://img.shields.io/badge/Back%20to%20top-orange?style=for-the-badge&logo=expo&logoColor=white" style="height: 25px;" />
-  </a>
-</div>
 
 
 ---
@@ -2250,6 +2244,7 @@ today’s deep dive into **generative models** gave me a solid grasp of how ai c
 - they’re more stable and produce higher-quality results, making them the **future of generative ai**.
 
 # Day 83: Reinforcement Learning - Just Overview
+with the help of this video: https://www.youtube.com/watch?v=8JVRbHAVCws&t=3242s
 - explored key concepts of reinforcement learning (RL), including Q-learning and policy learning algorithms.
 ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day83_downsides_q_learning.png) 
 
@@ -2266,8 +2261,21 @@ today’s deep dive into **generative models** gave me a solid grasp of how ai c
 ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day83_policy_learning.png) 
 ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day83_policy_gradient_training.png) 
 ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day83_summary.png) 
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day83_nnotes.jpg)
 
+---
 # Day 84: 
+
+
+
+
+
+<div id="bottom"></div>
+<div align="right">
+  <a href="#top" target="_blank">
+    <img src="https://img.shields.io/badge/Back%20to%20top-orange?style=for-the-badge&logo=expo&logoColor=white" style="height: 25px;" />
+  </a>
+</div>
 <!-- 
 ### Helping Hands
 - [Kris Naik - YouTube](https://www.youtube.com/channel/UCNU_lfiiWBdtULKOw6X0Dig)
