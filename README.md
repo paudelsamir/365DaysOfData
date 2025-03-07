@@ -29,10 +29,11 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 | Books & Courses  | Completion Status |
 |--------------------|-------------------|
 | [Machine Learning Specialization @Coursera](https://www.coursera.org/specializations/machine-learning-introduction) | ✅ |
-| [100 Days ML @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH) | ✅ |
-| [Deep Learning @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) | ⌛ |
-| [Intro to Deep Learning @MIT](https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI) | ⌛ |
+| [Machine Learning Playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH) | ✅ |
+| [Intro to Deep Learning @MIT](https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI) | ✅  |
+| [Deep Learning Playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) | ⌛ |
 | [Grokking Deep Learning @Andrew W. Trask](https://edu.anarcho-copy.org/Algorithm/grokking-deep-learning.pdf) | ⌛ |
+
 <!-- | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/yanshengjia/ml-road/blob/master/resources/Hands%20On%20Machine%20Learning%20with%20Scikit%20Learn%20and%20TensorFlow.pdf)| 🏊⌛|  -->
 
 
@@ -115,10 +116,13 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 | [Day75](#day-75-vanishing-gradient-exploding-gradient) | 2025-02-26 | Vanishing Gradient, Exploding Gradient | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
 | [Day76](#day-76-implementing-artificial-neural-networks-ann-for-different-datasets) | 2025-02-27 | Implementing artificial neural networks (ann) for different datasets | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
 | [Day77](#day-77-improving-neural-networks) | 2025-02-28 | Improving Neural Networks | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
-| [Day78](#day-78-sequence-modeling--rnns---just-overview) | 2025-03-01 | Sequence Modeling / RNNs - Just Overview | [Intro to Deep Learning @MIT](https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI) |
+| [Day78](#day-78-sequence-modeling--rnns---just-overview) | 2025-03-01 | Sequence Modeling / RNNs - Just Overview | [Intro to Deep Learning @MIT](https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI) 
 | [Day79](#day-79-transformers-attention---just-overview) | 2025-03-02 | Transformers Attention - Just Overview |[Intro to Deep Learning @MIT](https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI) |
-| [Day79]() | 2025-03-02 | ---------------- | [Intro to Deep Learning @MIT](https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI) |
-| [Day80]() | 2025-03-03 | ---------------- | [Intro to Deep Learning @MIT](https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI)|
+| [Day80](#day-80-cnns---just-overview-part-1) | 2025-03-03 | CNNs - Just Overview Part 1 | [Intro to Deep Learning @MIT](https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI) |
+| [Day81](#day-81-cnns---just-overview-part-2) | 2025-03-04 | CNNs - Just Overview Part 2 | [Intro to Deep Learning @MIT](https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI) |
+| [Day82](#day-82-deep-generative-modeling---just-overview) | 2025-03-05 | Deep Generative Modeling - Just Overview | [Intro to Deep Learning @MIT](https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI) |
+| [Day83](#day-83-reinforcement-learning---just-overview) | 2025-03-06 | Reinforcement Learning - Just Overview | [Intro to Deep Learning @MIT](https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI) |
+| [Day84](#day-84-deep-learning-challenges--new-frontiers---just-overview) | 2025-03-07 | Deep Learning: Challenges & New Frontiers - Just Overview | [Intro to Deep Learning @MIT](https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI) |
 
 
 
