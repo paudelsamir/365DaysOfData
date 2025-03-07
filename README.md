@@ -2264,9 +2264,35 @@ with the help of this video: https://www.youtube.com/watch?v=8JVRbHAVCws&t=3242s
 ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day83_nnotes.jpg)
 
 ---
-# Day 84: 
+# Day 84: Deep learning: challenges & new frontiers - Just Overvview
 
+Video Link: https://www.youtube.com/watch?v=N1fbskTpwZ0&t=3021s
 
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day84_ai_hype.png)
+- neural network failure modes – ai can fail unpredictably, often overconfident in wrong answers.
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day84_NN_limitations.png) 
+- uncertainty in deep learning – models lack awareness of their own mistakes, leading to unreliable predictions.
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day84_uncertainty_dl.png) 
+- adversarial attacks – tiny changes in input can trick ai into making completely wrong decisions.
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day84_deeplearning_alchemy.png) 
+- algorithmic bias – ai inherits and amplifies biases from training data, leading to unfair outcomes.
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day84_algorithmic_biases.png) 
+
+### generative ai & diffusion models
+
+- the landscape – diffusion models are replacing GANs in high-quality image generation.
+- diffusion process – gradually add noise to data and train a model to reverse it.
+- noising & denoising – AI learns to reconstruct images by stepwise noise removal.
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day84_diffusion.png) 
+- text to image, beyond images – models like DALL·E generate images, but AI is expanding into text, music, and 3D.
+
+### large language models (LLMs)
+
+- using llms to generate text – models predict words to generate human-like text.
+- limitations – hallucinations, bias, and lack of real understanding.
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day84_llms.png) 
+- more parameters = better performance, but higher computational cost.
+- how they work – transformers + attention mechanism process and generate context-aware text
 
 
 
