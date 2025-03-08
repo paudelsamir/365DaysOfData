@@ -129,6 +129,7 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 
 
 ---
+
 <br>
 <br>
 
@@ -2294,7 +2295,49 @@ Video Link: https://www.youtube.com/watch?v=N1fbskTpwZ0&t=3021s
 - more parameters = better performance, but higher computational cost.
 - how they work – transformers + attention mechanism process and generate context-aware text
 
+# Day 85:  Early Stopping, Normalizing Inputs, Dropout
 
+These are the techniques i will cover in upcoming days:
+
+1. Vanishing Gradients
+    - Activation Functions
+    - Weight Initialization
+
+2. Overfitting
+    - Reduce Complexity/Increase Data
+    - Dropout Layers
+    - Regularization (L1 & L2)
+    - Early Stopping
+
+3. Normalization
+    - Normalizing inputs
+    - Batch Normalization
+    - Normalizing Activations
+
+4. Gradient Checking and Clipping
+
+5. Optimizers
+    - Momentum
+    - Adagrad
+    - RMSprop
+
+6. Learning rate scheduling
+
+7. Hyperparameter Tuning
+    - No. of hidden layers
+    - Nodes/layer
+    - Batch size
+
+Today, I explored Early Stopping, Normalizing Inputs, and Dropout techniques for improving neural network performance.
+
+- **Early Stopping**: Prevents overfitting by halting training when validation performance drops.
+- **Normalizing Inputs**: Scales features to a consistent range, aiding in faster and more stable learning.
+- **Dropout**: Reduces overfitting by randomly deactivating neurons during training, forcing the model to generalize better.
+
+[Notebook: Dropout on Regression](05-Artificial-Neural-Network-And-Improvement/code/day85_dropout_regression.ipynb)
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day85_regression_nodropoutvsdropout.png) 
+[Notebook: Dropout on Classification](05-Artificial-Neural-Network-And-Improvement/code/day85_dropout_classification.ipynb) 
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day85_dropout_vs_nodropout.png)
 
 <div id="bottom"></div>
 <div align="right">
