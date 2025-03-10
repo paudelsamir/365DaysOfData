@@ -2362,6 +2362,29 @@ quantization in deep learning reduces the precision of numbers in a model to sav
 ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day86_quantization.png)
 
 
+
+# Day 87 - Activation Functions - Revisited
+
+why needed? introduce non-linearity to capture complex patterns.
+
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day87_notes1.jpg) 
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day87_notes2.jpg)
+ideal properties: non-linear, differentiable, computationally inexpensive, zero-centered, non-saturating.
+
+- use relu + he init, sigmoid/tanh + xavier init.
+- relu in early layers, tanh or sigmoid in later/output layers.
+- prefer gelu for transformers.
+- avoid dying relu with leaky relu or prelu.
+
+relu: fast, simple but can die.
+leaky relu: small slope for negatives, avoids dead neurons.
+prelu: learnable slope, more flexible.
+elu: better generalization, but expensive.
+selu: self-normalizing, good for deep nets.
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day87_activation_functions.png) 
+
+
+
 <div id="bottom"></div>
 <div align="right">
   <a href="#top" target="_blank">
