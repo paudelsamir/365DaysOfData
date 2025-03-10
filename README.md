@@ -2339,6 +2339,29 @@ Today, I explored Early Stopping, Normalizing Inputs, and Dropout techniques for
 [Notebook: Dropout on Classification](05-Artificial-Neural-Network-And-Improvement/code/day85_dropout_classification.ipynb) 
 ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day85_dropout_vs_nodropout.png)
 
+
+
+---
+# Day 86: Regularization, Quantization
+
+
+L1 and L2 regularization are typically used for smaller networks. For larger networks, it is better to use neural network-specific regularization which is dropout regularization.
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day86_notes.jpg)
+
+An evaluation procedure must be used when using a regularizer to monitor that regularization process. For this, we can plot model performance against the number of epochs during the training process.
+
+![Regularization](05-Artificial-Neural-Network-And-Improvement/images/day86_regularization_techniques.png) 
+![Regularization](05-Artificial-Neural-Network-And-Improvement/images/day86_l1andl2regularization.png)
+
+
+[Notebook: without Regularization vs Applying Regularization ](05-Artificial-Neural-Network-And-Improvement/code/day86_regularization.ipynb)
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day86_withoutl2_vs_withl2.png)
+
+#### Quantization:
+quantization in deep learning reduces the precision of numbers in a model to save memory and speed up processing. it can be done in two ways: post-training quantization (ptq), which converts the model to lower precision after training for faster performance but may lose some accuracy, and quantization-aware training (qat), where quantization is simulated during training, resulting in better accuracy but requiring more time. frameworks like TensorFlow provide tools for both methods to help deploy lighter and faster models.
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day86_quantization.png)
+
+
 <div id="bottom"></div>
 <div align="right">
   <a href="#top" target="_blank">
