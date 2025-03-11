@@ -32,7 +32,8 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 | [Machine Learning Playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH) | ✅ |
 | [Intro to Deep Learning @MIT](https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI) | ✅  |
 | [Deep Learning Playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) | ⌛ |
-| [Grokking Deep Learning @Andrew W. Trask](https://edu.anarcho-copy.org/Algorithm/grokking-deep-learning.pdf) | ⌛ |
+| [Grokking Deep Learning @Andrew W. Trask](https://www.amazon.com/Grokking-Deep-Learning-Andrew-Trask/dp/1617293709) | ⌛ |
+| [Deep Learning for Coders with fastai & PyTorch @Oreilly](https://github.com/fastai/fastbook) | ⌛ |
 
 <!-- | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/yanshengjia/ml-road/blob/master/resources/Hands%20On%20Machine%20Learning%20with%20Scikit%20Learn%20and%20TensorFlow.pdf)| 🏊⌛|  -->
 
