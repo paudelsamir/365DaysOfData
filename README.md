@@ -2384,7 +2384,49 @@ elu: better generalization, but expensive.
 selu: self-normalizing, good for deep nets.
 ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day87_activation_functions.png) 
 
+---
+# Day 88: Weight Initialization
 
+**Zero Init**: All weights as zero → no learning (same gradients).
+
+```python
+weights = np.zeros((input_size, output_size))
+```
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day88_zeros_initialization.png)
+
+**One Init**: All weights as one → same issue, no symmetry breaking.
+
+```python
+weights = np.ones((input_size, output_size))
+```
+
+✅ **Random Init**: Small random values.
+
+```python
+weights = np.random.randn(input_size, output_size) * 0.01
+```
+
+✅ **Xavier Init** (for tanh/sigmoid):
+
+```python
+weights = np.random.randn(input_size, output_size) * np.sqrt(1 / input_size)
+```
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day88_xavier_initialization.png) 
+
+✅ **He Init** (for ReLU):
+
+```python
+weights = np.random.randn(input_size, output_size) * np.sqrt(2 / input_si
+```
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day88_he_normal_initialization.png) 
+
+[Notebook: Weight Initialization](05-Artificial-Neural-Network-And-Improvement/code/day87_weight_initialization.ipynb)
+
+[Notebook: Xavier and He initialization](05-Artificial-Neural-Network-And-Improvement/code/day87_xavier_and_he_init.ipynb)
+
+Notes:
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day88_notes.jpg) 
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day88_notes2.jpg) 
 
 <div id="bottom"></div>
 <div align="right">
