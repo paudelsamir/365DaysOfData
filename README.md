@@ -2428,6 +2428,66 @@ Notes:
 ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day88_notes.jpg) 
 ![alt text](05-Artificial-Neural-Network-And-Improvement/images/day88_notes2.jpg) 
 
+
+---
+# Day 89: Deeep Learning Optimizers
+- **Gradient Descent**: Fundamental optimizer that updates weights by moving in the opposite direction of the gradient of the loss function w.r.t. the weights. It's basic but effective for many problems.
+```python
+from tensorflow.keras.optimizers import SGD
+optimizer = SGD(learning_rate=0.01)
+```
+![bgd](05-Artificial-Neural-Network-And-Improvement/images/day89_batch_gd.png)
+
+- **Stochastic Gradient Descent**: Optimizes with each sample instead of the entire dataset, which is faster but more noisy.
+```python
+from tensorflow.keras.optimizers import SGD
+optimizer = SGD(learning_rate=0.01)
+```
+
+- **Momentum**: Momentum helps accelerate SGD by moving along relevant directions and dampening oscillations. It adds a fraction of the previous update to the current one.
+```python
+from tensorflow.keras.optimizers import SGD
+optimizer = SGD(learning_rate=0.01, momentum=0.9)
+```
+![momentum](05-Artificial-Neural-Network-And-Improvement/images/day89_momentum.png)
+
+- **NAG**: An improvement over momentum. It looks ahead by calculating the gradient not just at the current position but slightly ahead, giving better convergence.
+```python
+from tensorflow.keras.optimizers import SGD
+optimizer = SGD(learning_rate=0.01, momentum=0.9, nesterov=True)
+```
+![nag](05-Artificial-Neural-Network-And-Improvement/images/day89_nag.png)
+
+- **AdaGrad**: Adapts the learning rate to the parameters, performing larger updates for infrequent parameters and smaller updates for frequent ones.
+```python
+from tensorflow.keras.optimizers import Adagrad
+optimizer = Adagrad(learning_rate=0.01)
+```
+![adagrad](05-Artificial-Neural-Network-And-Improvement/images/day89_adagrad.png)
+
+- **RMSProp**: Divides the learning rate by an exponentially decaying average of squared gradients. Useful for non-stationary objectives.
+```python
+from tensorflow.keras.optimizers import RMSprop
+optimizer = RMSprop(learning_rate=0.001)
+```
+![rmsprop](05-Artificial-Neural-Network-And-Improvement/images/day89_rmsprop.png)
+
+- **ADAM (Adaptive Moment Estimation)**: Adaptive learning rate method that combines the advantages of RMSprop and momentum. Popular for its efficiency.
+```python
+from tensorflow.keras.optimizers import Adam
+optimizer = Adam(learning_rate=0.001)
+```
+![Adam](05-Artificial-Neural-Network-And-Improvement/images/day89_adam.png)
+
+
+Overall: 
+![overall](05-Artificial-Neural-Network-And-Improvement/images/day89_overall.gif)
+Notes:
+![notes](05-Artificial-Neural-Network-And-Improvement/images/day89_notes1.jpg) 
+![notes](05-Artificial-Neural-Network-And-Improvement/images/day89_notes2.jpg) 
+![notes](05-Artificial-Neural-Network-And-Improvement/images/day89_notes3.jpg)
+
+
 <div id="bottom"></div>
 <div align="right">
   <a href="#top" target="_blank">
