@@ -2487,6 +2487,7 @@ Notes:
 ![notes](05-Artificial-Neural-Network-And-Improvement/images/day89_notes2.jpg) 
 ![notes](05-Artificial-Neural-Network-And-Improvement/images/day89_notes3.jpg)
 
+Interactive Visualization of Optimization Algorithms in Deep Learning: https://emiliendupont.github.io/2018/01/24/optimization-visualization/
 
 <div id="bottom"></div>
 <div align="right">
