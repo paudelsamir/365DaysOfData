@@ -2489,6 +2489,24 @@ Notes:
 
 Interactive Visualization of Optimization Algorithms in Deep Learning: https://emiliendupont.github.io/2018/01/24/optimization-visualization/
 
+
+---
+# Day 90: Keras Tuner
+hyperparameters (like learning rate, batch size, optimizer) directly impact model performance. tuning helps optimize accuracy and generalization.
+
+in my case, i worked with the diabetes dataset and focused on tuning key hyperparameters like learning rate, batch size, optimizer, number of neurons, and dropout rate. each of these parameters influences different aspects of training—for example, the learning rate affects how quickly the model converges, while dropout helps prevent overfitting.
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day90_applying_keras_tuner.png)
+
+to streamline the tuning process, i used keras tuner’s RandomSearch. i defined a hypermodel where parameters like the number of layers, neurons, dropout rates, learning rates, and optimizer types were set as tunable. the objective was to maximize validation accuracy. i also configured settings like max_trials to control the search space and executions_per_trial to ensure consistent evaluation.
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day90_best_hyperparams.png)
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day90_best_val_accuracy_after_tuning.png)
+after running the tuning process, the model achieved around 79% accuracy. the tuning helped balance model complexity and performance, reducing overfitting and improving generalization.
+![alt text](05-Artificial-Neural-Network-And-Improvement/images/day90_final_no_overfitting.png)
+for further improvements, i could fine-tune hyperparameters like the learning rate and dropout in smaller increments, try advanced optimizers like adamw, or implement early stopping to avoid unnecessary training once the model stops improving.
+
+
+---
+# Day 91: CNNs
 <div id="bottom"></div>
 <div align="right">
   <a href="#top" target="_blank">
