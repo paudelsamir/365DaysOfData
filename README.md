@@ -2519,6 +2519,24 @@ Watch out notebook what i did with this lovely image:
 Notes:
 ![alt text](06-Convolutional-Neural-Network/images/day91_notes.jpg)
 
+### architectures
+- **early arch**
+    - lenet-5
+    - alexnet
+    - vgg net (16/19)
+- **modern arch**
+    - resnet (skip connection)
+    - inception net (google net)
+    - mobilenet
+    - efficientnet
+
+### Plan after Architecture
+1. **data augmentation** *(rotation, scaling, flipping)*
+2. **transfer learning** *(using pretrained models like vgg, resnet)*
+3. **object detection** *(yolo, r-cnn, ssd, etc.)*
+4. **image segmentation** *(u-net, mask r-cnn)*
+5. **attention mechanisms** *(squeeze, spatial channel-wise)*
+6. **self-supervised learning** *(contrastive, ssl architectures)*
 
 <div id="bottom"></div>
 <div align="right">
