@@ -2506,7 +2506,20 @@ for further improvements, i could fine-tune hyperparameters like the learning ra
 
 
 ---
-# Day 91: Processing Image Data for Deep Learning
+# Day 91: Deep Diving into CNNs:
+
+Focused on planning a deep dive into cnns. explored why anns fall short for cnn tasks and uncovered some fascinating cnn applications. along the way, stumbled upon some surprisingly cool ideas for future projects. fueled by that curiosity, i tried something basic today—simple, but a solid starting point.
+
+today, i explored opencv from scratch, debugged image loading issues, applied basic filters using custom convolution kernels in pure python as well as with Opencv, and created amazingly undefinable custom filters with the excitement.
+![alt text](06-Convolutional-Neural-Network/images/face_detection.png) 
+[Notebook:Trying OpenCV for the first time](06-Convolutional-Neural-Network/code/day91_opencv_forthe_firsttime.ipynb)
+Watch out notebook what i did with this lovely image:
+![alt text](06-Convolutional-Neural-Network/images/girl.png)
+
+Notes:
+![alt text](06-Convolutional-Neural-Network/images/day91_notes.jpg)
+
+
 <div id="bottom"></div>
 <div align="right">
   <a href="#top" target="_blank">
