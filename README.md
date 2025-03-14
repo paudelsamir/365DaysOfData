@@ -2506,7 +2506,7 @@ for further improvements, i could fine-tune hyperparameters like the learning ra
 
 
 ---
-# Day 91: CNNs
+# Day 91: Processing Image Data for Deep Learning
 <div id="bottom"></div>
 <div align="right">
   <a href="#top" target="_blank">
