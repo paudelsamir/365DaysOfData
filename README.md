@@ -2624,6 +2624,53 @@ model.summary()
 
 in summary, padding helps retain image details and control output size, while strides affect computational efficiency and feature abstraction. tuning these parameters is key to optimizing cnns.
 
+#### Pooling:
+pooling is used to downsample feature maps, reducing their size while retaining important information. it helps prevent overfitting and reduces computation.
+
+common types of pooling:
+![alt text](06-Convolutional-Neural-Network/images/day92_pooling.webp)
+max pooling: selects the maximum value in a region.
+average pooling: takes the average of values in a region.
+for example, a 2x2 max pooling layer with stride 2 reduces feature maps to half their original size.
+
+
+```python
+
+# importing necessary libraries
+import tensorflow as tf
+from tensorflow.keras.layers import Dense, Conv2D, Flatten, MaxPooling2D
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.datasets import mnist
+
+# loading mnist dataset
+(X_train, y_train), (X_test, y_test) = mnist.load_data()
+
+# reshaping input data
+X_train = X_train.reshape(-1, 28, 28, 1).astype('float32') / 255
+X_test = X_test.reshape(-1, 28, 28, 1).astype('float32') / 255
+
+# creating a sequential model
+model = Sequential()
+
+# adding convolutional layers with padding
+model.add(Conv2D(32, kernel_size=(3,3), padding='same', activation='relu', input_shape=(28,28,1)))
+model.add(MaxPooling2D(pool_size=(2,2), strides=(2,2)))
+
+model.add(Conv2D(64, kernel_size=(3,3), padding='same', activation='relu'))
+model.add(MaxPooling2D(pool_size=(2,2), strides=(2,2)))
+
+model.add(Conv2D(128, kernel_size=(3,3), padding='same', activation='relu'))
+model.add(MaxPooling2D(pool_size=(2,2), strides=(2,2)))
+
+# flattening and adding dense layers
+model.add(Flatten())
+model.add(Dense(128, activation='relu'))
+model.add(Dense(10, activation='softmax'))
+
+# printing model summary
+model.summary()
+
+```
 
 <div id="bottom"></div>
 <div align="right">
