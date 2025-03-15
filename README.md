@@ -2538,6 +2538,93 @@ Notes:
 5. **attention mechanisms** *(squeeze, spatial channel-wise)*
 6. **self-supervised learning** *(contrastive, ssl architectures)*
 
+
+---
+# Day 92: Understanding Paddings and Strides
+
+How CNNs working with Grayscale and Rgb images??
+![alt text](06-Convolutional-Neural-Network/images/day92_conv_of_grayscale.gif) 
+![alt text](06-Convolutional-Neural-Network/images/day92_conv_of_rgb.gif)
+
+padding and strides are important in convolutional neural networks (cnns) because they affect feature extraction, output size, and computational efficiency.
+
+Padding is used to prevent reduction in spatial dimensions and retain edge information. for example, a 5x5 image with a 3x3 filter produces a 3x3 feature map, which keeps shrinking with more layers. adding padding helps maintain the size.
+![alt text](06-Convolutional-Neural-Network/images/day92_after_applying_padding.gif)
+there are two common types of padding:
+
+- valid: no padding, meaning the output size shrinks.
+- same: pads the input so the output size remains the same.
+
+the output size with padding is calculated as:
+
+(n + 2p - f + 1) × (n + 2p - f + 1), where n is the input size, f is the filter size, and p is the padding amount.
+
+in keras, padding is applied like this Demo for MNIST:
+
+```python
+# Importing necessary libraries
+import tensorflow as tf
+from tensorflow.keras.layers import Dense, Conv2D, Flatten
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.datasets import mnist
+
+# Loading MNIST dataset
+(X_train, y_train), (X_test, y_test) = mnist.load_data()
+
+# Creating a Sequential model
+model = Sequential()
+
+# Adding Convolutional layers with valid padding
+model.add(Conv2D(32, kernel_size=(3,3), padding='valid', activation='relu', input_shape=(28,28,1)))
+model.add(Conv2D(32, kernel_size=(3,3), padding='valid', activation='relu'))
+model.add(Conv2D(32, kernel_size=(3,3), padding='valid', activation='relu'))
+
+model.add(Flatten())
+
+model.add(Dense(128, activation='relu'))
+model.add(Dense(10, activation='softmax'))
+
+# Printing model summary
+model.summary()
+```
+
+strides control how far the filter moves across the image at each step. a stride of (1,1) moves one pixel at a time, while higher strides skip pixels, reducing spatial dimensions and computation time.
+![stride = 2](06-Convolutional-Neural-Network/images/day92_stride_two.gif)
+output size with strides is calculated as:
+
+((n + 2p - f) / s + 1) × ((n + 2p - f) / s + 1), where s is the stride value.
+
+higher strides help capture larger patterns but reduce spatial resolution. for example, a stride of (2,2) makes the filter shift 2 pixels at a time:
+
+```python
+# Importing necessary libraries
+import tensorflow as tf
+from tensorflow.keras.layers import Dense, Conv2D, Flatten
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.datasets import mnist
+
+# Loading MNIST dataset
+(X_train, y_train), (X_test, y_test) = mnist.load_data()
+
+# Creating a Sequential model with strides
+model = Sequential()
+
+model.add(Conv2D(32, kernel_size=(3,3), padding='same', strides=(2,2), activation='relu', input_shape=(28,28,1)))
+model.add(Conv2D(32, kernel_size=(3,3), padding='same', strides=(2,2), activation='relu'))
+model.add(Conv2D(32, kernel_size=(3,3), padding='same', strides=(2,2), activation='relu'))
+
+model.add(Flatten())
+
+model.add(Dense(128, activation='relu'))
+model.add(Dense(10, activation='softmax'))
+
+# Printing model summary
+model.summary()
+```
+
+in summary, padding helps retain image details and control output size, while strides affect computational efficiency and feature abstraction. tuning these parameters is key to optimizing cnns.
+
+
 <div id="bottom"></div>
 <div align="right">
   <a href="#top" target="_blank">
