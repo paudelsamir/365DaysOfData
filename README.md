@@ -2672,6 +2672,25 @@ model.summary()
 
 ```
 
+---
+# Day 93: Backpropagation in cnns: a quick breakdown
+
+cnns learn by adjusting their parameters through backpropagation. here's how:
+
+1. **forward propagation:**
+    - input passes through **convolution → relu → max pooling → flatten → fully connected layers → output**.
+2. **backpropagation:**
+    - calculate **loss** and propagate errors backward.
+    - use the **chain rule** to compute gradients for weights, biases, and activations.
+3. **layer-wise backprop:**
+    - **convolutional layers:** errors backpropagate through filters.
+    - **max pooling:** only max-selected neurons contribute gradients.
+    - **flattening:** reshapes gradients before sending them back.
+
+Notes: 
+![alt text](06-Convolutional-Neural-Network/images/day93_notes1.jpg) 
+![alt text](06-Convolutional-Neural-Network/images/day93_notes2.jpg)
+
 <div id="bottom"></div>
 <div align="right">
   <a href="#top" target="_blank">
