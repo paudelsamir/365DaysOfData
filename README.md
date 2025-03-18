@@ -2709,15 +2709,94 @@ Notes:
 
 ---
 # Day 94: LeNet5, Cat Vs Dog Classification
+LeNet-5, introduced by Yann LeCun in 1989, is one of the earliest convolutional neural networks (CNNs), designed for handwritten character recognition. It consists of **seven layers**:
 
+![alt text](06-Convolutional-Neural-Network/images/day95_summary.png) 
+1. **Input Layer:** 32×32 grayscale image.
+2. **Conv Layer 1 (C1):** 6 filters (5×5), output size **28×28×6**.
+![alt text](06-Convolutional-Neural-Network/images/day95_first_layer.png) 
+3. **Pooling Layer 1 (S2):** Average pooling (2×2), output **14×14×6**.
+![alt text](06-Convolutional-Neural-Network/images/day95_second_layer.png) 
+4. **Conv Layer 2 (C3):** 16 filters (5×5), selectively connected, output **10×10×16**.
+![alt text](06-Convolutional-Neural-Network/images/day95_third_layer.png)
+5. **Pooling Layer 2 (S4):** Average pooling (2×2), output **5×5×16**.
+![alt text](06-Convolutional-Neural-Network/images/day95_4th_layer.png) 
+6. **Fully Connected (C5):** 120 neurons, connected to all **5×5×16** inputs.
+![alt text](06-Convolutional-Neural-Network/images/day95_fifth_layer.png) 
+7. **Fully Connected (F6):** 84 neurons.
+![alt text](06-Convolutional-Neural-Network/images/day95_sixth_layer.png) 
+8. **Output Layer:** Softmax with **10 classes (digits 0-9)**.
+![alt text](06-Convolutional-Neural-Network/images/day95_outputlayer.png) 
 
+Implementation:
+``` python
+def build_lenet(input_shape):
+  # Define Sequential Model
+  model = tf.keras.Sequential()
+  
+  # C1 Convolution Layer
+  model.add(tf.keras.layers.Conv2D(filters=6, strides=(1,1), kernel_size=(5,5), activation='tanh', input_shape=input_shape))
+  
+  # S2 SubSampling Layer
+  model.add(tf.keras.layers.AveragePooling2D(pool_size=(2,2), strides=(2,2)))
+
+  # C3 Convolution Layer
+  model.add(tf.keras.layers.Conv2D(filters=6, strides=(1,1), kernel_size=(5,5), activation='tanh'))
+
+  # S4 SubSampling Layer
+  model.add(tf.keras.layers.AveragePooling2D(pool_size=(2,2), strides=(2,2)))
+
+  # C5 Fully Connected Layer
+  model.add(tf.keras.layers.Dense(units=120, activation='tanh'))
+
+  # Flatten the output so that we can connect it with the fully connected layers by converting it into a 1D Array
+  model.add(tf.keras.layers.Flatten())
+
+  # FC6 Fully Connected Layers
+  model.add(tf.keras.layers.Dense(units=84, activation='tanh'))
+
+  # Output Layer
+  model.add(tf.keras.layers.Dense(units=10, activation='softmax'))
+
+  # Compile the Model
+  model.compile(loss='categorical_crossentropy', optimizer=tf.keras.optimizers.SGD(lr=0.1, momentum=0.0, decay=0.0), metrics=['accuracy'])
+
+  return model
+
+```
 
 
 ---
-# Day 95: 
+# Day 95: GPU slow than CPU - well in my case?
 
+Today, I trained an MNIST model on both CPU (Ryzen 7 6000) and GPU (RTX 3050 Ti), expecting a significant speedup with the GPU. Instead, the CPU performed **slightly faster**, and when I tried adding a **small CNN**, my **GPU environment crashed**, while the CPU handled it fine (but slower).
 
+- The GPU initially took longer due to **kernel warm up** and **data transfer overhead**.
+- **Batch Size Impact** – GPUs perform best with **larger batch sizes** (e.g., 512+), while I used a smaller batch.
+- **Data Bottlenecks** – My CPU handled **data preloading better**, while the GPU might have suffered from inefficient memory access.
+- **GPU Utilization** – The GPU wasn’t fully utilized, likely due to **suboptimal parallelism** in my setup.
 
+And When I added **even a small convo layer**, my **GPU environment crashed**, but the CPU ran it (slowly). here’s what possible reason i estimated?
+
+- My RTX 3050 Ti has **4GB VRAM**, and it might be running out.
+- Despite setting up a dedicated GPU environment (with **proper CUDA, cuDNN, and TensorFlow versions**), I couldn’t debug this issue today.
+- There might be a **compatibility issue** between TensorFlow, CUDA, and my system's architecture.
+
+Could it be a **CUDA/cuDNN issue or VRAM exhaustion?**
+
+ I used **two separate virtual environments**:
+
+- **CPU environment** (normal setup)
+- **GPU environment** (proper versions of CUDA, TensorFlow, and cuDNN)
+Still, I **couldn’t debug the crashes today**. Any suggestions on debugging the **bit architecture issue** or possible **TensorFlow config problems**? and is it abnormal CPU performing better than GPU in my optimization??
+
+Here's the comparision:
+![GPU vs CPU](06-Convolutional-Neural-Network/images/day95_with_gpu.png) 
+![GPU vs CPU](06-Convolutional-Neural-Network/images/day95_with_cpu.png)
+
+Some rough notebooks:
+[Notebook: CPU](06-Convolutional-Neural-Network/code/day95_cpu.ipynb) 
+[Notebook: GPU](06-Convolutional-Neural-Network/code/day95_gpu.ipynb)
 
 ---
 # Day 96:
