@@ -136,9 +136,6 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 
 
 
-
-
-
 ---
 
 <br>
@@ -2700,6 +2697,67 @@ cnns learn by adjusting their parameters through backpropagation. here's how:
 Notes: 
 ![alt text](06-Convolutional-Neural-Network/images/day93_notes1.jpg) 
 ![alt text](06-Convolutional-Neural-Network/images/day93_notes2.jpg)
+
+
+
+---
+# Day 94: LeNet5, Cat Vs Dog Classification
+
+
+
+
+---
+# Day 95:
+
+
+
+
+---
+# Day 96:
+
+
+
+
+
+---
+# Day 97:
+
+
+
+
+
+---
+# Day 98:
+
+
+
+
+
+
+
+---
+# Day 99:
+
+
+
+
+
+
+---
+# Day 100:
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
 
 <div id="bottom"></div>
 <div align="right">
