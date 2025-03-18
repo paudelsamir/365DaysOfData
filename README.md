@@ -124,6 +124,16 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 | [Day82](#day-82-deep-generative-modeling---just-overview) | 2025-03-05 | Deep Generative Modeling - Just Overview | [Intro to Deep Learning @MIT](https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI) |
 | [Day83](#day-83-reinforcement-learning---just-overview) | 2025-03-06 | Reinforcement Learning - Just Overview | [Intro to Deep Learning @MIT](https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI) |
 | [Day84](#day-84-deep-learning-challenges--new-frontiers---just-overview) | 2025-03-07 | Deep Learning: Challenges & New Frontiers - Just Overview | [Intro to Deep Learning @MIT](https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI) |
+| [Day85](#day-85--early-stopping-normalizing-inputs-dropout) | 2025-03-08 | Early Stopping & Normalizing Inputs, Droput | [Deep learning playlist @ CampusX, ](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn)[Grokking Deep Learning @Andrew W. Trask](https://www.amazon.com/Grokking-Deep-Learning-Andrew-Trask/dp/1617293709) |
+| [Day86](#day-86-regularization-quantization) | 2025-03-09 | Regularization, Quantization | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
+| [Day87](#day-87---activation-functions---revisited) | 2025-03-10 | Activation Functions - Revisited | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
+| [Day88](#day-88-weight-initialization) | 2025-03-11 | Weight Initialization | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
+| [Day89](#day-89-deeep-learning-optimizers) | 2025-03-12 | Deep Learning Optimizers | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
+| [Day90](#day-90-keras-tuner) | 2025-03-13 | Keras Tuner | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
+| [Day91](#day-91-deep-diving-into-cnns) | 2025-03-14 | Deep Diving into CNNs | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
+| [Day92](#day-92-understanding-paddings-and-strides) | 2025-03-15 | Understanding Paddings and Strides | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
+| [Day93](#day-93-backpropagation-in-cnns-a-quick-breakdown) | 2025-03-16 | Backpropagation in CNNs: A Quick Breakdown | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
+
 
 
 
