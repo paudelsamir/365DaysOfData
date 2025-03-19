@@ -31,7 +31,6 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 | [Machine Learning Specialization @Coursera](https://www.coursera.org/specializations/machine-learning-introduction) | ✅ |
 | [Machine Learning Playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH) | ✅ |
 | [Intro to Deep Learning @MIT](https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI) | ✅  |
-| [Deep Learning Specialization @Coursera](https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI) | ⌛  |
 | [Deep Learning with PyTorch @ Datacamp](https://app.datacamp.com/learn/courses/intermediate-deep-learning-with-pytorch) | ⌛  |
 | [Deep Learning Playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) | ⌛ |
 | [Grokking Deep Learning @Andrew W. Trask](https://www.amazon.com/Grokking-Deep-Learning-Andrew-Trask/dp/1617293709) | ⌛ |
@@ -2801,11 +2800,17 @@ Some rough notebooks:
 [Notebook: GPU](06-Convolutional-Neural-Network/code/day95_gpu.ipynb)
 
 ---
-# Day 96: Data Augmentation, 
+# Day 96: Data Augmentation
 
+Data augmentation is crucial in machine learning, especially for tasks like computer vision, to enhance model performance and prevent overfitting. It involves applying various transformations to existing data, such as rotation, translation, scaling, flipping, shearing, zooming, and adjusting brightness and contrast. These techniques help in creating a larger and more diverse training dataset, thereby improving model generalization.
+![alt text](06-Convolutional-Neural-Network/images/day96_data_augmentationon_cat.png)
 
+**Why Use Data Augmentation?**
+1. **Increased Dataset Size:** Enhances model training with more examples.
+2. **Regularization:** Adds noise to prevent overfitting.
+3. **Improved Generalization:** Helps models perform better on unseen data.
 
-
+[Notebook: data augmentation on cifar10 frog](06-Convolutional-Neural-Network/code/day96_data_augmentation_cifar.ipynb)
 
 ---
 # Day 97:
