@@ -31,6 +31,8 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 | [Machine Learning Specialization @Coursera](https://www.coursera.org/specializations/machine-learning-introduction) | ✅ |
 | [Machine Learning Playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH) | ✅ |
 | [Intro to Deep Learning @MIT](https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI) | ✅  |
+| [Deep Learning Specialization @Coursera](https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI) | ⌛  |
+| [Deep Learning with PyTorch @ Datacamp](https://app.datacamp.com/learn/courses/intermediate-deep-learning-with-pytorch) | ⌛  |
 | [Deep Learning Playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) | ⌛ |
 | [Grokking Deep Learning @Andrew W. Trask](https://www.amazon.com/Grokking-Deep-Learning-Andrew-Trask/dp/1617293709) | ⌛ |
 | [Deep Learning for Coders with fastai & PyTorch @Oreilly](https://github.com/fastai/fastbook) | ⌛ |
@@ -2799,7 +2801,7 @@ Some rough notebooks:
 [Notebook: GPU](06-Convolutional-Neural-Network/code/day95_gpu.ipynb)
 
 ---
-# Day 96:
+# Day 96: Data Augmentation, 
 
 
 
