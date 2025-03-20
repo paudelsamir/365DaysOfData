@@ -2800,7 +2800,7 @@ Some rough notebooks:
 [Notebook: GPU](06-Convolutional-Neural-Network/code/day95_gpu.ipynb)
 
 ---
-# Day 96: Data Augmentation
+# Day 96: Data Augmentation, Pretrained Models
 
 Data augmentation is crucial in machine learning, especially for tasks like computer vision, to enhance model performance and prevent overfitting. It involves applying various transformations to existing data, such as rotation, translation, scaling, flipping, shearing, zooming, and adjusting brightness and contrast. These techniques help in creating a larger and more diverse training dataset, thereby improving model generalization.
 ![alt text](06-Convolutional-Neural-Network/images/day96_data_augmentationon_cat.png)
@@ -2817,13 +2817,15 @@ Notes:
 
 
 before deep learning took over, imagenet models relied on classical ml methods like svm, decision trees, and hand-crafted features (think hog, sift, and lbp). this worked, but scaling to millions of images? a nightmare. then alexnet (2012) happened—deep cnns trained with relu activations and dropout on gpus. it crushed traditional methods, slashing classification error rates by half.
+![alt text](06-Convolutional-Neural-Network/images/day96_alexnet.png)
+![alt text](06-Convolutional-Neural-Network/images/day96_alexnet_summary.png) 
 
 vgg (2014) pushed deeper with 3x3 convolutions, proving that simplicity + depth = power. same year, googlenet (inception v1) introduced inception modules—parallel conv layers reducing parameter overhead while boosting efficiency. resnet (2015) then solved the vanishing gradient problem with skip connections, making ultra-deep networks (152 layers!) trainable.
 
 today, pretrained models built on imagenet—resnet, vgg, inception, efficientnet—are the backbone of modern deep learning. explored these today, and yeah, standing on the shoulders of giants makes life easier.
 
-
 [PaperLink: ImageNet Classification with Deep Convolutional Neural Networks](https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf)
+
 [Medium Article on alexnet](https://medium.com/@siddheshb008/alexnet-architecture-explained-b6240c528bd5)
 
 Keras pretrained models: https://keras.io/api/applications/
@@ -2832,10 +2834,18 @@ Keras pretrained models: https://keras.io/api/applications/
 I will test the examples from that website using their code there in following notebook:
 [Notebook: Pretrained Model Testing](06-Convolutional-Neural-Network/code/day96_pretrainedmodels_testing.ipynb)
 
+
+![side syb side predictions](06-Convolutional-Neural-Network/images/day96_resnet_vgnet_predictions.png)
 ---
-# Day 97:
+# Day 97: Visualizing Convolutional Layers
 
+Today, i'll be using the article : https://machinelearningmastery.com/how-to-visualize-filters-and-feature-maps-in-convolutional-neural-networks/ with respect to following topics.
+- Visualizing Convolutional Layers
+- Pre-fit VGG Model
+- How to Visualize Filters
+- How to Visualize Feature Maps
 
+[Notebook: visualizing Layers with elephant image](./06-Convolutional-Neural-Network\code\day97_visualizing_cnns.ipynb)
 
 
 ---
