@@ -2837,7 +2837,7 @@ I will test the examples from that website using their code there in following n
 
 ![side syb side predictions](06-Convolutional-Neural-Network/images/day96_resnet_vgnet_predictions.png)
 ---
-# Day 97: Visualizing Convolutional Layers
+# Day 97: Visualizing Convolutional Layers, Transfer learning
 
 Today, i'll be using the article : https://machinelearningmastery.com/how-to-visualize-filters-and-feature-maps-in-convolutional-neural-networks/ with respect to following topics.
 - Visualizing Convolutional Layers
