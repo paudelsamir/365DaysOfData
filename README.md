@@ -145,7 +145,6 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 
 
 ---
-
 <br>
 <br>
 
@@ -2814,7 +2813,7 @@ Data augmentation is crucial in machine learning, especially for tasks like comp
 
 #### Pretrained models in CNN:
 Notes:
-
+![Notes](06-Convolutional-Neural-Network/images/day96_notes.jpg)
 
 before deep learning took over, imagenet models relied on classical ml methods like svm, decision trees, and hand-crafted features (think hog, sift, and lbp). this worked, but scaling to millions of images? a nightmare. then alexnet (2012) happened—deep cnns trained with relu activations and dropout on gpus. it crushed traditional methods, slashing classification error rates by half.
 ![alt text](06-Convolutional-Neural-Network/images/day96_alexnet.png)
@@ -2847,6 +2846,18 @@ Today, i'll be using the article : https://machinelearningmastery.com/how-to-vis
 
 [Notebook: visualizing Layers with elephant image](./06-Convolutional-Neural-Network\code\day97_visualizing_cnns.ipynb)
 
+notes:
+![Notes](06-Convolutional-Neural-Network/images/day97_notes.jpg)
+
+#### Transfer learning:
+![alt text](06-Convolutional-Neural-Network/images/day97_drivers.png)
+transfer learning helps train deep learning models efficiently by leveraging pre-trained networks like vgg, resnet, or mobilenet. instead of starting from scratch, we use the convolutional base (which extracts features) and replace the fully connected layers with our own classifier.
+
+two main approaches:
+1. **feature extraction** – freeze the convolutional layers and train only the new classifier. useful when the target dataset is similar to the original dataset.
+2. **fine-tuning** – unfreeze some deeper layers and retrain them along with the classifier. this helps when the target dataset is quite different.
+
+Resource: https://www.tensorflow.org/tutorials/images/transfer_learning
 
 ---
 # Day 98:
