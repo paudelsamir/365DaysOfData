@@ -2812,9 +2812,28 @@ Data augmentation is crucial in machine learning, especially for tasks like comp
 
 [Notebook: data augmentation on cifar10 frog](06-Convolutional-Neural-Network/code/day96_data_augmentation_cifar.ipynb)
 
+#### Pretrained models in CNN:
+Notes:
+
+
+before deep learning took over, imagenet models relied on classical ml methods like svm, decision trees, and hand-crafted features (think hog, sift, and lbp). this worked, but scaling to millions of images? a nightmare. then alexnet (2012) happened—deep cnns trained with relu activations and dropout on gpus. it crushed traditional methods, slashing classification error rates by half.
+
+vgg (2014) pushed deeper with 3x3 convolutions, proving that simplicity + depth = power. same year, googlenet (inception v1) introduced inception modules—parallel conv layers reducing parameter overhead while boosting efficiency. resnet (2015) then solved the vanishing gradient problem with skip connections, making ultra-deep networks (152 layers!) trainable.
+
+today, pretrained models built on imagenet—resnet, vgg, inception, efficientnet—are the backbone of modern deep learning. explored these today, and yeah, standing on the shoulders of giants makes life easier.
+
+
+[PaperLink: ImageNet Classification with Deep Convolutional Neural Networks](https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf)
+[Medium Article on alexnet](https://medium.com/@siddheshb008/alexnet-architecture-explained-b6240c528bd5)
+
+Keras pretrained models: https://keras.io/api/applications/
+![alt text](06-Convolutional-Neural-Network/images/day96_keras_pretrained_models.png)
+
+I will test the examples from that website using their code there in following notebook:
+[Notebook: Pretrained Model Testing](06-Convolutional-Neural-Network/code/day96_pretrainedmodels_testing.ipynb)
+
 ---
 # Day 97:
-
 
 
 
