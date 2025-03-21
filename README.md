@@ -2860,7 +2860,11 @@ two main approaches:
 Resource: https://www.tensorflow.org/tutorials/images/transfer_learning
 
 ---
-# Day 98:
+# Day 98: Keras functional api, 
+
+### How to use keras functional api for deep learning?
+Today i went through an article: https://machinelearningmastery.com/keras-functional-api-deep-learning/
+
 
 
 
