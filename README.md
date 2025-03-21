@@ -2835,6 +2835,7 @@ I will test the examples from that website using their code there in following n
 
 
 ![side syb side predictions](06-Convolutional-Neural-Network/images/day96_resnet_vgnet_predictions.png)
+
 ---
 # Day 97: Visualizing Convolutional Layers, Transfer learning
 
@@ -2859,16 +2860,64 @@ two main approaches:
 
 Resource: https://www.tensorflow.org/tutorials/images/transfer_learning
 
----
-# Day 98: Keras functional api, 
+
+# Day 98: Keras functional API
 
 ### How to use keras functional api for deep learning?
 Today i went through an article: https://machinelearningmastery.com/keras-functional-api-deep-learning/
 
+The Sequential model API is great for developing deep learning models in most situations, but it also has some limitations.
 
+I started with the Sequential API to build familiarity:
 
+- Architecture: Simple CNN with `Conv2D → MaxPooling → Flatten → Dense → Output`.
+- Workflow:
+    - Loaded data, normalized pixels (`0-1`), reshaped images (`28x28x1`), and one-hot encoded labels.
+    - Built a linear stack of layers:
+        
+        ```
+        model = Sequential([
+            Conv2D(32, (3,3),
+            MaxPooling2D(),
+            Flatten(),
+            Dense(128),
+            Dense(10, activation='softmax')
+        ])
+        ```
+        
+    - Trained with `model.fit()`, achieving ~91% validation accuracy in 10 epochs.
 
+---
 
+### 2. Transition to Functional API
+![alt text](06-Convolutional-Neural-Network/images/day98_sequential_vs_functional.png)
+
+I  rebuilt the same model using the Functional API to see the syntax shift:
+
+- Input Layer: Explicitly defined with `Input(shape=(28,28,1))`.
+- Layer Connections: Layers are chained like functions:
+    
+    ```
+    x = Conv2D(32, (3,3)(input_layer)
+    x = MaxPooling2D()(x)
+    ...
+    ```
+    
+- Model Definition: Declared inputs/outputs explicitly:
+    
+    ```
+    model_func = Model(inputs=input_layer, outputs=output_layer)
+    ```
+    
+---
+
+![alt text](06-Convolutional-Neural-Network/images/day98_functional_model.png) 
+- Branch 1: `Conv2D(3x3) → MaxPooling → Flatten`.
+- Branch 2: `Conv2D(5x5) → MaxPooling → Flatten`.
+- Merged: Combined branches with `concatenate([branch1, branch2])`.
+
+A more powerful model (1.1M params vs. 694K in Sequential) with higher accuracy (~92%).
+![alt text](06-Convolutional-Neural-Network/images/day98_scenarios.png) 
 
 
 
