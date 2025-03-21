@@ -2920,10 +2920,15 @@ A more powerful model (1.1M params vs. 694K in Sequential) with higher accuracy
 ![alt text](06-Convolutional-Neural-Network/images/day98_scenarios.png) 
 
 
+Summary of Concepts:
+- Multiple Inputs: Different data types (image + tabular) are processed separately and then combined.
+- Multiple Outputs: The model can predict several things at once, e.g., class labels and regression values.
+- Skip Connections: Layers are skipped and added back later (helpful for deeper models).
+- Shared Layers: The same layer is applied to multiple inputs (e.g., comparing two images).
+![alt text](06-Convolutional-Neural-Network/images/day98_summary_concepts.png)
 
 ---
-# Day 99:
-
+# Day 99: Recurrent Neural Network: Why, What, How and Types of RNNs
 
 
 
