@@ -134,12 +134,12 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 | [Day91](#day-91-deep-diving-into-cnns) | 2025-03-14 | Deep Diving into CNNs | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
 | [Day92](#day-92-understanding-paddings-and-strides) | 2025-03-15 | Understanding Paddings and Strides | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
 | [Day93](#day-93-backpropagation-in-cnns-a-quick-breakdown) | 2025-03-16 | Backpropagation in CNNs: A Quick Breakdown | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
-| [Day94]() | 2025-03-17 | ------------------- | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
-| [Day95]() | 2025-03-18 | ------------------- | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
-| [Day96]() | 2025-03-19 | ------------------- | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
-| [Day97]() | 2025-03-20 | ------------------- | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
-| [Day98]() | 2025-03-21 | ------------------- | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
-| [Day99]() | 2025-03-22 | ------------------- | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
+| [Day94](#day-94-lenet5-cat-vs-dog-classification) | 2025-03-17 | LeNet5, Cat Vs Dog Classification | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
+| [Day95](#day-95-gpu-slow-than-cpu-well-in-my-case) | 2025-03-18 | GPU slow than CPU - well in my case? | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
+| [Day96](#day-96-data-augmentation-pretrained-models) | 2025-03-19 | Data Augmentation, Pretrained Models | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
+| [Day97](#day-97-visualizing-convolutional-layers-transfer-learning) | 2025-03-20 | Visualizing Convolutional Layers, Transfer Learning | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
+| [Day98](#day-98-keras-functional-api) | 2025-03-21 | Keras Functional API | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
+| [Day99](#day-99-recurrent-neural-network-why-what-how-and-types-of-rnns) | 2025-03-22 | Recurrent Neural Network: Why, What, How and Types of RNNs | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
 | [Day100]() | 2025-03-23 | ------------------- | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
 
 
