@@ -2946,30 +2946,65 @@ For more information about the project refer Github Repo: https://github.com/pau
 ---
 # Day 100: Hidden Markov Model, Quantum Machine Learning
 
-After an intense 10-hour session yesterday working on neural networks and a project, I decided to take it slow today and shift gears. Breaking the flow, I delved into some of the most critical topics in Data Science, particularly those related to training models.
+> ***after an intense 10-hour session yesterday working on neural networks and a project, i decided to take it slow today and shift gears. breaking the flow, i delved into some of the most critical topics in data science, particularly those related to training models.***
 
-I stumbled upon these topics during a discussion on Twitter by a few data enthusiasts, which piqued my curiosity. Here's a blog-style summary of what I explored and understood.
+i stumbled upon these topics during a discussion on twitter by a few data enthusiasts, which piqued my curiosity.so i tried to write some personal thoughts on it and refined it later with ChatGPT.
+So if you are here for the deep dive with the proper mathematical understanding please refer the the resources i shared at last of this blog !! Thank you !!
 
-Today's exploration into hidden markov models and quantum computing in machine learning opened up a fascinating world of possibilities in data science and AI. both topics feel like stepping into the future, where we blend probabilistic reasoning with the power of quantum mechanics to solve complex problems. i’m excited to see how these concepts can shape the way we understand and solve real-world issues
+- here's original blog link I tried to craft: [Medium](https://medium.com/@paudelsamir/hidden-markov-models-quantum-computing-in-machine-learning-ca5e166f934f)
 
-starting with hidden markov models, i learned how to work with sequential data—data where the order of events matters. in real life, there are many situations where we can’t observe the hidden process directly, but we can see the outcomes of it. think of weather forecasting again: i can’t directly measure the weather, but i can infer it from the mood of people. this concept of hidden states that drive observable events applies to all kinds of problems, from speech recognition to bioinformatics. with HMMs, i now have a tool that lets me model this hidden process, making sense of complex, sequential data, and predicting future outcomes based on past observations. it's like gaining the ability to look behind the curtain of what’s really happening in a system, even if i can’t directly see it.
+---
 
-moving on to quantum computing in machine learning, this felt like a whole new level of possibility. quantum computers aren’t just faster than classical computers; they’re a completely different way of computing. they use qubits, which can hold multiple states simultaneously, allowing quantum computers to process large datasets and solve optimization problems much faster than traditional computers. in machine learning, where training models or finding the best solution can take a long time, this speed-up is a game-changer. quantum machine learning (QML) opens up a world where we can train complex models more efficiently and solve problems that were once considered too difficult for classical systems. it’s mind-blowing to think about how quantum computers can handle problems that seem impossible for today’s hardware, especially when it comes to big data or high-dimensional problems.
+## hidden markov models: understanding sequential data
 
-one of the most exciting things about QML is the potential to revolutionize fields like drug discovery and financial modeling. imagine being able to process molecular data for new medicines or predict stock market trends at lightning speeds, things that would normally take days or weeks using classical methods. quantum computing offers the promise of real-time insights and hyper-efficient problem-solving, and the idea that we are on the verge of unlocking this potential makes this technology even more intriguing.
+today's exploration into *hidden markov models (hmm)* opened up a fascinating world of possibilities in data science. stepping into this space felt like gaining a deeper understanding of how to work with sequential data—data where the *order* of events matters. in real life, there are many situations where we can’t directly observe the hidden process, but we can see the outcomes of it. 
 
-both of these concepts are still developing, but they already hold the potential to transform industries and fields of research. as i continue to explore these areas, i’m excited to dive deeper into quantum algorithms, QML models, and advanced data processing techniques. the journey into AI and data science is just beginning, and the opportunities seem limitless. each step i take builds on the last, leading me to a future where quantum-enhanced AI might not just be possible, but normal
+> think of *weather forecasting*: i can’t directly measure the weather, but i can infer it from the mood of people. this concept of hidden states that drive observable events applies to all kinds of problems, from speech recognition to bioinformatics.
 
+with *HMMs*, i now have a tool that lets me model this hidden process, making sense of complex, sequential data, and predicting future outcomes based on past observations. it's like gaining the ability to look behind the curtain of what’s really happening in a system, even if i can’t directly see it.
 
-### 📚 Resources: 
-- https://www.youtube.com/watch?v=fX5bYmnHqqE&t=631s
-- https://www.youtube.com/watch?v=prZMpThbU3E
-- https://towardsdatascience.com/hidden-markov-model-hmm-simple-explanation-in-high-level-b8722fa1a0d5/
-- https://medium.com/be-tech-with-santander/what-is-quantum-machine-learning-qml-1960c83425f4
-- https://github.com/jjprietotorres/QuantumML
+### how does it work?
+HMMs use probabilistic models to represent systems that transition between a set of *hidden* states. the beauty of HMMs is that they allow us to model the dynamics of a process even when the true states remain unseen. imagine you're trying to figure out what's happening in a black-box system—HMMs give you a way to make educated guesses about those hidden processes based on the data you can observe.
 
+---
 
+## quantum computing in machine learning: a new frontier
 
+moving on to *quantum computing in machine learning* (QML), this felt like a whole new level of possibility. quantum computers aren’t just faster than classical computers; they’re a completely different way of computing. they use *qubits*, which can hold multiple states simultaneously, allowing quantum computers to process large datasets and solve optimization problems much faster than traditional computers.
+
+> in machine learning, where training models or finding the best solution can take a long time, this speed-up is a **game-changer**. quantum machine learning (QML) opens up a world where we can train complex models more efficiently and solve problems that were once considered too difficult for classical systems.
+
+### the quantum edge
+what's so mind-blowing about quantum computing is that it can handle problems that seem *impossible* for today’s hardware—especially when it comes to big data or high-dimensional problems. imagine the ability to solve optimization problems in *seconds* that would otherwise take *days* using classical methods. in the world of machine learning, this speed-up means we can approach complex problems with a whole new set of tools.
+
+---
+
+## real-world applications: QML at the forefront
+
+one of the most exciting things about QML is the potential to revolutionize fields like *drug discovery* and *financial modeling*. imagine being able to process molecular data for new medicines or predict stock market trends at lightning speeds—things that would normally take days or weeks using classical methods. quantum computing offers the promise of real-time insights and hyper-efficient problem-solving.
+
+as we’re standing on the edge of this quantum revolution, i can’t help but think about how real-world industries will evolve. quantum computing could not just *accelerate* processes, but fundamentally transform how we approach some of the world’s toughest problems.
+
+---
+
+## wrapping up: the future of AI and data science
+
+both *hidden markov models* and *quantum computing in machine learning* are still developing, but they already hold the potential to transform industries and fields of research. as i continue to explore these areas, i’m excited to dive deeper into quantum algorithms, QML models, and advanced data processing techniques. the journey into AI and data science is just beginning, and the opportunities seem *limitless*. 
+
+each step i take builds on the last, leading me to a future where quantum-enhanced AI might not just be possible, but *normal*. stay tuned, because this is just the beginning.
+
+---
+
+> *what do you think?* i love where this is going, and i'm looking forward to seeing how these fields develop further!
+
+### 📚 **Resources:**
+
+- [Hidden Markov Model Explanation – YouTube](https://www.youtube.com/watch?v=fX5bYmnHqqE&t=631s)
+- [Intro to Quantum Machine Learning – YouTube](https://www.youtube.com/watch?v=prZMpThbU3E)
+- [Hidden Markov Model (HMM) – Towards Data Science](https://towardsdatascience.com/hidden-markov-model-hmm-simple-explanation-in-high-level-b8722fa1a0d5/)
+- [What is Quantum Machine Learning (QML)? – Medium](https://medium.com/be-tech-with-santander/what-is-quantum-machine-learning-qml-1960c83425f4)
+- [Quantum Machine Learning Repository – GitHub](https://github.com/jjprietotorres/QuantumML)
+- [HMM Applications – Tanmay Binaykiya](https://tanmaybinaykiya.github.io/hmm-applications)
 
 
 
