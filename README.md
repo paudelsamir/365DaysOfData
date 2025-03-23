@@ -18,10 +18,11 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 </div>
 
 ## Projects Completed
-| Projects | Description | Live Demo |
+| Projects | Description | Streamlit Deployment |
 |----------|-------------|-----------|
-|[Football Players Market Value Prediction](https://github.com/paudelsamir/365DaysOfData/tree/main/04-ML-Based-Football-Players-Market-Value-Prediction)| A 10 day end-to-end machine learning capstone project involving data scraping, cleaning, feature engineering, model training, and deployment to a cloud server. |[Link 👆🏽](https://paudelsamir.streamlit.app/)|
-|[Movie Recommender System]()|A content Based end to end Movie Recommender System based on 5000 movies from [Kaggle dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv)| [Link 👆🏽](https://movie-recommender-samir.streamlit.app/)|
+|[Football Players Market Value Prediction](https://github.com/paudelsamir/365DaysOfData/tree/main/04-ML-Based-Football-Players-Market-Value-Prediction)| A 10 day end-to-end machine learning capstone project involving data scraping, cleaning, feature engineering, model training, and deployment to a cloud server. |[Live Demo 👆🏽](https://paudelsamir.streamlit.app/)|
+|[Movie Recommender System](https://github.com/paudelsamir/Movie-Recommender-System)|An end-to-end content-based movie recommender system leveraging a dataset of 5000 movies from [Kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv).| [Live Demo 👆🏽](https://movie-recommender-samir.streamlit.app/)|
+|[Cat vs Dog Classifier](https://github.com/paudelsamir/cat-vs-dog-classifier)| A deep learning model leveraging VGG16 architecture, trained on an RTX 3050 Ti for 30 epochs, achieving 95% accuracy using the [Kaggle Dogs vs Cats dataset](https://www.kaggle.com/c/dogs-vs-cats). | [Live Demo 👆🏽](https://cat-vs-dog-classifier.streamlit.app/) |
 
  
 
@@ -31,9 +32,9 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 | [Machine Learning Specialization @Coursera](https://www.coursera.org/specializations/machine-learning-introduction) | ✅ |
 | [Machine Learning Playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH) | ✅ |
 | [Intro to Deep Learning @MIT](https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI) | ✅  |
-| [Deep Learning with PyTorch @ Datacamp](https://app.datacamp.com/learn/courses/intermediate-deep-learning-with-pytorch) | ⌛  |
-| [Deep Learning Playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) | ⌛ |
 | [Grokking Deep Learning @Andrew W. Trask](https://www.amazon.com/Grokking-Deep-Learning-Andrew-Trask/dp/1617293709) | ⌛ |
+| [Deep Learning Playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) | ⌛ |
+| [Deep Learning with PyTorch @ Datacamp](https://app.datacamp.com/learn/courses/intermediate-deep-learning-with-pytorch) | ⌛  |
 | [Deep Learning for Coders with fastai & PyTorch @Oreilly](https://github.com/fastai/fastbook) | ⌛ |
 
 <!-- | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/yanshengjia/ml-road/blob/master/resources/Hands%20On%20Machine%20Learning%20with%20Scikit%20Learn%20and%20TensorFlow.pdf)| 🏊⌛|  -->
@@ -2928,18 +2929,44 @@ Summary of Concepts:
 ![alt text](06-Convolutional-Neural-Network/images/day98_summary_concepts.png)
 
 ---
-# Day 99: Recurrent Neural Network: Why, What, How and Types of RNNs
+# Day 99: Finishing Dog & Cat classifier Project:
 
 
+Today was a mess but somehow made it through. Started by setting up my local GPU for model training , should’ve been easy, but ended up wasting like 2 hours battling dependency conflicts again. once i finally got that sorted, I could train the NN on the gpu.
+First tried a basic CNN and it gave me a 75% val accuracy. felt good, but i wasn't gonna stop there, so i swapped to VGG16. boom>94% . then came another headache: deploying it on streamlit. the server kept complaining about model dependencies. after a ton of trial and error, i finally got it to work.
+But it’s up and running now! you can check it out here: https://cat-vs-dog-classifier.streamlit.app/
+
+
+What a day !!
+
+For more information about the project refer Github Repo: https://github.com/paudelsamir/cat-vs-dog-classifier
 
 
 
 ---
-# Day 100:
+# Day 100: Hidden Markov Model, Quantum Machine Learning
+
+After an intense 10-hour session yesterday working on neural networks and a project, I decided to take it slow today and shift gears. Breaking the flow, I delved into some of the most critical topics in Data Science, particularly those related to training models.
+
+I stumbled upon these topics during a discussion on Twitter by a few data enthusiasts, which piqued my curiosity. Here's a blog-style summary of what I explored and understood.
+
+Today's exploration into hidden markov models and quantum computing in machine learning opened up a fascinating world of possibilities in data science and AI. both topics feel like stepping into the future, where we blend probabilistic reasoning with the power of quantum mechanics to solve complex problems. i’m excited to see how these concepts can shape the way we understand and solve real-world issues
+
+starting with hidden markov models, i learned how to work with sequential data—data where the order of events matters. in real life, there are many situations where we can’t observe the hidden process directly, but we can see the outcomes of it. think of weather forecasting again: i can’t directly measure the weather, but i can infer it from the mood of people. this concept of hidden states that drive observable events applies to all kinds of problems, from speech recognition to bioinformatics. with HMMs, i now have a tool that lets me model this hidden process, making sense of complex, sequential data, and predicting future outcomes based on past observations. it's like gaining the ability to look behind the curtain of what’s really happening in a system, even if i can’t directly see it.
+
+moving on to quantum computing in machine learning, this felt like a whole new level of possibility. quantum computers aren’t just faster than classical computers; they’re a completely different way of computing. they use qubits, which can hold multiple states simultaneously, allowing quantum computers to process large datasets and solve optimization problems much faster than traditional computers. in machine learning, where training models or finding the best solution can take a long time, this speed-up is a game-changer. quantum machine learning (QML) opens up a world where we can train complex models more efficiently and solve problems that were once considered too difficult for classical systems. it’s mind-blowing to think about how quantum computers can handle problems that seem impossible for today’s hardware, especially when it comes to big data or high-dimensional problems.
+
+one of the most exciting things about QML is the potential to revolutionize fields like drug discovery and financial modeling. imagine being able to process molecular data for new medicines or predict stock market trends at lightning speeds, things that would normally take days or weeks using classical methods. quantum computing offers the promise of real-time insights and hyper-efficient problem-solving, and the idea that we are on the verge of unlocking this potential makes this technology even more intriguing.
+
+both of these concepts are still developing, but they already hold the potential to transform industries and fields of research. as i continue to explore these areas, i’m excited to dive deeper into quantum algorithms, QML models, and advanced data processing techniques. the journey into AI and data science is just beginning, and the opportunities seem limitless. each step i take builds on the last, leading me to a future where quantum-enhanced AI might not just be possible, but normal
 
 
-
-
+### 📚 Resources: 
+- https://www.youtube.com/watch?v=fX5bYmnHqqE&t=631s
+- https://www.youtube.com/watch?v=prZMpThbU3E
+- https://towardsdatascience.com/hidden-markov-model-hmm-simple-explanation-in-high-level-b8722fa1a0d5/
+- https://medium.com/be-tech-with-santander/what-is-quantum-machine-learning-qml-1960c83425f4
+- https://github.com/jjprietotorres/QuantumML
 
 
 
