@@ -140,7 +140,9 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 | [Day96](#day-96-data-augmentation-pretrained-models) | 2025-03-19 | Data Augmentation, Pretrained Models | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn)[, Grokking Deep Learning @Andrew W. Trask](https://www.amazon.com/Grokking-Deep-Learning-Andrew-Trask/dp/1617293709) |
 | [Day97](#day-97-visualizing-convolutional-layers-transfer-learning) | 2025-03-20 | Visualizing Convolutional Layers, Transfer Learning | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn)[, Grokking Deep Learning @Andrew W. Trask](https://www.amazon.com/Grokking-Deep-Learning-Andrew-Trask/dp/1617293709) |
 | [Day98](#day-98-keras-functional-api) | 2025-03-21 | Keras Functional API | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) [, Article](https://machinelearningmastery.com/keras-functional-api-deep-learning/)|
-| [Day100](#day-100-hidden-markov-model-quantum-machine-learning) | 2025-03-23 | Hidden Markov Model, Quantum Machine Learning | [Medium Article: Understanding Hidden Markov Models](https://towardsdatascience.com/hidden-markov-models-explained-698d24aafc95),  |
+| [Day100](#day-100-hidden-markov-model-quantum-machine-learning) | 2025-03-23 | Hidden Markov Model, Quantum Machine Learning | [Medium Article: Understanding Hidden Markov Models](https://towardsdatascience.com/hidden-markov-models-explained-698d24aafc95)|
+| [Day101]() | 2025-03-24 | ---------------------------- | [DL with Pytorch - Datacamp]()|
+
 
 
 
@@ -3006,6 +3008,143 @@ each step i take builds on the last, leading me to a future where quantum-enhanc
 - [HMM Applications – Tanmay Binaykiya](https://tanmaybinaykiya.github.io/hmm-applications)
 
 
+
+
+# Day 101: Pytorch Exploring Surfacely
+Today, I started exploring the Datacamp Deep Learning with PyTorch course, gaining a surface level understanding of PyTorch and implementing basic codes to familiarize myself with the framework.
+
+![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day101_module1.png) ![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day101_module2.png)
+
+
+Below is some code for revision crafted by chatgpt:
+- pytorch tensors:
+    - create a tensor:
+        
+        ```python
+        
+        import torch
+        x = torch.tensor([1.0, 2.0, 3.0])
+        ```
+        
+    - random tensor (for weights):
+        
+        ```python
+        w = torch.randn(3, 4)  # shape (3, 4)
+        ```
+        
+    - move to gpu (if available):
+        
+        ```python
+        device = 'cuda' if torch.cuda.is_available() else 'cpu'
+        x = x.to(device)
+        ```
+        
+- checking and adding tensors:
+    - inspect tensor properties:
+        
+        ```python
+        print(x.shape, x.dtype, x.device)
+        ```
+        
+    - element-wise addition:
+        
+        ```python
+        y = torch.tensor([3.0, 4.0, 5.0])
+        z = x + y
+        ```
+        
+- linear layer network:
+    - use `torch.nn.Linear` to define a linear transformation:
+        
+        ```python
+        linear = torch.nn.Linear(3, 2)  # input size = 3, output size = 2
+        output = linear(x)  # forward pass
+        ```
+        
+- understanding weights:
+    - access weights and biases in a layer:
+        
+        ```python
+        print(linear.weight)
+        print(linear.bias)
+        ```
+        
+- building a simple neural network:
+    
+    ```python
+    class SimpleNN(torch.nn.Module):
+        def __init__(self):
+            super().__init__()
+            self.layer1 = torch.nn.Linear(3, 5)
+            self.layer2 = torch.nn.Linear(5, 1)
+    
+        def forward(self, x):
+            x = torch.relu(self.layer1(x))
+            return self.layer2(x)
+    
+    model = SimpleNN()
+    print(model)
+    ```
+    
+- counting parameters:
+    
+    ```python
+    total_params = sum(p.numel() for p in model.parameters())
+    print(f"Total parameters: {total_params}")
+    ```
+    
+
+---
+
+### neural network architecture and hyperparameters
+
+- activation functions:
+    - relu, sigmoid, softmax (from `torch.nn.functional`):
+        
+        ```python
+        import torch.nn.functional as F
+        x = torch.tensor([-1.0, 0.0, 1.0])
+        print(F.relu(x))       # [0, 0, 1]
+        print(F.sigmoid(x))    # [0.2689, 0.5, 0.7311]
+        print(F.softmax(x, dim=0))
+        
+        ```
+        
+- binary classifier:
+    
+    ```python
+    model = torch.nn.Sequential(
+        torch.nn.Linear(2, 1),
+        torch.nn.Sigmoid()
+    )
+    ```
+    
+- cross-entropy loss:
+    
+    ```python
+    loss_fn = torch.nn.CrossEntropyLoss()
+    ```
+    
+- manual weight update:
+    
+    ```python
+    with torch.no_grad():
+        for param in model.parameters():
+            param -= 0.01 * param.grad
+    ```
+    
+- using optimizers:
+    
+    ```python
+    optimizer = torch.optim.SGD(model.parameters(), lr=0.01)
+    optimizer.step()
+    optimizer.zero_grad()  # clear gradients
+    ```
+---
+# Day 102: Training a Neural Network with PyTorch
+
+---
+# Day 103: Evaluating and Improving Models
 
 
 
