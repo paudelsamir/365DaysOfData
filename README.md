@@ -3143,6 +3143,70 @@ Below is some code for revision crafted by chatgpt:
 ---
 # Day 102: Training a Neural Network with PyTorch
 
+Just spent an hour continuing datacamp: 
+![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day102_module1.png)
+
+the content below is crafted by chatgpt for the revision purpose if needed!!!
+### loading data in pytorch
+use `TensorDataset` to wrap tensors and `DataLoader` to handle batching and shuffling.
+
+```python
+from torch.utils.data import TensorDataset, DataLoader
+dataset = TensorDataset(X, y)
+dataloader = DataLoader(dataset, batch_size=32, shuffle=True)
+```
+
+### training loop
+
+forward pass, compute loss, backward pass, update weights.
+
+```python
+for epoch in range(epochs):
+    for batch in dataloader:
+        optimizer.zero_grad()
+        output = model(batch)
+        loss = criterion(output, target)
+        loss.backward()
+        optimizer.step()
+```
+
+### mse loss
+
+used for regression.
+
+```python
+import torch.nn as nn
+criterion = nn.MSELoss()
+loss = criterion(predictions, targets)
+```
+
+### relu & leaky relu
+
+relu: `F.relu(x)`, leaky relu: `F.leaky_relu(x, 0.01)`. relu helps with vanishing gradients, leaky relu prevents dead neurons.
+
+### activation functions
+
+relu is the most common. sigmoid and tanh suffer from vanishing gradients. softmax is for classification.
+
+### learning rate & momentum
+
+learning rate controls step size, momentum helps accelerate updates.
+
+```python
+optimizer = torch.optim.SGD(model.parameters(), lr=0.01, momentum=0.9)
+
+```
+
+### experimenting with lr & momentum
+
+high lr → unstable, low lr → slow. use schedulers to adjust. momentum ~0.9 speeds up training but may overshoot.
+
+```python
+from torch.optim.lr_scheduler import StepLR
+scheduler = StepLR(optimizer, step_size=10, gamma=0.1)
+scheduler.step()
+```
+
 ---
 # Day 103: Evaluating and Improving Models
 
