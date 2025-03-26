@@ -3209,6 +3209,93 @@ scheduler.step()
 
 ---
 # Day 103: Evaluating and Improving Models
+> just wrapped up the datacamp course : next up >> deep dive
+> started diving into practical deep learning for coders (course.fast.ai)
+
+![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day103_finished.png)
+
+Code used in the course:
+
+```python
+# 1. layer initialization and transfer learning
+import torch.nn as nn
+import torchvision.models as models
+
+model = models.resnet18(pretrained=True)  # transfer learning
+for param in model.parameters():
+    param.requires_grad = False  # freeze all layers
+
+# 2. fine-tuning process
+for param in model.fc.parameters():
+    param.requires_grad = True  # unfreeze last layer
+optimizer = torch.optim.Adam(model.fc.parameters(), lr=1e-4)
+
+# 3. freeze layers of a model
+for param in model.conv1.parameters():
+    param.requires_grad = False  # freeze specific layer
+
+# 4. layer initialization
+def init_weights(m):
+    if isinstance(m, nn.Linear):
+        nn.init.xavier_uniform_(m.weight)  # or He initialization
+        nn.init.zeros_(m.bias)
+
+model.apply(init_weights)  # apply initialization
+
+# 5. evaluating model performance
+from torchmetrics.classification import Accuracy
+accuracy = Accuracy(task="binary")  # or "multiclass" for multi-class
+
+# 6. writing the evaluation loop
+def evaluate(model, dataloader, criterion, device):
+    model.eval()
+    total_loss, correct = 0, 0
+    with torch.no_grad():
+        for X, y in dataloader:
+            X, y = X.to(device), y.to(device)
+            y_pred = model(X)
+            loss = criterion(y_pred, y)
+            total_loss += loss.item()
+            correct += (y_pred.argmax(1) == y).sum().item()
+    return total_loss / len(dataloader), correct / len(dataloader.dataset)
+
+# 7. calculating accuracy using torchmetrics
+accuracy = Accuracy()
+y_true = torch.tensor([0, 1, 1, 0])
+y_pred = torch.tensor([0, 1, 0, 0])
+acc = accuracy(y_pred, y_true)
+print(f"Accuracy: {acc.item()}")
+
+# 8. fighting overfitting - dropout
+class Net(nn.Module):
+    def __init__(self):
+        super(Net, self).__init__()
+        self.fc = nn.Linear(128, 64)
+        self.dropout = nn.Dropout(p=0.5)  # 50% dropout
+
+    def forward(self, x):
+        x = self.fc(x)
+        return self.dropout(x)  # apply dropout
+
+# 9. experimenting with dropout
+dropout_layer = nn.Dropout(p=0.3)
+x = torch.rand(5, 5)
+print(dropout_layer(x))  # randomly drops values
+
+# 10. understanding overfitting
+# - monitor loss gap (train vs val loss)
+# - apply dropout, weight decay, augment data
+
+# 11. improving model performance
+# - batch norm: stabilizes training
+model = nn.Sequential(
+    nn.Linear(128, 64),
+    nn.BatchNorm1d(64),
+    nn.ReLU()
+)
+
+
+```
 
 
 
