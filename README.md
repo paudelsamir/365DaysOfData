@@ -141,7 +141,18 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 | [Day97](#day-97-visualizing-convolutional-layers-transfer-learning) | 2025-03-20 | Visualizing Convolutional Layers, Transfer Learning | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn)[, Grokking Deep Learning @Andrew W. Trask](https://www.amazon.com/Grokking-Deep-Learning-Andrew-Trask/dp/1617293709) |
 | [Day98](#day-98-keras-functional-api) | 2025-03-21 | Keras Functional API | [Deep learning playlist @ CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) [, Article](https://machinelearningmastery.com/keras-functional-api-deep-learning/)|
 | [Day100](#day-100-hidden-markov-model-quantum-machine-learning) | 2025-03-23 | Hidden Markov Model, Quantum Machine Learning | [Medium Article: Understanding Hidden Markov Models](https://towardsdatascience.com/hidden-markov-models-explained-698d24aafc95)|
-| [Day101]() | 2025-03-24 | ---------------------------- | [DL with Pytorch - Datacamp]()|
+| [Day101](#day-101-pytorch-exploring-surfacely) | 2025-03-24 | Exploring Pytorch Surfacely | [DL with Pytorch - Datacamp](https://app.datacamp.com/learn/courses/introduction-to-deep-learning-with-pytorch)|
+| [Day102](#day-102-training-a-neural-network-with-pytorch) | 2025-03-25 | Training a neural network with pytorch | [DL with Pytorch - Datacamp](https://app.datacamp.com/learn/courses/introduction-to-deep-learning-with-pytorch)|
+| [Day103](#day-103-evaluating-and-improving-models) | 2025-03-26 | Evaluating and improving models | [DL with Pytorch - Datacamp](https://app.datacamp.com/learn/courses/introduction-to-deep-learning-with-pytorch)|
+| [Day104](#day-104-crawling-through-dl-with-pytorch---chapter-1) | 2025-03-27 | Crawling through DL with pytroch | [Deep Learning for Coders -Fast.Ai](https://course.fast.ai/Resources/book.html)[, @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvboy8bmDCjwNHgTaYH2puK7)|
+| [Day105](#day-105-from-model-to-production--starting) | 2025-03-28 | Starting chapter 2 : from model to production | [Deep Learning for Coders -Fast.Ai](https://course.fast.ai/Resources/book.html)[, @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvboy8bmDCjwNHgTaYH2puK7)|
+| [Day106]()| 2025-03-28 | --------------------------- | [Deep Learning for Coders -Fast.Ai](https://course.fast.ai/Resources/book.html)[, @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvboy8bmDCjwNHgTaYH2puK7)|
+| [Day107]()| 2025-03-28 | --------------------------- | [Deep Learning for Coders -Fast.Ai](https://course.fast.ai/Resources/book.html)[, @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvboy8bmDCjwNHgTaYH2puK7)|
+| [Day108]()| 2025-03-29 | --------------------------- | [Deep Learning for Coders -Fast.Ai](https://course.fast.ai/Resources/book.html)[, @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvboy8bmDCjwNHgTaYH2puK7)|
+| [Day109]()| 2025-03-30 | --------------------------- | [Deep Learning for Coders -Fast.Ai](https://course.fast.ai/Resources/book.html)[, @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvboy8bmDCjwNHgTaYH2puK7)|
+| [Day110]()| 2025-03-31 | --------------------------- | [Deep Learning for Coders -Fast.Ai](https://course.fast.ai/Resources/book.html)[, @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvboy8bmDCjwNHgTaYH2puK7)|
+| [Day111]()| 2025-04-01 | --------------------------- | [Deep Learning for Coders -Fast.Ai](https://course.fast.ai/Resources/book.html)[, @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvboy8bmDCjwNHgTaYH2puK7)|
+| [Day112]()| 2025-04-02 | --------------------------- | [Deep Learning for Coders -Fast.Ai](https://course.fast.ai/Resources/book.html)[, @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvboy8bmDCjwNHgTaYH2puK7)|
 
 
 
@@ -3297,8 +3308,37 @@ model = nn.Sequential(
 
 ```
 
-# Day 104: 
+# Day 104: Crawling through DL with pytorch - Chapter 1
 
+- around 3 hours today
+- finished chapter 1 of deep learning for coders
+- watched lesson 1 on youtube: https://lnkd.in/di_Ehsbq
+- watched another pytorch video tensors related from campusx
+- [Code Part Here >>>](08-Practical-Deep-Learning-With-Pytorch/code/day104_tensors_implementation.ipynb)
+
+
+Representational images
+![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day104_chapter1_book.png) 
+![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day104_datablocks_api.png) 
+![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day104_ml_model_at_high_level.png) 
+![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day104_myths.png) 
+![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day104_tensors.png) 
+
+
+# Day 105: From Model to production : starting
+
+- had a slower day, as expected
+- spent time debugging an ML model with friends
+- watched some youtube and practiced tensors
+- started reading chapter 2 but didnt make significant progress
+
+Representational Images
+![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day105_autograd.png) 
+![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day105_ch2.png)
+
+
+
+# Day 106: 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
 <div id="bottom"></div>
