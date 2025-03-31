@@ -3337,8 +3337,32 @@ Representational Images
 ![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day105_ch2.png)
 
 
+# Day 106: Exploring Autograd and Portfolio Tweaks
 
-# Day 106: 
+- Focused on PyTorch's autograd; watched YouTube tutorials and read a few articles (no actual coding today).
+- Read 2-3 pages from the "Deep Learning for Coders" book.
+- Spent around 2 hours tweaking portfolio designs, mostly adapting ideas from others' designs.
+
+![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day106_autograd_nn.png) 
+![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day106_data_to_dataloaders.png)
+
+
+# Day 107: Refining Portfolio whole day:
+
+- spent the whole day refining the portfolio : paudelsamir.github.io
+- no major progress in ML today—just watched some pytorch videos on youtube
+
+
+# Day 108: Autograd in pytorch : deeper understanding
+
+Autograd is a core component in pytorch that provides automatic differentiation for tensor operations, It enables gradient computation,which is essential for training machine learning models using optimization algorithms like gradient descent.
+
+[Notebook: autograd implementation](08-Practical-Deep-Learning-With-Pytorch/code/day107_autograd.ipynb)
+
+Images: Lession 2 @ Practical DL for coders...
+![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day108_lesson2.png) 
+![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day108_loss_vs_metric.png)
+
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
 <div id="bottom"></div>
