@@ -3363,6 +3363,60 @@ Images: Lession 2 @ Practical DL for coders...
 ![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day108_lesson2.png) 
 ![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day108_loss_vs_metric.png)
 
+
+# Day 109: Pytorch Training Pipeline (Manual + Using nn.Module)
+
+When working with pytorch, you have two main options for building your models:
+
+one is using low level manual apporach where you have complete control over everything from defining weights to handling forward pass manually...
+
+Here's the code implementation:
+[Code Implementattion: Manual](08-Practical-Deep-Learning-With-Pytorch/code/day109_pytorch_training_pipeline.ipynb)
+![Code Implementattion: Manual](08-Practical-Deep-Learning-With-Pytorch/images/day109_training_pypeline_manual.png) \
+
+
+Other is nn.Module: is a high level abstraction for model building, it makes creating and training models much easier by handling much of the underlying complexity for you. it offers pre-built layers, loss functions, activation functions and other utilities.
+
+#### Key Components of `torch.nn` in PyTorch
+
+
+**1. Layers (Modules)**
+
+- Building blocks of neural networks, like `nn.Linear`, `nn.Conv2d`, `nn.LSTM`, and activations like `nn.ReLU`.
+- Handle the flow of data through the model, automatically managing weights.
+
+**2. Loss Functions**
+
+- Measure how well the model’s predictions match the target values.
+- Common ones: `nn.MSELoss()`, `nn.CrossEntropyLoss()`, `nn.BCEWithLogitsLoss()`.
+
+**3. Optimizers**
+
+- Update model parameters based on gradients.
+- Common optimizers: `torch.optim.SGD`, `torch.optim.Adam`, `torch.optim.RMSprop`.
+
+**4. Neural Network Modules (`nn.Module`)**
+
+- Base class for all neural network models.
+- Provides functions like `forward()`, `parameters()`, `state_dict()`.
+- Simplifies model building by automatically managing layers and gradients.
+
+**5. Data Handling (DataLoader, Dataset)**
+
+- `Dataset`: Custom class to handle data.
+- `DataLoader`: Manages batching, shuffling, and loading data in parallel.
+
+**6. Utilities**
+
+- **Dropout**: Regularization technique (`nn.Dropout`).
+- **BatchNorm**: Normalizes activations (`nn.BatchNorm1d`).
+- **Embedding**: Maps indices to vectors for NLP tasks (`nn.Embedding`).
+
+**7. Activation Functions**
+
+- Introduce non-linearity.
+- Common ones: `nn.ReLU`, `nn.Sigmoid`, `nn.Tanh`.
+
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
 <div id="bottom"></div>
