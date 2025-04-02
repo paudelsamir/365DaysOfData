@@ -3420,6 +3420,59 @@ Handle the flow of data through the model, automatically managing weights.
 Implementation:
 ![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day109_training_pipeline_auto.png)
 
+
+# Day 110: Dataset & DataLoader Class in PyTorch
+
+The `Dataset` class in PyTorch is used to represent your data. It allows you to define how to load and preprocess your data.
+
+**Key Methods**:
+1. `__init__`: Initialize the dataset (e.g., load files, set up variables).
+2. `__len__`: Return the total number of samples.
+3. `__getitem__`: Retrieve a single data sample.
+
+**Example**:
+```python
+from torch.utils.data import Dataset
+
+class CustomDataset(Dataset):
+    def __init__(self, data, labels):
+        self.data = data
+        self.labels = labels
+
+    def __len__(self):
+        return len(self.data)
+
+    def __getitem__(self, idx):
+        return self.data[idx], self.labels[idx]
+```
+
+The `DataLoader` class is used to load data in batches, shuffle it, and handle parallel processing.
+
+**Key Parameters**:
+- `batch_size`: Number of samples per batch.
+- `shuffle`: Whether to shuffle the data.
+- `num_workers`: Number of subprocesses for data loading.
+
+**Example**:
+```python
+from torch.utils.data import DataLoader
+
+dataset = CustomDataset(data, labels)
+dataloader = DataLoader(dataset, batch_size=32, shuffle=True)
+
+for batch_data, batch_labels in dataloader:
+    print(batch_data, batch_labels)
+```
+[Notebook: Dataloader Implementation and Improving our Previous Model](08-Practical-Deep-Learning-With-Pytorch/code/day110_dataloader.ipynb) 
+
+Batches separation using dataloader (just simple dataset):
+![Notebook: Dataloader Implementation](08-Practical-Deep-Learning-With-Pytorch/images/day110_dataloader.png)
+
+Training on our breast cancer dataset using dataloader improving from 52 to 95 percent accuracy:
+![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day110_dataloader_on_breast_cancer.png)
+
+
+# Day 111: 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
 <div id="bottom"></div>
