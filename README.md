@@ -3383,7 +3383,7 @@ Other is nn.Module: is a high level abstraction for model building, it makes cre
 **1. Layers (Modules)**
 
 - Building blocks of neural networks, like `nn.Linear`, `nn.Conv2d`, `nn.LSTM`, and activations like `nn.ReLU`.
-- Handle the flow of data through the model, automatically managing weights.
+Handle the flow of data through the model, automatically managing weights.
 
 **2. Loss Functions**
 
@@ -3416,6 +3416,9 @@ Other is nn.Module: is a high level abstraction for model building, it makes cre
 
 - Introduce non-linearity.
 - Common ones: `nn.ReLU`, `nn.Sigmoid`, `nn.Tanh`.
+
+Implementation:
+![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day109_training_pipeline_auto.png)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
