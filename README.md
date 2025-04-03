@@ -3472,7 +3472,16 @@ Training on our breast cancer dataset using dataloader improving from 52 to 95 p
 ![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day110_dataloader_on_breast_cancer.png)
 
 
-# Day 111: 
+# Day 111: ANN on fashion MNIST, GELU
+Today was fun, first i started implementing ANN with pytorch taking a dataset from Kaggle and with the help of some reference videos. i coded my NN.
+![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day111_ann_pytorch.png)
+
+
+then, started reading the paper about GELU (Gaussian Error Linear Unit), an activation function used in deep learning. here are the key points:
+
+activation functions like ReLU and tanh are common but GELU provides a smooth approximation to ReLU while incorporating probabilistic properties.
+![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day111_GELU.png)
+
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
 <div id="bottom"></div>
