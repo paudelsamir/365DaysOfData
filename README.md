@@ -147,13 +147,13 @@ I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/i
 | [Day103](#day-103-evaluating-and-improving-models) | 2025-03-26 | Evaluating and improving models | [DL with Pytorch - Datacamp](https://app.datacamp.com/learn/courses/introduction-to-deep-learning-with-pytorch)|
 | [Day104](#day-104-crawling-through-dl-with-pytorch---chapter-1) | 2025-03-27 | Crawling through DL with pytroch | [Deep Learning for Coders -Fast.Ai](https://course.fast.ai/Resources/book.html)[, @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvboy8bmDCjwNHgTaYH2puK7)|
 | [Day105](#day-105-from-model-to-production--starting) | 2025-03-28 | Starting chapter 2 : from model to production | [Deep Learning for Coders -Fast.Ai](https://course.fast.ai/Resources/book.html)[, @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvboy8bmDCjwNHgTaYH2puK7)|
-| [Day106]()| 2025-03-28 | --------------------------- | [Deep Learning for Coders -Fast.Ai](https://course.fast.ai/Resources/book.html)[, @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvboy8bmDCjwNHgTaYH2puK7)|
-| [Day107]()| 2025-03-28 | --------------------------- | [Deep Learning for Coders -Fast.Ai](https://course.fast.ai/Resources/book.html)[, @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvboy8bmDCjwNHgTaYH2puK7)|
-| [Day108]()| 2025-03-29 | --------------------------- | [Deep Learning for Coders -Fast.Ai](https://course.fast.ai/Resources/book.html)[, @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvboy8bmDCjwNHgTaYH2puK7)|
-| [Day109]()| 2025-03-30 | --------------------------- | [Deep Learning for Coders -Fast.Ai](https://course.fast.ai/Resources/book.html)[, @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvboy8bmDCjwNHgTaYH2puK7)|
-| [Day110]()| 2025-03-31 | --------------------------- | [Deep Learning for Coders -Fast.Ai](https://course.fast.ai/Resources/book.html)[, @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvboy8bmDCjwNHgTaYH2puK7)|
-| [Day111]()| 2025-04-01 | --------------------------- | [Deep Learning for Coders -Fast.Ai](https://course.fast.ai/Resources/book.html)[, @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvboy8bmDCjwNHgTaYH2puK7)|
-| [Day112]()| 2025-04-02 | --------------------------- | [Deep Learning for Coders -Fast.Ai](https://course.fast.ai/Resources/book.html)[, @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvboy8bmDCjwNHgTaYH2puK7)|
+| [Day106](#day-106-exploring-autograd-and-portfolio-tweaks) | 2025-03-29 | Exploring Autograd and Portfolio Tweaks | [Deep Learning for Coders -Fast.Ai](https://course.fast.ai/Resources/book.html)[, @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvboy8bmDCjwNHgTaYH2puK7) |
+| [Day107](#day-107-refining-portfolio-whole-day) | 2025-03-30 | Refining Portfolio whole day | [Deep Learning for Coders -Fast.Ai](https://course.fast.ai/Resources/book.html)[, @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvboy8bmDCjwNHgTaYH2puK7) |
+| [Day108](#day-108-autograd-in-pytorch-deeper-understanding) | 2025-03-31 | Autograd in PyTorch: Deeper Understanding | [Deep Learning for Coders -Fast.Ai](https://course.fast.ai/Resources/book.html)[, @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvboy8bmDCjwNHgTaYH2puK7) |
+| [Day109](#day-109-pytorch-training-pipeline-manual-using-nn-module) | 2025-04-01 | PyTorch Training Pipeline (Manual + Using nn.Module) | [Deep Learning for Coders -Fast.Ai](https://course.fast.ai/Resources/book.html)[, @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvboy8bmDCjwNHgTaYH2puK7) |
+| [Day110](#day-110-dataset-dataloader-class-in-pytorch) | 2025-04-02 | Dataset & DataLoader Class in PyTorch | [Deep Learning for Coders -Fast.Ai](https://course.fast.ai/Resources/book.html)[, @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvboy8bmDCjwNHgTaYH2puK7) |
+| [Day111](#day-111-ann-on-fashion-mnist-gelu) | 2025-04-03 | ANN on Fashion MNIST, GELU | [Deep Learning for Coders -Fast.Ai](https://course.fast.ai/Resources/book.html)[, @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvboy8bmDCjwNHgTaYH2puK7) |
+| [Day112](#day-112-ann-on-larger-fmnist-dataset-with-gpu-local-gelu-silu-history) | 2025-04-04 | ANN on larger FMNIST dataset with GPU (local), GELU/SiLU history | [Deep Learning for Coders -Fast.Ai](https://course.fast.ai/Resources/book.html)[, @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvboy8bmDCjwNHgTaYH2puK7) |
 
 
 
@@ -3481,6 +3481,17 @@ then, started reading the paper about GELU (Gaussian Error Linear Unit), an acti
 
 activation functions like ReLU and tanh are common but GELU provides a smooth approximation to ReLU while incorporating probabilistic properties.
 ![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day111_GELU.png)
+
+
+# Day 112: ANN on larger fmnist dataset with GPU(local), GELU/SiLU history:
+
+Yesterday I just trained on 6000 data only with CPU using pytroch leading 82 percent accuracy,
+today from scratch again i trained full fmnist dataset around 60000 data using gpu upto 100 epochs and got around 89 percent accuracy. 
+
+![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day112_gpu_training.png) 
+![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day112_GELU_SiLU.png)
+Summary:
+![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day112_gelu.png)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
