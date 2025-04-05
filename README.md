@@ -9,7 +9,7 @@
 
 ![cover](./resources/images/cover.png)
 
-> [!Reminder]
+> [!Note]
 > I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/in/paudelsamir/).
 
 <div align="right">
