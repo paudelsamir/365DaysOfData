@@ -3511,7 +3511,7 @@ achieve 81 on test tooo.
 
 well this isn't perfect model! i'll be working on hyperparameter tuning too later for the best later///////
 
->[!Later]
+>[!INFO]
 >Lately, have been really enjoying reading research papers, but on searching of efficient way to understand and learn,
 > I found an insightful lecture by the legend [Andrew Ng](https://youtube.com/watch?v=733m6qBH-jI&t=3196s). Highly recommended for anyone diving into this topic!
   on youtube
