@@ -3500,7 +3500,7 @@ today from scratch again i trained full fmnist dataset around 60000 data using g
 Summary:
 ![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day112_gelu.png)
 
-# Day 113: Optimizing FMNIST NN using Dropouts, Regularization and Batch Normalization
+# Day 113: Optimizing FMNIST NN using Dropouts, Regularization and Batch Normalization in Pytorch
 Yesterday, i was trying training neural network on whole dataset with around 60k data, got around 88 percent accuracy on test dataset, but while testing with train data, noticed that my model is overfitting. acheiving around 98 percent of accuracy, so today's my goal is just simple reduce overfittingk
 
 i have plan applying Dropout, Regularizaiton and batch norm. and let's see what happens?
@@ -3511,13 +3511,16 @@ achieve 81 on test tooo.
 
 well this isn't perfect model! i'll be working on hyperparameter tuning too later for the best later///////
 
->[!Note]
+>[!Later]
 >Lately, have been really enjoying reading research papers, but on searching of efficient way to understand and learn,
 > I found an insightful lecture by the legend [Andrew Ng](https://youtube.com/watch?v=733m6qBH-jI&t=3196s). Highly recommended for anyone diving into this topic!
   on youtube
 > so spent few hours watching and took notes to summarize everything my way
 
+![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day113_how.jpg) ![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day113_why.jpg)
 
+
+# Day 114: Hyperparameter Tuning using Pytorch
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
