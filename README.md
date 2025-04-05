@@ -9,7 +9,8 @@
 
 ![cover](./resources/images/cover.png)
 
-I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/in/paudelsamir/).
+> [!Remainder]
+> I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/in/paudelsamir/).
 
 <div align="right">
   <a href="#bottom" target="_blank">
