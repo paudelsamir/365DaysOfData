@@ -3520,6 +3520,13 @@ well this isn't perfect model! i'll be working on hyperparameter tuning too late
 
 ![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day113_how.jpg) ![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day113_why.jpg)
 
+<!--
+Due to upcoming board exams, I'll be taking a brief pause from intensive learning. However, I'll continue exploring and documenting smaller learnings during commutes or free time at college. Updates will be in the form of comments to maintain consistency in my daily learning journey.
+<!-- Taking a short break for exams -->
+
+```
+
+-->
 
 # Day 114: Hyperparameter Tuning using Pytorch
 
