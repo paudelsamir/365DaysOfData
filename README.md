@@ -3509,7 +3509,6 @@ i have plan applying Dropout, Regularizaiton and batch norm. and let's see what 
 achieve 81 on test tooo. 
 ![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day113_able_to_achieve_81_on_training.png)
 
-
 well this isn't perfect model! i'll be working on hyperparameter tuning too later for the best later///////
 
 >[!IMPORTANT]
