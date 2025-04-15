@@ -3526,6 +3526,9 @@ Due to upcoming board exams, I'll be taking a brief pause from intensive learnin
 - 10 - Sadly no Progress again due to some personal issue !
 - 11 - No improvements again !!
 - 12 - no improvements again ....
+- 13 - no improvements again
+- 14 - little bit explored LLMs....
+- 15 - Watch a youtube video lecture about 1 hour long about LLMs...
  -->
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
