@@ -3529,8 +3529,33 @@ Due to upcoming board exams, I'll be taking a brief pause from intensive learnin
 - 13 - no improvements again
 - 14 - little bit explored LLMs....
 - 15 - Watch a youtube video lecture about 1 hour long about LLMs...
-- 16 - No specific topics today
  -->
+
+# Day 114: RNNs revisited, Karpathy's blog, Project Planning
+
+Today i simply explored RNNs, simply revising it as well as reading blogs from amazing people.
+here're some glimpse from karpathy blog:
+![alt text](07-Recurrent-Neural-Network/images/day114_karpathy_rnns.png) ![alt text](07-Recurrent-Neural-Network/images/day114_akblog.png)
+
+rnns can remember stuff — normal neural nets forget everything after one step. rnns don’t. they keep a memory so they’re great with stuff like text, music, or anything that happens in a sequence.
+
+they feel like magic — you train them on a bunch of text, and they start making up new text that kinda makes sense. even with simple setups, the results can be weirdly good.
+
+rnns work with any length of input — they don’t need the data to be a fixed size. you can feed them short or long sentences, doesn’t matter. they just keep looping through it.
+
+you can use rnns even on non-sequence data — stuff like images can be processed step-by-step if you want. like looking at one part at a time and building understanding gradually.
+
+they learn programs, not just patterns — training an rnn is kinda like teaching it how to think step by step, not just react. like giving it a tiny brain with memory.
+
+they’re better than they look — people used to think rnns are hard to train, but turns out they’re not that tricky. even small ones can do surprising things.
+
+Inspring from this: https://github.com/lilianweng/stock-rnn
+am starting handson project with RNN ( predicting stock price) probably will use tensorflow
+also i have been exploring pytorch since while, so staring a project with pytorch too. 
+
+
+
+# Day 115: Starting Projects
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
