@@ -3522,13 +3522,9 @@ well this isn't perfect model! i'll be working on hyperparameter tuning too late
 <!--
 Due to upcoming board exams, I'll be taking a brief pause from intensive learning. However, I'll continue exploring and documenting smaller learnings during commutes or free time at college. Updates will be in the form of comments to maintain consistency in my daily learning journey.
 - 08- No progress today !
-- 09- No progress today !
 - 10 - Sadly no Progress again due to some personal issue !
-- 11 - No improvements again !!
 - 12 - no improvements again ....
-- 13 - no improvements again
 - 14 - little bit explored LLMs....
-- 15 - Watch a youtube video lecture about 1 hour long about LLMs...
  -->
 
 # Day 114: RNNs revisited, Karpathy's blog, Project Planning
