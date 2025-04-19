@@ -3545,6 +3545,8 @@ also i have been exploring pytorch since while, so staring a project with pytorc
 
 
 # Day 115: Starting Projects
+<!-- 
+No progress today- 6 - Preparing for board whole day-->
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
