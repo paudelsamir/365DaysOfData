@@ -3552,7 +3552,8 @@ No progress today- 8 - Preparing for board whole day
 No progress today- 9 - Preparing for board whole day
 No progress today- 10 - Preparing for board whole day-
 No progress today- 11 - Preparing for board whole day-
-No progress today- 11 - Preparing for board whole day-
+No progress today- 12 - Preparing for board whole day-
+No progress today- 13 - Preparing for board whole day-
 
 
 --->
