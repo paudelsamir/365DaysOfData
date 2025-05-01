@@ -3558,6 +3558,7 @@ No progress today- 14 - Preparing for board whole day-
 No progress today- 15 - Preparing for board whole day-
 No progress today- 16 - Preparing for board whole day-
 No progress today- 17 - Sick -
+No progress today- 18 - Sick -
 
 
 
