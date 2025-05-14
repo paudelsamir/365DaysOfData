@@ -3570,6 +3570,7 @@ No progress today - 27
 No progress today - 28 
 No progress for these days too as exam season is hitting hard....
 and won't until 5th sem ends which is ig around 20 days 
+Today is my Exam of Algorithms, Wish me luck !!!
 
 
 --->
