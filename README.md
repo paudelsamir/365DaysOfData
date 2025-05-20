@@ -3574,6 +3574,7 @@ Today is my Exam of Algorithms, Wish me luck !!!
 Preparing for board whole day-
 Preparing for board whole day-
 Preparing for board whole day-cryptography next
+It's Jestha 6 ig, and tomorrow it's cryptography....
 
 
 --->
