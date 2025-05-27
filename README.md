@@ -3577,7 +3577,7 @@ Preparing for board whole day-cryptography next
 It's Jestha 6 ig, and tomorrow it's cryptography....
 It's Jestha 9, XML and PHP is ruining my day..
 The day after tomorrow: Simulation and Modeling, havent' studied a single chapter yet
-
+It's i guess jestha 13 and tomorrow is my web tech exam
 
 --->
 
