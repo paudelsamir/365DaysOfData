@@ -3568,18 +3568,6 @@ No progress today - 25
 No progress today - 26 
 No progress today - 27 
 No progress today - 28 
-No progress for these days too as exam season is hitting hard....
-and won't until 5th sem ends which is ig around 20 days 
-Today is my Exam of Algorithms, Wish me luck !!!
-Preparing for board whole day-
-Preparing for board whole day-
-Preparing for board whole day-cryptography next
-It's Jestha 6 ig, and tomorrow it's cryptography....
-It's Jestha 9, XML and PHP is ruining my day..
-The day after tomorrow: Simulation and Modeling, havent' studied a single chapter yet
-It's i guess jestha 13 and tomorrow is my web tech exam
-Toughest exam till now - Web Technology..... so disappointed
-Tomorrow the final exam - Image processing, then i will continue my data journey....
 
 --->
 
