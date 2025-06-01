@@ -3559,10 +3559,7 @@ No progress today- 15 - Preparing for board whole day-
 No progress today- 16 - Preparing for board whole day-
 No progress today- 17 - Sick -
 No progress today- 18 - Sick -
-No progress today- 19 - Exam season hitting hardd -
-No progress straightly for 2 days; out of valley 
-No progress today - 22 
-No progress today - 23 
+
 
 --->
 
