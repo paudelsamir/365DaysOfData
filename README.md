@@ -162,6 +162,7 @@
 | [Day117]() | 2025-04-09 | ------------------- | [Deep Learning for Coders -Fast.Ai](https://course.fast.ai/Resources/book.html)[, @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvboy8bmDCjwNHgTaYH2puK7) |
 | [Day118]() | 2025-04-10 | ------------------- | [Deep Learning for Coders -Fast.Ai](https://course.fast.ai/Resources/book.html)[, @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvboy8bmDCjwNHgTaYH2puK7) |
 | [Day119]() | 2025-04-11 | ------------------- | [Deep Learning for Coders -Fast.Ai](https://course.fast.ai/Resources/book.html)[, @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvboy8bmDCjwNHgTaYH2puK7) |
+| [Day120]() | 2025-04-11 | ------------------- | [Deep Learning for Coders -Fast.Ai](https://course.fast.ai/Resources/book.html)[, @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvboy8bmDCjwNHgTaYH2puK7) |
 
 
 
