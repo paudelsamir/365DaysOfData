@@ -155,14 +155,6 @@
 | [Day110](#day-110-dataset--dataloader-class-in-pytorch) | 2025-04-02 | Dataset & DataLoader Class in PyTorch | [Deep Learning for Coders -Fast.Ai](https://course.fast.ai/Resources/book.html)[, @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvboy8bmDCjwNHgTaYH2puK7) |
 | [Day111](#day-111-ann-on-fashion-mnist-gelu) | 2025-04-03 | ANN on Fashion MNIST, GELU | [Deep Learning for Coders -Fast.Ai](https://course.fast.ai/Resources/book.html)[, @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvboy8bmDCjwNHgTaYH2puK7) |
 | [Day112](#day-112-ann-on-larger-fmnist-dataset-with-gpulocal-gelusilu-history) | 2025-04-04 | ANN on larger FMNIST dataset with GPU (local), GELU/SiLU history | [Deep Learning for Coders -Fast.Ai](https://course.fast.ai/Resources/book.html)[, @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvboy8bmDCjwNHgTaYH2puK7) |
-| [Day114]() | 2025-06-27 | ------------------- | ------------------- |
-| [Day114]() | 2025-06-28 | ------------------- | ------------------- |
-| [Day115]() | 2025-06-29 | ------------------- | ------------------- |
-| [Day116]() | 2025-06-30 | ------------------- | ------------------- |
-| [Day117]() | 2025-07-01 | ------------------- | ------------------- |
-| [Day118]() | 2025-07-02 | ------------------- | ------------------- |
-| [Day119]() | 2025-07-03 | ------------------- | ------------------- |
-| [Day120]() | 2025-07-04 | ------------------- | ------------------- |
 
 
 ---
