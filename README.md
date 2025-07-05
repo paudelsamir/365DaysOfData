@@ -157,6 +157,7 @@
 | [Day112](#day-112-ann-on-larger-fmnist-dataset-with-gpulocal-gelusilu-history) | 2025-04-04 | ANN on larger FMNIST dataset with GPU (local), GELU/SiLU history | [Deep Learning for Coders -Fast.Ai](https://course.fast.ai/Resources/book.html)[, @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvboy8bmDCjwNHgTaYH2puK7) |
 
 
+
 ---
 <br>
 <br>
