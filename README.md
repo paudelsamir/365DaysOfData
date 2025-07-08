@@ -3534,8 +3534,25 @@ am starting handson project with RNN ( predicting stock price) probably will use
 also i have been exploring pytorch since while, so staring a project with pytorch too. 
 
 
+# Day 115: Classifying Footballers with their Eyes - Day 1
 
-# Day 115: 
+> Started a small project: classify footballers by just their eyes.
+
+The idea is to turn it into a simple game—human vs AI. 
+
+**Data Collection:**  
+- Scraped ~3,000 images of 25 well-known players.
+- Used OpenCV to automatically crop out just the eye regions from each image.
+- Split the dataset into train, validation, and test sets to ensure fair evaluation.
+
+- Small dataset size may limit accuracy.
+- Some players have similar eye features, making classification harder.
+- Lighting, image quality, and cropping consistency can affect results.
+
+![images](10-Projects-Based-ML-DL/01-Image-Classification(guess_the_footballer_by_eyes)/day115.png) ![images](10-Projects-Based-ML-DL/01-Image-Classification(guess_the_footballer_by_eyes)/day115i.png)
+
+
+
 
 
 ------------------------------
