@@ -19,3 +19,5 @@ venv/
 .coverage
 
 ./data
+10-Projects-Based-ML-DL/01-Image-Classification(guess_the_footballer_by_eyes)/eye_dataset
+10-Projects-Based-ML-DL/01-Image-Classification(guess_the_footballer_by_eyes)/raw_images
