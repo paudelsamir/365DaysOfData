@@ -155,6 +155,11 @@
 | [Day110](#day-110-dataset--dataloader-class-in-pytorch) | 2025-04-02 | Dataset & DataLoader Class in PyTorch | [Deep Learning for Coders -Fast.Ai](https://course.fast.ai/Resources/book.html)[, @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvboy8bmDCjwNHgTaYH2puK7) |
 | [Day111](#day-111-ann-on-fashion-mnist-gelu) | 2025-04-03 | ANN on Fashion MNIST, GELU | [Deep Learning for Coders -Fast.Ai](https://course.fast.ai/Resources/book.html)[, @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvboy8bmDCjwNHgTaYH2puK7) |
 | [Day112](#day-112-ann-on-larger-fmnist-dataset-with-gpulocal-gelusilu-history) | 2025-04-04 | ANN on larger FMNIST dataset with GPU (local), GELU/SiLU history | [Deep Learning for Coders -Fast.Ai](https://course.fast.ai/Resources/book.html)[, @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvboy8bmDCjwNHgTaYH2puK7) |
+| [Day113](#day-113-optimizing-fmnist-nn-using-dropouts-regularization-and-batch-normalization-in-pytorch) | 2025-04-05 | Optimizing FMNIST NN using Dropouts, Regularization and Batch Normalization in Pytorch | [Notebook](08-Practical-Deep-Learning-With-Pytorch/code/day113_fmnist_regularization.ipynb) |
+| [Day114](#day-114-rnns-revisited-karpathys-blog-project-planning) | 2025-04-08 | RNNs revisited, Karpathy's blog, Project Planning | [Karpathy Blog](https://karpathy.github.io/2015/05/21/rnn-effectiveness/) |
+| [Day115](#day-115-classifying-footballers-with-their-eyes---day-1) | 2025-07-08 | Classifying Footballers with their Eyes - Day 1 | [Project Notebook](10-Projects-Based-ML-DL/01-Image-Classification(guess_the_footballer_by_eyes)/day115.ipynb) |
+| [Day116](#day-116-classifying-footballers-with-their-eyes--day-2) | 2025-07-09 | Classifying Footballers with their Eyes – Day 2 | [Project Notebook](10-Projects-Based-ML-DL/01-Image-Classification(guess_the_footballer_by_eyes)/day116.ipynb) |
+| [Day117](#day-117-yolo-you-only-look-once) | 2025-07-10 | YOLO (You Only Look Once) | [YOLO Paper](https://arxiv.org/abs/1506.02640) |
 
 ---
 <br>
@@ -3541,7 +3546,7 @@ also i have been exploring pytorch since while, so staring a project with pytorc
 The idea is to turn it into a simple game—human vs AI. 
 
 **Data Collection:**  
-- Scraped ~3,000 images of 25 well-known players.
+- Scraped ~3,000 images of 25 well-known players from google.
 - Used OpenCV to automatically crop out just the eye regions from each image.
 - Split the dataset into train, validation, and test sets to ensure fair evaluation.
 
@@ -3552,9 +3557,41 @@ The idea is to turn it into a simple game—human vs AI.
 ![images](10-Projects-Based-ML-DL/01-Image-Classification(guess_the_footballer_by_eyes)/day115.png) ![images](10-Projects-Based-ML-DL/01-Image-Classification(guess_the_footballer_by_eyes)/day115i.png)
 
 
+# Day 116: Classifying Footballers with their Eyes – Day 2
+
+Turned the eye classifier into an interactive game: **Human vs AI – who can recognize footballers better?**
+
+**Key Progress:**
+- Trained a ResNet18 model on the eye dataset – reached ~70% accuracy 🎯
+- Built a Streamlit app for a fun player experience
+- Added game mechanics: scoring, streak counter, and round tracking
+
+**Fun Features:**
+- See AI's "thought process" – shows confidence levels for different players
+- Scoreboard tracking your performance vs the AI
+- Clean interface focused on the eye images
+
+![alt text](10-Projects-Based-ML-DL/01-Image-Classification(guess_the_footballer_by_eyes)/day116_demo.png)
+
+Still refining everything, but the basic game loop works! Challenging but surprisingly addictive
 
 
+# Day 117: YOLO (You Only Look Once)
+Instead of scanning images region-by-region like traditional methods, YOLO (You Only Look Once) processes the entire image in a single pass through a CNN, predicting all object bounding boxes and class labels simultaneously. This end-to-end approach makes YOLO extremely fast.
 
+**Network Architecture:**
+![YOLO Architecture](09-State-of-the-Art-DL/images/day117_yolo_architecture.png)
+
+- Inspired by GoogLeNet, but with a simpler design
+- 24 convolutional layers followed by 2 fully connected layers
+- Uses 1×1 convolutions to reduce feature map size before applying 3×3 convolutions
+- The final output layer produces a 7×7×30 tensor representing bounding boxes and class probabilities
+
+**Performance:**  
+Combining Fast R-CNN with YOLO achieves a 75.0% mean Average Precision (mAP).
+
+
+# Day 118: 
 ------------------------------
 
 
