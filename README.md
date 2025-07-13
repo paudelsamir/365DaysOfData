@@ -19,16 +19,18 @@
 </div>
 
 ## Projects Completed
-| Projects | Description | Streamlit Deployment |
+will update soon !
+<!-- | Projects | Description | Streamlit Deployment |
 |----------|-------------|-----------|
 |[Football Players Market Value Prediction](https://github.com/paudelsamir/365DaysOfData/tree/main/04-ML-Based-Football-Players-Market-Value-Prediction)| A 10 day end-to-end machine learning capstone project involving data scraping, cleaning, feature engineering, model training, and deployment to a cloud server. |[Live Demo 👆🏽](https://paudelsamir.streamlit.app/)|
 |[Movie Recommender System](https://github.com/paudelsamir/Movie-Recommender-System)|An end-to-end content-based movie recommender system leveraging a dataset of 5000 movies from [Kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv).| [Live Demo 👆🏽](https://movie-recommender-samir.streamlit.app/)|
-|[Cat vs Dog Classifier](https://github.com/paudelsamir/cat-vs-dog-classifier)| A deep learning model leveraging VGG16 architecture, trained on an RTX 3050 Ti for 30 epochs, achieving 95% accuracy using the [Kaggle Dogs vs Cats dataset](https://www.kaggle.com/c/dogs-vs-cats). | [Live Demo 👆🏽](https://cat-vs-dog-classifier.streamlit.app/) |
+|[Cat vs Dog Classifier](https://github.com/paudelsamir/cat-vs-dog-classifier)| A deep learning model leveraging VGG16 architecture, trained on an RTX 3050 Ti for 30 epochs, achieving 95% accuracy using the [Kaggle Dogs vs Cats dataset](https://www.kaggle.com/c/dogs-vs-cats). | [Live Demo 👆🏽](https://cat-vs-dog-classifier.streamlit.app/) | -->
 
  
 
 ## Resources
-| Books & Courses  | Completion Status |
+will update soon !
+<!-- | Books & Courses  | Completion Status |
 |--------------------|-------------------|
 | [Machine Learning Specialization @Coursera](https://www.coursera.org/specializations/machine-learning-introduction) | ✅ |
 | [Machine Learning Playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH) | ✅ |
@@ -38,7 +40,7 @@
 | [Deep Learning with PyTorch @ Datacamp](https://app.datacamp.com/learn/courses/intermediate-deep-learning-with-pytorch) | ⌛  |
 | [Deep Learning for Coders with fastai & PyTorch @Oreilly](https://github.com/fastai/fastbook) | ⌛ |
 
-<!-- | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/yanshengjia/ml-road/blob/master/resources/Hands%20On%20Machine%20Learning%20with%20Scikit%20Learn%20and%20TensorFlow.pdf)| 🏊⌛|  -->
+| [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/yanshengjia/ml-road/blob/master/resources/Hands%20On%20Machine%20Learning%20with%20Scikit%20Learn%20and%20TensorFlow.pdf)| 🏊⌛|  -->
 
 
 ## Progress
@@ -3311,6 +3313,7 @@ model = nn.Sequential(
 
 
 ```
+---
 
 # Day 104: Crawling through DL with pytorch - Chapter 1
 
@@ -3327,6 +3330,7 @@ Representational images
 ![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day104_ml_model_at_high_level.png) 
 ![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day104_myths.png) 
 ![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day104_tensors.png) 
+---
 
 
 # Day 105: From Model to production : starting
@@ -3339,6 +3343,7 @@ Representational images
 Representational Images
 ![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day105_autograd.png) 
 ![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day105_ch2.png)
+---
 
 
 # Day 106: Exploring Autograd and Portfolio Tweaks
@@ -3349,12 +3354,14 @@ Representational Images
 
 ![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day106_autograd_nn.png) 
 ![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day106_data_to_dataloaders.png)
+---
 
 
 # Day 107: Refining Portfolio whole day:
 
 - spent the whole day refining the portfolio : paudelsamir.github.io
 - no major progress in ML today—just watched some pytorch videos on youtube
+---
 
 
 # Day 108: Autograd in pytorch : deeper understanding
@@ -3367,6 +3374,7 @@ Images: Lession 2 @ Practical DL for coders...
 ![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day108_lesson2.png) 
 ![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day108_loss_vs_metric.png)
 
+---
 
 # Day 109: Pytorch Training Pipeline (Manual + Using nn.Module)
 
@@ -3424,6 +3432,7 @@ Handle the flow of data through the model, automatically managing weights.
 Implementation:
 ![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day109_training_pipeline_auto.png)
 
+---
 
 # Day 110: Dataset & DataLoader Class in PyTorch
 
@@ -3474,6 +3483,7 @@ Batches separation using dataloader (just simple dataset):
 
 Training on our breast cancer dataset using dataloader improving from 52 to 95 percent accuracy:
 ![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day110_dataloader_on_breast_cancer.png)
+---
 
 
 # Day 111: ANN on fashion MNIST, GELU
@@ -3485,6 +3495,7 @@ then, started reading the paper about GELU (Gaussian Error Linear Unit), an acti
 
 activation functions like ReLU and tanh are common but GELU provides a smooth approximation to ReLU while incorporating probabilistic properties.
 ![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day111_GELU.png)
+---
 
 
 # Day 112: ANN on larger fmnist dataset with GPU(local), GELU/SiLU history:
@@ -3496,6 +3507,7 @@ today from scratch again i trained full fmnist dataset around 60000 data using g
 ![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day112_GELU_SiLU.png)
 Summary:
 ![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day112_gelu.png)
+---
 
 # Day 113: Optimizing FMNIST NN using Dropouts, Regularization and Batch Normalization in Pytorch
 Yesterday, i was trying training neural network on whole dataset with around 60k data, got around 88 percent accuracy on test dataset, but while testing with train data, noticed that my model is overfitting. acheiving around 98 percent of accuracy, so today's my goal is just simple reduce overfittingk
@@ -3514,14 +3526,13 @@ well this isn't perfect model! i'll be working on hyperparameter tuning too late
 > so spent few hours watching and took notes to summarize everything my way
 
 ![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day113_how.jpg) ![alt text](08-Practical-Deep-Learning-With-Pytorch/images/day113_why.jpg)
-
+---
 
 # Day 114: RNNs revisited, Karpathy's blog, Project Planning
 
 Today i simply explored RNNs, simply revising it as well as reading blogs from amazing people.
 here're some glimpse from karpathy blog:
-![alt text](07-Recurrent-Neural-Network/images/day114_karpathy_rnns.png) ![alt text](07-Recurrent-Neural-Network/images/day114_akblog.png)
-
+![alt text](07-Recurrent-Neural-Network/day114_akblog.png) ![alt text](07-Recurrent-Neural-Network/day114_karpathy_rnns.png)
 rnns can remember stuff — normal neural nets forget everything after one step. rnns don’t. they keep a memory so they’re great with stuff like text, music, or anything that happens in a sequence.
 
 they feel like magic — you train them on a bunch of text, and they start making up new text that kinda makes sense. even with simple setups, the results can be weirdly good.
@@ -3538,7 +3549,7 @@ Inspring from this: https://github.com/lilianweng/stock-rnn
 am starting handson project with RNN ( predicting stock price) probably will use tensorflow
 also i have been exploring pytorch since while, so staring a project with pytorch too. 
 
-
+---
 # Day 115: Classifying Footballers with their Eyes - Day 1
 
 > Started a small project: classify footballers by just their eyes.
@@ -3554,8 +3565,8 @@ The idea is to turn it into a simple game—human vs AI.
 - Some players have similar eye features, making classification harder.
 - Lighting, image quality, and cropping consistency can affect results.
 
-![images](10-Projects-Based-ML-DL/01-Image-Classification(guess_the_footballer_by_eyes)/day115.png) ![images](10-Projects-Based-ML-DL/01-Image-Classification(guess_the_footballer_by_eyes)/day115i.png)
-
+![alt text](10-Projects-Based-ML-DL/01-Image-Classification/day115.png) ![alt text](10-Projects-Based-ML-DL/01-Image-Classification/day115i.png)
+---
 
 # Day 116: Classifying Footballers with their Eyes – Day 2
 
@@ -3571,10 +3582,11 @@ Turned the eye classifier into an interactive game: **Human vs AI – who can re
 - Scoreboard tracking your performance vs the AI
 - Clean interface focused on the eye images
 
-![alt text](10-Projects-Based-ML-DL/01-Image-Classification(guess_the_footballer_by_eyes)/day116_demo.png)
+![alt text](10-Projects-Based-ML-DL/01-Image-Classification/day116_demo.png)
 
 Still refining everything, but the basic game loop works! Challenging but surprisingly addictive
 
+---
 
 # Day 117: YOLO (You Only Look Once)
 Instead of scanning images region-by-region like traditional methods, YOLO (You Only Look Once) processes the entire image in a single pass through a CNN, predicting all object bounding boxes and class labels simultaneously. This end-to-end approach makes YOLO extremely fast.
@@ -3590,8 +3602,68 @@ Instead of scanning images region-by-region like traditional methods, YOLO (You 
 **Performance:**  
 Combining Fast R-CNN with YOLO achieves a 75.0% mean Average Precision (mAP).
 
-
+---
 # Day 118: 
+
+
+
+
+---
+# Day 119: 
+
+
+
+
+---
+# Day 120: 
+
+
+
+
+---
+# Day 121: 
+
+
+
+
+---
+# Day 122: 
+
+
+
+
+---
+# Day 123: 
+
+
+
+
+---
+# Day 124: 
+
+
+
+
+---
+# Day 125: 
+
+
+
+
+---
+# Day 126: 
+
+
+
+
+---
+# Day 127: 
+
+
+
+---
+# Day 128: 
+
 
 
 
