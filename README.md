@@ -13,9 +13,9 @@
 >I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/in/paudelsamir/) and [**Twitter**](https://twitter.com/samireey)
 
 <div align="right">
-  <a href="#bottom" target="_blank">
-    <img src="https://img.shields.io/badge/Go%20to%20Bottom%20🡻-orange?style=for-the-badge&logo=arrow-down-right&logoColor=white" style="height: 25px; width: auto;" />
-  </a>
+<a href="#bottom">
+    <img src="https://img.shields.io/badge/▼_Navigate_to_Bottom-0D1117?style=for-the-badge&logoColor=white&labelColor=161B22" alt="Navigate to Bottom" />
+</a>
 </div>
 
 ## Projects Completed
@@ -3672,9 +3672,9 @@ Combining Fast R-CNN with YOLO achieves a 75.0% mean Average Precision (mAP).
 
 <div id="bottom"></div>
 <div align="right">
-  <a href="#top" target="_blank">
-    <img src="https://img.shields.io/badge/Back%20to%20top-orange?style=for-the-badge&logo=expo&logoColor=white" style="height: 25px;" />
-  </a>
+<a href="#top">
+    <img src="https://img.shields.io/badge/▲_Back_to_Top-0D1117?style=for-the-badge&logoColor=white&labelColor=161B22" alt="Back to Top" />
+</a>
 </div>
 <!-- 
 ### Helping Hands
