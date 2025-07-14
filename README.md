@@ -3603,13 +3603,52 @@ Instead of scanning images region-by-region like traditional methods, YOLO (You 
 Combining Fast R-CNN with YOLO achieves a 75.0% mean Average Precision (mAP).
 
 ---
-# Day 118: 
+# Day 118: LSTM, GRU & Encoder-Decoder Architecture
 
+Today I explored recurrent neural network variants (LSTM and GRU) and the encoder-decoder architecture that powers many modern NLP systems. I read excellent resources from [Colah](https://colah.github.io/posts/2015-08-Understanding-LSTMs/) and [Karpathy](https://karpathy.github.io/2015/05/21/rnn-effectiveness/).
 
+### LSTM & GRU: The Memory Masters
 
+**Long Short-Term Memory (LSTM)** networks solve the vanishing gradient problem in traditional RNNs through:
+- Cell state: Long-term memory that flows through the network
+- Forget gate: Controls what information to discard
+- Input gate: Updates cell state with new information
+- Output gate: Determines the next hidden state
+ ![alt text](09-State-of-the-Art-DL/images/day118_LSTM.png)
 
+**Gated Recurrent Unit (GRU)** is a simplified but effective alternative:
+- Reset gate: Determines how much past information to forget
+- Update gate: Controls the flow between new and old information
+- More computationally efficient than LSTM with comparable performance
+![alt text](09-State-of-the-Art-DL/images/day118_GRU.png)
+
+### Encoder-Decoder Architecture
+
+The encoder-decoder framework revolutionized sequence-to-sequence tasks like translation:
+
+1. **Why use it?** To map sequences of different lengths (e.g., English to French sentences)
+2. **How it works:**
+    - Encoder: Processes input sequence into a fixed-length context vector
+    - Decoder: Generates output sequence from this context vector
+    
+3. **Attention mechanism** was added because:
+    - Fixed-length context vectors couldn't handle long sequences well
+    - Attention allows the decoder to "focus" on different parts of the input when generating each output token
+    - Dramatically improved performance on long sequences
+
+4. **Transformers** (from "Attention is All You Need") took this further:
+    - Replaced recurrence entirely with self-attention mechanisms
+    - Enabled massive parallelization during training
+    - Captured long-range dependencies more effectively
+    - Now powers most state-of-the-art NLP models (BERT, GPT, etc.)
+
+![text](09-State-of-the-Art-DL/images/day118_transformer_based_encoder_decoder.png) 
+![text](09-State-of-the-Art-DL/images/day118_rnn_based_encoder_decoder.png) 
+![text](09-State-of-the-Art-DL/images/day118_comparision.png)
+
+Next, attention is all you need !! and implementation ig...
 ---
-# Day 119: 
+# Day 119: Attention is all you need 
 
 
 
