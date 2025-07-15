@@ -3648,7 +3648,48 @@ The encoder-decoder framework revolutionized sequence-to-sequence tasks like tra
 
 Next, attention is all you need !! and implementation ig...
 ---
-# Day 119: Attention is all you need 
+# Day 119: Bahdanau Attention and Luong Attention, 
+
+REFS: https://machinelearningmastery.com/the-bahdanau-attention-mechanism/
+
+https://machinelearningmastery.com/the-luong-attention-mechanism/
+#### Bahdanau Attention
+bahdanau attention solves the bottleneck of fixed-length vectors in encoder-decoder models by letting the decoder dynamically focus on relevant parts of the input at each step. instead of compressing everything into one vector, it uses a weighted combination of all encoder outputs.
+![alt text](09-State-of-the-Art-DL/images/day119_bhadanau_arch.png)
+
+- bahdanau uses a bidirectional rnn encoder to create rich annotations for each input word.
+
+- decoder computes attention scores by comparing its previous state with each annotation using additive scoring.
+
+- scores get normalized into weights that decide how much focus each input word gets.
+
+- context vector is a weighted sum of annotations, guiding the decoder’s next output.
+
+- this dynamic attention mechanism removes the fixed-vector bottleneck, boosting translation quality, especially for long sentences.
+
+#### Luong Attention
+
+luong attention improves on bahdanau by offering two types: global and local attention.
+![alt text](09-State-of-the-Art-DL/images/day119_Luong_attention.png)
+global attention looks at all source words every time to calculate context.
+
+local attention focuses on a small window of source words to save computation.
+
+luong uses multiplicative (dot-product) attention instead of bahdanau’s additive method.
+
+alignment scores in luong depend on the current decoder state, not the previous one.
+
+global attention calculates weights over all encoder outputs, while local attention narrows focus.
+
+local attention chooses a center position either by assuming order (monotonic) or by prediction.
+
+luong’s simpler method is faster and easier to compute, especially for long sentences.
+
+bahdanau uses bidirectional encoder; luong uses top-layer hidden states without necessarily being bidir.
+
+luong attention laid groundwork for transformer attention by emphasizing dot-product scoring.
+
+
 
 
 
