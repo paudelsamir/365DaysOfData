@@ -3694,11 +3694,26 @@ luong attention laid groundwork for transformer attention by emphasizing dot-pro
 
 
 
----
-# Day 120: 
+# Day 120: Building a Seq2Seq Chatbot – Data Preparation & Preprocessing
 
+- Loaded and explored raw movie dialogue data.
+![alt text](10-Projects-Based-ML-DL/02-Natural-Language-Processing/day120_workflow.png)
+- Parsed and formatted conversation pairs for training.
+- Saved cleaned pairs to `formatted_movie_lines.txt`.
+- Built a vocabulary system (`Voc` class) to map words to indices and track word frequency.
+- Added special tokens: `<PAD>`, `<SOS>`, `<EOS>`.
+- Trimmed rare words to keep the vocabulary clean and manageable.
+- Preprocessed text:
+    - Normalized Unicode and cleaned strings.
+    - Lowercased text, spaced punctuation, and filtered out non-letter characters.
+    - Applied a sentence length cap (max 10 words).
+- Converted sentences to tensors:
+    - Indexed words and padded sequences.
+    - Created binary masks for padding.
+- Implemented `batch2TrainData` to generate mini-batches for efficient training.
+![alt text](10-Projects-Based-ML-DL/02-Natural-Language-Processing/day120_upto_model_defining.png) 
 
-
+[Notebook](10-Projects-Based-ML-DL/02-Natural-Language-Processing/chatbot.ipynb)
 
 ---
 # Day 121: 
