@@ -22,3 +22,8 @@ venv/
 10-Projects-Based-ML-DL/01-Image-Classification(guess_the_footballer_by_eyes)/eye_dataset
 10-Projects-Based-ML-DL/01-Image-Classification(guess_the_footballer_by_eyes)/raw_images
 yolov5s.pt
+10-Projects-Based-ML-DL/02-Natural-Language-Processing/data/movie-corpus/conversations.json
+10-Projects-Based-ML-DL/02-Natural-Language-Processing/data/movie-corpus/corpus.json
+10-Projects-Based-ML-DL/02-Natural-Language-Processing/data/movie-corpus/speakers.json
+10-Projects-Based-ML-DL/02-Natural-Language-Processing/data/movie-corpus/utterances.jsonl
+10-Projects-Based-ML-DL/02-Natural-Language-Processing/data/movie-corpus/index.json
