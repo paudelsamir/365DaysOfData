@@ -3653,7 +3653,7 @@ Next, attention is all you need !! and implementation ig...
 REFS: https://machinelearningmastery.com/the-bahdanau-attention-mechanism/
 
 https://machinelearningmastery.com/the-luong-attention-mechanism/
-#### Bahdanau Attention
+#### Bahdanau Attention - Note: it is for seq2seq architecture, the transformer based architecture doesn't use RNNs
 bahdanau attention solves the bottleneck of fixed-length vectors in encoder-decoder models by letting the decoder dynamically focus on relevant parts of the input at each step. instead of compressing everything into one vector, it uses a weighted combination of all encoder outputs.
 ![alt text](09-State-of-the-Art-DL/images/day119_bhadanau_arch.png)
 
@@ -3696,6 +3696,8 @@ luong attention laid groundwork for transformer attention by emphasizing dot-pro
 
 # Day 120: Building a Seq2Seq Chatbot – Data Preparation & Preprocessing
 
+https://docs.pytorch.org/tutorials/beginner/chatbot_tutorial.html#decoder
+
 - Loaded and explored raw movie dialogue data.
 ![alt text](10-Projects-Based-ML-DL/02-Natural-Language-Processing/day120_workflow.png)
 - Parsed and formatted conversation pairs for training.
@@ -3716,13 +3718,26 @@ luong attention laid groundwork for transformer attention by emphasizing dot-pro
 [Notebook](10-Projects-Based-ML-DL/02-Natural-Language-Processing/chatbot.ipynb)
 
 ---
-# Day 121: 
+# Day 121: Building a Seq2Seq Chatbot - Defining Model (encoder, attention, decoder)
 
+https://docs.pytorch.org/tutorials/beginner/chatbot_tutorial.html#decoder
+
+what exactly is encoder decoder?
+- encoder reads the input (any form) and builds a representation (set of token embedding with contexts) of it
+- decoder reads that representaiton and generates teh output
+
+Without attention, the decoder tries to compress the entire input sequence into a single context vector, which it uses to generate each word in the output. This approach can limit performance, especially for long sequences, because important details may be lost in the summary.
+
+With attention, the decoder can dynamically focus on different parts of the input sequence at each decoding step. Instead of relying solely on a fixed context vector, it selectively attends to relevant encoder outputs, allowing for more accurate and flexible generation.
+
+https://machinelearningmastery.com/how-does-attention-work-in-encoder-decoder-recurrent-neural-networks/
 
 
 
 ---
-# Day 122: 
+# Day 122: Building a Seq2Seq Chatbot -  Training / Evaluation
+
+https://docs.pytorch.org/tutorials/beginner/chatbot_tutorial.html#decoder
 
 
 
