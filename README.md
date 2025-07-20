@@ -3713,7 +3713,7 @@ https://docs.pytorch.org/tutorials/beginner/chatbot_tutorial.html#decoder
     - Indexed words and padded sequences.
     - Created binary masks for padding.
 - Implemented `batch2TrainData` to generate mini-batches for efficient training.
-![alt text](10-Projects-Based-ML-DL/02-Natural-Language-Processing/day120_upto_model_defining.png) 
+![alt text](10-Projects-Based-ML-DL/02-Natural-Language-Processing/seq2seq-charbot/day120_upto_model_defining.png) 
 
 [Notebook](10-Projects-Based-ML-DL/02-Natural-Language-Processing/chatbot.ipynb)
 
@@ -3732,18 +3732,60 @@ With attention, the decoder can dynamically focus on different parts of the inpu
 
 https://machinelearningmastery.com/how-does-attention-work-in-encoder-decoder-recurrent-neural-networks/
 
-
-
----
-# Day 122: Building a Seq2Seq Chatbot -  Training / Evaluation
-
-https://docs.pytorch.org/tutorials/beginner/chatbot_tutorial.html#decoder
-
-
-
+**Training Highlights:**
+- Encoder: 2-layer bidirectional GRU (500 hidden units)
+- Decoder: 2-layer unidirectional GRU with Luong dot-product attention (500 hidden units)
+- Vocabulary: ~7,000 words
+- Training: 4,000 iterations with teacher forcing
+- Loss: Negative log-likelihood, optimized with Adam
+- Regular evaluation on validation data to monitor performance
 
 ---
-# Day 123: 
+# Day 122: Building a Seq2Seq Chatbot – Evaluation / Deployment
+
+Today, I trained and evaluated a sequence-to-sequence (seq2seq) chatbot using the Cornell Movie-Dialogs Corpus. The model uses an encoder-decoder architecture with Luong attention, implemented in PyTorch.
+
+**Evaluation:**
+- The chatbot generates conversational responses to user input.
+- Responses are evaluated qualitatively (sample conversations) and quantitatively (loss curves).
+- The model generalizes well to unseen movie-style dialogue.
+
+**Live Demo:**  
+Try the chatbot here: [seq2seq-chatbot-samir.streamlit.app](https://seq2seq-chatbot-samir.streamlit.app)
+
+**Model Download:**  
+- [Google Drive](https://drive.google.com/file/d/1DFdRoXweBM0qsrg9Uwg58_pICwOUlWjt/view?usp=drive_link)
+- [Hugging Face](https://huggingface.co/paudelsamir/my-checkpoints/blob/main/4000_checkpoint.tar)
+
+.
+
+---
+
+# Day 123: Transformers – Deep Dive into Attention and Architecture
+
+Today, I focused on understanding the inner workings of transformers, especially how they process text using stacked attention layers. Here’s a summary of my learning journey:
+![alt text](09-State-of-the-Art-DL/images/day123_transformers.png)  
+
+- [Transformers - Attention Is All You Need (YouTube)](https://www.youtube.com/watch?v=wjZofJX0v4M)
+![alt text](09-State-of-the-Art-DL/images/day123_transformer_architecture.png)  
+- [Transformers Explained Visually (YouTube)](https://www.youtube.com/watch?v=eMlx5fFNoYc&t=1s)
+
+![alt text](09-State-of-the-Art-DL/images/day123_embeddings.png)  
+- **Stacked Attention Layers:**  
+    Gained clarity on how transformers use multiple attention layers to build contextual understanding of sequences—each layer refines the representation further.
+- **Query-Key-Value Mechanism:**  
+![alt text](09-State-of-the-Art-DL/images/day123_value.png)  
+    Explored how input embeddings are projected into queries, keys, and values, enabling the model to compute attention scores and focus on relevant context for each token.
+- **Scaled Dot-Product Attention:**  
+    Derived the scaled dot-product attention formula from scratch, understanding why scaling by the square root of the dimension stabilizes gradients and improves training.
+![alt text](09-State-of-the-Art-DL/images/day123_scaled_dot_product_attention.png)  
+
+![alt text](09-State-of-the-Art-DL/images/day123_attention_onethird.png)  
+
+---
+
+
+>  felt like a real level-up—finally connecting the dots between the math and the architecture behind modern NLP models.
 
 
 
