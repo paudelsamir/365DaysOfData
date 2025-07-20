@@ -3757,7 +3757,6 @@ Try the chatbot here: [seq2seq-chatbot-samir.streamlit.app](https://seq2seq-chat
 - [Google Drive](https://drive.google.com/file/d/1DFdRoXweBM0qsrg9Uwg58_pICwOUlWjt/view?usp=drive_link)
 - [Hugging Face](https://huggingface.co/paudelsamir/my-checkpoints/blob/main/4000_checkpoint.tar)
 
-.
 
 ---
 
@@ -3781,8 +3780,6 @@ Today, I focused on understanding the inner workings of transformers, especially
 ![alt text](09-State-of-the-Art-DL/images/day123_scaled_dot_product_attention.png)  
 
 ![alt text](09-State-of-the-Art-DL/images/day123_attention_onethird.png)  
-
----
 
 
 >  felt like a real level-up—finally connecting the dots between the math and the architecture behind modern NLP models.
