@@ -3788,14 +3788,28 @@ Today, I focused on understanding the inner workings of transformers, especially
 
 
 ---
-# Day 124: 
+# Day 124: Transformers – Vitals [understanding everything]
 
+![Handwritten notes](09-State-of-the-Art-DL/images/day124_handwritten.jpg)
+Today, I focused on visualizing how transformers are trained end-to-end and traced the inference process step by step using examples and diagrams.
+![Training example](09-State-of-the-Art-DL/images/day124_training_of_transformer_example.png)
 
+![Encoder-decoder self-attention](09-State-of-the-Art-DL/images/day124_encoder_decoder_self_attention.png)
+- Explored attention masks and teacher forcing mechanisms.
+![Multi-head attention with scaled softmax](09-State-of-the-Art-DL/images/day124_multihead_attention_with_scaled_softmax.png)
+- Deep dived into multi-head attention—confident I can explain and teach it now.
+- Next up: planning to implement a transformer from scratch.
+
+Here are the top resources (blogs) I recommend for mastering transformer theory each is exceptionally well-crafted and covers the essentials
+- [Transformers Explained Visually – Part 1](https://towardsdatascience.com/transformers-explained-visually-part-1-overview-of-functionality-95a6dd460452/)
+- [Part 2: Step-by-Step](https://towardsdatascience.com/transformers-explained-visually-part-2-how-it-works-step-by-step-b49fa4a64f34/)
+- [Part 3: Multi-Head Attention](https://towardsdatascience.com/transformers-explained-visually-part-3-multi-head-attention-deep-dive-1c1ff1024853/)
 
 
 ---
 # Day 125: 
 
+- [Why Transformers Work So Well](https://towardsdatascience.com/transformers-explained-visually-not-just-how-but-why-they-work-so-well-d840bd61a9d3/)
 
 
 
