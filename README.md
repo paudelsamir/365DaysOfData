@@ -3808,10 +3808,22 @@ Here are the top resources (blogs) I recommend for mastering transformer theory 
 
 
 ---
-# Day 125: Transformer from Scratch - Walkthrough, Introduction
+# Day 125: GPT from Scratch - Walkthrough, Introduction
 
+- Deep dove into GPT/BERT origins - cool to see how they evolved
+- Watched Karpathy's "let's build GPT" video (just initial overview for now)
+- Made a roadmap to implement BERT & T5 later
 
+- GPT = autoregressive (predicts next word), BERT = bidirectional (fills in blanks)
+![GPT vs BERT](11-Foundations-Of-LLMS/GPT-From-Scratch/day125_gpt_bert.png)
+- Transformers replaced RNNs & revolutionized NLP in 2017
+- Recent open-source boom making LLMs more accessible
 
+The plan is to build this up from scratch, focusing on really getting the concepts rather than just making it work. Let's see how it goes! 🧠
+![Plan of attack](11-Foundations-Of-LLMS/GPT-From-Scratch/day125_planofattack.png)
+
+![History](11-Foundations-Of-LLMS/GPT-From-Scratch/day125_history.png)
+![LLM Open Source History](11-Foundations-Of-LLMS/GPT-From-Scratch/day125_LLM_opensource_history.png)
 
 ---
 # Day 126: 
