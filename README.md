@@ -3804,12 +3804,12 @@ Here are the top resources (blogs) I recommend for mastering transformer theory 
 - [Transformers Explained Visually – Part 1](https://towardsdatascience.com/transformers-explained-visually-part-1-overview-of-functionality-95a6dd460452/)
 - [Part 2: Step-by-Step](https://towardsdatascience.com/transformers-explained-visually-part-2-how-it-works-step-by-step-b49fa4a64f34/)
 - [Part 3: Multi-Head Attention](https://towardsdatascience.com/transformers-explained-visually-part-3-multi-head-attention-deep-dive-1c1ff1024853/)
+- [Why Transformers Work So Well](https://towardsdatascience.com/transformers-explained-visually-not-just-how-but-why-they-work-so-well-d840bd61a9d3/)
 
 
 ---
-# Day 125: 
+# Day 125: Transformer from Scratch - Walkthrough, Introduction
 
-- [Why Transformers Work So Well](https://towardsdatascience.com/transformers-explained-visually-not-just-how-but-why-they-work-so-well-d840bd61a9d3/)
 
 
 
