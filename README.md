@@ -3824,7 +3824,7 @@ The plan is to build this up from scratch, focusing on really getting the concep
 
 ![History](11-Foundations-Of-LLMS/GPT-From-Scratch/day125_history.png)
 ![LLM Open Source History](11-Foundations-Of-LLMS/GPT-From-Scratch/day125_LLM_opensource_history.png)
-
+---
 # Day 126: GPT from Scratch - Building the Bigram Language Model
 
 Started building GPT from scratch, focusing on the foundational bigram language model:
@@ -3842,6 +3842,8 @@ Started building GPT from scratch, focusing on the foundational bigram language 
 
 ![Bigram Model Working](11-Foundations-Of-LLMS/GPT-From-Scratch/day126_bigram_model_working.png)
 ![Training Validation Loss](11-Foundations-Of-LLMS/GPT-From-Scratch/day126_training_validation_loss_bigram_model.png)
+
+---
 
 # Day 127: GPT from Scratch - Adding Self Attention
 
@@ -3861,8 +3863,6 @@ Advanced the model by implementing self-attention mechanisms:
 ![Karpathy Self Attention](11-Foundations-Of-LLMS/GPT-From-Scratch/day127_karpathy_self_attention.png)
 
 Next up: Implementing full key-query-value attention mechanism.
-
-
 
 
 ---
