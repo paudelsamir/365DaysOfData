@@ -3825,14 +3825,43 @@ The plan is to build this up from scratch, focusing on really getting the concep
 ![History](11-Foundations-Of-LLMS/GPT-From-Scratch/day125_history.png)
 ![LLM Open Source History](11-Foundations-Of-LLMS/GPT-From-Scratch/day125_LLM_opensource_history.png)
 
----
-# Day 126: 
+# Day 126: GPT from Scratch - Building the Bigram Language Model
+
+Started building GPT from scratch, focusing on the foundational bigram language model:
 
 
+- Explored and preprocessed text data for training
+- Implemented character-level tokenization
+- Created train/validation data splits
+- Built a batch-wise data loader
+- Trained initial bigram language model
 
+- Model output is mostly gibberish (expected at this stage)
+- Training loss shows promising downward trend
+- Validation metrics indicate learning is happening
 
----
-# Day 127: 
+![Bigram Model Working](11-Foundations-Of-LLMS/GPT-From-Scratch/day126_bigram_model_working.png)
+![Training Validation Loss](11-Foundations-Of-LLMS/GPT-From-Scratch/day126_training_validation_loss_bigram_model.png)
+
+# Day 127: GPT from Scratch - Adding Self Attention
+
+Advanced the model by implementing self-attention mechanisms:
+
+**Improvements:**
+- Started with simple context averaging using for loops
+- Upgraded to efficient matrix multiplication approach
+- Added softmax to enable focused attention on past context
+- Prepared groundwork for full K,Q,V attention implementation
+
+- Even simple attention dramatically improved context understanding
+- Matrix operations provided significant speed improvements
+- Softmax addition helped model focus on relevant past context
+
+![Self Attention V1](11-Foundations-Of-LLMS/GPT-From-Scratch/day127_self_attention_v1.png)
+![Karpathy Self Attention](11-Foundations-Of-LLMS/GPT-From-Scratch/day127_karpathy_self_attention.png)
+
+Next up: Implementing full key-query-value attention mechanism.
+
 
 
 
