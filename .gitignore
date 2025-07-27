@@ -30,3 +30,6 @@ yolov5s.pt
 11-Foundations-Of-LLMS/GPT-From-Scratch/model_5000.pth
 
 10-Projects-Based-ML-DL/03-Image-Captioning/data/*
+10-Projects-Based-ML-DL/03-Image-Captioning/vocabulary.pkl
+10-Projects-Based-ML-DL/03-Image-Captioning/valid_image_features.pkl
+10-Projects-Based-ML-DL/03-Image-Captioning/train_image_features.pkl
