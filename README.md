@@ -20,7 +20,7 @@
 
 ## Projects Completed
 
-| Projects | Description | Streamlit Deployment |
+| Projects | Description |  Deployment |
 |----------|-------------|-----------|
 |[Football Players Market Value Prediction](https://github.com/paudelsamir/365DaysOfData/tree/main/04-ML-Based-Football-Players-Market-Value-Prediction)| A 10-day end-to-end machine learning capstone project involving data scraping, cleaning, feature engineering, model training, and deployment. Achieved 94% accuracy using gradient boosting algorithms. |[Live Demo 👆🏽](https://paudelsamir.streamlit.app/)|
 |[Movie Recommender System](https://github.com/paudelsamir/Movie-Recommender-System)|An end-to-end content-based movie recommender system leveraging a dataset of 5000 movies from [Kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv). Built with cosine similarity and TF-IDF vectorization.| [Live Demo 👆🏽](https://movie-recommender-samir.streamlit.app/)|
@@ -3555,7 +3555,9 @@ well this isn't perfect model! i'll be working on hyperparameter tuning too late
 
 Today i simply explored RNNs, simply revising it as well as reading blogs from amazing people.
 here're some glimpse from karpathy blog:
-![alt text](07-Recurrent-Neural-Network/day114_akblog.png) ![alt text](07-Recurrent-Neural-Network/day114_karpathy_rnns.png)
+
+![alt text](07-RNNs-The-Transition-Checkpoint/day114_akblog.png) 
+![alt text](07-RNNs-The-Transition-Checkpoint/day114_karpathy_rnns.png)
 rnns can remember stuff — normal neural nets forget everything after one step. rnns don’t. they keep a memory so they’re great with stuff like text, music, or anything that happens in a sequence.
 
 they feel like magic — you train them on a bunch of text, and they start making up new text that kinda makes sense. even with simple setups, the results can be weirdly good.
