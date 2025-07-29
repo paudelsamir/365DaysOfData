@@ -35,3 +35,5 @@ yolov5s.pt
 10-Projects-Based-ML-DL/03-Image-Captioning/train_image_features.pkl
 10-Projects-Based-ML-DL/03-Image-Captioning/best_decoder.pth
 10-Projects-Based-ML-DL/03-Image-Captioning/model02.pth
+10-Projects-Based-ML-DL/03-Image-Captioning/demo.mp4
+10-Projects-Based-ML-DL/03-Image-Captioning/model03_40min_training.pth
