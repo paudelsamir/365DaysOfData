@@ -27,7 +27,9 @@
 |[Cat vs Dog Classifier](https://github.com/paudelsamir/cat-vs-dog-classifier)| A deep learning model leveraging VGG16 architecture, trained on an RTX 3050 Ti for 30 epochs, achieving 95% accuracy using the [Kaggle Dogs vs Cats dataset](https://www.kaggle.com/c/dogs-vs-cats). | [Live Demo 👆🏽](https://cat-vs-dog-classifier.streamlit.app/) |
 |[Guess The Footballer By Eyes](https://github.com/paudelsamir/365DaysOfData/tree/main/10-Projects-Based-ML-DL/01-Image-Classification/Guess-The-Footballer-By-Eyes)| An interactive game where users compete against AI to recognize 25 famous footballers by their eyes alone. Built with ResNet18 achieving ~70% accuracy. Features scoring system and streak tracking.| [Demo 👆🏽](https://github.com/paudelsamir/guess-footballer-with-eyes/blob/main/record_project1.webm) |
 |[Seq2Seq Chatbot](https://github.com/paudelsamir/365DaysOfData/tree/main/10-Projects-Based-ML-DL/02-Natural-Language-Processing/seq2seq-charbot)| A sequence-to-sequence chatbot trained on Cornell Movie-Dialogs Corpus using encoder-decoder architecture with Luong attention mechanism. Built from scratch in PyTorch.| [Live Demo 👆🏽](https://seq2seq-chatbot-samir.streamlit.app) |
-|[GPT from Scratch](https://github.com/paudelsamir/365DaysOfData/tree/main/11-Foundations-Of-LLMS/GPT-From-Scratch)| Complete implementation of GPT transformer architecture from scratch following Karpathy's tutorial. Includes bigram model, self-attention, multi-head attention, and complete transformer blocks.| [Notebook 📓](11-Foundations-Of-LLMS/GPT-From-Scratch/let-s-build-gpt-from-scratch-in-code-spelled-out.ipynb) | 
+|[GPT from Scratch](https://github.com/paudelsamir/365DaysOfData/tree/main/11-Foundations-Of-LLMS/GPT-From-Scratch)| Complete implementation of GPT transformer architecture from scratch following Karpathy's tutorial. Includes bigram model, self-attention, multi-head attention, and complete transformer blocks.| [Notebook 📓](11-Foundations-Of-LLMS/GPT-From-Scratch/let-s-build-gpt-from-scratch-in-code-spelled-out.ipynb) |
+|[Image Captioning](https://github.com/paudelsamir/365DaysOfData/tree/main/10-Projects-Based-ML-DL/03-Image-Captioning)| An end-to-end image captioning project using the Flickr8k dataset. Explored the "Show, Attend & Tell" paper, built vocabulary, extracted features with ResNet-18, and trained a transformer decoder. Achieved a BLEU-4 score of 0.18 and deployed a Streamlit demo app. | [Live Demo 👆🏽](https://image-captioning-samir.streamlit.app) |
+
 
  
 
@@ -176,7 +178,13 @@
 | [Day125](#day-125-gpt-from-scratch---project-setup) | 2025-07-22 | GPT from Scratch - Project Setup | [Karpathy's Tutorial](https://www.youtube.com/watch?v=kCc8FmEb1nY) |
 | [Day126](#day-126-gpt-from-scratch---bigram-language-model) | 2025-07-23 | GPT from Scratch - Bigram Language Model | [Notebook](11-Foundations-Of-LLMS/GPT-From-Scratch/let-s-build-gpt-from-scratch-in-code-spelled-out.ipynb) |
 | [Day127](#day-127-gpt-from-scratch---self-attention) | 2025-07-24 | GPT from Scratch - Self-Attention | [Notebook](11-Foundations-Of-LLMS/GPT-From-Scratch/let-s-build-gpt-from-scratch-in-code-spelled-out.ipynb) |
-| [Day128](#day-128-gpt-from-scratch---complete-transformer) | 2025-07-25 | GPT from Scratch - Complete Transformer | [Notebook](11-Foundations-Of-LLMS/GPT-From-Scratch/let-s-build-gpt-from-scratch-in-code-spelled-out.ipynb) |
+| [Day128](#day-128-gpt-from-scratch---complete-transformer) | 2025-07-25 | GPT from Scratch – Complete Transformer | [Notebook](11-Foundations-Of-LLMS/GPT-From-Scratch/let-s-build-gpt-from-scratch-in-code-spelled-out.ipynb) |
+| [Day129](#day-129365-image-captioning--kickoff) | 2025-07-26 | Image Captioning – Kickoff | [Notebook](10-Projects-Based-ML-DL/03-Image-Captioning/image-captioning.ipynb) |
+| [Day130](#day-130365image-captioning-feature-extraction--data-pipeline) | 2025-07-27 | Image Captioning – Feature Extraction & Pipeline | [Notebook](10-Projects-Based-ML-DL/03-Image-Captioning/image-captioning.ipynb) |
+| [Day131](#day-131365image-captioning-training--deployment) | 2025-07-28 | Image Captioning – Training & Deployment | [Live Demo](https://image-captioning-samir.streamlit.app) |
+| [Day131](#day-131365image-captioning-training--deployment) | 2025-07-29 |  | ------  |
+
+
 
 ---
 <br>
@@ -3971,9 +3979,40 @@ Built full transformer architecture with all modern components. Project complete
 
 [Notebook](11-Foundations-Of-LLMS/GPT-From-Scratch/let-s-build-gpt-from-scratch-in-code-spelled-out.ipynb)
 
+# Day 129/365: Image Captioning – Kickoff
+
+I started the image captioning project by reading the "Show, Attend & Tell" paper to understand the core concepts. I planned the workflow and selected the Flickr8k dataset for experimentation. I then preprocessed the images and captions—building the vocabulary and tokenizing the text.
+![Project Plan](10-Projects-Based-ML-DL/03-Image-Captioning/day129_project_plan.png)
+![Building Vocab & Tokenize Caption](10-Projects-Based-ML-DL/03-Image-Captioning/day129_building_vocab_and_tokenize_caption.png)
 
 ---
-# Day 129: 
+
+# Day 130/365:Image Captioning: Feature Extraction & Data Pipeline
+
+I split the dataset into training and validation sets. I extracted image features using a pretrained ResNet-18 model, resulting in 512-dimensional vectors for each image.
+![Feature Extraction Done](10-Projects-Based-ML-DL/03-Image-Captioning/day130_feature_extraction_done.png)
+I built a custom dataset class to wrap the dataframe, feature extractor, and vocabulary, and set up a DataLoader for efficient batching.
+![Custom Dataset Class](10-Projects-Based-ML-DL/03-Image-Captioning/day130_custom_daaset_cass.png)
+![Dataloader & Transformer Decoder Plan](10-Projects-Based-ML-DL/03-Image-Captioning/day130_dataloader_and_transfomre_decoder_plan.png)
+
+---
+
+# Day 131/365:Image Captioning: Training & Deployment
+
+I trained a transformer decoder for image captioning, running three training cycles and experimenting with different configurations. The best BLEU-4 score achieved was 0.18, indicating room for improvement. I deployed the model as a Streamlit app for live demo and planned Docker/API deployment (but skipped for now). I also recorded a demo video of the app in action.
+[![Demo Video](10-Projects-Based-ML-DL/03-Image-Captioning/demo.gif)](10-Projects-Based-ML-DL/03-Image-Captioning/demo.mp4)
+
+**Project Resources:**
+- [Project Notebook](10-Projects-Based-ML-DL/03-Image-Captioning/image-captioning.ipynb)
+- [Live Demo](https://image-captioning-samir.streamlit.app)
+- [Model Weights (.pth)](10-Projects-Based-ML-DL/03-Image-Captioning/best_decoder.pth) | [Google Drive](https://drive.google.com/file/d/1Yyfk7tnx-vrYqdmVY9JluZn2PqaK-6_W/view?usp=sharing)
+- [Vocabulary](https://drive.google.com/file/d/17QDWhwp6wQweaaHRk8FZmippeQ04m0gH/view?usp=drive_link)
+
+
+--- 
+# Day 132:
+
+
 
 ------------------------------
 
