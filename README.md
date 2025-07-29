@@ -22,7 +22,7 @@
 
 | Projects | Description |  Deployment |
 |----------|-------------|-----------|
-|[Football Players Market Value Prediction](https://github.com/paudelsamir/365DaysOfData/tree/main/04-ML-Based-Football-Players-Market-Value-Prediction)| A 10-day end-to-end machine learning capstone project involving data scraping, cleaning, feature engineering, model training, and deployment. Achieved 94% accuracy using gradient boosting algorithms. |[Live Demo 👆🏽](https://paudelsamir.streamlit.app/)|
+|[Football Players Market Value Prediction](https://github.com/paudelsamir/365DaysOfData/tree/main/04-Building-Footballer-Valuation-Model-From-Scratch)| A 10-day end-to-end machine learning capstone project involving data scraping, cleaning, feature engineering, model training, and deployment. Achieved 94% accuracy using gradient boosting algorithms. |[Live Demo 👆🏽](https://paudelsamir.streamlit.app/)|
 |[Movie Recommender System](https://github.com/paudelsamir/Movie-Recommender-System)|An end-to-end content-based movie recommender system leveraging a dataset of 5000 movies from [Kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv). Built with cosine similarity and TF-IDF vectorization.| [Live Demo 👆🏽](https://movie-recommender-samir.streamlit.app/)|
 |[Cat vs Dog Classifier](https://github.com/paudelsamir/cat-vs-dog-classifier)| A deep learning model leveraging VGG16 architecture, trained on an RTX 3050 Ti for 30 epochs, achieving 95% accuracy using the [Kaggle Dogs vs Cats dataset](https://www.kaggle.com/c/dogs-vs-cats). | [Live Demo 👆🏽](https://cat-vs-dog-classifier.streamlit.app/) |
 |[Guess The Footballer By Eyes](https://github.com/paudelsamir/365DaysOfData/tree/main/10-Projects-Based-ML-DL/01-Image-Classification/Guess-The-Footballer-By-Eyes)| An interactive game where users compete against AI to recognize 25 famous footballers by their eyes alone. Built with ResNet18 achieving ~70% accuracy. Features scoring system and streak tracking.| [Demo 👆🏽](https://github.com/paudelsamir/guess-footballer-with-eyes/blob/main/record_project1.webm) |
@@ -103,12 +103,12 @@
 | [Day50](#day-50-visualizing-and-comparing-pca-t-sne-umap-and-lda--revision-with-the-course-ml-specialization) | 2025-02-01 | Visualizing and Comparing PCA, t-SNE, UMAP, and LDA + Revision with the course ML specialization | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
 | [Day51](#day-51-anomaly-detection) | 2025-02-02 | Anomaly Detection |[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)[, Notebook: Anomaly Detection](03-Unsupervised-Learning-And-Reinforcement-Learning/code/day51_anomaly_detection.ipynb) |
 | [Day52](#day-52-collaborative-filtering) | 2025-02-03 | Collaborative Filtering |[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)|
-| [Day53](#day-53-project--football-players-market-value-prediction---introduction-and-planning) | 2025-02-04 | Project @ Football Players Market Value Prediction - Introduction and Planning | [Project Plan](04-ML-Based-Football-Players-Market-Value-Prediction/images/project_plan.png) |
-| [Day54](#day-54-project--football-players-market-value-prediction---collecting-data-scraping) | 2025-02-05 | Project @ Football Players Market Value Prediction - Collecting Data (Scraping) | [Notebook](04-ML-Based-Football-Players-Market-Value-Prediction/notebooks/scraping.ipynb) |
-| [Day55](#day-55-project--football-players-market-value-prediction---cleaning-data) | 2025-02-06 | Project @ Football Players Market Value Prediction - Cleaning Data | [Notebook](04-ML-Based-Football-Players-Market-Value-Prediction/notebooks/cleaning.ipynb) |
-| [Day56](#day-56-project--football-players-market-value-prediction---eda) | 2025-02-07 | Project @ Football Players Market Value Prediction - EDA | [Notebook](04-ML-Based-Football-Players-Market-Value-Prediction/notebooks/eda.ipynb) |
-| [Day57](#day-57-project--football-players-market-value-prediction---feature-engineering-creating-features-transforming-features) | 2025-02-08 | Project @ Football Players Market Value Prediction - Feature Engineering: (Creating features, Transforming Features) | [Notebook](04-ML-Based-Football-Players-Market-Value-Prediction/notebooks/feature_engineering.ipynb) |
-| [Day58](#day-58-project--football-players-market-value-prediction---ml--linear-regression-with-refined-features-and-deploying-with-streamlit) | 2025-02-09 | Project @ Football Players Market Value Prediction - ML: (Linear Regression with Refined Features and deploying with Streamlit) | [Notebook](04-ML-Based-Football-Players-Market-Value-Prediction/notebooks/feature_engineering_2.ipynb.ipynb) |
+| [Day53](#day-53-project--football-players-market-value-prediction---introduction-and-planning) | 2025-02-04 | Project @ Football Players Market Value Prediction - Introduction and Planning | [Project Plan](04-Building-Footballer-Valuation-Model-From-Scratch/images/project_plan.png) |
+| [Day54](#day-54-project--football-players-market-value-prediction---collecting-data-scraping) | 2025-02-05 | Project @ Football Players Market Value Prediction - Collecting Data (Scraping) | [Notebook](04-Building-Footballer-Valuation-Model-From-Scratch/notebooks/scraping.ipynb) |
+| [Day55](#day-55-project--football-players-market-value-prediction---cleaning-data) | 2025-02-06 | Project @ Football Players Market Value Prediction - Cleaning Data | [Notebook](04-Building-Footballer-Valuation-Model-From-Scratch/notebooks/cleaning.ipynb) |
+| [Day56](#day-56-project--football-players-market-value-prediction---eda) | 2025-02-07 | Project @ Football Players Market Value Prediction - EDA | [Notebook](04-Building-Footballer-Valuation-Model-From-Scratch/notebooks/eda.ipynb) |
+| [Day57](#day-57-project--football-players-market-value-prediction---feature-engineering-creating-features-transforming-features) | 2025-02-08 | Project @ Football Players Market Value Prediction - Feature Engineering: (Creating features, Transforming Features) | [Notebook](04-Building-Footballer-Valuation-Model-From-Scratch/notebooks/feature_engineering.ipynb) |
+| [Day58](#day-58-project--football-players-market-value-prediction---ml--linear-regression-with-refined-features-and-deploying-with-streamlit) | 2025-02-09 | Project @ Football Players Market Value Prediction - ML: (Linear Regression with Refined Features and deploying with Streamlit) | [Notebook](04-Building-Footballer-Valuation-Model-From-Scratch/notebooks/feature_engineering_2.ipynb.ipynb) |
 | [Day59](#day-59-project--football-players-market-value-prediction---complete-streamlit-setup-for-our-first-model---linear-regression) | 2025-02-10 |Project @ Complete Streamlit setup for Linear Regression | [Streamlit Documentation](https://docs.streamlit.io/) |
 | [Day60](#day-60-project--football-players-market-value-prediction---testing-ridge-lasso-and-decision-trees) | 2025-02-11 |Project @  Testing Ridge, Lasso, and Decision Trees | [Project @ Football Players Market Value Prediction](https://paudelsamir.streamlit.app/) |
 | [Day61](#day-61-project--football-players-market-value-prediction--had-to-hit-reset-from-feature-engineering) | 2025-02-12 |Project @ Had to hit reset from Feature Engineering | [Project @ Football Players Market Value Prediction](https://paudelsamir.streamlit.app/) |
@@ -1683,21 +1683,21 @@ Although this is a fun project, i aim to ensure the following:
 
 this is a future plan, and i will work towards achieving these goals in the coming days.
 
-![Plan of Project](04-ML-Based-Football-Players-Market-Value-Prediction/images/project_plan.png)
+![Plan of Project](04-Building-Footballer-Valuation-Model-From-Scratch/images/project_plan.png)
 
 #### Tips for the project (crafted with deepseek):
-![Tips](<04-ML-Based-Football-Players-Market-Value-Prediction/images/Tips for the project.jpg>)
+![Tips](<04-Building-Footballer-Valuation-Model-From-Scratch/images/Tips for the project.jpg>)
 
 ----
 # Day 54: Project @ Football Players Market Value Prediction - Collecting Data (Scraping)
 web scraping is a technique to collect data from the internet and convert it into a meaningful format, like a data frame, when direct downloads aren't available. in this project, i used the sofifa dataset. here's the main page of sofifa
-![main page](04-ML-Based-Football-Players-Market-Value-Prediction/images/day54_sofifa_mainpage.png)
+![main page](04-Building-Footballer-Valuation-Model-From-Scratch/images/day54_sofifa_mainpage.png)
 
 Code to scrape data:
-![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day54_data_scraping.png)
+![alt text](04-Building-Footballer-Valuation-Model-From-Scratch/images/day54_data_scraping.png)
 
 Plan for cleaning Data:
-![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day54_data_cleaning_plan.png) 
+![alt text](04-Building-Footballer-Valuation-Model-From-Scratch/images/day54_data_cleaning_plan.png) 
 
 ----
 # Day 55: Project @ Football Players Market Value Prediction - Cleaning Data
@@ -1705,59 +1705,59 @@ Plan for cleaning Data:
 just finished a major data cleaning session for my project. went through steps like handling missing values, converting currencies, splitting combined columns (height/weight), and ensuring consistent data types. cleaned up outliers, removed duplicates, and made sure everything’s ready for the next phase: EDA and model training. feeling good with the progress 😁
 
 Here's a final look:
-[Notebook: Data Cleaning](04-ML-Based-Football-Players-Market-Value-Prediction/notebooks/cleaning.ipynb)
+[Notebook: Data Cleaning](04-Building-Footballer-Valuation-Model-From-Scratch/notebooks/cleaning.ipynb)
 
 Code:
-![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day55_data_cleaning.png)
+![alt text](04-Building-Footballer-Valuation-Model-From-Scratch/images/day55_data_cleaning.png)
 
 # Day 56: Project @ Football Players Market Value Prediction - EDA
 
-[Notebook: EDA (With Complete Documentation)](04-ML-Based-Football-Players-Market-Value-Prediction/notebooks/eda.ipynb)
+[Notebook: EDA (With Complete Documentation)](04-Building-Footballer-Valuation-Model-From-Scratch/notebooks/eda.ipynb)
 
 I have mostly used Plotly to visualize as it is interactive and for such beginners like me, the visualization impact is powerful. as well as the codes are also easy to write.
 
 ### ***overall dataset insights***
 1. ***what are the top 10 most valuable players?***
-![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day56_top10valueableplayers.png)
+![alt text](04-Building-Footballer-Valuation-Model-From-Scratch/images/day56_top10valueableplayers.png)
 2. ***how does market value vary by position (e.g., are strikers more expensive than defenders)?***
-![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day56_market_value_with_position.png)
+![alt text](04-Building-Footballer-Valuation-Model-From-Scratch/images/day56_market_value_with_position.png)
 3. ***which teams have the highest average market value?***
-![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day56_correlation_attributes_marketValue.png)
+![alt text](04-Building-Footballer-Valuation-Model-From-Scratch/images/day56_correlation_attributes_marketValue.png)
 4. ***what’s the distribution of market values (is it skewed towards a few expensive players)?***
-![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day56_dist_of_marketvalue.png)
+![alt text](04-Building-Footballer-Valuation-Model-From-Scratch/images/day56_dist_of_marketvalue.png)
 5. ***how does age correlate with market value (are younger players generally worth more)?***
-![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day56_value_age_potential.png)
+![alt text](04-Building-Footballer-Valuation-Model-From-Scratch/images/day56_value_age_potential.png)
 
 ### ***player attributes vs. market value***
 
 1. ***how does a player’s overall rating affect their market value?***
-![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day56_overall_rating_vs_market_value.png)
+![alt text](04-Building-Footballer-Valuation-Model-From-Scratch/images/day56_overall_rating_vs_market_value.png)
 2. ***which individual attributes (e.g., pace, stamina, strength) correlate the most with market value?***
 3. ***does international reputation (1-5 stars) impact market value?***
 4. ***how do potential ratings compare to market value (are high-potential players priced higher)?***
-![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day56_marketvaleue_with_reaction_deribling.png)
+![alt text](04-Building-Footballer-Valuation-Model-From-Scratch/images/day56_marketvaleue_with_reaction_deribling.png)
 5. ***do physical attributes (height, weight, strength) play a role in market value?***
-![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day56_strength_vs_marketvalue.png)
+![alt text](04-Building-Footballer-Valuation-Model-From-Scratch/images/day56_strength_vs_marketvalue.png)
 
 ### ***position-specific insights***
 
 1. ***are attacking midfielders (CAM/CM) more valuable than defensive midfielders (CDM/CM)?***
-![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day56_position_specific_insights.png)
+![alt text](04-Building-Footballer-Valuation-Model-From-Scratch/images/day56_position_specific_insights.png)
 2. ***how does pace affect wingers' (LW/RW) market value?***
 3. ***do goalkeepers follow the same market trends as outfield players?***
-![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day56_goalkeeper.png)
+![alt text](04-Building-Footballer-Valuation-Model-From-Scratch/images/day56_goalkeeper.png)
 
 ### ***contract & transfer market impact***
 
 1. ***does a player's contract end year affect their market value (e.g., do players with 1 year left have lower values)?***
-![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day56_contract_end_year.png)
+![alt text](04-Building-Footballer-Valuation-Model-From-Scratch/images/day56_contract_end_year.png)
 2. ***are players on loan priced differently compared to permanent squad members?***
 
 
 
 # Day 57: Project @ Football Players Market Value Prediction - Feature Engineering: (Creating features, Transforming Features)
 
-[Notebook: Creating and Transforming Features](04-ML-Based-Football-Players-Market-Value-Prediction/notebooks/feature_engineering.ipynb)
+[Notebook: Creating and Transforming Features](04-Building-Footballer-Valuation-Model-From-Scratch/notebooks/feature_engineering.ipynb)
 
 spent 6+ hours experimenting with feature engineering. ran into some challenges, but made progress:
 
@@ -1765,17 +1765,17 @@ spent 6+ hours experimenting with feature engineering. ran into some challenges,
 2. **club-based features**: switched from one-hot encoding (curse of dimensionality) to target encoding using the mean market value for each club.
 3. **contract-based features**: correlation with market value was neutral. most features, except age, overall, and potential, seemed less important.
 
-![pairplot](04-ML-Based-Football-Players-Market-Value-Prediction/images/day57_pairplot_for_important_relationship.png)
+![pairplot](04-Building-Footballer-Valuation-Model-From-Scratch/images/day57_pairplot_for_important_relationship.png)
 
-![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day57_scores_fe.png)
+![alt text](04-Building-Footballer-Valuation-Model-From-Scratch/images/day57_scores_fe.png)
 
 ---
 # Day 58: Project @ Football Players Market Value Prediction - ML : (Linear Regression with Refined Features and deploying with Streamlit)
 Just for fun:
-![fun](04-ML-Based-Football-Players-Market-Value-Prediction/images/day58_fun.png)
+![fun](04-Building-Footballer-Valuation-Model-From-Scratch/images/day58_fun.png)
 
 Pairplots: 
-![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day58_pairplots.png)
+![alt text](04-Building-Footballer-Valuation-Model-From-Scratch/images/day58_pairplots.png)
 
 So, before diving into feature engineering after cleaning the data, i tried out linear regression and got an r2 score of around 0.52. then, after applying some feature engineering and playing around with features, i ran the same model and got the r2 score up to 0.96 with only numerical features
 <br>
@@ -1783,7 +1783,7 @@ today, i wasn’t fully happy with the result and got confused about feature sel
 <br>
 Saved the model immediately, then tried deploying it with streamlit locally, with a user input form and inverse transformations (MOST HATED PART) . while the model’s still a work in progress and not perfect, i'm proud of what i’ve learned so far. next steps are all about finding the best model and getting it deployed with some solid predictions and managing the form with the backend properly. 
 
-![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day58_r2score.png)
+![alt text](04-Building-Footballer-Valuation-Model-From-Scratch/images/day58_r2score.png)
 
 Streamlit Preview: https://www.linkedin.com/posts/paudelsamir_day-58365-linear-regression-with-refined-activity-7294398498777501697-2vWi?utm_source=share&utm_medium=member_desktop
 
@@ -1801,16 +1801,16 @@ Here's the demo where linear regression predicts player market values quite accu
 Here are some previewsL:
 
 - KDB (Real Vs Predicted)
-![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day59_kdb_real.png) 
-![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day59_kdb_predicted.png)
+![alt text](04-Building-Footballer-Valuation-Model-From-Scratch/images/day59_kdb_real.png) 
+![alt text](04-Building-Footballer-Valuation-Model-From-Scratch/images/day59_kdb_predicted.png)
 
 - Lamine (Real Vs Predicted)
-![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day59_lamine_real.png) 
-![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day59_yamal_predicted.png)
+![alt text](04-Building-Footballer-Valuation-Model-From-Scratch/images/day59_lamine_real.png) 
+![alt text](04-Building-Footballer-Valuation-Model-From-Scratch/images/day59_yamal_predicted.png)
 
 -  Oblak (Real Vs Predicted)
-![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day59_oblak_real.png) 
-![alt text](04-ML-Based-Football-Players-Market-Value-Prediction/images/day59_oblak_predicted.png)
+![alt text](04-Building-Footballer-Valuation-Model-From-Scratch/images/day59_oblak_real.png) 
+![alt text](04-Building-Footballer-Valuation-Model-From-Scratch/images/day59_oblak_predicted.png)
 
 ---
 # Day 60: Project @ Football Players Market Value Prediction - Testing Ridge, Lasso, and Decision Trees
@@ -1819,25 +1819,25 @@ Here are some previewsL:
 
 Today was fun! Started by handling outliers for the linear regression model, but didn’t see any improvement, so no luck there. Then I dove into applying PCA for dimensionality reduction. After converting everything to numerical features and applying all the feature engineering, I reduced the features from 50 to 40, and guess what? Model accuracy jumped to 99%! But here’s the twist, I can’t use this model for my project since I’m limited with deployment knowledge, and reverse transforming features while predicting is still the most hectic part of the process.
 
-![Applying PCA with 40 features](04-ML-Based-Football-Players-Market-Value-Prediction/images/day60_applying_pca_with_40features.png)
+![Applying PCA with 40 features](04-Building-Footballer-Valuation-Model-From-Scratch/images/day60_applying_pca_with_40features.png)
 
 Then I tried Ridge and Lasso regression. Ridge performed the best and outperformed Linear and Lasso, so I’ll stick with Ridge for now until a simpler model comes along.
 
-![Ridge Regression](04-ML-Based-Football-Players-Market-Value-Prediction/images/day60_Ridge_regression.png)
-![Lasso Regression](04-ML-Based-Football-Players-Market-Value-Prediction/images/day60_lasso_regression.png)
+![Ridge Regression](04-Building-Footballer-Valuation-Model-From-Scratch/images/day60_Ridge_regression.png)
+![Lasso Regression](04-Building-Footballer-Valuation-Model-From-Scratch/images/day60_lasso_regression.png)
 
 Next up was Decision Tree Regressor. Applied it, and without hyperparameter tuning, I got around a 0.98 R2 score. I know Decision Trees are prone to overfitting, so I visualized, but couldn’t predict by myself. Decided to try hyperparameter tuning, but the results weren’t drastically different.
 
-![Decision Tree Regressor](04-ML-Based-Football-Players-Market-Value-Prediction/images/day60_decision_tree_regressor.png)
+![Decision Tree Regressor](04-Building-Footballer-Valuation-Model-From-Scratch/images/day60_decision_tree_regressor.png)
 
 At this point, the Decision Tree is the best model for the project. Let's see what’s coming next. Good luck, city. 𝐒𝐡𝐮𝐯𝐚𝐫𝐚𝐭𝐫𝐢 🌙
-![GridSearchCV Decision Tree](04-ML-Based-Football-Players-Market-Value-Prediction/images/day60_gridsearchcv_dt.png)
+![GridSearchCV Decision Tree](04-Building-Footballer-Valuation-Model-From-Scratch/images/day60_gridsearchcv_dt.png)
 
-![Decision Tree Insights](04-ML-Based-Football-Players-Market-Value-Prediction/images/day60_decision_tree_insights.png)
+![Decision Tree Insights](04-Building-Footballer-Valuation-Model-From-Scratch/images/day60_decision_tree_insights.png)
 
-Did i just wasted 2 hours?? 😅😅![Fun](04-ML-Based-Football-Players-Market-Value-Prediction/images/day60_fun.png)
+Did i just wasted 2 hours?? 😅😅![Fun](04-Building-Footballer-Valuation-Model-From-Scratch/images/day60_fun.png)
 
-[Notebook: Experimentation 1](04-ML-Based-Football-Players-Market-Value-Prediction/notebooks/experimentation_1.ipynb)
+[Notebook: Experimentation 1](04-Building-Footballer-Valuation-Model-From-Scratch/notebooks/experimentation_1.ipynb)
 
 ---
 # Day 61: Project @ Football Players Market Value Prediction -Had to hit reset from Feature Engineering
@@ -1857,7 +1857,7 @@ So, iwas almost done with the project and deployed it to my local server using s
 <br>
 Even after this dumbest mistake, total wasted grinding, wasted time, wasted energy---for the first time in my learning journey, it feels like now i'm actually learning something.
 
-![Context](04-ML-Based-Football-Players-Market-Value-Prediction/images/day61_context.webp)
+![Context](04-Building-Footballer-Valuation-Model-From-Scratch/images/day61_context.webp)
 
 
 ---
@@ -1869,9 +1869,9 @@ Finally, i’m able to go live with my first end-to-end ml project! 🎉 you can
 - Today was all about polishing things i messed up, after some solid feature engineering, i was able to hit 85% accuracy, pretty solid start. then, i played around a hour with hyperparameter tuning, which bumped it up to 89%.
 <br>
 
-![actual vs predicted](./04-ML-Based-Football-Players-Market-Value-Prediction/images/day61_actual_vs_predicted.png)
+![actual vs predicted](./04-Building-Footballer-Valuation-Model-From-Scratch/images/day61_actual_vs_predicted.png)
 
-![alt text](./04-ML-Based-Football-Players-Market-Value-Prediction/images/day61_feature_importance.png)
+![alt text](./04-Building-Footballer-Valuation-Model-From-Scratch/images/day61_feature_importance.png)
 
 but the real magic happened when i tried ensemble learning techniques. after a bit of back and forth, gradient boosting took me all the way to 94% accuracy. and will be using the same algorithm for deployment too.
 <br>
@@ -1883,7 +1883,7 @@ And with that, after 10 days of nonstop grinding, i’m officially closing this 
 
 # Day 63: Content-Based Movie Recommender System - Preprocessing
 Today, I focused on the preprocessing phase of building a content-based movie recommender system. I created a `tags` feature by combining key keywords from columns like genres, descriptions, top 3 cast members, and crew, especially the director. This step was crucial to ensure that the recommendation engine has a rich set of features to work with.
-![Notes:](04-ML-Based-Football-Players-Market-Value-Prediction/images/day63_notes.jpg)
+![Notes:](04-Building-Footballer-Valuation-Model-From-Scratch/images/day63_notes.jpg)
 
 ---
 # Day 64: Content-Based Movie Recommender System - Building and Deployment
@@ -4011,12 +4011,110 @@ I trained a transformer decoder for image captioning, running three training cyc
 - [Vocabulary](https://drive.google.com/file/d/17QDWhwp6wQweaaHRk8FZmippeQ04m0gH/view?usp=drive_link)
 
 
---- 
-# Day 132:
+---
+# Day 132: tokenizer tricks (subword, byte-pair encoding) + Comparing Architectures
+
+Today, I implemented subword and byte pair encoding (BPE) tokenization for visualization. BPE, used in LLMs like GPT-2 and GPT-3, efficiently handles unknown words by breaking them into subword units or individual characters—enabling robust vocabulary coverage and better generalization.
+
+Below is a comparison of common sequence modeling architectures:
+
+| Component / Property         | Seq2Seq (LSTM/GRU)         | Transformer Encoder         | Transformer Decoder                | Transformer Encoder+Decoder         |
+|-----------------------------|-----------------------------|-----------------------------|-------------------------------------|-------------------------------------|
+| **Main Use Case**           | Translation, summarization  | Classification, embedding   | Text generation                    | Translation, summarization          |
+| **Architecture**            | Encoder + decoder (RNN)     | Encoder stack only          | Decoder stack only                  | Full encoder + decoder stack        |
+| **Core Unit**               | LSTM / GRU                  | Self-attention blocks       | Masked self-attn + cross-attn       | Encoder + decoder blocks            |
+| **Context Access**          | Sequential (left to right)  | Bidirectional              | Unidirectional (causal)             | Bidirectional + causal              |
+| **Parallelizable**          | ❌ (step-by-step)           | ✅ (all tokens at once)     | ✅ (training only)                   | ✅ (mostly)                         |
+| **Positional Info**         | Time steps (implicit)       | Positional encoding         | Positional encoding                 | Positional encoding                 |
+| **Handles Long Sequences**  | Poorly (vanishing grad)     | Better (global attention)   | Better (causal attention)           | Better                              |
+| **Token Dependency Modeling**| Short-term + cell state     | Global self-attn (all tokens see each other) | Causal + cross attention | Causal + cross attention            |
+| **Used For**                | Translation, chatbots       | BERT, sentence embedding    | GPT, autoregressive LM              | Original transformer model          |
+| **Pretraining Style**       | None (usually task-specific)| MLM (e.g. BERT)            | Autoregressive LM (e.g. GPT)        | NMT / conditional generation        |
+| **Decoder Input (Training)**| Teacher forcing             | n/a                        | Shifted right input                 | Shifted right input                 |
+| **Cross-Attention Present?**| Yes (via RNN)               | ❌                          | ✅                                  | ✅                                  |
+
+Next, I plan to code these components from scratch for deeper intuition and visualization—before moving on to projects like sentiment analysis (BERT) and machine translation (T5). I'll also explore fine-tuning and feature extraction from the "LLMs from Scratch" book. I'll also explore Huggingface transformer
+![LLMs Plan](09-State-of-the-Art-DL/images/day132_LLMs_plan.png)
 
 
 
-------------------------------
+
+---
+# Day 133: Implementing seq2seq (diff approach of visualizations)
+
+
+---
+# Day 134: Implementing Transformer Encoder(diff approach of visualizations)
+
+
+---
+# Day 135: Implementing Transformer Decoder (diff approach of visualizations)
+
+
+---
+# Day 136: Implementing Encoder + Decoder (diff approach of visualizations)
+
+
+---
+# Day 137: Pretraining on unlabled data (evaluating), loading pretrained weigths (from the book)
+
+
+---
+# Day 138: Finetuning
+
+
+---
+# Day 139: Finetuning and feature extracting
+
+
+---
+# Day 140: Finetuning
+
+
+---
+# Day 141: HuggingFace Transformers
+
+
+---
+# Day 142: HuggingFace Transformers
+
+
+---
+# Day 143: Project: Sentiment analysis (*with bert)
+
+
+---
+# Day 144: Project: Sentiment analysis (*with bert)
+
+
+---
+# Day 145: Project: Sentiment analysis (*with bert)
+
+
+
+---
+# Day 146: Project: Machine translation (T5)
+
+
+
+---
+# Day 147:  Project: Machine translation (T5)
+
+
+---
+# Day 148:  Project: Machine translation (T5)
+
+
+---
+# Day 149 - Day 169:  VISION TRANSFORMERS (ViTs), DIFFUSION MODELS, REINFORCEMENT LEARNING, SELF-SUPERVISED LEARNING, MULTIMODAL, AUDIO + TIME-SERIES
+
+
+---
+# Then we are ready for the next chapter; 
+
+
+
+------------------------
 
 
 <div id="bottom"></div>
