@@ -4042,6 +4042,10 @@ Next, I plan to code these components from scratch for deeper intuition and visu
 ---
 # Day 133: Implementing seq2seq (diff approach of visualizations)
 
+Today, I reimplemented a basic seq2seq model for machine translation using a small English-Nepali dataset. Focused on visualizing the data flow and model architecture to build intuition.
+
+![text](09-State-of-the-Art-DL/images/day133_dummy_english_nepali_data.png) 
+![text](09-State-of-the-Art-DL/images/day133_reimplementation_of_seq2seq.png)
 
 ---
 # Day 134: Implementing Transformer Encoder(diff approach of visualizations)
@@ -4110,7 +4114,7 @@ Next, I plan to code these components from scratch for deeper intuition and visu
 
 
 ---
-# Then we are ready for the next chapter; 
+# Then we are ready for the next chapter: RAG and 
 
 
 
