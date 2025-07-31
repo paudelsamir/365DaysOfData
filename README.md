@@ -4048,19 +4048,18 @@ Today, I reimplemented a basic seq2seq model for machine translation using a sma
 ![text](09-State-of-the-Art-DL/images/day133_reimplementation_of_seq2seq.png)
 
 ---
-# Day 134: Implementing Transformer Encoder(diff approach of visualizations)
+# Day 134: Implementing Transformer Encoder/Decoder Again:
+Today, I reimplemented the transformer encoder and decoder from scratch to deepen my understanding of their internal workings. This hands-on approach helped clarify how attention mechanisms, positional encoding, and the overall architecture interact during sequence modeling tasks. Alongside coding, I revisited chapter 2 for foundational concepts and prepared to move on to chapter 5, which focuses on pretraining strategies. This iterative process is strengthening my intuition for building and experimenting with advanced NLP models.
+
+![alt text](11-Foundations-Of-LLMS/code/day134_transformer_encoder.png) 
+![alt text](11-Foundations-Of-LLMS/code/day134_transformer_decoder.png)
+![alt text](11-Foundations-Of-LLMS/code/day134_architecture_of_transfomermer.png) 
+<!-- ![alt text](11-Foundations-Of-LLMS/code/day134_chapter2.png)  -->
+
 
 
 ---
-# Day 135: Implementing Transformer Decoder (diff approach of visualizations)
-
-
----
-# Day 136: Implementing Encoder + Decoder (diff approach of visualizations)
-
-
----
-# Day 137: Pretraining on unlabled data (evaluating), loading pretrained weigths (from the book)
+# Day 135: Pretraining on unlabled data (evaluating), loading pretrained weigths (from the book)
 
 
 ---
