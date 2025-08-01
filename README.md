@@ -4050,18 +4050,34 @@ Today, I reimplemented a basic seq2seq model for machine translation using a sma
 ---
 # Day 134: Implementing Transformer Encoder/Decoder Again:
 Today, I reimplemented the transformer encoder and decoder from scratch to deepen my understanding of their internal workings. This hands-on approach helped clarify how attention mechanisms, positional encoding, and the overall architecture interact during sequence modeling tasks. Alongside coding, I revisited chapter 2 for foundational concepts and prepared to move on to chapter 5, which focuses on pretraining strategies. This iterative process is strengthening my intuition for building and experimenting with advanced NLP models.
-
-![alt text](11-Foundations-Of-LLMS/code/day134_transformer_encoder.png) 
-![alt text](11-Foundations-Of-LLMS/code/day134_transformer_decoder.png)
-![alt text](11-Foundations-Of-LLMS/code/day134_architecture_of_transfomermer.png) 
+![alt text](11-Foundations-Of-LLMS/images/day134_transformer_encoder.png) 
+![alt text](11-Foundations-Of-LLMS/images/day134_transformer_decoder.png)
+![alt text](11-Foundations-Of-LLMS/images/day134_architecture_of_transfomermer.png) 
 <!-- ![alt text](11-Foundations-Of-LLMS/code/day134_chapter2.png)  -->
 
 
+# Day 135: Pretraining on Unlabeled Data, Evaluating, Loading Pretrained Weights
 
----
-# Day 135: Pretraining on unlabled data (evaluating), loading pretrained weigths (from the book)
+Today, I completed a chapter focused on pretraining and evaluating LLMs. 
+
+- Explored loading pretrained weights from OpenAI (GPT-2)—a new technique for me; others were revision.
+- Pretrained Weights (GPT-2): Shows the process of loading and using OpenAI’s pretrained models.
+![alt text](11-Foundations-Of-LLMS/images/day135_pretrained_weights_gpt2.png) 
+
+[these were revisions for me]
+- Computed training and validation losses to assess LLM-generated text quality during training.
+- Implemented a training function and ran pretraining on unlabeled data.
+- Practiced saving and loading model weights to resume training efficiently.
+
+- Visualizes how gradients update weights during training.
+![alt text](11-Foundations-Of-LLMS/images/day135_backprop.png) 
+- Highlights computational resources required for large-scale LLMs.
+![alt text](11-Foundations-Of-LLMS/images/day135_cost_of_pretraining.png) 
 
 
+[Notebook: Pretraining](11-Foundations-Of-LLMS/code/pretraining_llms.ipynb)
+
+Book: Build a LLM from Scratch
 ---
 # Day 138: Finetuning
 
