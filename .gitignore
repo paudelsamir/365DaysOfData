@@ -37,3 +37,7 @@ yolov5s.pt
 10-Projects-Based-ML-DL/03-Image-Captioning/model02.pth
 10-Projects-Based-ML-DL/03-Image-Captioning/demo.mp4
 10-Projects-Based-ML-DL/03-Image-Captioning/model03_40min_training.pth
+11-Foundations-Of-LLMS/code/__pycache__/*
+11-Foundations-Of-LLMS/code/gpt2/*
+
+11-Foundations-Of-LLMS/code/4.66
