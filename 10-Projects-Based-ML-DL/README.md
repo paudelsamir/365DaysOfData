@@ -1,34 +1,10 @@
-## Topics to Explore Next
+| Projects | Description |  Deployment |
+|----------|-------------|-----------|
+|[Football Players Market Value Prediction](https://github.com/paudelsamir/ML-Based-Football-Players-Market-Value-Prediction)| A 10-day end-to-end machine learning capstone project involving data scraping, cleaning, feature engineering, model training, and deployment. Achieved 94% accuracy using gradient boosting algorithms. |[Live Demo 👆🏽](https://paudelsamir.streamlit.app/)|
+|[Movie Recommender System](https://github.com/paudelsamir/Movie-Recommender-System)|An end-to-end content-based movie recommender system leveraging a dataset of 5000 movies from [Kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv). Built with cosine similarity and TF-IDF vectorization.| [Live Demo 👆🏽](https://movie-recommender-samir.streamlit.app/)|
+|[Cat vs Dog Classifier](https://github.com/paudelsamir/cat-vs-dog-classifier)| A deep learning model leveraging VGG16 architecture, trained on an RTX 3050 Ti for 30 epochs, achieving 95% accuracy using the [Kaggle Dogs vs Cats dataset](https://www.kaggle.com/c/dogs-vs-cats). | [Live Demo 👆🏽](https://cat-vs-dog-classifier.streamlit.app/) |
+|[Guess The Footballer By Eyes](https://github.com/paudelsamir/365DaysOfData/tree/main/10-Projects-Based-ML-DL/01-Image-Classification/Guess-The-Footballer-By-Eyes)| An interactive game where users compete against AI to recognize 25 famous footballers by their eyes alone. Built with ResNet18 achieving ~70% accuracy. Features scoring system and streak tracking.| [Demo 👆🏽](https://github.com/paudelsamir/guess-footballer-with-eyes/blob/main/record_project1.webm) |
+|[Seq2Seq Chatbot](https://github.com/paudelsamir/365DaysOfData/tree/main/10-Projects-Based-ML-DL/02-Natural-Language-Processing/seq2seq-charbot)| A sequence-to-sequence chatbot trained on Cornell Movie-Dialogs Corpus using encoder-decoder architecture with Luong attention mechanism. Built from scratch in PyTorch.| [Live Demo 👆🏽](https://seq2seq-chatbot-samir.streamlit.app) |
+|[GPT from Scratch](https://github.com/paudelsamir/365DaysOfData/tree/main/11-Foundations-Of-LLMS/GPT-From-Scratch)| Complete implementation of GPT transformer architecture from scratch following Karpathy's tutorial. Includes bigram model, self-attention, multi-head attention, and complete transformer blocks.| [Notebook 📓](11-Foundations-Of-LLMS/GPT-From-Scratch/let-s-build-gpt-from-scratch-in-code-spelled-out.ipynb) |
+|[Image Captioning](https://github.com/paudelsamir/365DaysOfData/tree/main/10-Projects-Based-ML-DL/03-Image-Captioning)| An end-to-end image captioning project using the Flickr8k dataset. Explored the "Show, Attend & Tell" paper, built vocabulary, extracted features with ResNet-18, and trained a transformer decoder. Achieved a BLEU-4 score of 0.18 and deployed a Streamlit demo app. | [Live Demo 👆🏽](https://image-captioning-samir.streamlit.app) |
 
-- **Transformers**  
-    The current state-of-the-art for most tasks in NLP, vision, and multimodal learning.
-
-- **Graph Neural Networks (GNNs)**  
-    Designed for data with inherent relationships or network structures, such as social graphs and molecular data.
-
-- **Autoencoders & Variational Autoencoders (VAE)**  
-    Useful for unsupervised representation learning and generative modeling.
-
-- **Generative Adversarial Networks (GANs)**  
-    Powerful models for generating realistic synthetic data.
-
-- **Self-Supervised Learning**  
-    A paradigm shift enabling learning from unlabeled data.
-
-- **Capsule Networks**  
-    Proposed to address certain limitations of CNNs.
-
-- **Spiking Neural Networks**  
-    More biologically inspired models, relevant for neuromorphic computing.
-
-- **Meta-Learning / Few-Shot Learning**  
-    Techniques focused on learning how to learn efficiently from limited data.
-
-- **Reinforcement Learning**  
-    Training agents to learn optimal behaviors through interaction and policy optimization.
-
-- **Normalizing Flows, Energy-Based Models, Diffusion Models**  
-    Advanced generative modeling approaches.
-
-- **Hybrid Architectures**  
-    Combining models (e.g., CNN + Transformer, RNN + Attention) for enhanced performance.
