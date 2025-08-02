@@ -1,3 +1,7 @@
+> [!Warning]
+> This content is AI-generated and I am refining it based on my needs. Use it at your own risk
+
+
 | Category                           | Models/Techniques                                                                                                                                                                                                                                    |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 🌐 **Architectures**                | - ✅ [Vision Transformers (ViT, Swin Transformer)](https://arxiv.org/abs/2010.11929)<br>- ✅ [Conformer (audio/vision)](https://arxiv.org/abs/2005.08100)<br>- ✅ [ConvNeXt](https://arxiv.org/abs/2201.03545)<br>- ✅ [EfficientNet](https://arxiv.org/abs/1905.11946)<br>- ✅ [ResNeXt](https://arxiv.org/abs/1611.05431)<br>- ✅ [Hybrid CNN-Transformer models](https://arxiv.org/abs/2103.15808)<br>- ✅ [Modern RNN/GRU/LSTM with attention](https://arxiv.org/abs/1409.0473) |
@@ -9,7 +13,3 @@
 | 🌐 **Training Tricks & Optimization** | - ✅ [Cosine/One-cycle learning rate schedules](https://arxiv.org/abs/1608.03983)<br>- ✅ [Mixed precision training](https://arxiv.org/abs/1710.03740)<br>- ✅ [Gradient checkpointing](https://arxiv.org/abs/1604.06174)<br>- ✅ [Data augmentations (CutMix, MixUp, RandAugment)](https://arxiv.org/abs/1905.04899)<br>- ⏳ [Loss functions for imbalanced/hard tasks (focal loss, triplet loss)](https://arxiv.org/abs/1708.02002) |
 
 
-
-
-> [!Disclaimer] 
-> This content is AI-generated and I am refining it based on my needs. Use it at your own risk
