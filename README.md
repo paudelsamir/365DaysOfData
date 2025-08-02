@@ -4055,7 +4055,7 @@ Today, I reimplemented the transformer encoder and decoder from scratch to deepe
 ![alt text](11-Foundations-Of-LLMS/Book-Build-a-LLM-From-Scratch/day134_architecture_of_transfomermer.png) 
 <!-- ![alt text](11-Foundations-Of-LLMS/code/day134_chapter2.png)  -->
 
-
+---
 # Day 135: Pretraining on Unlabeled Data, Evaluating, Loading Pretrained Weights
 
 Today, I completed a chapter focused on pretraining and evaluating LLMs. 
@@ -4078,63 +4078,69 @@ Today, I completed a chapter focused on pretraining and evaluating LLMs.
 [Notebook: Pretraining](11-Foundations-Of-LLMS/Book-Build-a-LLM-From-Scratch/pretraining_llms.ipynb)
 
 Book: Build a LLM from Scratch
----
-# Day 138: Finetuning
-we are going to do it in two ways: fine tuning for classification and fine tuning to follow instruction
-today, we will fine tune the pretrained LLM to classify text.
+# Day 136: Finetuning – Classification
+
+Today, I explored fine-tuning large language models (LLMs) for classification tasks. There are two main approaches to fine-tuning:  
+1. **Classification fine-tuning** (today’s focus)  
+2. **Instruction fine-tuning** (coming up tomorrow)
+![alt text](11-Foundations-Of-LLMS/Book-Build-a-LLM-From-Scratch/day136_stages_of_fine_tuning.png)
+
+Fine-tuning for classification involves adapting a pretrained LLM to predict class labels (e.g., "spam" vs. "not spam") instead of the next token. The key steps are:
+- **Replace the output layer:**  
+    Swap the original output (vocabulary-sized) layer with a smaller classification head (number of classes = number of output nodes).
+![alt text](11-Foundations-Of-LLMS/Book-Build-a-LLM-From-Scratch/day136_fine_tuning_for_classification.png)
+- **Input:**  
+    Text is tokenized and converted to token IDs, just like in pretraining.
+- **Training:**  
+    The model is trained to output the correct class label using cross-entropy loss (same as pretraining, but with class labels instead of next-token targets).
+- **Evaluation:**  
+    Performance is measured using classification accuracy.
+![alt text](11-Foundations-Of-LLMS/Book-Build-a-LLM-From-Scratch/day136_evaluating_accuracy.png)
 
 ---
+# Day 137: Finetuning - Teaching LLM to follow prompts and perform more complex task
+------------------------
+
+<!-- ---
+===============================================
+THE WHOLE PLAN FOR 5 MONTHS (August to January)
+===============================================
+
 # Day 139: Finetuning and feature extracting
-
-
 ---
 # Day 140: Finetuning
-
-
 ---
 # Day 141: HuggingFace Transformers
-
-
 ---
 # Day 142: HuggingFace Transformers
-
-
 ---
 # Day 143: Project: Sentiment analysis (*with bert)
-
-
 ---
 # Day 144: Project: Sentiment analysis (*with bert)
-
-
 ---
 # Day 145: Project: Sentiment analysis (*with bert)
-
-
-
 ---
 # Day 146: Project: Machine translation (T5)
-
-
-
 ---
 # Day 147:  Project: Machine translation (T5)
-
-
 ---
 # Day 148:  Project: Machine translation (T5)
-
-
 ---
-# Day 149 - Day 169:  VISION TRANSFORMERS (ViTs), DIFFUSION MODELS, REINFORCEMENT LEARNING, SELF-SUPERVISED LEARNING, MULTIMODAL, AUDIO + TIME-SERIES
+# Day 149 - Day 179:  VISION TRANSFORMERS (ViTs), DIFFUSION MODELS, REINFORCEMENT LEARNING, SELF-SUPERVISED LEARNING, MULTIMODAL, AUDIO + TIME-SERIES (Adavnced SOTA - 30 days)
 
+++++++++++++++++++++++++++++++++++++++++
+TILL THE DATE, Bhadra 15 /// it would be
+++++++++++++++++++++++++++++++++++++++++
 
+# Day 180: FULL REST
 ---
-# Then we are ready for the next chapter: RAG and 
+# Then we are ready for the next chapter: LLM System where we will be learning lanchain, RAGs, agents, deployment, finetuning, backend, scaling, 10 + real projects for next two months: means (day 180 - day 240) -->
+<!-- 
+++++++++++++++++++++++++++++++++++++++++
+Bhadra 15 - Kartik 15 (Board of 6th sem from kartik 15 to mangshir 15)
+++++++++++++++++++++++++++++++++++++++++ -->
 
 
-
-------------------------
 
 
 <div id="bottom"></div>
