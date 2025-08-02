@@ -1,0 +1,7 @@
+For setup instructions, dataset details, and training guidelines, refer to my separate repositories. I have created separate repositories for these projects, and also deployed them in Streamlit as well. Here are the links:
+
+| Project Name                                 | Repository Link                                                                 | Deployed Streamlit App Link                                                      |
+|-----------------------------------------------|---------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
+| ml-based-football-players-market-value-prediction | [GitHub](https://github.com/paudelsamir/ml-based-football-players-market-value-prediction) | [ml-based-football-players-market-value-prediction.streamlit.app](https://ml-based-football-players-market-value-prediction.streamlit.app) |
+| cat-vs-dog-classifier                        | [GitHub](https://github.com/paudelsamir/cat-vs-dog-classifier)                  | [cat-vs-dog-classifier.streamlit.app](https://cat-vs-dog-classifier.streamlit.app)                  |
+| guess-footballer-with-eyes                   | [GitHub](https://github.com/paudelsamir/guess-footballer-with-eyes)             | [guess-footballer-with-eyes.streamlit.app](https://guess-footballer-with-eyes.streamlit.app)         |
