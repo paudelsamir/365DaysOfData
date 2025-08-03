@@ -4097,8 +4097,33 @@ Fine-tuning for classification involves adapting a pretrained LLM to predict cla
     Performance is measured using classification accuracy.
 ![alt text](11-Foundations-Of-LLMS/Book-Build-a-LLM-From-Scratch/day136_evaluating_accuracy.png)
 
+# Day 137: Finetuning – Teaching LLMs to Follow Prompts and Perform Complex Tasks, visualizations
+
+Today, I explored instruction fine-tuning for large language models (LLMs), focusing on how to make models better at following prompts and handling more complex tasks.
+
+ visualized how Low-Rank Adaptation (LoRA) and other parameter-efficient methods enable fine-tuning of models like Llama 2 with minimal hardware and memory requirements.  
+![LoRA Visualization](11-Foundations-Of-LLMS/Book-Build-a-LLM-From-Scratch/day137_stages_of_finetuning_for_desired_output.png)
+
+ practiced setting up QLoRA (quantized LoRA) for efficient fine-tuning, which allows training large models on consumer GPUs.  
+![QLoRA Setup](11-Foundations-Of-LLMS/Book-Build-a-LLM-From-Scratch/day137_fine_tuning_with_qlora.png)
+
+From the "Build a LLM from Scratch" book, I learned how instruction fine-tuning teaches LLMs to follow user instructions, improving their ability to generate helpful, safe, and context-aware responses.  
+![Book](11-Foundations-Of-LLMS/Book-Build-a-LLM-From-Scratch/day137_book.png)  
+![Instruction Fine-Tuning](11-Foundations-Of-LLMS/Book-Build-a-LLM-From-Scratch/day137_fine_tuning_for_follow_instructions.png)
+
+![Hardware Limitations](11-Foundations-Of-LLMS/Book-Build-a-LLM-From-Scratch/day137_hardware_limitations.png)
+
 ---
-# Day 137: Finetuning - Teaching LLM to follow prompts and perform more complex task
+
+# Day 138: Plan
+
+Tomorrow, I will continue exploring fine-tuning from the book with a focus on:
+- Loading a pretrained LLM and fine-tuning it to follow human instructions
+- Extracting LLM-generated instruction responses for evaluation
+- Evaluating an instruction-fine-tuned LLM
+
+
+
 ------------------------
 
 <!-- ---
