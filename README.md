@@ -4116,12 +4116,7 @@ From the "Build a LLM from Scratch" book, I learned how instruction fine-tuning 
 ---
 
 # Day 138: Plan
-
-Tomorrow, I will continue exploring fine-tuning from the book with a focus on:
-- Loading a pretrained LLM and fine-tuning it to follow human instructions
-- Extracting LLM-generated instruction responses for evaluation
-- Evaluating an instruction-fine-tuned LLM
-
+did nothing
 
 
 ------------------------
