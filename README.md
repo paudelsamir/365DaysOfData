@@ -46,6 +46,8 @@
 | [Neural Networks @3Blue1Brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) | ✅ |
 | [Deep Learning for Coders with fastai & PyTorch @Oreilly](https://github.com/fastai/fastbook) | ✅  |
 | [Neural Networks: Zero to Hero @Karpathy](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ) | ✅ |
+| [🌐  ML Resources](https://ml-resources.vercel.app/) | ⏳ |
+| [🌐 GenAI Handbook](https://genai-handbook.github.io/) | ⏳ |
 
 
 
@@ -4125,10 +4127,6 @@ did nothing
 ===============================================
 THE WHOLE PLAN FOR 5 MONTHS (August to January)
 ===============================================
-
-# Day 139: Finetuning and feature extracting
----
-# Day 140: Finetuning
 ---
 # Day 141: HuggingFace Transformers
 ---
