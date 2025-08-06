@@ -4116,12 +4116,16 @@ From the "Build a LLM from Scratch" book, I learned how instruction fine-tuning 
 ![Hardware Limitations](11-Foundations-Of-LLMS/Book-Build-a-LLM-From-Scratch/day137_hardware_limitations.png)
 
 ---
+# Day 138: Planning Next Steps (LLM Fine-Tuning & Evaluation)
 
-# Day 138: Plan
-did nothing
+- Explored LLM evaluation techniques and benchmark models.
+![LLM Benchmarks](11-Foundations-Of-LLMS/Book-Build-a-LLM-From-Scratch/day138_llm_benchmarks.png)
+- Experimented with LLM APIs (OpenRouter, TogetherAI).
+![Running LLMs](11-Foundations-Of-LLMS/Book-Build-a-LLM-From-Scratch/day138_running_llms.png)
+- Briefly studied DoRA, reward modeling, and RLHF concepts.
+![Reward Modeling & RLHF](11-Foundations-Of-LLMS/Book-Build-a-LLM-From-Scratch/day138_reward_modeling_and_rlhf.png)
+- Began collecting project ideas—will start with guided projects soon.
 
-
-------------------------
 
 <!-- ---
 ===============================================
