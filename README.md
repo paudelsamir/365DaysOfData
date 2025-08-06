@@ -4116,7 +4116,7 @@ From the "Build a LLM from Scratch" book, I learned how instruction fine-tuning 
 ![Hardware Limitations](11-Foundations-Of-LLMS/Book-Build-a-LLM-From-Scratch/day137_hardware_limitations.png)
 
 ---
-# Day 138: Planning Next Steps (LLM Fine-Tuning & Evaluation)
+# Day 138: LLM Fine-Tuning & Evaluation
 
 - Explored LLM evaluation techniques and benchmark models.
 ![LLM Benchmarks](11-Foundations-Of-LLMS/Book-Build-a-LLM-From-Scratch/day138_llm_benchmarks.png)
@@ -4126,6 +4126,17 @@ From the "Build a LLM from Scratch" book, I learned how instruction fine-tuning 
 ![Reward Modeling & RLHF](11-Foundations-Of-LLMS/Book-Build-a-LLM-From-Scratch/day138_reward_modeling_and_rlhf.png)
 - Began collecting project ideas—will start with guided projects soon.
 
+
+---
+
+# Day 139: Exploring Hugging Face Transformers
+
+Today, I experimented with Hugging Face's `transformers` library—covering tokenizers, loading pretrained models, running inference, and evaluating outputs. Visualized results with emotion prediction on sample texts. Also started reading an interesting blog post for deeper insights, but didn't have the energy to dive in further today.
+
+![alt text](11-Foundations-Of-LLMS/Book-Build-a-LLM-From-Scratch/day139_experimenting_with_hf.png) [alt text](11-Foundations-Of-LLMS/Book-Build-a-LLM-From-Scratch/day139_NLP_with_HF.ipynb) ![alt text](11-Foundations-Of-LLMS/Book-Build-a-LLM-From-Scratch/day139_huggingface_transofrmer_cleansheet.png)
+
+
+# Day 140: Project: Sentiment analysis
 
 <!-- ---
 ===============================================
