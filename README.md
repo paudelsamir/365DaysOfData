@@ -4136,7 +4136,7 @@ Today, I experimented with Hugging Face's `transformers` library—covering toke
 ![alt text](11-Foundations-Of-LLMS/Book-Build-a-LLM-From-Scratch/day139_experimenting_with_hf.png) [alt text](11-Foundations-Of-LLMS/Book-Build-a-LLM-From-Scratch/day139_NLP_with_HF.ipynb) ![alt text](11-Foundations-Of-LLMS/Book-Build-a-LLM-From-Scratch/day139_huggingface_transofrmer_cleansheet.png)
 
 
-# Day 140: Project: Sentiment analysis
+# Day 140: Project: Sentiment analysis Day1
 
 <!-- ---
 ===============================================
