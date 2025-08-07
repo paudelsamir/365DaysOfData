@@ -1,4 +1,4 @@
-# Implementing 76 percent of NLP
+# Implementing 69 percent of NLP
 
 *Just Implementation*
 
@@ -50,11 +50,11 @@
 
 
 [!NOTE]
-> This roadmap reflects the practical steps I can implement based on my current theoretical understanding. My goal is to cover approximately 76% of core NLP concepts through this sentiment analysis project. As I progress, I'll learn and incorporate additional topics beyond my present knowledge.
+> This roadmap reflects the practical steps I can implement based on my current theoretical understanding. My goal is to cover approximately 70% of core NLP concepts through this sentiment analysis project. As I progress, I'll learn and incorporate additional topics beyond my present knowledge.
 
 ## Phase 1: Data Setup & Cleaning 
 
-### Data Loading
+### Data Loading (preprocess with lematizing and tokenizing)
 - [ ] Download IMDb 50K dataset from Kaggle/HuggingFace
 - [ ] Load dataset using `datasets` library: `load_dataset('imdb')`
 - [ ] Create train/test splits (40K train, 10K test)
@@ -62,7 +62,7 @@
 - [ ] Sample 100 reviews and read them manually
 - Do more (get overview as much as you can)
 
-### Basic Cleaning Pipeline
+### Basic Cleaning Pipeline (stopwords, punctuation, commonwords, urls, htmltags, emojis, abbrevations)
 - [ ] Install libraries: `pip install beautifulsoup4 nltk spacy pandas torch`
 - [ ] Write function `remove_html_tags()` using BeautifulSoup
 - [ ] Write function `remove_urls()` using regex
@@ -80,7 +80,35 @@
 
 ---
 
+
 ## Phase 2: Exploratory Data Analysis 
+
+### Dataset Overview
+- [ ] Check data shape and structure: `print(df.shape)`, `df.info()`
+- [ ] Check for missing values: `df.isnull().sum()`
+- [ ] Identify and remove duplicate data: `df.duplicated().sum()`, `df.drop_duplicates()`
+
+### Target Variable Distribution
+- [ ] Plot countplot for sentiment classes: `sns.countplot(x='label', data=df)`
+- [ ] Calculate class balance statistics: `df['label'].value_counts(normalize=True)`
+
+### Text Length Analysis
+- [ ] Plot distribution of character counts per review: `df['char_count'] = df['text'].apply(len)`
+- [ ] Plot distribution of word counts per review: `df['word_count'] = df['text'].apply(lambda x: len(x.split()))`
+- [ ] Plot average word length distribution: `df['avg_word_len'] = df['text'].apply(lambda x: np.mean([len(w) for w in x.split()]))`
+
+### Word Cloud Visualization
+- [ ] Generate word cloud for positive reviews
+- [ ] Generate word cloud for negative reviews
+
+### Corpus Analysis
+- [ ] Extract entire corpus from reviews: `' '.join(df['text'])`
+- [ ] Compute frequency distribution of most common words
+
+### N-gram Analysis
+- [ ] Calculate unigram frequency for positive and negative reviews
+- [ ] Calculate bigram frequency for positive and negative reviews
+- [ ] Calculate trigram frequency for positive and negative reviews
 
 ### Basic Stats
 - [ ] Calculate average review length by sentiment
@@ -115,6 +143,7 @@
 - [ ] Implement TF-IDF using `TfidfVectorizer`
 - [ ] Compare BoW vs TF-IDF shapes and sparsity
 - [ ] Save vectors as `.pkl` files
+- Refer Blogs for more
 
 ### Word2Vec Implementation
 - [ ] Install gensim: `pip install gensim`
@@ -124,6 +153,7 @@
 - [ ] Test word similarity: `model.wv.most_similar('good')`
 - [ ] Create sentence vectors by averaging word vectors
 - [ ] Implement document vectorization function
+- Refer Blogs for more
 
 ### Pre-trained Embeddings
 - [ ] Download GloVe vectors: `wget http://nlp.stanford.edu/data/glove.6B.zip`
@@ -131,6 +161,7 @@
 - [ ] Create embedding matrix for your vocabulary
 - [ ] Handle OOV words with zero vectors or random initialization
 - [ ] Save embedding matrix as numpy array
+- Refer Blogs for more
 
 ### BERT Embeddings
 - [ ] Install transformers: `pip install transformers torch`
@@ -140,6 +171,7 @@
 - [ ] Write function `get_bert_embeddings(texts)` that returns [CLS] tokens
 - [ ] Process first 1000 reviews and save embeddings
 - [ ] Compare embedding sizes: Word2Vec vs BERT
+- Refer Blogs for more
 
 ### FastText Implementation
 - [ ] Install fasttext: `pip install fasttext`
@@ -147,19 +179,20 @@
 - [ ] Compare with Word2Vec on OOV words
 - [ ] Extract subword information
 - [ ] Save FastText model and vectors
+- Refer Blogs for more
 
 ---
 
-## Phase 4: Traditional Neural Networks 
-
-### PyTorch Setup
+## Phase 4: Traditional Neural Networks [Just for revision]
+you need just 2 or 3 hours
+### PyTorch Setup (yk this already)
 - [ ] Create `dataset.py`: Custom Dataset class inheriting from `torch.utils.data.Dataset`
 - [ ] Implement `__len__` and `__getitem__` methods
 - [ ] Create `collate_fn` for padding sequences to same length
 - [ ] Setup DataLoader: `train_loader = DataLoader(train_dataset, batch_size=32, shuffle=True)`
 - [ ] Test data loading: print first batch shapes
 
-### Simple MLP
+### Simple MLP 
 - [ ] Create `models.py` file
 - [ ] Implement MLP class:
   ```python
