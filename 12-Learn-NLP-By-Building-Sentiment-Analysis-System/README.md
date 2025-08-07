@@ -1,4 +1,4 @@
-# Implementing 69 percent of NLP
+# Implementing 69 percent of NLP with sentiment analysis
 
 *Just Implementation*
 
