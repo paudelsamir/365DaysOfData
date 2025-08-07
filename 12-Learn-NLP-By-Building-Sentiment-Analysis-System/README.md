@@ -49,8 +49,8 @@
   - [Deployment](#deployment)
 
 
-[!NOTE]
-> This roadmap reflects the practical steps I can implement based on my current theoretical understanding. My goal is to cover approximately 76% of core NLP concepts through this sentiment analysis project. As I progress, I'll learn and incorporate additional topics beyond my present knowledge.
+> [!NOTE]
+> This reflects the practical steps I can implement based on my current theoretical understanding (refined with claude with hints on the way). My goal is to cover approximately 76% of core NLP concepts through this sentiment analysis project. As I progress, I'll learn and incorporate additional topics beyond my present knowledge.
 
 ## Phase 1: Data Setup & Cleaning 
 
@@ -63,8 +63,8 @@
 - Do more (get overview as much as you can)
 
 ### Basic Cleaning Pipeline
-- [ ] Install libraries: `pip install beautifulsoup4 nltk spacy pandas torch`
-- [ ] Write function `remove_html_tags()` using BeautifulSoup
+- [ ] Install libraries: `pip install beautifulsoup4 nltk spacy pandas torch` 
+- [ ] Write function `remove_html_tags()` using BeautifulSoup if needed
 - [ ] Write function `remove_urls()` using regex
 - [ ] Write function `expand_contractions()` (don't→do not, I'll→I will)
 - [ ] Write function `remove_special_chars()` keeping only alphanumeric + basic punctuation
