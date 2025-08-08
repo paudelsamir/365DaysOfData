@@ -1,4 +1,4 @@
-# Implementing 69 percent of NLP
+# Implementing 69 percent of NLP with sentiment analysis
 
 *Just Implementation*
 
@@ -49,8 +49,8 @@
   - [Deployment](#deployment)
 
 
-[!NOTE]
-> This roadmap reflects the practical steps I can implement based on my current theoretical understanding. My goal is to cover approximately 76% of core NLP concepts through this sentiment analysis project. As I progress, I'll learn and incorporate additional topics beyond my present knowledge.
+> [!NOTE]
+> This roadmap reflects the practical steps I can implement based on my current theoretical understanding refined with claude. My goal is to cover around 70% of core NLP concepts through this sentiment analysis project. As I progress, I'll learn and incorporate additional topics beyond my present knowledge.
 
 ## Phase 1: Data Setup & Cleaning
 
