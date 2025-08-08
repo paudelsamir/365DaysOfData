@@ -52,36 +52,36 @@
 [!NOTE]
 > This roadmap reflects the practical steps I can implement based on my current theoretical understanding. My goal is to cover approximately 76% of core NLP concepts through this sentiment analysis project. As I progress, I'll learn and incorporate additional topics beyond my present knowledge.
 
-## Phase 1: Data Setup & Cleaning 
+## Phase 1: Data Setup & Cleaning
 
-### Data Loading (preprocess with lematizing and tokenizing)
-- [ ] Download IMDb 50K dataset from Kaggle/HuggingFace
-- [ ] Load dataset using `datasets` library: `load_dataset('imdb')`
-- [ ] Create train/test splits (40K train, 10K test)
-- [ ] Check data shape: `print(dataset.shape)`
-- [ ] Sample 100 reviews and read them manually
-- Do more (get overview as much as you can)
+### Data Loading 
+- [x] Download IMDb 50K dataset from Kaggle/HuggingFace
+- [x] Load dataset
+- [x] Check data shape: `print(dataset.shape)`, count value
+- [x] Sample 10 reviews and read them manually
+- [x] Do more (get overview as much as you can) like missing value and duplicates reviews 
 
-### Basic Cleaning Pipeline
-- [ ] Install libraries: `pip install beautifulsoup4 nltk spacy pandas torch`
-- [ ] Write function `remove_html_tags()` using BeautifulSoup
-- [ ] Write function `remove_urls()` using regex
-- [ ] Write function `expand_contractions()` (don't→do not, I'll→I will)
-- [ ] Write function `remove_special_chars()` keeping only alphanumeric + basic punctuation
-- [ ] Chain all functions into `preprocess_text()` pipeline
-- [ ] Apply pipeline to entire dataset and save as `cleaned_imdb.csv`
+### Basic Cleaning Pipeline (as this is already cleaned data, we don't have to do much)
+- [x] Install libraries:
+- [x] Remove duplicate rows
+- [x] Write function `remove_html_tags()` using BeautifulSoup
+- [x] Write function `remove_punctuation()` using regex or string.punctuation
+- [x] Write function `remove_urls()` using regex
+- [x] Write function `remove_stopwords()` using NLTK or spaCy
+- [x] Write function `remove_emojis()` using regex
+- [x] Write function `expand_contractions()` (don't→do not, I'll→I will)
+- [x] Chain all functions into `preprocess_text()` pipeline
+- [x] Lemmatize words using spaCy or NLTK
+- [x] Apply pipeline to entire dataset and save as `cleaned_imdb.csv`
 
 ### Text Analysis
-- [ ] Count words per review: `reviews['word_count'] = reviews['text'].apply(lambda x: len(x.split()))`
-- [ ] Plot word count distribution using matplotlib
-- [ ] Find top 50 most frequent words using `Counter`
-- [ ] Create separate word frequency lists for positive/negative reviews
-- [ ] Build vocabulary dictionary: `word_to_idx = {word: i for i, word in enumerate(vocab)}`
+- [x] Count words per review: `reviews['word_count'] = reviews['text'].apply(lambda x: len(x.split()))`
+- [x] Plot word count distribution using matplotlib
+- [x] Find top 50 most frequent words using `Counter`
+- [x] Create separate word frequency lists for positive/negative reviews
+- [x] Build vocabulary dictionary: `word_to_idx = {word: i for i, word in enumerate(vocab)}`
 
----
-
-
-## Phase 2: Exploratory Data Analysis 
+## Phase 2: Exploratory Data Analysis
 
 ### Dataset Overview
 - [ ] Check data shape and structure: `print(df.shape)`, `df.info()`
@@ -130,7 +130,7 @@
 - [ ] Extract POS tags for sample reviews
 - [ ] Count adjectives, adverbs in positive vs negative reviews
 - [ ] Create correlation matrix between text features
-- [ ] Export EDA summary to `eda_report.html`
+- [ ] Export EDA summary to `eda_report.html` (just for structured way)
 
 ---
 
