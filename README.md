@@ -183,10 +183,20 @@
 | [Day128](#day-128-gpt-from-scratch---complete-transformer) | 2025-07-25 | GPT from Scratch – Complete Transformer | [Notebook](11-Foundations-Of-LLMS/GPT-From-Scratch/let-s-build-gpt-from-scratch-in-code-spelled-out.ipynb) |
 | [Day129](#day-129365-image-captioning--kickoff) | 2025-07-26 | Image Captioning – Kickoff | [Notebook](10-Projects-Based-ML-DL/03-Image-Captioning/image-captioning.ipynb) |
 | [Day130](#day-130365image-captioning-feature-extraction--data-pipeline) | 2025-07-27 | Image Captioning – Feature Extraction & Pipeline | [Notebook](10-Projects-Based-ML-DL/03-Image-Captioning/image-captioning.ipynb) |
-| [Day131](#day-131365image-captioning-training--deployment) | 2025-07-28 | Image Captioning – Training & Deployment | [Live Demo](https://image-captioning-samir.streamlit.app) |
-| [Day131](#day-131365image-captioning-training--deployment) | 2025-07-29 |  | ------  |
-
-
+| [Day131](#day-131365image-captioning-training--deployment) | 2025‑07‑28 | Image Captioning – Training & Deployment | [Build a Large Language Model from Scratch](https://www.manning.com/books/build-a-large-language-model-from-scratch) |
+| [Day132](#day-132-tokenizer-tricks-subword-byte-pair-encoding--comparing-architectures) | 2025‑07‑29 | Tokenizer Tricks (Subword, Byte-Pair Encoding) + Comparing Architectures | [Build a Large Language Model from Scratch](https://www.manning.com/books/build-a-large-language-model-from-scratch) |
+| [Day133](#day-133-implementing-seq2seq-diff-approach-of-visualizations) | 2025‑07‑30 | Implementing seq2seq (Diff Approach of Visualizations) | [Build a Large Language Model from Scratch](https://www.manning.com/books/build-a-large-language-model-from-scratch) |
+| [Day134](#day-134-implementing-transformer-encoderdecoder-again) | 2025‑07‑31 | Implementing Transformer Encoder/Decoder Again | [Build a Large Language Model from Scratch](https://www.manning.com/books/build-a-large-language-model-from-scratch) |
+| [Day135](#day-135-pretraining-on-unlabeled-data-evaluating-loading-pretrained-weights) | 2025‑08‑01 | Pretraining on Unlabeled Data, Evaluating, Loading Pretrained Weights | [Build a Large Language Model from Scratch](https://www.manning.com/books/build-a-large-language-model-from-scratch) |
+| [Day136](#day-136-finetuning--classification) | 2025‑08‑02 | Finetuning – Classification | [Build a Large Language Model from Scratch](https://www.manning.com/books/build-a-large-language-model-from-scratch) |
+| [Day137](#day-137-finetuning--teaching-llms-to-follow-prompts-and-perform-complex-tasks-visualizations) | 2025‑08‑03 | Finetuning – Teaching LLMs to Follow Prompts and Perform Complex Tasks, Visualizations | [Build a Large Language Model from Scratch](https://www.manning.com/books/build-a-large-language-model-from-scratch) |
+| [Day137](#day-137-finetuning--teaching-llms-to-follow-prompts-and-perform-complex-tasks-visualizations) | 2025‑08‑03 | Finetuning – Teaching LLMs to Follow Prompts and Perform Complex Tasks, Visualizations | [Build a Large Language Model from Scratch](https://www.manning.com/books/build-a-large-language-model-from-scratch) |
+| [Day138](#day-138-llm-fine-tuning--evaluation) | 2025‑08‑04 | LLM Fine-Tuning & Evaluation | [Build a Large Language Model from Scratch](https://www.manning.com/books/build-a-large-language-model-from-scratch) |
+| [Day139](#day-139-exploring-hugging-face-transformers) | 2025‑08‑05 | Exploring Hugging Face Transformers | [Build a Large Language Model from Scratch](https://www.manning.com/books/build-a-large-language-model-from-scratch) |
+| [Day140](#day-140-project--sentiment-analysis-planning--exploring-vit) | 2025‑08‑06 | Project – Sentiment Analysis [Planning] + Exploring ViT | [Notebook](10-Projects-Based-ML-DL/04-Sentiment-Analysis-System/01.ipynb), [Kaggle Code](https://www.kaggle.com/abhilash1910/code) |
+| [Day141](#day-141-project--sentiment-analysis-preprocessing--vit-architecture) | 2025‑08‑07 | Project – Sentiment Analysis [Preprocessing] + ViT Architecture | [Kaggle Code](https://www.kaggle.com/abhilash1910/code) |
+| [Day142](#day-142-project--sentiment-analysis-eda--testing-glove) | 2025‑08‑08 | Project – Sentiment Analysis [EDA + Testing GloVe] | [Notebook](10-Projects-Based-ML-DL/04-Sentiment-Analysis/02.ipynb), [Notebook](10-Projects-Based-ML-DL/04-Sentiment-Analysis/03.ipynb), [Kaggle Code](https://www.kaggle.com/abhilash1910/code) |
+| [Day143](#day-143-project--sentiment-analysis-advanced-architectures) | 2025‑08‑09 | Project – Sentiment Analysis [Advanced Architectures] | [Notebook](10-Projects-Based-ML-DL/04-Sentiment-Analysis/02.ipynb), [Notebook](10-Projects-Based-ML-DL/04-Sentiment-Analysis/03.ipynb), [Kaggle Code](https://www.kaggle.com/abhilash1910/code) |
 
 ---
 <br>
@@ -3983,7 +3993,7 @@ Built full transformer architecture with all modern components. Project complete
 
 [Notebook](11-Foundations-Of-LLMS/GPT-From-Scratch/let-s-build-gpt-from-scratch-in-code-spelled-out.ipynb)
 
-# Day 129/365: Image Captioning – Kickoff
+# Day 129: Image Captioning – Kickoff
 
 I started the image captioning project by reading the "Show, Attend & Tell" paper to understand the core concepts. I planned the workflow and selected the Flickr8k dataset for experimentation. I then preprocessed the images and captions—building the vocabulary and tokenizing the text.
 ![Project Plan](10-Projects-Based-ML-DL/03-Image-Captioning/day129_project_plan.png)
@@ -3991,7 +4001,7 @@ I started the image captioning project by reading the "Show, Attend & Tell" pape
 
 ---
 
-# Day 130/365:Image Captioning: Feature Extraction & Data Pipeline
+# Day 130:Image Captioning: Feature Extraction & Data Pipeline
 
 I split the dataset into training and validation sets. I extracted image features using a pretrained ResNet-18 model, resulting in 512-dimensional vectors for each image.
 ![Feature Extraction Done](10-Projects-Based-ML-DL/03-Image-Captioning/day130_feature_extraction_done.png)
@@ -4001,7 +4011,7 @@ I built a custom dataset class to wrap the dataframe, feature extractor, and voc
 
 ---
 
-# Day 131/365:Image Captioning: Training & Deployment
+# Day 131:Image Captioning: Training & Deployment
 
 I trained a transformer decoder for image captioning, running three training cycles and experimenting with different configurations. The best BLEU-4 score achieved was 0.18, indicating room for improvement. I deployed the model as a Streamlit app for live demo and planned Docker/API deployment (but skipped for now). I also recorded a demo video of the app in action.
 [![Demo Video](10-Projects-Based-ML-DL/03-Image-Captioning/demo.gif)](10-Projects-Based-ML-DL/03-Image-Captioning/demo.mp4)
@@ -4135,10 +4145,41 @@ Today, I experimented with Hugging Face's `transformers` library—covering toke
 
 ![alt text](11-Foundations-Of-LLMS/Book-Build-a-LLM-From-Scratch/day139_experimenting_with_hf.png) [alt text](11-Foundations-Of-LLMS/Book-Build-a-LLM-From-Scratch/day139_NLP_with_HF.ipynb) ![alt text](11-Foundations-Of-LLMS/Book-Build-a-LLM-From-Scratch/day139_huggingface_transofrmer_cleansheet.png)
 
+# Day 140: Project – Sentiment Analysis [Planning] + Exploring ViT
 
-# Day 140: Project: Sentiment analysis
-# Day 141: Data Cleaning Done
-on the way i have learned to use spacy, nltk and 
+Spent the day planning the sentiment analysis project, outlining a step-by-step roadmap for implementation from scratch. Explored the IMDB reviews dataset for initial data understanding. Printed out the Vision Transformer (ViT) paper for future deep dive.
+
+![IMDB Data Preview](10-Projects-Based-ML-DL/04-Sentiment-Analysis/images/day140_data.png)
+![Project Planning](10-Projects-Based-ML-DL/04-Sentiment-Analysis/images/day140_plan1.png)
+![Implementation Roadmap](10-Projects-Based-ML-DL/04-Sentiment-Analysis/images/day140_plan2.png)
+![ViT Paper](10-Projects-Based-ML-DL/04-Sentiment-Analysis/images/day140_Vit.png)
+
+---
+
+# Day 141: Project – Sentiment Analysis [Preprocessing] + ViT Architecture
+
+Built and tested the text cleaning pipeline for sentiment analysis. Gained a solid understanding of the Vision Transformer (ViT) architecture. Faced a major kernel crash during experimentation.
+
+![Cleaning Pipeline](10-Projects-Based-ML-DL/04-Sentiment-Analysis/images/day141_cleaning_pipeline.png)
+![Cleaned Data Sample](10-Projects-Based-ML-DL/04-Sentiment-Analysis/images/day141_data_after_cleaning.png)
+![Project Phase 1](10-Projects-Based-ML-DL/04-Sentiment-Analysis/images/day141_phase1.png)
+![ViT Architecture](10-Projects-Based-ML-DL/04-Sentiment-Analysis/images/day141_vision_transofrmer_architecture.png)
+
+[Notebook](10-Projects-Based-ML-DL/04-Sentiment-Analysis/01.ipynb)
+---
+
+# Day 142: Project – Sentiment Analysis [EDA + Testing GloVe]
+
+Explored EDA using spaCy and NLTK. Tested GloVe embeddings and compared them with BERT embeddings. Created word clouds for visualization. Project feels repetitive—planning to wrap up with BERT fine-tuning.
+![Word Clouds](10-Projects-Based-ML-DL/04-Sentiment-Analysis/images/day142_word_clouds.png)
+
+![GloVe Embeddings](10-Projects-Based-ML-DL/04-Sentiment-Analysis/images/day142_gloves.png)
+![Testing GloVe](10-Projects-Based-ML-DL/04-Sentiment-Analysis/images/day142_testing_gloves.png)
+
+[Notebook](10-Projects-Based-ML-DL/04-Sentiment-Analysis/02.ipynb)
+
+
+# Day 143:  Project - Sentiment Analysis [ Advanced Architectures]
 
 <!-- ---
 ===============================================
