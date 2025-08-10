@@ -18,18 +18,25 @@ venv/
 .mypy_cache/
 .coverage
 
-./data
-10-Projects-Based-ML-DL/01-Image-Classification(guess_the_footballer_by_eyes)/eye_dataset
-10-Projects-Based-ML-DL/01-Image-Classification(guess_the_footballer_by_eyes)/raw_images
+# Ignore data directories and files
+data/
+./data/
+10-Projects-Based-ML-DL/01-Image-Classification(guess_the_footballer_by_eyes)/eye_dataset/
+10-Projects-Based-ML-DL/01-Image-Classification(guess_the_footballer_by_eyes)/raw_images/
 yolov5s.pt
+
+# Ignore NLP datasets
 10-Projects-Based-ML-DL/02-Natural-Language-Processing/data/movie-corpus/conversations.json
 10-Projects-Based-ML-DL/02-Natural-Language-Processing/data/movie-corpus/corpus.json
 10-Projects-Based-ML-DL/02-Natural-Language-Processing/data/movie-corpus/speakers.json
 10-Projects-Based-ML-DL/02-Natural-Language-Processing/data/movie-corpus/utterances.jsonl
 10-Projects-Based-ML-DL/02-Natural-Language-Processing/data/movie-corpus/index.json
+
+# Ignore model files
 11-Foundations-Of-LLMS/GPT-From-Scratch/model_5000.pth
 
-10-Projects-Based-ML-DL/03-Image-Captioning/data/*
+# Ignore image captioning files
+10-Projects-Based-ML-DL/03-Image-Captioning/data/
 10-Projects-Based-ML-DL/03-Image-Captioning/vocabulary.pkl
 10-Projects-Based-ML-DL/03-Image-Captioning/valid_image_features.pkl
 10-Projects-Based-ML-DL/03-Image-Captioning/train_image_features.pkl
@@ -37,9 +44,21 @@ yolov5s.pt
 10-Projects-Based-ML-DL/03-Image-Captioning/model02.pth
 10-Projects-Based-ML-DL/03-Image-Captioning/demo.mp4
 10-Projects-Based-ML-DL/03-Image-Captioning/model03_40min_training.pth
-11-Foundations-Of-LLMS/code/__pycache__/*
-11-Foundations-Of-LLMS/code/gpt2/*
 
+# Ignore LLMS cache and models
+11-Foundations-Of-LLMS/code/__pycache__/
+11-Foundations-Of-LLMS/code/gpt2/
 11-Foundations-Of-LLMS/code/4.66
+
+# Ignore sentiment analysis datasets
 12-Learn-NLP-By-Building-Sentiment-Analysis-System/data/cleaned_imdb.csv
 12-Learn-NLP-By-Building-Sentiment-Analysis-System/data/IMDB Dataset.csv
+
+# Ignore GloVe embeddings and sentiment analysis data
+10-Projects-Based-ML-DL/04-Sentiment-Analysis/glove.6B.50d.txt
+10-Projects-Based-ML-DL/04-Sentiment-Analysis/glove.6B.100d.txt
+10-Projects-Based-ML-DL/04-Sentiment-Analysis/glove.6B.200d.txt
+10-Projects-Based-ML-DL/04-Sentiment-Analysis/glove.6B.300d.txt
+10-Projects-Based-ML-DL/04-Sentiment-Analysis/glove.6B.zip
+10-Projects-Based-ML-DL/04-Sentiment-Analysis/data/IMDB Dataset.csv
+10-Projects-Based-ML-DL/04-Sentiment-Analysis/data/cleaned_imdb.csv
