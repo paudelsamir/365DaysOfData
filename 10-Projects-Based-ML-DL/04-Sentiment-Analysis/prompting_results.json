@@ -1,0 +1,152 @@
+[
+  {
+    "prompt_template": "Classify the sentiment: {review}\nSentiment:",
+    "review": "I love this product!",
+    "prompt": "Classify the sentiment: I love this product!\nSentiment:",
+    "pred_label": "positive",
+    "probabilities": {
+      "negative": 0.004736774135380983,
+      "positive": 0.9952632188796997
+    }
+  },
+  {
+    "prompt_template": "Classify the sentiment: {review}\nSentiment:",
+    "review": "This is the worst experience I've ever had.",
+    "prompt": "Classify the sentiment: This is the worst experience I've ever had.\nSentiment:",
+    "pred_label": "negative",
+    "probabilities": {
+      "negative": 0.9991856217384338,
+      "positive": 0.0008143545710481703
+    }
+  },
+  {
+    "prompt_template": "Classify the sentiment: {review}\nSentiment:",
+    "review": "It's okay, not great but not bad.",
+    "prompt": "Classify the sentiment: It's okay, not great but not bad.\nSentiment:",
+    "pred_label": "positive",
+    "probabilities": {
+      "negative": 0.21149985492229462,
+      "positive": 0.788500189781189
+    }
+  },
+  {
+    "prompt_template": "Classify the sentiment: {review}\nSentiment:",
+    "review": "Absolutely fantastic service.",
+    "prompt": "Classify the sentiment: Absolutely fantastic service.\nSentiment:",
+    "pred_label": "positive",
+    "probabilities": {
+      "negative": 0.0014954609796404839,
+      "positive": 0.9985045194625854
+    }
+  },
+  {
+    "prompt_template": "Classify the sentiment: {review}\nSentiment:",
+    "review": "I wouldn't recommend this to anyone.",
+    "prompt": "Classify the sentiment: I wouldn't recommend this to anyone.\nSentiment:",
+    "pred_label": "negative",
+    "probabilities": {
+      "negative": 0.9819566011428833,
+      "positive": 0.018043410032987595
+    }
+  },
+  {
+    "prompt_template": "This movie review is [positive/negative]: {review}",
+    "review": "I love this product!",
+    "prompt": "This movie review is [positive/negative]: I love this product!",
+    "pred_label": "positive",
+    "probabilities": {
+      "negative": 0.005335580091923475,
+      "positive": 0.9946644306182861
+    }
+  },
+  {
+    "prompt_template": "This movie review is [positive/negative]: {review}",
+    "review": "This is the worst experience I've ever had.",
+    "prompt": "This movie review is [positive/negative]: This is the worst experience I've ever had.",
+    "pred_label": "negative",
+    "probabilities": {
+      "negative": 0.9996881484985352,
+      "positive": 0.0003118228050880134
+    }
+  },
+  {
+    "prompt_template": "This movie review is [positive/negative]: {review}",
+    "review": "It's okay, not great but not bad.",
+    "prompt": "This movie review is [positive/negative]: It's okay, not great but not bad.",
+    "pred_label": "negative",
+    "probabilities": {
+      "negative": 0.826956033706665,
+      "positive": 0.17304395139217377
+    }
+  },
+  {
+    "prompt_template": "This movie review is [positive/negative]: {review}",
+    "review": "Absolutely fantastic service.",
+    "prompt": "This movie review is [positive/negative]: Absolutely fantastic service.",
+    "pred_label": "positive",
+    "probabilities": {
+      "negative": 0.0028925391379743814,
+      "positive": 0.9971074461936951
+    }
+  },
+  {
+    "prompt_template": "This movie review is [positive/negative]: {review}",
+    "review": "I wouldn't recommend this to anyone.",
+    "prompt": "This movie review is [positive/negative]: I wouldn't recommend this to anyone.",
+    "pred_label": "negative",
+    "probabilities": {
+      "negative": 0.9982494115829468,
+      "positive": 0.0017506767762824893
+    }
+  },
+  {
+    "prompt_template": "Sentiment analysis: {review}\nLabel:",
+    "review": "I love this product!",
+    "prompt": "Sentiment analysis: I love this product!\nLabel:",
+    "pred_label": "positive",
+    "probabilities": {
+      "negative": 0.0021750943269580603,
+      "positive": 0.9978249073028564
+    }
+  },
+  {
+    "prompt_template": "Sentiment analysis: {review}\nLabel:",
+    "review": "This is the worst experience I've ever had.",
+    "prompt": "Sentiment analysis: This is the worst experience I've ever had.\nLabel:",
+    "pred_label": "negative",
+    "probabilities": {
+      "negative": 0.9996742010116577,
+      "positive": 0.0003257648495491594
+    }
+  },
+  {
+    "prompt_template": "Sentiment analysis: {review}\nLabel:",
+    "review": "It's okay, not great but not bad.",
+    "prompt": "Sentiment analysis: It's okay, not great but not bad.\nLabel:",
+    "pred_label": "negative",
+    "probabilities": {
+      "negative": 0.7546582818031311,
+      "positive": 0.2453417330980301
+    }
+  },
+  {
+    "prompt_template": "Sentiment analysis: {review}\nLabel:",
+    "review": "Absolutely fantastic service.",
+    "prompt": "Sentiment analysis: Absolutely fantastic service.\nLabel:",
+    "pred_label": "positive",
+    "probabilities": {
+      "negative": 0.0013414204586297274,
+      "positive": 0.9986585378646851
+    }
+  },
+  {
+    "prompt_template": "Sentiment analysis: {review}\nLabel:",
+    "review": "I wouldn't recommend this to anyone.",
+    "prompt": "Sentiment analysis: I wouldn't recommend this to anyone.\nLabel:",
+    "pred_label": "negative",
+    "probabilities": {
+      "negative": 0.9922428727149963,
+      "positive": 0.007757092826068401
+    }
+  }
+]
