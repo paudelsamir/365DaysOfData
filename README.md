@@ -29,6 +29,7 @@
 |[Seq2Seq Chatbot](https://github.com/paudelsamir/365DaysOfData/tree/main/10-Projects-Based-ML-DL/02-Natural-Language-Processing/seq2seq-charbot)| A sequence-to-sequence chatbot trained on Cornell Movie-Dialogs Corpus using encoder-decoder architecture with Luong attention mechanism. Built from scratch in PyTorch.| [Live Demo 👆🏽](https://seq2seq-chatbot-samir.streamlit.app) |
 |[GPT from Scratch](https://github.com/paudelsamir/365DaysOfData/tree/main/11-Foundations-Of-LLMS/GPT-From-Scratch)| Complete implementation of GPT transformer architecture from scratch following Karpathy's tutorial. Includes bigram model, self-attention, multi-head attention, and complete transformer blocks.| [Notebook 📓](11-Foundations-Of-LLMS/GPT-From-Scratch/let-s-build-gpt-from-scratch-in-code-spelled-out.ipynb) |
 |[Image Captioning](https://github.com/paudelsamir/365DaysOfData/tree/main/10-Projects-Based-ML-DL/03-Image-Captioning)| An end-to-end image captioning project using the Flickr8k dataset. Explored the "Show, Attend & Tell" paper, built vocabulary, extracted features with ResNet-18, and trained a transformer decoder. Achieved a BLEU-4 score of 0.18 and deployed a Streamlit demo app. | [Live Demo 👆🏽](https://image-captioning-samir.streamlit.app) |
+|[cineRank - A movie ranker app](https://github.com/paudelsamir/365DaysOfData/tree/main/10-Projects-Based-ML-DL/04-Sentiment-Analysis)| Community-driven movie leaderboard app with trending picks, sentiment reviews, and personal watchlists. Built using IMDb reviews, advanced text cleaning, EDA, vectorization (BoW, TF-IDF, GloVe, BERT), and BERT fine-tuning for sentiment classification. Features leaderboard, watchlists, and real-time updates. | [Live Demo 👆🏽](https://cine-rank.vercel.app) |
 
 
  
@@ -4180,21 +4181,20 @@ Explored EDA using spaCy and NLTK. Tested GloVe embeddings and compared them wit
 
 
 # Day 143:  Project - Sentiment Analysis [ Advanced Architectures]
+# Day 144:  Project - Sentiment Analysis [ Advanced Architectures]
 
+
+
+# Day 145: Diving Deep into Vision Transformers (ViTs)
+
+resource: https://sthalles.github.io/an-intuitive-introduction-to-the-vision-transformer/
+
+# Day 146: Diving into Diffusion Model
+# Day 147: Diffusion Model deep dive ()
 <!-- ---
 ===============================================
 THE WHOLE PLAN FOR 5 MONTHS (August to January)
 ===============================================
----
-# Day 141: HuggingFace Transformers
----
-# Day 142: HuggingFace Transformers
----
-# Day 143: Project: Sentiment analysis (*with bert)
----
-# Day 144: Project: Sentiment analysis (*with bert)
----
-# Day 145: Project: Sentiment analysis (*with bert)
 ---
 # Day 146: Project: Machine translation (T5)
 ---
