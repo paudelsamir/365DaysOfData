@@ -4179,19 +4179,72 @@ Explored EDA using spaCy and NLTK. Tested GloVe embeddings and compared them wit
 
 [Notebook](10-Projects-Based-ML-DL/04-Sentiment-Analysis/02.ipynb)
 
+# Day 143: Project – Sentiment Analysis [Advanced Architectures]
 
-# Day 143:  Project - Sentiment Analysis [ Advanced Architectures]
-# Day 144:  Project - Sentiment Analysis [ Advanced Architectures]
+Today, I completed BERT fine-tuning for sentiment analysis and experimented with few-shot prompting. The results were promising, and I’m planning to build a full app next (this time, not with Streamlit—going for a different vibe).
 
+**Prompting Results:**  
+![Prompting Results](10-Projects-Based-ML-DL/04-Sentiment-Analysis/images/day143_prompting_results.json.png)
 
+**Halfway Progress:**  
+![Halfway Progress](10-Projects-Based-ML-DL/04-Sentiment-Analysis/images/day143_halfway.png)
+
+**Final BERT Tuning:**  
+![Final BERT Tuning](10-Projects-Based-ML-DL/04-Sentiment-Analysis/images/day143_final_bert_tuning.png)
+
+---
+
+# Day 144: Project – Sentiment Analysis [App Deployment]
+
+Deployed the movie ranking app with integrated sentiment analysis. The app features a live leaderboard, watchlist, and real-time updates.
+
+**Project Live:** [cine-rank.vercel.app](http://cine-rank.vercel.app)  
+**Code:** [github.com/paudelsamir/cineRank](http://github.com/paudelsamir/cineRank)
+
+---
 
 # Day 145: Diving Deep into Vision Transformers (ViTs)
 
-resource: https://sthalles.github.io/an-intuitive-introduction-to-the-vision-transformer/
+Today, I traced Vision Transformer (ViT) dimensions from scratch and compared ViT with ResNet on a dataset. The results weren’t great, but the learning was valuable.
 
-# Day 146: Diving into Diffusion Model
-# Day 147: Diffusion Model deep dive ()
-<!-- ---
+**ResNet vs ViT Comparison:**  
+![ResNet vs ViT](12-Computer-Vision-And-GenAI/images/day145_ResNet_vs_ViT.png)
+
+**ViT Architecture Deep Dive:**  
+![ViT Understanding](12-Computer-Vision-And-GenAI/images/day145_VIT_understanding_in_depth.png)
+
+Resource: [An Intuitive Introduction to the Vision Transformer](https://sthalles.github.io/an-intuitive-introduction-to-the-vision-transformer/)
+
+---
+
+# Day 146: Diving into Diffusion Models
+
+Watched 3Blue1Brown’s new diffusion model video ([YouTube](https://youtu.be/iv-5mZ_9CPY)) and got a gist of the concepts. Skimmed through the math intuition from a blog and found another great resource—finished about a quarter, planning to dive into UNet tomorrow.
+
+**Perspectives on Diffusion Models:**  
+![Perspectives](12-Computer-Vision-And-GenAI/images/day146_perspectives_of_understanding_diffusion_models.png)
+
+**Papers and Blogs:**  
+![Papers](12-Computer-Vision-And-GenAI/images/day146_papers.png)
+![Diffusion Model Blogs](12-Computer-Vision-And-GenAI/images/day146_diffusion_model_blogs.png)
+![More Blogs](12-Computer-Vision-And-GenAI/images/day146_blogs_diffusion_model.png)
+
+---
+
+# Day 147: Diffusion Model Deep Dive
+
+Finished reading the blog and jumped directly into the diffusion model paper with GPT as a sidekick. The concepts became much clearer. Tomorrow, I’ll start coding—should have deep-dived into VAEs & GANs first, but it’s okay!
+
+**UNet Paper:**  
+![UNet Paper](12-Computer-Vision-And-GenAI/images/day147_Unet_paper.png)
+
+**GAN, VAE, Diffusion Comparison:**  
+![GAN, VAE, Diffusion](12-Computer-Vision-And-GenAI/images/day147_gan_vae_diffusion.png)
+
+
+# Day 148: 
+
+<!--
 ===============================================
 THE WHOLE PLAN FOR 5 MONTHS (August to January)
 ===============================================
