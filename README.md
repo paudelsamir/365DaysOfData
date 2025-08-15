@@ -202,22 +202,60 @@
 | [Day145](#day-145-diving-deep-into-vision-transformers-vits) | 2025‑08‑11 | Diving Deep into Vision Transformers (ViTs) | [Blog](https://sthalles.github.io/an-intuitive-introduction-to-the-vision-transformer/) |
 | [Day146](#day-146-diving-into-diffusion-models) | 2025‑08‑12 | Diving into Diffusion Models | [Video](https://youtu.be/iv-5mZ_9CPY) |
 | [Day147](#day-147-diffusion-model-deep-dive) | 2025‑08‑13 | Diffusion Model Deep Dive | [Paper](12-Computer-Vision-And-GenAI/images/day147_Unet_paper.png) |
-| [Day148](------) | 2025‑08‑15 | | [------](--------) |
-| [Day149](------) | 2025‑08‑16 | | [------](--------) |
-| [Day150](------) | 2025‑08‑17 | | [------](--------) |
-| [Day151](------) | 2025‑08‑18 | | [------](--------) |
-| [Day152](------) | 2025‑08‑19 | | [------](--------) |
-| [Day153](------) | 2025‑08‑20 | | [------](--------) |
-| [Day154](------) | 2025‑08‑21 | | [------](--------) |
-| [Day155](------) | 2025‑08‑22 | | [------](--------) |
-| [Day156](------) | 2025‑08‑23 | | [------](--------) |
-| [Day157](------) | 2025‑08‑24 | | [------](--------) |
-| [Day158](------) | 2025‑08‑25 | | [------](--------) |
-| [Day159](------) | 2025‑08‑26 | | [------](--------) |
-| [Day160](------) | 2025‑08‑27 | | [------](--------) |
-| [Day161](------) | 2025‑08‑28 | | [------](--------) |
-| [Day162](------) | 2025‑08‑29 | | [------](--------) |
-| [Day163](------) | 2025‑08‑30 | | [------](--------) |
+| [Day148](hastags) | 2025‑08‑15 |topics|| [Resource]() |
+| [Day149](hastags) | 2025‑08‑16 |topics|| [Resource]() |
+| [Day150](hastags) | 2025‑08‑17 |topics|| [Resource]() |
+| [Day151](hastags) | 2025‑08‑18 |topics|| [Resource]() |
+| [Day152](hastags) | 2025‑08‑19 |topics|| [Resource]() |
+| [Day153](hastags) | 2025‑08‑20 |topics|| [Resource]() |
+| [Day154](hastags) | 2025‑08‑21 |topics|| [Resource]() |
+| [Day155](hastags) | 2025‑08‑22 |topics|| [Resource]() |
+| [Day156](hastags) | 2025‑08‑23 |topics|| [Resource]() |
+| [Day157](hastags) | 2025‑08‑24 |topics|| [Resource]() |
+| [Day158](hastags) | 2025‑08‑25 |topics|| [Resource]() |
+| [Day159](hastags) | 2025‑08‑26 |topics|| [Resource]() |
+| [Day160](hastags) | 2025‑08‑27 |topics|| [Resource]() |
+| [Day161](hastags) | 2025‑08‑28 |topics|| [Resource]() |
+| [Day162](hastags) | 2025‑08‑29 |topics|| [Resource]() |
+| [Day163](hastags) | 2025‑08‑30 |topics|| [Resource]() |
+| [Day164](hastags) | 2025‑08‑31 |topics|| [Resource]() |
+| [Day165](hastags) | 2025‑09‑01 |topics|| [Resource]() |
+| [Day166](hastags) | 2025‑09‑02 |topics|| [Resource]() |
+| [Day167](hastags) | 2025‑09‑03 |topics|| [Resource]() |
+| [Day168](hastags) | 2025‑09‑04 |topics|| [Resource]() |
+| [Day169](hastags) | 2025‑09‑05 |topics|| [Resource]() |
+| [Day170](hastags) | 2025‑09‑06 |topics|| [Resource]() |
+| [Day171](hastags) | 2025‑09‑07 |topics|| [Resource]() |
+| [Day172](hastags) | 2025‑09‑08 |topics|| [Resource]() |
+| [Day173](hastags) | 2025‑09‑09 |topics|| [Resource]() |
+| [Day174](hastags) | 2025‑09‑10 |topics|| [Resource]() |
+| [Day175](hastags) | 2025‑09‑11 |topics|| [Resource]() |
+| [Day176](hastags) | 2025‑09‑12 |topics|| [Resource]() |
+| [Day177](hastags) | 2025‑09‑13 |topics|| [Resource]() |
+| [Day178](hastags) | 2025‑09‑14 |topics|| [Resource]() |
+| [Day179](hastags) | 2025‑09‑15 |topics|| [Resource]() |
+| [Day180](hastags) | 2025‑09‑16 |topics|| [Resource]() |
+| [Day181](hastags) | 2025‑09‑17 |topics|| [Resource]() |
+| [Day182](hastags) | 2025‑09‑18 |topics|| [Resource]() |
+| [Day183](hastags) | 2025‑09‑19 |topics|| [Resource]() |
+| [Day184](hastags) | 2025‑09‑20 |topics|| [Resource]() |
+| [Day185](hastags) | 2025‑09‑21 |topics|| [Resource]() |
+| [Day186](hastags) | 2025‑09‑22 |topics|| [Resource]() |
+| [Day187](hastags) | 2025‑09‑23 |topics|| [Resource]() |
+| [Day188](hastags) | 2025‑09‑24 |topics|| [Resource]() |
+| [Day189](hastags) | 2025‑09‑25 |topics|| [Resource]() |
+| [Day190](hastags) | 2025‑09‑26 |topics|| [Resource]() |
+| [Day191](hastags) | 2025‑09‑27 |topics|| [Resource]() |
+| [Day192](hastags) | 2025‑09‑28 |topics|| [Resource]() |
+| [Day193](hastags) | 2025‑09‑29 |topics|| [Resource]() |
+| [Day194](hastags) | 2025‑09‑30 |topics|| [Resource]() |
+| [Day195](hastags) | 2025‑10‑01 |topics|| [Resource]() |
+| [Day196](hastags) | 2025‑10‑02 |topics|| [Resource]() |
+| [Day197](hastags) | 2025‑10‑03 |topics|| [Resource]() |
+| [Day198](hastags) | 2025‑10‑04 |topics|| [Resource]() |
+| [Day199](hastags) | 2025‑10‑05 |topics|| [Resource]() |
+| [Day200](hastags) | 2025‑10‑06 |topics|| [Resource]() |
+
 
 ---
 <br>
