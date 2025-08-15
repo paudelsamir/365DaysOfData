@@ -198,6 +198,26 @@
 | [Day141](#day-141-project--sentiment-analysis-preprocessing--vit-architecture) | 2025‑08‑07 | Project – Sentiment Analysis [Preprocessing] + ViT Architecture | [Kaggle Code](https://www.kaggle.com/abhilash1910/code) |
 | [Day142](#day-142-project--sentiment-analysis-eda--testing-glove) | 2025‑08‑08 | Project – Sentiment Analysis [EDA + Testing GloVe] | [Notebook](10-Projects-Based-ML-DL/04-Sentiment-Analysis/02.ipynb), [Notebook](10-Projects-Based-ML-DL/04-Sentiment-Analysis/03.ipynb), [Kaggle Code](https://www.kaggle.com/abhilash1910/code) |
 | [Day143](#day-143-project--sentiment-analysis-advanced-architectures) | 2025‑08‑09 | Project – Sentiment Analysis [Advanced Architectures] | [Notebook](10-Projects-Based-ML-DL/04-Sentiment-Analysis/02.ipynb), [Notebook](10-Projects-Based-ML-DL/04-Sentiment-Analysis/03.ipynb), [Kaggle Code](https://www.kaggle.com/abhilash1910/code) |
+| [Day144](#day-144-project--sentiment-analysis-app-deployment) | 2025‑08‑10 | Project – Sentiment Analysis [App Deployment] | [Live Demo](https://cine-rank.vercel.app), [Code](https://github.com/paudelsamir/cineRank) |
+| [Day145](#day-145-diving-deep-into-vision-transformers-vits) | 2025‑08‑11 | Diving Deep into Vision Transformers (ViTs) | [Blog](https://sthalles.github.io/an-intuitive-introduction-to-the-vision-transformer/) |
+| [Day146](#day-146-diving-into-diffusion-models) | 2025‑08‑12 | Diving into Diffusion Models | [Video](https://youtu.be/iv-5mZ_9CPY) |
+| [Day147](#day-147-diffusion-model-deep-dive) | 2025‑08‑13 | Diffusion Model Deep Dive | [Paper](12-Computer-Vision-And-GenAI/images/day147_Unet_paper.png) |
+| [Day148](------) | 2025‑08‑15 | | [------](--------) |
+| [Day149](------) | 2025‑08‑16 | | [------](--------) |
+| [Day150](------) | 2025‑08‑17 | | [------](--------) |
+| [Day151](------) | 2025‑08‑18 | | [------](--------) |
+| [Day152](------) | 2025‑08‑19 | | [------](--------) |
+| [Day153](------) | 2025‑08‑20 | | [------](--------) |
+| [Day154](------) | 2025‑08‑21 | | [------](--------) |
+| [Day155](------) | 2025‑08‑22 | | [------](--------) |
+| [Day156](------) | 2025‑08‑23 | | [------](--------) |
+| [Day157](------) | 2025‑08‑24 | | [------](--------) |
+| [Day158](------) | 2025‑08‑25 | | [------](--------) |
+| [Day159](------) | 2025‑08‑26 | | [------](--------) |
+| [Day160](------) | 2025‑08‑27 | | [------](--------) |
+| [Day161](------) | 2025‑08‑28 | | [------](--------) |
+| [Day162](------) | 2025‑08‑29 | | [------](--------) |
+| [Day163](------) | 2025‑08‑30 | | [------](--------) |
 
 ---
 <br>
