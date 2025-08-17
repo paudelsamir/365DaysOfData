@@ -1,0 +1,1 @@
+In This folder, I covered **building** Large Language Models (LLMs) from scratch, including building of GPT, BERT, and T5 from scratch
