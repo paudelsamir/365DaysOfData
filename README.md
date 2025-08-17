@@ -201,7 +201,7 @@
 | [Day144](#day-144-project--sentiment-analysis-app-deployment) | 2025‑08‑10 | Project – Sentiment Analysis [App Deployment] | [Live Demo](https://cine-rank.vercel.app), [Code](https://github.com/paudelsamir/cineRank) |
 | [Day145](#day-145-diving-deep-into-vision-transformers-vits) | 2025‑08‑11 | Diving Deep into Vision Transformers (ViTs) | [Blog](https://sthalles.github.io/an-intuitive-introduction-to-the-vision-transformer/) |
 | [Day146](#day-146-diving-into-diffusion-models) | 2025‑08‑12 | Diving into Diffusion Models | [Video](https://youtu.be/iv-5mZ_9CPY) |
-| [Day147](#day-147-diffusion-model-deep-dive) | 2025‑08‑13 | Diffusion Model Deep Dive | [Paper](12-Computer-Vision-And-GenAI/images/day147_Unet_paper.png) |
+| [Day147](#day-147-diffusion-model-deep-dive) | 2025‑08‑13 | Diffusion Model Deep Dive | [Paper](13-Computer-Vision-And-GenAI-Paradigms/images/day147_Unet_paper.png) |
 | [Day148](hastags) | 2025‑08‑15 |topics|| [Resource]() |
 | [Day149](hastags) | 2025‑08‑16 |topics|| [Resource]() |
 | [Day150](hastags) | 2025‑08‑17 |topics|| [Resource]() |
@@ -4266,10 +4266,10 @@ Deployed the movie ranking app with integrated sentiment analysis. The app featu
 Today, I traced Vision Transformer (ViT) dimensions from scratch and compared ViT with ResNet on a dataset. The results weren’t great, but the learning was valuable.
 
 **ResNet vs ViT Comparison:**  
-![ResNet vs ViT](12-Computer-Vision-And-GenAI/images/day145_ResNet_vs_ViT.png)
+![ResNet vs ViT](13-Computer-Vision-And-GenAI-Paradigms/images/day145_ResNet_vs_ViT.png)
 
 **ViT Architecture Deep Dive:**  
-![ViT Understanding](12-Computer-Vision-And-GenAI/images/day145_VIT_understanding_in_depth.png)
+![ViT Understanding](13-Computer-Vision-And-GenAI-Paradigms/images/day145_VIT_understanding_in_depth.png)
 
 Resource: [An Intuitive Introduction to the Vision Transformer](https://sthalles.github.io/an-intuitive-introduction-to-the-vision-transformer/)
 
@@ -4280,12 +4280,12 @@ Resource: [An Intuitive Introduction to the Vision Transformer](https://sthalles
 Watched 3Blue1Brown’s new diffusion model video ([YouTube](https://youtu.be/iv-5mZ_9CPY)) and got a gist of the concepts. Skimmed through the math intuition from a blog and found another great resource—finished about a quarter, planning to dive into UNet tomorrow.
 
 **Perspectives on Diffusion Models:**  
-![Perspectives](12-Computer-Vision-And-GenAI/images/day146_perspectives_of_understanding_diffusion_models.png)
+![Perspectives](13-Computer-Vision-And-GenAI-Paradigms/images/day146_perspectives_of_understanding_diffusion_models.png)
 
 **Papers and Blogs:**  
-![Papers](12-Computer-Vision-And-GenAI/images/day146_papers.png)
-![Diffusion Model Blogs](12-Computer-Vision-And-GenAI/images/day146_diffusion_model_blogs.png)
-![More Blogs](12-Computer-Vision-And-GenAI/images/day146_blogs_diffusion_model.png)
+![Papers](13-Computer-Vision-And-GenAI-Paradigms/images/day146_papers.png)
+![Diffusion Model Blogs](13-Computer-Vision-And-GenAI-Paradigms/images/day146_diffusion_model_blogs.png)
+![More Blogs](13-Computer-Vision-And-GenAI-Paradigms/images/day146_blogs_diffusion_model.png)
 
 ---
 
@@ -4294,35 +4294,37 @@ Watched 3Blue1Brown’s new diffusion model video ([YouTube](https://youtu.be/iv
 Finished reading the blog and jumped directly into the diffusion model paper with GPT as a sidekick. The concepts became much clearer. Tomorrow, I’ll start coding—should have deep-dived into VAEs & GANs first, but it’s okay!
 
 **UNet Paper:**  
-![UNet Paper](12-Computer-Vision-And-GenAI/images/day147_Unet_paper.png)
+![UNet Paper](13-Computer-Vision-And-GenAI-Paradigms/images/day147_Unet_paper.png)
 
 **GAN, VAE, Diffusion Comparison:**  
-![GAN, VAE, Diffusion](12-Computer-Vision-And-GenAI/images/day147_gan_vae_diffusion.png)
+![GAN, VAE, Diffusion](13-Computer-Vision-And-GenAI-Paradigms/images/day147_gan_vae_diffusion.png)
 
 
-# Day 148: 
+# Day 148: Naive Bayes & Gaussian Mixture Models
+
+- Revised Naive Bayes concepts using a blog and StatQuest video.  
+- Will implement Naive Bayes in code tomorrow for hands-on practice.
+- Started exploring Gaussian Mixture Models (GMMs); found the complexity challenging, so paused for now.
+
+![Naive Bayes Blog](13-Computer-Vision-And-GenAI-Paradigms/images/day148_naive_bayes_blog.png)
+![Naive Bayes Formula](13-Computer-Vision-And-GenAI-Paradigms/images/day148_naive_bayes_formula.png)
+![Gaussian Mixture Model](13-Computer-Vision-And-GenAI-Paradigms/images/day148_gaussian_mixture_model.png)
+
+
+# Dat 149: 
+
+
+
+
+
+
+
 
 <!--
-===============================================
-THE WHOLE PLAN FOR 5 MONTHS (August to January)
-===============================================
----
-# Day 146: Project: Machine translation (T5)
----
-# Day 147:  Project: Machine translation (T5)
----
-# Day 148:  Project: Machine translation (T5)
----
-# Day 149 - Day 179:  VISION TRANSFORMERS (ViTs), DIFFUSION MODELS, REINFORCEMENT LEARNING, SELF-SUPERVISED LEARNING, MULTIMODAL, AUDIO + TIME-SERIES (Adavnced SOTA - 30 days)
-
-++++++++++++++++++++++++++++++++++++++++
-TILL THE DATE, Bhadra 15 /// it would be
-++++++++++++++++++++++++++++++++++++++++
-
-# Day 180: FULL REST
----
-# Then we are ready for the next chapter: LLM System where we will be learning lanchain, RAGs, agents, deployment, finetuning, backend, scaling, 10 + real projects for next two months: means (day 180 - day 240) -->
-<!-- 
+The remaining chapters to cover in deep......
+===========================================================================================================================================
+VISION TRANSFORMERS (ViTs), DIFFUSION MODELS, REINFORCEMENT LEARNING, SELF-SUPERVISED LEARNING, MULTIMODAL, AUDIO + TIME-SERIES, GRAPHS
+===========================================================================================================================================
 ++++++++++++++++++++++++++++++++++++++++
 Bhadra 15 - Kartik 15 (Board of 6th sem from kartik 15 to mangshir 15)
 ++++++++++++++++++++++++++++++++++++++++ -->
