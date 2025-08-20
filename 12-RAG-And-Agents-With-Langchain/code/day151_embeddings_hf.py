@@ -1,13 +1,18 @@
-from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_huggingface import ChatHuggingFace, HuggingFacePipeline
+import os
 
-embedding = HuggingFaceEmbeddings(model_name='sentence-transformers/all-MiniLM-L6-v2')
+os.environ['HF_HOME'] = 'D:/huggingface_cache'
 
-documents = [
-    "Kathmandu is the capital of Nepal",
-    "Mount Everest is located in Nepal",
-    "Nepal is famous for its beautiful mountains"
-]
+llm = HuggingFacePipeline.from_model_id(
+    model_id='TinyLlama/TinyLlama-1.1B-Chat-v1.0',
+    task='text-generation',
+    pipeline_kwargs=dict(
+        temperature=0.5,
+        max_new_tokens=100
+    )
+)
+model = ChatHuggingFace(llm=llm)
 
-vector = embedding.embed_documents(documents)
+result = model.invoke("What is the capital of India")
 
-print(str(vector))
+print(result.content)
