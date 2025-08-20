@@ -63,3 +63,4 @@ yolov5s.pt
 10-Projects-Based-ML-DL/04-Sentiment-Analysis/data/IMDB Dataset.csv
 10-Projects-Based-ML-DL/04-Sentiment-Analysis/data/cleaned_imdb.csv
 .env
+requirements.txt
