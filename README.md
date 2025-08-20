@@ -4311,8 +4311,11 @@ Finished reading the blog and jumped directly into the diffusion model paper wit
 ![Gaussian Mixture Model](13-Computer-Vision-And-Other-GenAI-Paradigms/images/day148_gaussian_mixture_model.png)
 
 
-# Dat 149: 
+# Dat 149: Introduction to langchain..
+Recently, I've been exploring GenAI topics like multimodal models and graph neural networks without a clear roadmap, which has started to feel unstructured and a bit monotonous. Moving forward, I plan to shift to a more structured learning approach. Since I've already covered how to build LLMs, my next focus will be on practical usage—specifically, how to leverage LLMs to build real-world applications. Starting tomorrow, I'll begin this new, more organized phase of learning
 
+
+Langchain is a opensource framework for developing applications powered by LLMs..
 
 
 
