@@ -209,7 +209,7 @@
 | [Day152](#day-152-langchain-prompts-and-building-a-simple-chatbot) | 2025‑08‑20 | Langchain Prompts and Building a Simple Chatbot | [Langchain Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvaTbihpo4MtzVm4XOQa0ER0) |
 | [Day153](#day-153-structured-output-with-langchain) | 2025‑08‑21 | Structured Output with Langchain | [Langchain Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvaTbihpo4MtzVm4XOQa0ER0) |
 | [Day154](#day-154-langchain-output-parsers) | 2025‑08‑23 | Langchain Output Parsers | [Langchain Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvaTbihpo4MtzVm4XOQa0ER0) |
-| [Day155](hastags) | 2025‑08‑24 |topics|| [Langchain Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvaTbihpo4MtzVm4XOQa0ER0) |
+| [Day155](hastags) | 2025‑08‑24 |topics|| [Langchain Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvaTbihpo4MtzVm4XOQa0ER0)|
 | [Day156](hastags) | 2025‑08‑25 |topics|| [Langchain Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvaTbihpo4MtzVm4XOQa0ER0) |
 | [Day157](hastags) | 2025‑08‑26 |topics|| [Langchain Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvaTbihpo4MtzVm4XOQa0ER0)|
 | [Day158](hastags) | 2025‑08‑27 |topics|| [Langchain Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvaTbihpo4MtzVm4XOQa0ER0) |
