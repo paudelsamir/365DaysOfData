@@ -209,12 +209,19 @@
 | [Day152](#day-152-langchain-prompts-and-building-a-simple-chatbot) | 2025‑08‑20 | Langchain Prompts and Building a Simple Chatbot | [Langchain Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvaTbihpo4MtzVm4XOQa0ER0) |
 | [Day153](#day-153-structured-output-with-langchain) | 2025‑08‑21 | Structured Output with Langchain | [Langchain Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvaTbihpo4MtzVm4XOQa0ER0) |
 | [Day154](#day-154-langchain-output-parsers) | 2025‑08‑23 | Langchain Output Parsers | [Langchain Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvaTbihpo4MtzVm4XOQa0ER0) |
-| [Day155](hastags) | 2025‑08‑24 |topics|| [Langchain Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvaTbihpo4MtzVm4XOQa0ER0)|
-| [Day156](hastags) | 2025‑08‑25 |topics|| [Langchain Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvaTbihpo4MtzVm4XOQa0ER0) |
-| [Day157](hastags) | 2025‑08‑26 |topics|| [Langchain Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvaTbihpo4MtzVm4XOQa0ER0)|
-| [Day158](hastags) | 2025‑08‑27 |topics|| [Langchain Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvaTbihpo4MtzVm4XOQa0ER0) |
-| [Day159](hastags) | 2025‑08‑28 |topics|| [Langchain Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvaTbihpo4MtzVm4XOQa0ER0) |
-| [Day160](hastags) | 2025‑08‑29 |topics|| [Langchain Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvaTbihpo4MtzVm4XOQa0ER0) |
+| [Day155](#day-155-langchain-chain-fundamentals) | 2025‑08‑24 | Langchain Chain Fundamentals (Simple, Sequential, Parallel, Conditional Chains) | [Langchain Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvaTbihpo4MtzVm4XOQa0ER0) |
+| [Day156](#day-156-langchain-runnables) | 2025‑08‑25 | Langchain Runnables (Modular Components, Composable Workflows) | [Langchain Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvaTbihpo4MtzVm4XOQa0ER0) |
+| [Day157](#day-157-langchain-runnable-modules-deep-dive) | 2025‑08‑26 | Runnable Modules Deep Dive (Sequence, Parallel, Passthrough, Lambda, Branch) | [Langchain Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvaTbihpo4MtzVm4XOQa0ER0) |
+| [Day158](#day-158-document-loaders-and-text-splitters) | 2025‑08‑27 | Document Loaders & Text Splitters (RAG Foundations) | [Langchain Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvaTbihpo4MtzVm4XOQa0ER0) |
+| [Day159](#day-159-vector-stores-in-langchain) | 2025‑08‑28 | Vector Stores in Langchain (Chroma, CRUD Operations, Similarity Search) | [Langchain Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvaTbihpo4MtzVm4XOQa0ER0) |
+| [Day160](#day-160-retrievers-and-few-shot-learning) | 2025‑08‑29 | Retrievers & Few-Shot Learning (Wikipedia, Vector, MMR, MultiQuery, Contextual) | [Langchain Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvaTbihpo4MtzVm4XOQa0ER0) |
+| [Day161](#day-161-building-a-rag-application-for-ucl-draw) | 2025‑08‑30 | RAG Application for UCL Draw (Text Splitting, Vector Embeddings, Response Generation) | [Langchain Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvaTbihpo4MtzVm4XOQa0ER0) |
+| [Day162](#day-162-langchain-tools-built-in-and-custom) | 2025‑08‑31 | Langchain Tools (Built-in & Custom, Tool Calling & Binding) | [Langchain Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvaTbihpo4MtzVm4XOQa0ER0) |
+| [Day163](#day-163-langchain-agents) | 2025‑09‑01 | Langchain Agents (Zero-Shot, Conversational, ReAct DocStore, Self-Ask) | [Langchain Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvaTbihpo4MtzVm4XOQa0ER0) |
+| [Day164](#day-164-building-a-local-agent-with-ollama-and-langchain) | 2025‑09‑02 | Local Agent with Ollama & Langchain (ChromaDB, RAG) | [Langchain Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvaTbihpo4MtzVm4XOQa0ER0) |
+| [Day165](#day-165-introduction-to-langgraph) | 2025‑09‑03 | Introduction to LangGraph (Stateful Agent Workflows) | [Langchain Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvaTbihpo4MtzVm4XOQa0ER0) |
+| [Day166](#day-166-agentic-ai-fundamentals) | 2025‑09‑04 | Agentic AI Fundamentals (Autonomy, Components, Planning, Memory) | [Langchain Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvaTbihpo4MtzVm4XOQa0ER0) |
+| [Day167](#day-167-langchain-vs-langgraph-comparison) | 2025‑09‑05 | LangChain vs LangGraph Comparison (State Management, Chatbot Example) | [Langchain Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvaTbihpo4MtzVm4XOQa0ER0) |
 
 ---
 <br>
@@ -4309,8 +4316,159 @@ Continued my exploration by diving into Langchain's output parsers, which transf
 ![alt text](12-RAG-And-Agents-With-Langchain/images/day154_pydanticoutputparser.png) ![alt text](12-RAG-And-Agents-With-Langchain/images/day154_stroutparser.png) ![alt text](12-RAG-And-Agents-With-Langchain/images/day154_jsonoutputparser.png)
 
 
+# Day 155: Langchain Chain Fundamentals
 
-# Day 155:
+Today I explored the fundamentals of chains in Langchain, which allow for combining multiple components together to create more complex applications. I worked with various types of chains to understand their different use cases:
+
+- Simple chains for basic sequential operations
+- Sequential chains for connecting multiple chains in a specific order
+- Parallel chains for running multiple operations simultaneously
+- Conditional chains for implementing decision-making logic within the flow
+
+These different chain types provide flexibility in building complex LLM applications while maintaining a clean architecture.
+
+![Simple Chain](12-RAG-And-Agents-With-Langchain/images/day155_simple_chain.png) 
+![Sequential Chain](12-RAG-And-Agents-With-Langchain/images/day155_sequential_chain.png) 
+![Parallel Chain](12-RAG-And-Agents-With-Langchain/images/day155_parallel_chain.png) 
+![Conditional Chain](12-RAG-And-Agents-With-Langchain/images/day155_conditional_chain.png)
+
+# Day 156: Langchain Runnables
+
+I focused on understanding Langchain's Runnables today, which provide a flexible and composable way to build LLM applications. Runnables are the updated interface in Langchain for creating modular components that can be easily combined.
+
+I built a toy application following a tutorial to get hands-on experience with how Runnables work in practice. This approach makes code more maintainable and easier to reason about compared to the older chain-based approach. Tomorrow, I plan to explore specific runnable methods in more detail.
+
+![Chains](12-RAG-And-Agents-With-Langchain/images/day156_chains.png) 
+![Dummy LLM with Runnable](12-RAG-And-Agents-With-Langchain/images/day156_dummy_llm_with_runnable.png) 
+![Langchain Runnable Workflow](12-RAG-And-Agents-With-Langchain/images/day156_langchain_runnable_workflow.webp)
+
+# Day 157: Langchain Runnable Modules Deep Dive
+
+Today I explored several key runnable modules in Langchain that enable complex workflow construction:
+
+- RunnableSequence: For creating sequential processing pipelines
+- RunnableParallel: For running multiple operations concurrently
+- RunnablePassthrough: For passing inputs unmodified alongside transformed outputs
+- RunnableLambda: For incorporating custom functions into the pipeline
+- RunnableBranch: For implementing conditional logic
+
+I implemented code examples for each module to visualize how they work in practice, focusing especially on Lambda and Branch for their flexibility in creating dynamic workflows.
+
+![Runnable Lambda Branch](12-RAG-And-Agents-With-Langchain/images/day157_runnable_lambda_branch.png) 
+![Runnable Passthrough](12-RAG-And-Agents-With-Langchain/images/day157_runnable_passthrough.png)
+
+# Day 158: Document Loaders and Text Splitters
+
+I focused on two critical components for RAG (Retrieval-Augmented Generation) systems today: document loaders and text splitters. Document loaders in Langchain provide unified interfaces for ingesting various document types, while text splitters handle the chunking of documents into manageable pieces for embedding and retrieval.
+
+I worked with code examples to understand how these components function together to create the foundation for knowledge-based LLM applications. Next up on my learning path will be vector databases, which store and retrieve these document chunks efficiently.
+
+![Document Loader](12-RAG-And-Agents-With-Langchain/images/day158_doc_loader.png) 
+![Text Splitter](12-RAG-And-Agents-With-Langchain/images/day158_text_splitter.png)
+
+# Day 159: Vector Stores in Langchain
+
+Today I dove into vector stores, which are specialized databases for storing and retrieving vector embeddings. I gained intuition about Chroma, one of the popular vector database options in Langchain, and explored CRUD operations (create, read, update, delete) within these systems.
+
+Vector stores are essential for efficient similarity search operations that power RAG applications. They index embeddings to make retrieval fast even with large document collections. My next focus will be on retrievers, which build on top of vector stores to implement different search strategies.
+
+![Vector Database View Update Delete](12-RAG-And-Agents-With-Langchain/images/day159_vector_database_view_update_delete.png) 
+![Vector Store](12-RAG-And-Agents-With-Langchain/images/day159_vector_store.png)
+
+# Day 160: Retrievers and Few-Shot Learning
+
+I explored various retriever implementations in Langchain today, which are responsible for finding relevant information from data sources. I worked with several types:
+
+- Wikipedia retrievers for pulling information directly from Wikipedia
+- Vector store retrievers for similarity-based searches
+- MMR (Maximal Marginal Relevance) retrievers for balancing relevance and diversity
+- MultiQuery retrievers that reformulate queries to improve recall
+- Contextual retrievers that adapt to the conversational context
+
+Additionally, I read the influential paper "Language Models are Few-Shot Learners," which provided important context about how large language models can learn from just a few examples—a concept that ties directly to effective retrieval design.
+
+![All Retrievers from Doc](12-RAG-And-Agents-With-Langchain/images/day160_all_retrievers_from_doc.png) 
+![Language Model are Few-Shot Learner Paper](12-RAG-And-Agents-With-Langchain/images/day160_language_model_are_few_shot_learner_paper.png) 
+![Retrievers I Explored](12-RAG-And-Agents-With-Langchain/images/day160_retrievers_i_explored.png)
+
+# Day 161: Building a RAG Application for UCL Draw
+
+I put theory into practice today by building a simple Retrieval-Augmented Generation (RAG) application based on the recent UEFA Champions League draw. The application allows users to ask questions about the tournament and get AI-generated responses that are grounded in factual information.
+
+I visualized the entire RAG pipeline, from text-splitting and vector embeddings to response generation. The system successfully answered questions about match predictions and tournament format by retrieving relevant context from the provided documents before generating responses.
+
+![RAG Play Prediction](12-RAG-And-Agents-With-Langchain/images/day161_rag_play_prediction.png) 
+![RAG App UCL 2026](12-RAG-And-Agents-With-Langchain/images/day161_rag_app_ucl_2026.png)
+
+# Day 162: Langchain Tools - Built-in and Custom
+
+Today I focused on tools in Langchain, which are modular components that give language models the ability to interact with external systems and APIs. I explored both the built-in tools that come with Langchain and learned how to create custom tools for specific use cases.
+
+I experimented with tool calling and binding mechanisms that allow LLMs to decide when and how to use specific tools. As a practical application, I built a currency converter tool that demonstrates how to extend an LLM's capabilities with external functionality.
+
+![Currency Conversion Tool](12-RAG-And-Agents-With-Langchain/images/day162_currency_conversion_tool.png) 
+![Tools in Langchain](12-RAG-And-Agents-With-Langchain/images/day162_tools_in_langchain.png)
+
+# Day 163: Langchain Agents
+
+I explored different agent frameworks in Langchain today, which combine LLMs with tools to solve complex tasks. I worked with several agent types:
+
+- Zero-shot agents that can use tools without specific examples
+- Conversational agents designed for multi-turn interactions
+- ReAct DocStore agents that combine reasoning and action with document storage
+- Self-Ask with Search agents that break down complex queries into sub-questions
+
+Each agent type has its own strengths and use cases. I'm planning to build a custom agent from scratch tomorrow to deepen my understanding of how they work internally.
+
+![Conversational React](12-RAG-And-Agents-With-Langchain/images/day163_conversational_react.png) 
+![LLM Agent Framework](12-RAG-And-Agents-With-Langchain/images/day163_llm_agent_framework.png) 
+![React DocStore](12-RAG-And-Agents-With-Langchain/images/day163_react_docstore.png) 
+![Self Ask with Search](12-RAG-And-Agents-With-Langchain/images/day163_self_ask_with_search.png) 
+![Zero Shot React](12-RAG-And-Agents-With-Langchain/images/day163_zeroshotreact.png)
+
+# Day 164: Building a Local Agent with Ollama and Langchain
+
+Today I built a complete local agent using Ollama (for running LLMs locally), Langchain for orchestration, and RAG for knowledge retrieval. The system uses ChromaDB as a vector database to store and query a dataset of reviews.
+
+This implementation demonstrates how to create powerful AI applications that run entirely on local hardware without depending on external API services. Running everything locally provides benefits in terms of privacy, cost, and customization flexibility.
+
+![Chroma Vector Database Local](12-RAG-And-Agents-With-Langchain/images/day164_chroma_vector_database_local.png) 
+![Local Agent Using Ollama](12-RAG-And-Agents-With-Langchain/images/day164_local_agent_using_ollama.png)
+
+# Day 165: Introduction to LangGraph
+
+Today marked my first dive into LangGraph, an extension of Langchain focused on building complex, stateful agent workflows. I read several blogs until I gained a solid understanding and supplemented this with YouTube tutorials to see practical implementations.
+
+I attempted to build a text-based game agent using LangGraph but ran into dependency issues that prevented completion. Despite the setback, I learned about LangGraph's core modules and how they enable more sophisticated agent behaviors through explicit state management.
+
+![LangGraph Blog](14-Agentic-AI/images/day165_langgraph_blog.png) 
+![LangGraph Modules](14-Agentic-AI/images/day165_langgraph_modules.png) 
+![Text Game](14-Agentic-AI/images/day165_text)
+
+# Day 166: Agentic AI Fundamentals
+
+I took a slight step back today to build a stronger conceptual foundation in Agentic AI. I studied the key characteristics that define true AI agents, such as autonomy, persistence, and goal-oriented behavior.
+
+I also explored the fundamental components that make up agentic AI systems, including reasoning engines, planning modules, memory systems, and tool integration. Understanding these building blocks will help me implement more effective agent architectures as I continue my learning journey with LangGraph.
+
+![Characteristics of Agentic AI](14-Agentic-AI/images/day166_charactersitics_of_agenticai.png) 
+![Components of Agentic AI](14-Agentic-AI/images/day166_components_of_agenticai.png) 
+![How Agentic AI Works](14-Agentic-AI/images/day166_how_agentic_ai_works.png)
+
+# Day 167: LangChain vs LangGraph Comparison
+
+Today I explored the relationship between LangChain and LangGraph, focusing on why LangGraph exists as a separate library and how it complements LangChain's capabilities. I built a simple chatbot using both approaches to compare them directly.
+
+I also dug into some of the complexities around state management and control flow that LangGraph addresses. Additionally, I read an interesting blog titled "No, You Don't Need LangChain" to understand potential criticisms and limitations of these frameworks, which provided valuable perspective on when abstraction layers are helpful versus when they might add unnecessary complexity.
+
+![No You Don't Need LangChain Blog](14-Agentic-AI/images/day167_no_you_dont_need_langchain_blog.png) 
+![Simple Chatbot with LangGraph](14-Agentic-AI/images/day167_simple_charbot_with_langgraph.png) 
+![Why We No Longer Use LangChain](14-Agentic-AI/images/day167_we_we_no_longer_use_langchain.png)
+
+
+
+
+
 
 
 
