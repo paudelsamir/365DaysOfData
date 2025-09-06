@@ -219,9 +219,12 @@
 | [Day162](#day-162-langchain-tools-built-in-and-custom) | 2025‑08‑31 | Langchain Tools (Built-in & Custom, Tool Calling & Binding) | [Langchain Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvaTbihpo4MtzVm4XOQa0ER0) |
 | [Day163](#day-163-langchain-agents) | 2025‑09‑01 | Langchain Agents (Zero-Shot, Conversational, ReAct DocStore, Self-Ask) | [Langchain Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvaTbihpo4MtzVm4XOQa0ER0) |
 | [Day164](#day-164-building-a-local-agent-with-ollama-and-langchain) | 2025‑09‑02 | Local Agent with Ollama & Langchain (ChromaDB, RAG) | [Langchain Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvaTbihpo4MtzVm4XOQa0ER0) |
-| [Day165](#day-165-introduction-to-langgraph) | 2025‑09‑03 | Introduction to LangGraph (Stateful Agent Workflows) | [Langchain Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvaTbihpo4MtzVm4XOQa0ER0) |
+| [Day165](#day-165-introduction-to-langgraph) | 2025‑09‑03 | Introduction to LangGraph (Stateful Agent Workflows) | [Langgraph Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvYsvB8qkUQuJmJNuiCUJFPL)  |
 | [Day166](#day-166-agentic-ai-fundamentals) | 2025‑09‑04 | Agentic AI Fundamentals (Autonomy, Components, Planning, Memory) | [Langchain Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvaTbihpo4MtzVm4XOQa0ER0) |
-| [Day167](#day-167-langchain-vs-langgraph-comparison) | 2025‑09‑05 | LangChain vs LangGraph Comparison (State Management, Chatbot Example) | [Langchain Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvaTbihpo4MtzVm4XOQa0ER0) |
+| [Day167](#day-167-langchain-vs-langgraph-comparison) | 2025‑09‑05 | LangChain vs LangGraph Comparison (State Management, Chatbot Example) | [Langgraph Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvYsvB8qkUQuJmJNuiCUJFPL)  |
+| [Day168](hastags) | 2025‑09-06 |topics|| [Langgraph Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvYsvB8qkUQuJmJNuiCUJFPL) |
+| [Day169](hastags) | 2025‑09-07 |topics|| [Langgraph Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvYsvB8qkUQuJmJNuiCUJFPL) |
+| [Day170](hastags) | 2025‑09-08 |topics|| [Langgraph Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvYsvB8qkUQuJmJNuiCUJFPL) |
 
 ---
 <br>
