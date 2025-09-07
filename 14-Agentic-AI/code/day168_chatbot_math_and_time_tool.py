@@ -26,7 +26,7 @@ def time_tool(state):
 
 def smalltalk_node(state):
     response = model.invoke(state["messages"])
-    
+
     return {"messages": add_messages(state["messages"], [AIMessage(content=response.content)])}
 
 def router(state):
@@ -38,13 +38,10 @@ def router(state):
     else:
         return "smalltalk"
 
-
 graph = StateGraph(dict)
 graph.add_node("calculator", calculator_tool)
 graph.add_node("time", time_tool)
 graph.add_node("smalltalk", smalltalk_node)
-
-
 graph.add_conditional_edges(
 
     START, router, 
@@ -54,14 +51,10 @@ graph.add_conditional_edges(
         "smalltalk": "smalltalk"
     }
 )
-
 graph.add_edge("calculator", END)
 graph.add_edge("time", END)
 graph.add_edge("smalltalk", END)
-
-
 app = graph.compile()
-
 state = {"messages": []}
 while True:
     user_input = input("You: ")
