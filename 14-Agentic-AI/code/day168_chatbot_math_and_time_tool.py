@@ -21,7 +21,7 @@ def calculator_tool(state):
 
 def time_tool(state):
     current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    return {"messages": add_messages(state["messages"], [AIMessage(content=f"The current date and time is: {current_time}")])}
+    return {"messages": add_messages(state["mheyessages"], [AIMessage(content=f"The current date and time is: {current_time}")])}
 
 
 def smalltalk_node(state):
