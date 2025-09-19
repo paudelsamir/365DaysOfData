@@ -69,3 +69,4 @@ requirements.txt
 14-Agentic-AI/code/extras
 langchain-env
 resources/
+fastapi-env/
