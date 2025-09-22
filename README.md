@@ -222,9 +222,22 @@
 | [Day165](#day-165-introduction-to-langgraph) | 2025‑09‑03 | Introduction to LangGraph (Stateful Agent Workflows) | [Langgraph Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvYsvB8qkUQuJmJNuiCUJFPL)  |
 | [Day166](#day-166-agentic-ai-fundamentals) | 2025‑09‑04 | Agentic AI Fundamentals (Autonomy, Components, Planning, Memory) | [Langchain Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvaTbihpo4MtzVm4XOQa0ER0) |
 | [Day167](#day-167-langchain-vs-langgraph-comparison) | 2025‑09‑05 | LangChain vs LangGraph Comparison (State Management, Chatbot Example) | [Langgraph Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvYsvB8qkUQuJmJNuiCUJFPL)  |
-| [Day168](hastags) | 2025‑09-06 |topics|| [Langgraph Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvYsvB8qkUQuJmJNuiCUJFPL) |
-| [Day169](hastags) | 2025‑09-07 |topics|| [Langgraph Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvYsvB8qkUQuJmJNuiCUJFPL) |
-| [Day170](hastags) | 2025‑09-08 |topics|| [Langgraph Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvYsvB8qkUQuJmJNuiCUJFPL) |
+| [Day168](#day-168-building-a-branching-chatbot) | 2025-09-06 | Building a Branching Chatbot | [Langgraph Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvYsvB8qkUQuJmJNuiCUJFPL) |
+| [Day169](#day-169-persistence-with-checkpoints) | 2025-09-07 | Persistence with Checkpoints | [Langgraph Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvYsvB8qkUQuJmJNuiCUJFPL) |
+| [Day170](#day-170-exploring-langsmith) | 2025-09-08 | Exploring LangSmith | [Langgraph Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvYsvB8qkUQuJmJNuiCUJFPL) |
+| [Day171](#day-171-contextual-qa-with-memory-langchain) | 2025-09-11 | Contextual Q&A with Memory | [Langchain Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvaTbihpo4MtzVm4XOQa0ER0) |
+| [Day172](#day-172-bhagavad-gita-expert-chatbot) | 2025-09-12 | Bhagavad Gita Expert Chatbot | [Langgraph Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvYsvB8qkUQuJmJNuiCUJFPL) |
+| [Day173](#day-173-multi-agent-debating-system) | 2025-09-13 | Multi-Agent Debating System | [Langgraph Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvYsvB8qkUQuJmJNuiCUJFPL) |
+| [Day174](#day-174-debate-agent-app-completion) | 2025-09-14 | Debate Agent App Completion | [Langgraph Playlist](https://www.youtube.com/playlist?list=PLKnIA16_RmvYsvB8qkUQuJmJNuiCUJFPL) |
+| [Day175](#day-175-introduction-to-fastapi-for-ml) | 2025-09-15 | Introduction to FastAPI for ML | [FastAPI Documentation](https://fastapi.tiangolo.com/) |
+| [Day176](#day-176-fastapi-implementation) | 2025-09-16 | FastAPI Implementation | [FastAPI Documentation](https://fastapi.tiangolo.com/) |
+| [Day177](#day-177-http-request-methods-and-rest-architecture) | 2025-09-17 | HTTP Request Methods and REST Architecture | [FastAPI Documentation](https://fastapi.tiangolo.com/) |
+| [Day178](#day-178-fastapi-parameters-and-request-body) | 2025-09-18 | FastAPI Parameters and Request Body | [FastAPI Documentation](https://fastapi.tiangolo.com/) |
+| [Day179](#day-179-mini-project-with-fastapi) | 2025-09-19 | Mini Project with FastAPI | [FastAPI Documentation](https://fastapi.tiangolo.com/) |
+| [Day180](#day-180-building-industry-ready-apis-with-fastapi) | 2025-09-20 | Building Industry-Ready APIs with FastAPI | [FastAPI Documentation](https://fastapi.tiangolo.com/) |
+| [Day181](#day-181-containerizing-fastapi-applications) | 2025-09-23 | Containerizing FastAPI Applications | [FastAPI Documentation](https://fastapi.tiangolo.com/) |
+| [Day182](hastags) | 2025‑09-24 |topics|| []() |
+
 
 ---
 <br>
