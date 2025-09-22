@@ -1,55 +1,57 @@
-This is a structured learning path following the [CampusX FastAPI for Machine Learning YouTube playlist](https://www.youtube.com/watch?v=WJKsPchji0Q&list=PLKnIA16_RmvZ41tjbKB2ZnwchfniNsMuQ).
+# Day 1: Introduction to FastAPI
+
+Started exploring FastAPI as a modern, fast web framework for building APIs with Python. Learned about its basic concepts and why it's becoming popular for backend development.
+Focused on the specific advantages of FastAPI for machine learning deployments, including its performance characteristics and automatic documentation features.
+![API](images/api.png)
+![Why Fast to Run](images/02_why_fast_to_run.png)
 
 
-# Day 1: What is an API? | Introduction to APIs | FastAPI for Machine Learning
+# Day 2: FastAPI Documentation Features
 
-- apis = connectors between frontend and backend, like waiter passing orders
-![alt text](images/api.png)
-- monolithic = tightly coupled, bad for scaling or sharing data externally
+Explored FastAPI's automatic documentation generation with Swagger UI and ReDoc, which makes testing and sharing APIs much simpler.
+![FastAPI Doc](images/03_fastapi_doc.png)
 
-- api-based = decoupled, clean and scalable, easy to integrate with others
+# Day 3: Building a Simple App
 
-- irctc case = real-world pain of monoliths, fixed by exposing api endpoints
+Worked through a blog guide on building a basic application with FastAPI, implementing fundamental concepts like routing and response handling.
+![Blog Build an App with FastAPI](images/03_blog_build__an_app_with_fastapi.png)
 
-- http + json = universal protocol + format for backend/frontend communication
+# Day 4: HTTP Request Methods
 
-- multi-platform needs (web/android/ios) make apis essential to avoid duplicating backend logic
+Studied HTTP request methods (GET, POST, PUT, DELETE) and how they're implemented in FastAPI for different API operations.
+![HTTP Request Methods](images/04_http_request_methods.png)
 
-- in ml systems, model = new backend, apis serve predictions like dbs serve data
+# Day 5: REST Architecture Principles Async/Await in FastAPI
 
-- fastapi = modern python framework, async support, fast, auto docs, perfect for ml model deployment
-
-- main use-case = wrapping models and making them usable via web or 3rd-party apps
-
-
-# Day 2: FastAPI Philosophy | How to setup FastAPI | Installation and Code Demo 
-
-
-# Day 3: HTTP Methods in FastAPI 
+Learned about RESTful API design principles and how FastAPI encourages following these conventions for building maintainable APIs.
+Investigated how FastAPI leverages Python's async capabilities for handling concurrency and improving performance in high-load scenarios.
+![Async Await](images/04_async_await.png)
+![REST Architecture](images/04_rest_architecture.png)
 
 
-# Day 4: Path & Query Params in FastAPI
+# Day 6: Path and Query params, Request Bodies in FastAPI
+
+Practiced implementing and working with different parameter types in FastAPI endpoints, focusing on path and query parameters.
+Learned how to handle request bodies in FastAPI using Pydantic models for validation and automatic conversion of incoming JSON data.
+![Request Body](images/05_request_body.png)
+![Path Parameter](images/05_path_parameter.png)
+![Query Parameter](images/05_query_parameter.png)
 
 
-# Day 5: Pydantic Crash Course | Data Validation in Python 
+# Day 7: Mini Project with FastAPI - Implementing GET and PUT Operations
 
+Built a comprehensive REST API with FastAPI as a mini-project, implementing GET and PUT endpoints with proper data validation. This hands-on exercise reinforced my understanding of request handling, response models, and API design principles essential for ML model deployment.
+![API Implementation](images/06_apis.png)
 
-# Day 6: Post Request in FastAPI | What is Request Body? 
+# Day 8: Completing CRUD Operations with UPDATE and DELETE
 
+Extended the mini-project by implementing UPDATE (PATCH) and DELETE operations, completing the full CRUD functionality. Focused on proper status code handling, error responses, and ensuring data consistency across operations. This exercise provided valuable experience with FastAPI's dependency injection system.
+![CRUD Implementation Code](images/06_code.png)
 
-# Day 7: PUT & DELETE in FastAPI 
+# Day 9: Building Industry-Ready APIs with FastAPI
+Explored best practices for creating production-grade APIs with FastAPI, including proper error handling, authentication, rate limiting, and documentation. Learned how to structure larger applications using APIRouter and dependency injection patterns that align with industry standards.
+![Industry-Level ML with FastAPI](images/07_ml_with_fastapi_industry_level_app.png)
 
-
-# Day 8: Serving ML Models with FastAPI 
-
-
-# Day 9: Improving the FastAPI API 
-
-
-# Day 10: Docker for Machine Learning | Docker Crash Course 
-
-
-# Day 11: FastAPI + Docker Tutorial for Beginners | How to Dockerize a FastAPI Application 
-
-
-# Day 12: How to Deploy a FastAPI API on AWS
+# Day 10: Containerizing FastAPI Applications
+Learned how to package FastAPI applications using Docker containers, ensuring consistent deployment across different environments. Explored multi-stage builds for optimized images, environment configuration, and container orchestration concepts for scalable API deployment.
+![FastAPI in Containers](images/08_fastapi_in_containers.png)

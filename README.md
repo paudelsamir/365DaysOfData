@@ -4457,7 +4457,6 @@ I also explored the fundamental components that make up agentic AI systems, incl
 ![Characteristics of Agentic AI](14-Agentic-AI/images/day166_charactersitics_of_agenticai.png) 
 ![Components of Agentic AI](14-Agentic-AI/images/day166_components_of_agenticai.png) 
 ![How Agentic AI Works](14-Agentic-AI/images/day166_how_agentic_ai_works.png)
-
 # Day 167: LangChain vs LangGraph Comparison
 
 Today I explored the relationship between LangChain and LangGraph, focusing on why LangGraph exists as a separate library and how it complements LangChain's capabilities. I built a simple chatbot using both approaches to compare them directly.
@@ -4468,11 +4467,98 @@ I also dug into some of the complexities around state management and control flo
 ![Simple Chatbot with LangGraph](14-Agentic-AI/images/day167_simple_charbot_with_langgraph.png) 
 ![Why We No Longer Use LangChain](14-Agentic-AI/images/day167_we_we_no_longer_use_langchain.png)
 
+# Day 168: Building a Branching Chatbot
 
+Today I built a branching chatbot with calculator, time, and smalltalk nodes. I learned how add_messages keeps memory across turns in conversations and watched a video on LangGraph core components to better understand the underlying architecture.
 
+![Chatbot with Math Date Node](14-Agentic-AI/images/day168_chatbot_with_math_date_node.png)
 
+# Day 169: Persistence with Checkpoints
 
+Explored persistence capabilities in LangGraph using checkpoints, focusing on Human-In-The-Loop (HITL), fault tolerance, and time travel features. I practiced these concepts by building a small application to test the persistence functionality in action.
 
+![Persistence Doc](14-Agentic-AI/images/day169_persistenc_doc.png) 
+![Persistence with Checkpoints](14-Agentic-AI/images/day169_persistence_with_checkpoints.png)
+
+# Day 170: Exploring LangSmith
+
+After some chaotic days in Nepal (GENZs PROTEST against CORRUPTION), I finally got some time to explore LangSmith. I watched several tutorials and read blogs to understand how it integrates with LangChain and LangGraph for monitoring and debugging.
+
+![LangSmith Dashboard](14-Agentic-AI/images/day170_langsmith_dashbord.png) 
+![LangSmith Integration Dashboard](14-Agentic-AI/images/day170_langsmith_integration_dashboard.png) 
+![LangSmith Traces Execution](14-Agentic-AI/images/day170_langsmith_traces_execution.png) 
+![LangSmith Walkthrough](14-Agentic-AI/images/day170_langsmith_walkthrough.png)
+
+# Day 171: Contextual Q&A with Memory (LangChain)
+
+Built a contextual Q&A system with memory capabilities using LangChain. Attempted to integrate it with LangSmith for monitoring but ran into some issues that I couldn't resolve today.
+
+![LangChain Implementation of Chatbot](14-Agentic-AI/images/day171_langchain_implementation_of_chatbot.png)
+
+# Day 172: Bhagavad Gita Expert Chatbot
+
+Today I implemented a contextual Q&A system using LangGraph instead of LangChain. Added a Streamlit UI on top to make it more interactive. The result was a Bhagavad Gita expert chatbot that maintains context across conversation turns.
+
+![Build Bhagavad Gita Expert Chatbot](14-Agentic-AI/images/day172_build_bhagbat_geeta_expert_chatbot.png) 
+![LangGraph Implementation of Contextual Chatbot with Memory](14-Agentic-AI/images/day172_langgraph_implementation_of_contextual_chatbot_with_memory.png)
+
+# Day 173: Multi-Agent Debating System
+
+Started coding a multi-agent debating system with LangGraph featuring three LLM-based agents: two debaters and one evaluator. Ran into some workflow issues that I'll need to debug tomorrow.
+
+![Agent Debate No Workflow Till](14-Agentic-AI/images/day173_agent_debate_no_workflow_till.png)
+
+# Day 174: Debate Agent App Completion
+
+Successfully built an application where agents debate against each other on random topics, trying to win from different perspectives (like science vs. religion). It was pretty fun to see the interactions, though I didn't create the UI myself.
+
+![Streamlit App Overview](14-Agentic-AI/images/day174_streamlit_app_overview.png) 
+![Male vs Female Debate Summary Where Religion Wins with Female](14-Agentic-AI/images/day174_male_vs_female_debate_summary_where_religion_wins_with_female.png)
+
+# Day 175: Introduction to FastAPI for ML
+
+Dived into FastAPI for machine learning applications. Covered the what, why, and how of setting up FastAPI through tutorials, focusing on its performance benefits for ML deployments.
+
+![Why Fast to Run](Fastapi/images/02_why_fast_to_run.png)
+![API](Fastapi/images/api.png)
+
+# Day 176: FastAPI Implementation
+
+Explored a blog guide on building applications with FastAPI and implemented a test to understand the flow and functionality of the framework.
+
+![FastAPI Doc](Fastapi/images/03_fastapi_doc.png) 
+![Blog Build an App with FastAPI](Fastapi/images/03_blog_build__an_app_with_fastapi.png)
+
+# Day 177: HTTP Request Methods and REST Architecture
+
+Learned about HTTP request methods and REST architecture principles. Also checked out concurrency handling in FastAPI using async/await patterns from the documentation.
+
+![HTTP Request Methods](Fastapi/images/04_http_request_methods.png) 
+![REST Architecture](Fastapi/images/04_rest_architecture.png) 
+![Async Await](Fastapi/images/04_async_await.png)
+
+# Day 178: FastAPI Parameters and Request Body
+
+Practiced working with path parameters, query parameters, and request bodies in FastAPI. The documentation feels much clearer now after hands-on implementation.
+
+![Request Body](Fastapi/images/05_request_body.png) 
+![Query Parameter](Fastapi/images/05_query_parameter.png) 
+![Path Parameter](Fastapi/images/05_path_parameter.png)
+
+# Day 179: Mini Project with FastAPI
+
+Built several APIs with FastAPI as a mini-project, coding everything from scratch to solidify my understanding of the framework's capabilities for ML model deployment.
+
+![APIs](Fastapi/images/06_apis.png) 
+![Code](Fastapi/images/06_code.png)
+
+# Day 180: Building Industry-Ready APIs with FastAPI
+Explored best practices for creating production-grade APIs with FastAPI, including proper error handling, authentication, rate limiting, and documentation. Learned how to structure larger applications using APIRouter and dependency injection patterns that align with industry standards.
+![Industry-Level ML with FastAPI](Fastapi/images/07_ml_with_fastapi_industry_level_app.png)
+
+# Day 181: Containerizing FastAPI Applications
+Learned how to package FastAPI applications using Docker containers, ensuring consistent deployment across different environments. Explored multi-stage builds for optimized images, environment configuration, and container orchestration concepts for scalable API deployment.
+![FastAPI in Containers](Fastapi/images/08_fastapi_in_containers.png)
 
 
 
