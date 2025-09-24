@@ -4569,9 +4569,13 @@ Built several APIs with FastAPI as a mini-project, coding everything from scratc
 Explored best practices for creating production-grade APIs with FastAPI, including proper error handling, authentication, rate limiting, and documentation. Learned how to structure larger applications using APIRouter and dependency injection patterns that align with industry standards.
 ![Industry-Level ML with FastAPI](Fastapi/images/07_ml_with_fastapi_industry_level_app.png)
 
-# Day 181: Containerizing FastAPI Applications
-Learned how to package FastAPI applications using Docker containers, ensuring consistent deployment across different environments. Explored multi-stage builds for optimized images, environment configuration, and container orchestration concepts for scalable API deployment.
-![FastAPI in Containers](Fastapi/images/08_fastapi_in_containers.png)
+# Day 181: Containerizing FastAPI Applications with Docker
+
+Learned how to containerize FastAPI applications using Docker. Built Dockerfiles with multi-stage builds for smaller images, configured environment variables, and set up Docker Compose for local development with hot-reload. Implemented proper networking between containers, health checks, and graceful shutdown. Successfully deployed a containerized ML model API and tested its performance under load.
+
+![Docker Container Architecture](Fastapi/images/08_fastapi_in_containers.png) 
+![FastAPI Docker Integration](Fastapi/images/08_fastapi_with_docker.png) 
+![Optimized Dockerfile](Fastapi/images/08_dockerfile_code.png)
 
 
 
