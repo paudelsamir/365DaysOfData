@@ -1,0 +1,1 @@
+# we make model a package so we can do from core.models import Story type

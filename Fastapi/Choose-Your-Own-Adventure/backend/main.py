@@ -1,5 +1,9 @@
+# usually contains fastapi app, includes routers, starts uvicorn server etc
+
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from core.configs import settings
 
 app = FastAPI(
     title = "Choose Your Own Adventure",
@@ -11,7 +15,7 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=settings.ALLOWED_ORIGINS,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
