@@ -56,36 +56,40 @@ class StoryGenerator:
     def generate_story(cls, db: Session, session_id: str, theme: str = "fantasy") -> Story:
         llm = cls._get_llm()
 
-        # Simplified prompt to match our exact Pydantic model structure
-        prompt_text = f"""Create a choose-your-own-adventure story about {theme}. 
+        # Simple but clear prompt for branching story
+        prompt_text = f"""Create a choose-your-own-adventure story about {theme}.
 
-Return ONLY valid JSON in this exact format:
+Make a story with these requirements:
+1. Start with 4 choices
+2. At least 2 choices should lead to MORE choices (not endings)
+3. Each of those should have 4 more choices
+4. Make it about {theme}
 
+JSON format:
 {{
-  "title": "Your Story Title",
+  "title": "Story about {theme}",
   "rootNode": {{
-    "content": "Story opening about {theme}",
+    "content": "Story start (30 words max)",
     "isEnding": false,
     "isWinningEnding": false,
     "options": [
       {{
-        "text": "First choice",
+        "text": "Choice 1",
         "nextNode": {{
-          "content": "Result of first choice",
-          "isEnding": true,
-          "isWinningEnding": true,
-          "options": null
+          "content": "What happens (30 words max)",
+          "isEnding": false,
+          "isWinningEnding": false,
+          "options": [
+            {{"text": "Sub choice 1A", "nextNode": {{"content": "Ending (30 words max)", "isEnding": true, "isWinningEnding": true, "options": null}}}},
+            {{"text": "Sub choice 1B", "nextNode": {{"content": "Ending (30 words max)", "isEnding": true, "isWinningEnding": false, "options": null}}}},
+            {{"text": "Sub choice 1C", "nextNode": {{"content": "Ending (30 words max)", "isEnding": true, "isWinningEnding": false, "options": null}}}},
+            {{"text": "Sub choice 1D", "nextNode": {{"content": "Ending (30 words max)", "isEnding": true, "isWinningEnding": true, "options": null}}}}
+          ]
         }}
       }},
-      {{
-        "text": "Second choice",
-        "nextNode": {{
-          "content": "Result of second choice", 
-          "isEnding": true,
-          "isWinningEnding": false,
-          "options": null
-        }}
-      }}
+      {{"text": "Choice 2", "nextNode": {{"content": "What happens", "isEnding": false, "isWinningEnding": false, "options": [{{"text": "Sub 2A", "nextNode": {{"content": "End", "isEnding": true, "isWinningEnding": true, "options": null}}}}, {{"text": "Sub 2B", "nextNode": {{"content": "End", "isEnding": true, "isWinningEnding": false, "options": null}}}}, {{"text": "Sub 2C", "nextNode": {{"content": "End", "isEnding": true, "isWinningEnding": false, "options": null}}}}, {{"text": "Sub 2D", "nextNode": {{"content": "End", "isEnding": true, "isWinningEnding": true, "options": null}}}}]}}}},
+      {{"text": "Choice 3", "nextNode": {{"content": "Direct ending", "isEnding": true, "isWinningEnding": false, "options": null}}}},
+      {{"text": "Choice 4", "nextNode": {{"content": "Direct ending", "isEnding": true, "isWinningEnding": true, "options": null}}}}
     ]
   }}
 }}"""
@@ -108,7 +112,7 @@ Return ONLY valid JSON in this exact format:
             
             response = requests.post(f"{ollama_base_url}/api/generate", 
                                    json=ollama_request, 
-                                   timeout=30)
+                                   timeout=120)
             response.raise_for_status()
             
             ollama_response = response.json()
@@ -124,9 +128,24 @@ Return ONLY valid JSON in this exact format:
             story_data = json.loads(extracted_json)
             print(f"Parsed story data: {story_data}")
             
-            story_structure = StoryLLMResponse.model_validate(story_data)
+            # Check if the story has proper multi-level structure
+            root_node = story_data.get('rootNode', {})
+            options = root_node.get('options', [])
             
-            print("Successfully generated story with Ollama!")
+            # Count how many non-ending options we have (should be at least 2 for multi-level)
+            non_ending_options = 0
+            for option in options:
+                next_node = option.get('nextNode', {})
+                if not next_node.get('isEnding', True):
+                    non_ending_options += 1
+            
+            # If we don't have enough non-ending paths, use fallback
+            if non_ending_options < 2:
+                print("Story lacks sufficient branching depth, using enhanced fallback...")
+                story_structure = cls._create_fallback_story(theme)
+            else:
+                story_structure = StoryLLMResponse.model_validate(story_data)
+                print("Successfully generated multi-level story with Ollama!")
 
         except json.JSONDecodeError as e:
             print(f"JSON parsing failed: {str(e)}")
@@ -135,7 +154,7 @@ Return ONLY valid JSON in this exact format:
             
             print("Creating fallback story...")
             fallback = cls._create_fallback_story(theme)
-            fallback.title = f"Fallback: {theme} (JSON parse error)"
+            # Keep the clean title from fallback story
             story_structure = fallback
             
         except Exception as e:
@@ -166,9 +185,8 @@ Return ONLY valid JSON in this exact format:
             
             print("Creating fallback story...")
             
-            # Create a story with error information in the title for debugging
+            # Create clean fallback story without error message in title
             fallback = cls._create_fallback_story(theme)
-            fallback.title = f"Fallback: {theme} ({error_msg[:50]}...)"
             story_structure = fallback
 
         # Save to database
@@ -187,7 +205,7 @@ Return ONLY valid JSON in this exact format:
 
     @classmethod
     def _extract_json(cls, text: str) -> str:
-        """Extract JSON from text response"""
+        """Extract JSON from text response with better error handling"""
         text = text.strip()
         
         # First, try to extract content from markdown code blocks
@@ -215,7 +233,13 @@ Return ONLY valid JSON in this exact format:
             for block in code_blocks:
                 block = block.strip()
                 if block.startswith('{') and block.endswith('}'):
-                    return block
+                    # Try to validate JSON structure
+                    try:
+                        import json
+                        json.loads(block)  # Test if it's valid JSON
+                        return block
+                    except:
+                        continue
         
         # If no code blocks, try to find JSON object directly
         brace_start = text.find('{')
@@ -228,39 +252,159 @@ Return ONLY valid JSON in this exact format:
                     brace_count -= 1
                     if brace_count == 0:
                         candidate = text[brace_start:i+1]
-                        # Quick validation that it looks like JSON
-                        if candidate.count('{') == candidate.count('}') and candidate.count('"') >= 2:
+                        # Try to validate this JSON
+                        try:
+                            import json
+                            json.loads(candidate)  # Test if it's valid JSON
                             return candidate
+                        except:
+                            continue
         
         return text
 
     @classmethod
     def _create_fallback_story(cls, theme: str) -> StoryLLMResponse:
-        """Create a simple fallback story when LLM fails"""
+        """Create a deep multi-level fallback story with 4-5 levels when LLM fails"""
         # Create the story data as dictionaries that can be properly validated
         story_data = {
             "title": f"The {theme.title()} Adventure",
             "rootNode": {
-                "content": f"You find yourself at the beginning of a {theme} adventure. The path ahead splits in two directions.",
+                "content": f"You begin your {theme} adventure in a mysterious realm. Four paths stretch before you, each promising different destinies.",
                 "isEnding": False,
                 "isWinningEnding": False,
                 "options": [
                     {
-                        "text": "Take the left path",
+                        "text": "Take the northern path",
                         "nextNode": {
-                            "content": "You chose the left path and discovered a treasure! You win!",
-                            "isEnding": True,
-                            "isWinningEnding": True,
-                            "options": None
+                            "content": "The northern path leads to an ancient temple with four glowing doorways. Each door hums with different energy.",
+                            "isEnding": False,
+                            "isWinningEnding": False,
+                            "options": [
+                                {
+                                    "text": "Enter the golden door",
+                                    "nextNode": {
+                                        "content": "Inside, you find a wise oracle who presents you with four sacred trials to prove your worth.",
+                                        "isEnding": False,
+                                        "isWinningEnding": False,
+                                        "options": [
+                                            {
+                                                "text": "Trial of courage",
+                                                "nextNode": {
+                                                    "content": "You face your deepest fears in a realm of shadows. Four choices determine your fate here.",
+                                                    "isEnding": False,
+                                                    "isWinningEnding": False,
+                                                    "options": [
+                                                        {"text": "Fight the shadow beast", "nextNode": {"content": "You defeat the beast and gain eternal courage!", "isEnding": True, "isWinningEnding": True, "options": None}},
+                                                        {"text": "Negotiate with shadows", "nextNode": {"content": "The shadows reject your words and consume you.", "isEnding": True, "isWinningEnding": False, "options": None}},
+                                                        {"text": "Use light magic", "nextNode": {"content": "Your light banishes all darkness and you become a beacon of hope!", "isEnding": True, "isWinningEnding": True, "options": None}},
+                                                        {"text": "Run away quickly", "nextNode": {"content": "You escape but lose your chance at greatness forever.", "isEnding": True, "isWinningEnding": False, "options": None}}
+                                                    ]
+                                                }
+                                            },
+                                            {"text": "Trial of wisdom", "nextNode": {"content": "You solve ancient riddles and become the wisest being in existence!", "isEnding": True, "isWinningEnding": True, "options": None}},
+                                            {"text": "Trial of strength", "nextNode": {"content": "You lift impossible weights but your body breaks under the strain.", "isEnding": True, "isWinningEnding": False, "options": None}},
+                                            {"text": "Trial of heart", "nextNode": {"content": "You show pure compassion and become a beloved guardian spirit!", "isEnding": True, "isWinningEnding": True, "options": None}}
+                                        ]
+                                    }
+                                },
+                                {
+                                    "text": "Enter the silver door",
+                                    "nextNode": {
+                                        "content": "You enter a realm of time where past, present, and future swirl around you in chaos.",
+                                        "isEnding": False,
+                                        "isWinningEnding": False,
+                                        "options": [
+                                            {
+                                                "text": "Travel to the past",
+                                                "nextNode": {
+                                                    "content": "In the past, you discover four ancient kingdoms at war. Your choice here changes history itself.",
+                                                    "isEnding": False,
+                                                    "isWinningEnding": False,
+                                                    "options": [
+                                                        {"text": "Unite the kingdoms", "nextNode": {"content": "You become the legendary peacemaker who ended the eternal wars!", "isEnding": True, "isWinningEnding": True, "options": None}},
+                                                        {"text": "Join the strongest army", "nextNode": {"content": "You help create a tyranny that oppresses the realm for centuries.", "isEnding": True, "isWinningEnding": False, "options": None}},
+                                                        {"text": "Stay neutral", "nextNode": {"content": "Your neutrality allows the wars to continue indefinitely.", "isEnding": True, "isWinningEnding": False, "options": None}},
+                                                        {"text": "Steal their secrets", "nextNode": {"content": "You gather ancient knowledge and become a master of lost arts!", "isEnding": True, "isWinningEnding": True, "options": None}}
+                                                    ]
+                                                }
+                                            },
+                                            {"text": "Travel to the future", "nextNode": {"content": "You see a dystopian world and realize your choices led to this outcome.", "isEnding": True, "isWinningEnding": False, "options": None}},
+                                            {"text": "Stay in the present", "nextNode": {"content": "You master the flow of time and become a temporal guardian!", "isEnding": True, "isWinningEnding": True, "options": None}},
+                                            {"text": "Try to escape", "nextNode": {"content": "You become lost between time streams and exist nowhere forever.", "isEnding": True, "isWinningEnding": False, "options": None}}
+                                        ]
+                                    }
+                                },
+                                {"text": "Enter the crystal door", "nextNode": {"content": "You find a mirror that reflects your true nature and achieve enlightenment!", "isEnding": True, "isWinningEnding": True, "options": None}},
+                                {"text": "Enter the obsidian door", "nextNode": {"content": "Dark forces trap you in eternal servitude to shadow masters.", "isEnding": True, "isWinningEnding": False, "options": None}}
+                            ]
                         }
                     },
                     {
-                        "text": "Take the right path", 
+                        "text": "Take the eastern path",
                         "nextNode": {
-                            "content": "You chose the right path and fell into a trap. Game over!",
-                            "isEnding": True,
+                            "content": "The eastern path leads to a magical forest where four elemental spirits await your decision.",
+                            "isEnding": False,
                             "isWinningEnding": False,
-                            "options": None
+                            "options": [
+                                {
+                                    "text": "Commune with fire spirit",
+                                    "nextNode": {
+                                        "content": "The fire spirit offers to teach you the ways of flame. Four lessons await you.",
+                                        "isEnding": False,
+                                        "isWinningEnding": False,
+                                        "options": [
+                                            {"text": "Learn to create fire", "nextNode": {"content": "You master fire creation and become a legendary fire mage!", "isEnding": True, "isWinningEnding": True, "options": None}},
+                                            {"text": "Learn to control fire", "nextNode": {"content": "You gain fire immunity but lose the ability to feel warmth forever.", "isEnding": True, "isWinningEnding": False, "options": None}},
+                                            {"text": "Learn to become fire", "nextNode": {"content": "You transform into pure flame and protect the forest eternally!", "isEnding": True, "isWinningEnding": True, "options": None}},
+                                            {"text": "Reject the fire spirit", "nextNode": {"content": "The spirit burns you to ash for your disrespect.", "isEnding": True, "isWinningEnding": False, "options": None}}
+                                        ]
+                                    }
+                                },
+                                {"text": "Commune with water spirit", "nextNode": {"content": "You learn water magic but your body becomes liquid forever.", "isEnding": True, "isWinningEnding": False, "options": None}},
+                                {"text": "Commune with earth spirit", "nextNode": {"content": "You gain the strength of mountains and become an earth guardian!", "isEnding": True, "isWinningEnding": True, "options": None}},
+                                {"text": "Commune with air spirit", "nextNode": {"content": "You learn to fly but lose your connection to the ground forever.", "isEnding": True, "isWinningEnding": False, "options": None}}
+                            ]
+                        }
+                    },
+                    {
+                        "text": "Take the southern path",
+                        "nextNode": {
+                            "content": "The southern path leads to a crossroads where four merchants offer you mysterious bargains.",
+                            "isEnding": False,
+                            "isWinningEnding": False,
+                            "options": [
+                                {"text": "Trade with gold merchant", "nextNode": {"content": "You gain infinite wealth but lose your soul to greed.", "isEnding": True, "isWinningEnding": False, "options": None}},
+                                {"text": "Trade with knowledge merchant", "nextNode": {"content": "You gain all knowledge but your mind cannot handle the truth.", "isEnding": True, "isWinningEnding": False, "options": None}},
+                                {"text": "Trade with power merchant", "nextNode": {"content": "You gain ultimate power and use it to protect the innocent!", "isEnding": True, "isWinningEnding": True, "options": None}},
+                                {"text": "Refuse all trades", "nextNode": {"content": "You keep your humanity and find happiness in simple things!", "isEnding": True, "isWinningEnding": True, "options": None}}
+                            ]
+                        }
+                    },
+                    {
+                        "text": "Take the western path",
+                        "nextNode": {
+                            "content": "The western path leads to an ancient library with four mystical tomes waiting to be opened.",
+                            "isEnding": False,
+                            "isWinningEnding": False,
+                            "options": [
+                                {
+                                    "text": "Read the tome of destiny",
+                                    "nextNode": {
+                                        "content": "The tome shows you four possible destinies. You must choose which future to make real.",
+                                        "isEnding": False,
+                                        "isWinningEnding": False,
+                                        "options": [
+                                            {"text": "Hero's destiny", "nextNode": {"content": "You become the greatest hero of all time, saving countless lives!", "isEnding": True, "isWinningEnding": True, "options": None}},
+                                            {"text": "Ruler's destiny", "nextNode": {"content": "You become a just ruler but the burden of leadership crushes your spirit.", "isEnding": True, "isWinningEnding": False, "options": None}},
+                                            {"text": "Scholar's destiny", "nextNode": {"content": "You discover the secrets of the universe and transcend mortality!", "isEnding": True, "isWinningEnding": True, "options": None}},
+                                            {"text": "Wanderer's destiny", "nextNode": {"content": "You travel forever but never find a place to call home.", "isEnding": True, "isWinningEnding": False, "options": None}}
+                                        ]
+                                    }
+                                },
+                                {"text": "Read the tome of secrets", "nextNode": {"content": "You learn forbidden knowledge and become mad with power.", "isEnding": True, "isWinningEnding": False, "options": None}},
+                                {"text": "Read the tome of wisdom", "nextNode": {"content": "You gain perfect wisdom and guide others to enlightenment!", "isEnding": True, "isWinningEnding": True, "options": None}},
+                                {"text": "Read the tome of nightmares", "nextNode": {"content": "The tome traps you in eternal nightmares from which you never wake.", "isEnding": True, "isWinningEnding": False, "options": None}}
+                            ]
                         }
                     }
                 ]

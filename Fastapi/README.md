@@ -49,9 +49,46 @@ Extended the mini-project by implementing UPDATE (PATCH) and DELETE operations, 
 ![CRUD Implementation Code](images/06_code.png)
 
 # Day 9: Building Industry-Ready APIs with FastAPI
+
 Explored best practices for creating production-grade APIs with FastAPI, including proper error handling, authentication, rate limiting, and documentation. Learned how to structure larger applications using APIRouter and dependency injection patterns that align with industry standards.
 ![Industry-Level ML with FastAPI](images/07_ml_with_fastapi_industry_level_app.png)
 
 # Day 10: Containerizing FastAPI Applications
+
 Learned how to package FastAPI applications using Docker containers, ensuring consistent deployment across different environments. Explored multi-stage builds for optimized images, environment configuration, and container orchestration concepts for scalable API deployment.
 ![FastAPI in Containers](images/08_fastapi_in_containers.png)
+
+# Day 11: Project Setup - Choose Your Own Adventure
+
+Started a new project implementing a "Choose Your Own Adventure" application with FastAPI as the backend. Set up the development environment and explored UV as a faster alternative to traditional Python package managers for dependency installation.
+![Project Setup Backend FastAPI](images/10_project_setup_backend_fastapi.png)
+![UV Package Manager](images/10_uv.png)
+
+# Day 12: Database Design and Core Components
+
+Designed core configuration handlers for application settings and structured the database using SQLAlchemy. Created database models to represent tables and relationships, and developed Pydantic schemas to define API input/output formats for the adventure story application.
+![Core Configs Models Code](images/11_core_configs_models_code.png)
+![Database Python Code](images/11_databasepython_code.png)
+![Models Jobs Story Code](images/11_models_jobs_story_code.png)
+![Schemas Job Story](images/11_schemas_job_story.png)
+
+# Day 13: API Implementation and Background Tasks
+
+Implemented routers for jobs and stories endpoints to handle the core functionality of the adventure application. Integrated background tasks for asynchronous story generation, enabling non-blocking API responses while stories are being created.
+![Router Job Endpoint](images/12_router_job_endpoint.png)
+![Router Story Endpoints Post Get](images/12_router_story_endpoints_post_get.png)
+
+# Day 14: Backend Completion and Debugging
+
+Resolved numerous debugging challenges to get all APIs working properly. The most challenging aspect was connecting Ollama (local LLM) and parsing its output into structured data for the application. Successfully integrated the LLM component with the backend services.
+![Completed Backend](images/13_completed_backend.png)
+![Database Troubleshoot Preview](images/13_database_troubleshoot_preview.png)
+![Sample Output Underwater World Topic](images/13_sample_outpu_of_underwater_world_topic.png)
+
+# Day 15: Frontend Integration and Project Completion
+
+Designed and implemented the frontend interface for the Choose Your Own Adventure application. Polished the user flow to ensure a seamless experience. While the application worked well locally, deployment was limited by the decision to use Ollama rather than cloud-based solutions like OpenAI. Successfully completed the project with a fully functional local demonstration.
+![Project Demo](images/14_project_demo.png)
+
+
+Complete REPO of the project: [github.com/paudelsamir/Choose-Your-Own-Adventure](https://github.com/paudelsamir/Choose-Your-Own-Adventure)

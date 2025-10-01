@@ -70,3 +70,4 @@ requirements.txt
 langchain-env
 resources/
 fastapi-env/
+Fastapi/Choose-Your-Own-Adventure/backend/database.db

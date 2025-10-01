@@ -1,4 +1,4 @@
-welcome to the choose-your-own-adventure api project! this fastapi app generates interactive stories using the ollama llm and stores data in an sqlite database. while building the project, you might run into some common issues—i’ve faced several myself, so i’ll share them here. knowing these can save you a lot of time and help you fix problems quickly if they pop up.
+welcome to the choose-your-own-adventure api project! this fastapi app generates interactive stories using the ollama llm and stores data in an sqlite database. while building the project, you might run into some common issues /i’ve faced several myself, so i’ll share them here. knowing these can save you a lot of time and help you fix problems quickly if they pop up.
 
 the most frequent problem is getting generic fallback stories instead of ai-generated content. this typically happens due to configuration issues like invalid ollama url settings (e.g., `OLLAMA_BASE_URL=http://localhost:11434s` with an extra 's'), pydantic model mismatches, or json parsing failures with markdown code blocks. direct http requests to the ollama api often work better than using wrappers:
 
