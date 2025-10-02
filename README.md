@@ -4620,7 +4620,7 @@ Started building a new project: a "Choose Your Own Adventure" application with F
 - Created project scaffolding and initial configuration
 
 ![Project Setup Backend FastAPI](images/10_project_setup_backend_fastapi.png)
-![UV Package Manager](images/10_uv.png)
+![UV Package Manager](Fastapi/images/10_uv.png)
 
 ---
 
@@ -4633,10 +4633,10 @@ Designed the data layer for my adventure application:
 - Developed Pydantic schemas to define API input/output formats
 - Set up migrations for database versioning
 
-![Core Configs Models Code](images/11_core_configs_models_code.png)
-![Database Python Code](images/11_databasepython_code.png)
-![Models Jobs Story Code](images/11_models_jobs_story_code.png)
-![Schemas Job Story](images/11_schemas_job_story.png)
+![Core Configs Models Code](Fastapi/images/11_core_configs_models_code.png)
+![Database Python Code](Fastapi/images/11_databasepython_code.png)
+![Models Jobs Story Code](Fastapi/images/11_models_jobs_story_code.png)
+![Schemas Job Story](Fastapi/images/11_schemas_job_story.png)
 
 ---
 
@@ -4649,8 +4649,8 @@ Built core API functionality for the adventure app:
 - Set up asynchronous processing patterns
 - Added basic error handling and validation
 
-![Router Job Endpoint](images/12_router_job_endpoint.png)
-![Router Story Endpoints Post Get](images/12_router_story_endpoints_post_get.png)
+![Router Job Endpoint](Fastapi/images/12_router_job_endpoint.png)
+![Router Story Endpoints Post Get](Fastapi/images/12_router_story_endpoints_post_get.png)
 
 ---
 
@@ -4663,9 +4663,10 @@ Overcame several challenges to complete the backend:
 - Implemented parsers to convert LLM output into structured data
 - Fixed database connection issues and optimized queries
 
-![Completed Backend](images/13_completed_backend.png)
-![Database Troubleshoot Preview](images/13_database_troubleshoot_preview.png)
-![Sample Output Underwater World Topic](images/13_sample_outpu_of_underwater_world_topic.png)
+![Completed Backend](Fastapi/images/13_completed_backend.png)
+![Sample Output Underwater World Topic](Fastapi/images/13_sample_outpu_of_underwater_world_topic.png)
+![Database Troubleshoot Preview](Fastapi/images/13_database_troubleshoot_preview.png)
+![Sample Output Underwater World Topic](Fastapi/images/13_sample_outpu_of_underwater_world_topic.png)
 
 ---
 
@@ -4680,7 +4681,7 @@ Finished the Choose Your Own Adventure application:
 
 Project complete! Here's what it looks like in action:
 
-![Project Demo](images/14_project_demo.png)
+![Project Demo](Fastapi/images/14_project_demo.png)
 
 **Complete project code:** [github.com/paudelsamir/Choose-Your-Own-Adventure](https://github.com/paudelsamir/Choose-Your-Own-Adventure)
 
