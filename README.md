@@ -236,7 +236,14 @@
 | [Day179](#day-179-mini-project-with-fastapi) | 2025-09-19 | Mini Project with FastAPI | [FastAPI Documentation](https://fastapi.tiangolo.com/) |
 | [Day180](#day-180-building-industry-ready-apis-with-fastapi) | 2025-09-20 | Building Industry-Ready APIs with FastAPI | [FastAPI Documentation](https://fastapi.tiangolo.com/) |
 | [Day181](#day-181-containerizing-fastapi-applications) | 2025-09-23 | Containerizing FastAPI Applications | [FastAPI Documentation](https://fastapi.tiangolo.com/) |
-| [Day182](hastags) | 2025‑09-24 |topics|| []() |
+| [Day182](#day-182-fastapi-deployment-on-aws) | 2025-09-24 | fastapi deployment on aws | [aws docs](https://docs.aws.amazon.com/) |
+| [Day183](#day-183-project-setup---choose-your-own-adventure) | 2025-09-25 | project setup – choose your own adventure | [project repo](https://github.com/paudelsamir/Choose-Your-Own-Adventure) |
+| [Day184](#day-184-database-design-and-core-components) | 2025-09-26 | database design and core components | [project repo](https://github.com/paudelsamir/Choose-Your-Own-Adventure) |
+| [Day185](#day-185-api-implementation-and-background-tasks) | 2025-09-27 | api implementation and background tasks | [project repo](https://github.com/paudelsamir/Choose-Your-Own-Adventure) |
+| [Day186](#day-186-backend-completion-and-debugging) | 2025-09-28 | backend completion and debugging | [project repo](https://github.com/paudelsamir/Choose-Your-Own-Adventure) |
+| [Day187](#day-187-frontend-integration-and-project-completion) | 2025-09-29 | frontend integration and project completion | [project repo](https://github.com/paudelsamir/Choose-Your-Own-Adventure) |
+| [Day188](#day-188-concurrency-patterns-in-fastapi) | 2025-10-01 | concurrency patterns in fastapi | [starlette concurrency](https://www.starlette.io/concurrency/) |
+| [Day189](hastags) | 2025‑10-02 |topics|| []() |
 
 
 ---
@@ -4550,6 +4557,7 @@ Learned about HTTP request methods and REST architecture principles. Also checke
 ![REST Architecture](Fastapi/images/04_rest_architecture.png) 
 ![Async Await](Fastapi/images/04_async_await.png)
 
+---
 # Day 178: FastAPI Parameters and Request Body
 
 Practiced working with path parameters, query parameters, and request bodies in FastAPI. The documentation feels much clearer now after hands-on implementation.
@@ -4557,7 +4565,7 @@ Practiced working with path parameters, query parameters, and request bodies in 
 ![Request Body](Fastapi/images/05_request_body.png) 
 ![Query Parameter](Fastapi/images/05_query_parameter.png) 
 ![Path Parameter](Fastapi/images/05_path_parameter.png)
-
+---
 # Day 179: Mini Project with FastAPI
 
 Built several APIs with FastAPI as a mini-project, coding everything from scratch to solidify my understanding of the framework's capabilities for ML model deployment.
@@ -4565,20 +4573,129 @@ Built several APIs with FastAPI as a mini-project, coding everything from scratc
 ![APIs](Fastapi/images/06_apis.png) 
 ![Code](Fastapi/images/06_code.png)
 
+---
 # Day 180: Building Industry-Ready APIs with FastAPI
 Explored best practices for creating production-grade APIs with FastAPI, including proper error handling, authentication, rate limiting, and documentation. Learned how to structure larger applications using APIRouter and dependency injection patterns that align with industry standards.
 ![Industry-Level ML with FastAPI](Fastapi/images/07_ml_with_fastapi_industry_level_app.png)
 
+---
 # Day 181: Containerizing FastAPI Applications with Docker
 
-Learned how to containerize FastAPI applications using Docker. Built Dockerfiles with multi-stage builds for smaller images, configured environment variables, and set up Docker Compose for local development with hot-reload. Implemented proper networking between containers, health checks, and graceful shutdown. Successfully deployed a containerized ML model API and tested its performance under load.
+Today I focused on containerizing FastAPI applications with Docker:
+
+- Built Dockerfiles using multi-stage builds for smaller, optimized images
+- Configured environment variables and secrets management for different environments
+- Set up Docker Compose for local development with hot-reload capability
+- Implemented proper container networking, health checks, and graceful shutdown
+- Successfully deployed a containerized ML model API and tested its performance under load
 
 ![Docker Container Architecture](Fastapi/images/08_fastapi_in_containers.png) 
 ![FastAPI Docker Integration](Fastapi/images/08_fastapi_with_docker.png) 
 ![Optimized Dockerfile](Fastapi/images/08_dockerfile_code.png)
 
+---
 
+# Day 182: FastAPI Deployment on AWS
 
+Explored FastAPI deployment options on AWS:
+- EC2 instance deployment looks straightforward
+- Studied Docker best practices for production deployments
+- Reviewed security considerations for API deployment
+
+While I didn't implement the deployment myself, I understand the workflow now:
+
+![Instance Creation](Fastapi/images/09_1instance_creation.png)
+![SSH Connection](Fastapi/images/09_2ssh_connection.png)
+![Environment Configuration](Fastapi/images/09_3environment_configuration.png)
+![Dockerfile Best Practices](Fastapi/images/09_dockerfile_best_practices.png)
+
+---
+
+# Day 183: Project Setup - Choose Your Own Adventure
+
+Started building a new project: a "Choose Your Own Adventure" application with FastAPI backend:
+
+- Set up the development environment with proper structure
+- Explored UV as a faster alternative to pip/poetry for dependency management
+- Created project scaffolding and initial configuration
+
+![Project Setup Backend FastAPI](images/10_project_setup_backend_fastapi.png)
+![UV Package Manager](images/10_uv.png)
+
+---
+
+# Day 184: Database Design and Core Components
+
+Designed the data layer for my adventure application:
+
+- Created configuration handlers for application settings management
+- Structured database models with SQLAlchemy to represent tables and relationships
+- Developed Pydantic schemas to define API input/output formats
+- Set up migrations for database versioning
+
+![Core Configs Models Code](images/11_core_configs_models_code.png)
+![Database Python Code](images/11_databasepython_code.png)
+![Models Jobs Story Code](images/11_models_jobs_story_code.png)
+![Schemas Job Story](images/11_schemas_job_story.png)
+
+---
+
+# Day 185: API Implementation and Background Tasks
+
+Built core API functionality for the adventure app:
+
+- Implemented routers for jobs and stories endpoints 
+- Integrated background tasks for non-blocking story generation
+- Set up asynchronous processing patterns
+- Added basic error handling and validation
+
+![Router Job Endpoint](images/12_router_job_endpoint.png)
+![Router Story Endpoints Post Get](images/12_router_story_endpoints_post_get.png)
+
+---
+
+# Day 186: Backend Completion and Debugging
+
+Overcame several challenges to complete the backend:
+
+- Resolved integration issues between components
+- The biggest challenge: connecting Ollama (local LLM) to the application
+- Implemented parsers to convert LLM output into structured data
+- Fixed database connection issues and optimized queries
+
+![Completed Backend](images/13_completed_backend.png)
+![Database Troubleshoot Preview](images/13_database_troubleshoot_preview.png)
+![Sample Output Underwater World Topic](images/13_sample_outpu_of_underwater_world_topic.png)
+
+---
+
+# Day 187: Frontend Integration and Project Completion
+
+Finished the Choose Your Own Adventure application:
+
+- Designed and implemented the frontend interface
+- Connected frontend to backend APIs
+- Polished user flows for story exploration
+- Project limitation: using Ollama restricts deployment options compared to cloud LLMs
+
+Project complete! Here's what it looks like in action:
+
+![Project Demo](images/14_project_demo.png)
+
+**Complete project code:** [github.com/paudelsamir/Choose-Your-Own-Adventure](https://github.com/paudelsamir/Choose-Your-Own-Adventure)
+
+---
+
+# Day 188: Concurrency Patterns in FastAPI
+
+A lighter day exploring concurrency options for FastAPI/Starlette applications:
+
+- Studied different approaches: SQL as a queue, thread pools for background tasks, async processing
+- Compared performance characteristics of each method
+- Read some interesting case studies on scaling FastAPI applications
+
+![Methods of Concurrency](Fastapi/images/methods_of_concurrency.png)
+![Concurrency for Starlette App](Fastapi/images/concurrency_for_starlette_app.png)
 
 <!--
 The remaining chapters to cover in deep......
