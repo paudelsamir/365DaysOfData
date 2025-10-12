@@ -245,7 +245,19 @@
 | [Day186](#day-186-backend-completion-and-debugging) | 2025-09-28 | backend completion and debugging | [project repo](https://github.com/paudelsamir/Choose-Your-Own-Adventure) |
 | [Day187](#day-187-frontend-integration-and-project-completion) | 2025-09-29 | frontend integration and project completion | [project repo](https://github.com/paudelsamir/Choose-Your-Own-Adventure) |
 | [Day188](#day-188-concurrency-patterns-in-fastapi) | 2025-10-01 | concurrency patterns in fastapi | [starlette concurrency](https://www.starlette.io/concurrency/) |
-| [Day189](hastags) | 2025‑10-02 |topics|| []() |
+| [Day189](#day-189-self-supervised-learning-foundations) | 2025‑10‑02 | self-supervised learning – foundations | [Lil'Log SSL Blog](https://lilianweng.github.io/posts/2019-11-10-self-supervised/) |
+| [Day190](#day-190-mcp-and-lazy-week) | 2025‑10‑03 | mcp and lazy week | [Masked Conditional Prediction](https://lilianweng.github.io/posts/2019-11-10-self-supervised/) |
+| [Day191](#day-191-ssrl-image-video-approaches) | 2025‑10‑04 | ssrl – image & video approaches | [Lil'Log SSRL](https://lilianweng.github.io/posts/2019-11-10-self-supervised/) |
+| [Day192](#day-192-wrapping-up-ssl-fun-reads) | 2025‑10‑05 | wrapping up ssl + fun reads | [Postgres vs SQLite](https://www.prisma.io/dataguide/postgresql/postgresql-vs-sqlite), [GPT Speculations](https://www.lesswrong.com/posts/7wqQ6j6bX5Qh5Q8bE/gpt-4-speculations) |
+| [Day193](#day-193-llama2-fine-tuning-with-qlora) | 2025‑10‑06 | llama2 fine-tuning with qlora | [QLoRA Fine-Tuning Guide](https://github.com/artidoro/qlora) |
+| [Day194](#day-194) | 2025‑10‑12 |  |  |
+| [Day195](#day-195) | 2025‑10‑13 |  |  |
+| [Day196](#day-196) | 2025‑10‑14 |  |  |
+| [Day197](#day-197) | 2025‑10‑15 |  |  |
+| [Day198](#day-198) | 2025‑10‑16 |  |  |
+| [Day199](#day-199) | 2025‑10‑17 |  |  |
+| [Day200](#day-200) | 2025‑10‑18 |  |  |
+
 
 
 ---
