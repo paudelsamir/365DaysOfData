@@ -30,7 +30,9 @@
 |[GPT from Scratch](https://github.com/paudelsamir/365DaysOfData/tree/main/11-Foundations-Of-LLMS/GPT-From-Scratch)| Complete implementation of GPT transformer architecture from scratch following Karpathy's tutorial. Includes bigram model, self-attention, multi-head attention, and complete transformer blocks.| [Notebook 📓](11-Foundations-Of-LLMS/GPT-From-Scratch/let-s-build-gpt-from-scratch-in-code-spelled-out.ipynb) |
 |[Image Captioning](https://github.com/paudelsamir/365DaysOfData/tree/main/10-Projects-Based-ML-DL/03-Image-Captioning)| An end-to-end image captioning project using the Flickr8k dataset. Explored the "Show, Attend & Tell" paper, built vocabulary, extracted features with ResNet-18, and trained a transformer decoder. Achieved a BLEU-4 score of 0.18 and deployed a Streamlit demo app. | [Live Demo 👆🏽](https://image-captioning-samir.streamlit.app) |
 |[cineRank - A movie ranker app](https://github.com/paudelsamir/365DaysOfData/tree/main/10-Projects-Based-ML-DL/04-Sentiment-Analysis)| Community-driven movie leaderboard app with trending picks, sentiment reviews, and personal watchlists. Built using IMDb reviews, advanced text cleaning, EDA, vectorization (BoW, TF-IDF, GloVe, BERT), and BERT fine-tuning for sentiment classification. Features leaderboard, watchlists, and real-time updates. | [Live Demo 👆🏽](https://cine-rank.vercel.app) |
-
+|[Choose Your Own Adventure](https://github.com/paudelsamir/Choose-Your-Own-Adventure)| Inspired by interactive fiction like AI Dungeon, this app lets you become the protagonist in a personalized adventure story. Enter any theme—haunted mansions, space exploration, and more—and AI generates a unique branching narrative with multiple paths and endings. Features include an interactive visual map, concise story nodes (~40 words), meaningful choices, and a clean black-and-white interface for all devices. Explore different decision paths and control your own dynamic storytelling experience. | [Project Demo 👆🏽](https://github.com/paudelsamir/Choose-Your-Own-Adventure) |
+| [Projects-Based-GenAI](https://github.com/paudelsamir/365DaysOfData/tree/main/15-Projects-Based-GenAI) | Hands-on GenAI projects including text generation, multimodal models, and advanced LLM fine-tuning. Explore practical implementations of state-of-the-art generative AI techniques. | [Project folder](https://github.com/paudelsamir/365DaysOfData/tree/main/15-Projects-Based-GenAI) |
+| [Project-Based-AgenticAI](https://github.com/paudelsamir/365DaysOfData/tree/main/16-Project-Based-AgenticAI) | Applied agentic AI projects focusing on autonomous agents, multi-agent systems, and real-world agentic workflows using LangGraph and LangChain. | [Project folder](https://github.com/paudelsamir/365DaysOfData/tree/main/16-Project-Based-AgenticAI) |
 
  
 
@@ -4687,17 +4689,75 @@ Project complete! Here's what it looks like in action:
 
 ---
 
-# Day 188: Concurrency Patterns in FastAPI
+# Day 189: Self-Supervised Learning – Foundations
 
-A lighter day exploring concurrency options for FastAPI/Starlette applications:
+Explored the fundamentals of self-supervised learning (SSL) through a comprehensive blog and cookbook. Covered the origins, families, and motivations behind SSL, including why it’s crucial for leveraging unlabeled data. Tomorrow’s focus: image-based, video-based, and control-based SSL methods.
 
-- Studied different approaches: SQL as a queue, thread pools for background tasks, async processing
-- Compared performance characteristics of each method
-- Read some interesting case studies on scaling FastAPI applications
+![alt text](13-Computer-Vision-And-Other-GenAI-Paradigms/images/day189_content_covered.png)
+![alt text](13-Computer-Vision-And-Other-GenAI-Paradigms/images/day189_cookbook_of_self_learning.png)
+![alt text](13-Computer-Vision-And-Other-GenAI-Paradigms/images/day189_why_ssl_lil_blog.png)
 
-![Methods of Concurrency](Fastapi/images/methods_of_concurrency.png)
-![Concurrency for Starlette App](Fastapi/images/concurrency_for_starlette_app.png)
+**Notes:**  
+- SSL enables models to learn useful representations without manual labels.
+- Common approaches: predicting missing parts, transformations, or context.
 
+---
+
+# Day 190: MCP and Lazy Week
+
+Spent time exploring Masked Conditional Prediction (MCP) and reading various blogs. The week has been slow—need to ramp up productivity. MCP is gaining traction for its ability to solve complex prediction tasks by masking parts of the input and training models to infer them.
+
+![alt text](13-Computer-Vision-And-Other-GenAI-Paradigms/images/day190_blog_alphabetical_order.png)
+![alt text](13-Computer-Vision-And-Other-GenAI-Paradigms/images/day190_blog_i'd_rather_read_prompt.png)
+![alt text](13-Computer-Vision-And-Other-GenAI-Paradigms/images/day190_everybody_saying_mcp.png)
+![alt text](13-Computer-Vision-And-Other-GenAI-Paradigms/images/day190_what_mcp_solve.png)
+
+**Notes:**  
+- MCP is used for tasks like masked language modeling and image inpainting.
+- Encourages models to learn context-aware representations.
+
+---
+
+# Day 191: SSRL – Image and Video Approaches
+
+Continued reading the Lil'Log SSRL blog, finishing chapters on image-based (e.g., rotation prediction, colorization) and video-based (e.g., tracking, video colorization) self-supervised methods. Visualized how SSL tasks help models learn robust features.
+
+![alt text](13-Computer-Vision-And-Other-GenAI-Paradigms/images/day191_approach_ssl.png)
+![alt text](13-Computer-Vision-And-Other-GenAI-Paradigms/images/day191_illustration_of_self_supervised_learning_by_rotation.png)
+![alt text](13-Computer-Vision-And-Other-GenAI-Paradigms/images/day191_blog_summary.png)
+![alt text](13-Computer-Vision-And-Other-GenAI-Paradigms/images/day191_video_colorization_track.png)
+
+**Notes:**  
+- Image-based SSL: rotation, jigsaw, colorization tasks.
+- Video-based SSL: object tracking, temporal order prediction.
+
+---
+
+# Day 192: Wrapping Up SSL + Fun Reads
+
+Finished the Lil’Log SSL blog and explored fun topics, including a comparison of PostgreSQL vs SQLite and speculative blogs on the future of GPT models. Also read about seven databases in seven days.
+
+![alt text](13-Computer-Vision-And-Other-GenAI-Paradigms/images/day192_blog_summary.png)
+![alt text](13-Computer-Vision-And-Other-GenAI-Paradigms/images/day192_fun_blog_what_will_gpt2030_look_like.png)
+![alt text](13-Computer-Vision-And-Other-GenAI-Paradigms/images/day192_postgreSQL_from_blog.png)
+![alt text](13-Computer-Vision-And-Other-GenAI-Paradigms/images/day192_seven-db-for-seven-days_blog.png)
+
+**Notes:**  
+- PostgreSQL offers advanced features and scalability; SQLite is lightweight and easy to use.
+- SSL is foundational for modern AI, especially with limited labeled data.
+
+---
+
+# Day 193: Llama2 Fine-Tuning with QLoRA
+
+Fine-tuned Llama2 using 4-bit quantization and LoRA for efficient training. Switched to the standard trainer for better results and tested model outputs. QLoRA enables large model fine-tuning on consumer hardware.
+
+![alt text](<15-Projects-Based-GenAI/01-Text-Generation/02-LLM-FineTuning-Playground/images/day193_finetune_llama2_)with_qlora.png>)
+
+**Notes:**  
+- QLoRA reduces memory requirements for LLM fine-tuning.
+- LoRA adapts model weights efficiently with minimal compute.
+- Model outputs show promising results after fine-tuning.
 <!--
 The remaining chapters to cover in deep......
 ===========================================================================================================================================
