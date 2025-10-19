@@ -8,10 +8,6 @@
 </div>
 <br>
 
-> [!note]  
-> I'll share progress and demos on [**linkedin**](https://www.linkedin.com/in/paudelsamir/) and [**twitter**](https://twitter.com/samireey).  
-> I won’t post daily or raw learns, updates will be for specific topics, concise, and focused on what i actually built or explored. plan is 4–5 posts per week.  
-> This journey is about ai from scratch with data, not my entire learning history. I’ll keep building in public while also learning other things beyond ai.
 
 <div align="center">
     <img src="./resources/images/cover.png" alt="365DaysOfData cover" width="400" />
@@ -19,21 +15,14 @@
 
 <div align="center">
     <a href="#bottom" title="Jump to today's entry">
-        <img src="https://img.shields.io/badge/▼_Jump_to_Today-0D1117?style=for-the-badge&logoColor=white&labelColor=161B22" alt="Jump to Today" />
+        <img src="https://img.shields.io/badge/▼_Click_to_Navigate_to_Today-0D1117?style=for-the-badge&logoColor=white&labelColor=161B22" alt="Jump to Today" />
     </a>
-    <p style="margin-top:2px;font-size:0.8rem;color:#6b7280">Click to navigate to today's entry directly</p>
 </div>
 
-
-
-> [!important]
-> **Before this**  
-> spent ~6 months learning python basics, data analysis, and visualization — documented in [Opening-The-Chapters](00-Opening-The-Chapters).  
-> **Phase 1 — foundations & exploration (Days 1–200)**  
-> cover traditional ml to agentic ai with fun projects and surface level learning. explore terms, papers, blogs, and books. built habits to stay updated while strengthening core technical skills and tools.
-> **Phase 2 — deep dive & specialization (Days 200–365)**  
-> focus on deep reinforcement learning, agentic engineering, training, computing, optimization, evaluation, distillation, finetuning, and system design ,taking skills and projects to the next level.
-
+> [!note]  
+> I'll share progress and demos on [**linkedin**](https://www.linkedin.com/in/paudelsamir/) and [**twitter**](https://twitter.com/samireey).  
+> I won’t post daily or raw learns, updates will be for specific topics, concise, and focused on what i actually built or explored. plan is 4–5 posts per week.  
+> This journey is about AI from scratch with data, not my entire learning history. I’ll keep building in public while also learning other adjacent techs beyond AI.
 
 
 
