@@ -63,7 +63,7 @@
 | [🌐 GenAI Handbook](https://genai-handbook.github.io/) | ✅ |
 | [DeepMind x UCL — Introduction to Reinforcement Learning (David Silver)](https://www.youtube.com/playlist?list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ) | ⏳ |
 | [Deep Reinforcement Learning — Hugging Face Course](https://huggingface.co/learn/deep-rl-course/en/unit0/introduction) | ⏳ |
-| [Reinforcement Learning from Human Feedback (RLHF) — Book](https://rlhfbook.com/) | A short introduction to RLHF and post-training techniques for language models (practical guide) | ⏳ |
+| [Reinforcement Learning from Human Feedback (RLHF) — Book](https://rlhfbook.com/)  | ⏳ |
 
 
 
@@ -4794,14 +4794,11 @@ Bhadra 15 - Kartik 15 (Board of 6th sem from kartik 15 to mangshir 15)
 
 
 
-
+<div id="bottom"></div>
 <div align="center">
     <a href="#top" title="Jump to today's entry">
         <img src="https://img.shields.io/badge/▼_Jump_to_Top-0D1117?style=for-the-badge&logoColor=white&labelColor=161B22" alt="Jump to Today" />
     </a>
-    <p style="margin-top:2px;font-size:0.7rem;color:#6b7280">
-    click here to redirect to top of the readme to access projects, resources and more..
-    </p>
 </div>
 <!-- 
 ### Helping Hands
