@@ -1,33 +1,39 @@
 
 <div id="top"></div>
-<div align="left">
+<div align="center">
   <!-- Left Badges (Last Updated & Repo Size) -->
   <img src="https://img.shields.io/github/last-commit/paudelsamir/365DaysOfData" alt="Last Updated" />
   <img src="https://img.shields.io/github/repo-size/paudelsamir/365DaysOfData" alt="Repo Size" />
   
 </div>
+<br>
 
 > [!note]  
-> i'll share progress and demos on [**linkedin**](https://www.linkedin.com/in/paudelsamir/) and [**twitter**](https://twitter.com/samireey).  
-> i won’t post daily or raw learns — updates will be for specific topics, concise, and focused on what i actually built or explored. plan is 4–5 posts per week.  
-> this journey is about ai from scratch with data, not my entire learning history. i’ll keep building in public while also learning other things beyond ai.
+> I'll share progress and demos on [**linkedin**](https://www.linkedin.com/in/paudelsamir/) and [**twitter**](https://twitter.com/samireey).  
+> I won’t post daily or raw learns, updates will be for specific topics, concise, and focused on what i actually built or explored. plan is 4–5 posts per week.  
+> This journey is about ai from scratch with data, not my entire learning history. I’ll keep building in public while also learning other things beyond ai.
 
-![cover](./resources/images/cover.png)
+<div align="center">
+    <img src="./resources/images/cover.png" alt="365DaysOfData cover" width="400" />
+</div>
+
+<div align="center">
+    <a href="#bottom" title="Jump to today's entry">
+        <img src="https://img.shields.io/badge/▼_Jump_to_Today-0D1117?style=for-the-badge&logoColor=white&labelColor=161B22" alt="Jump to Today" />
+    </a>
+    <p style="margin-top:2px;font-size:0.8rem;color:#6b7280">Click to navigate to today's entry directly</p>
+</div>
+
 
 
 > [!important]
-> **before this challenge**  
+> **Before this**  
 > spent ~6 months learning python basics, data analysis, and visualization — documented in [Opening-The-Chapters](00-Opening-The-Chapters).  
-> **phase 1 — foundations & exploration (days 1–200)**  
+> **Phase 1 — foundations & exploration (Days 1–200)**  
 > cover traditional ml to agentic ai with fun projects and surface level learning. explore terms, papers, blogs, and books. built habits to stay updated while strengthening core technical skills and tools.
-> **phase 2 — deep dive & specialization (days 201–365)**  
->focus on deep reinforcement learning, agentic engineering, training, computing, optimization, evaluation, distillation, finetuning, and system design — taking skills and projects to the next level.
+> **Phase 2 — deep dive & specialization (Days 200–365)**  
+> focus on deep reinforcement learning, agentic engineering, training, computing, optimization, evaluation, distillation, finetuning, and system design ,taking skills and projects to the next level.
 
-<div align="right">
-<a href="#bottom">
-    <img src="https://img.shields.io/badge/▼_Navigate_to_Bottom-0D1117?style=for-the-badge&logoColor=white&labelColor=161B22" alt="Navigate to Bottom" />
-</a>
-</div>
 
 
 
@@ -4800,11 +4806,13 @@ Bhadra 15 - Kartik 15 (Board of 6th sem from kartik 15 to mangshir 15)
 
 
 
-<div id="bottom"></div>
-<div align="right">
-<a href="#top">
-    <img src="https://img.shields.io/badge/▲_Back_to_Top-0D1117?style=for-the-badge&logoColor=white&labelColor=161B22" alt="Back to Top" />
-</a>
+<div align="center">
+    <a href="#top" title="Jump to today's entry">
+        <img src="https://img.shields.io/badge/▼_Jump_to_Top-0D1117?style=for-the-badge&logoColor=white&labelColor=161B22" alt="Jump to Today" />
+    </a>
+    <p style="margin-top:2px;font-size:0.7rem;color:#6b7280">
+    click here to redirect to top of the readme to access projects, resources and more..
+    </p>
 </div>
 <!-- 
 ### Helping Hands
