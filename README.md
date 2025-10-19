@@ -7,16 +7,30 @@
   
 </div>
 
+> [!note]  
+> i'll share progress and demos on [**linkedin**](https://www.linkedin.com/in/paudelsamir/) and [**twitter**](https://twitter.com/samireey).  
+> i won’t post daily or raw learns — updates will be for specific topics, concise, and focused on what i actually built or explored. plan is 4–5 posts per week.  
+> this journey is about ai from scratch with data, not my entire learning history. i’ll keep building in public while also learning other things beyond ai.
+
 ![cover](./resources/images/cover.png)
 
-> [!Note] 
->I’ll be sharing updates regularly on [**LinkedIn**](https://www.linkedin.com/in/paudelsamir/) and [**Twitter**](https://twitter.com/samireey)
+
+> [!important]
+> **before this challenge**  
+> spent ~6 months learning python basics, data analysis, and visualization — documented in [Opening-The-Chapters](00-Opening-The-Chapters).  
+> **phase 1 — foundations & exploration (days 1–200)**  
+> cover traditional ml to agentic ai with fun projects and surface level learning. explore terms, papers, blogs, and books. built habits to stay updated while strengthening core technical skills and tools.
+> **phase 2 — deep dive & specialization (days 201–365)**  
+>focus on deep reinforcement learning, agentic engineering, training, computing, optimization, evaluation, distillation, finetuning, and system design — taking skills and projects to the next level.
 
 <div align="right">
 <a href="#bottom">
     <img src="https://img.shields.io/badge/▼_Navigate_to_Bottom-0D1117?style=for-the-badge&logoColor=white&labelColor=161B22" alt="Navigate to Bottom" />
 </a>
 </div>
+
+
+
 
 ## Projects Completed
 
@@ -49,8 +63,12 @@
 | [Neural Networks @3Blue1Brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) | ✅ |
 | [Deep Learning for Coders with fastai & PyTorch @Oreilly](https://github.com/fastai/fastbook) | ✅  |
 | [Neural Networks: Zero to Hero @Karpathy](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ) | ✅ |
-| [🌐  ML Resources](https://ml-resources.vercel.app/) | ⏳ |
-| [🌐 GenAI Handbook](https://genai-handbook.github.io/) | ⏳ |
+| [LangChain Intro @Pinecone](https://www.pinecone.io/learn/series/langchain/langchain-intro/) | ✅ |
+| [🌐  ML Resources](https://ml-resources.vercel.app/) | ✅ |
+| [🌐 GenAI Handbook](https://genai-handbook.github.io/) | ✅ |
+| [DeepMind x UCL — Introduction to Reinforcement Learning (David Silver)](https://www.youtube.com/playlist?list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ) | ⏳ |
+| [Deep Reinforcement Learning — Hugging Face Course](https://huggingface.co/learn/deep-rl-course/en/unit0/introduction) | ⏳ |
+| [Reinforcement Learning from Human Feedback (RLHF) — Book](https://rlhfbook.com/) | A short introduction to RLHF and post-training techniques for language models (practical guide) | ⏳ |
 
 
 
