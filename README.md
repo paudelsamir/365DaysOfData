@@ -263,13 +263,13 @@
 | [Day191](#day-191-ssrl-image-video-approaches) | 2025‑10‑04 | ssrl – image & video approaches | [Lil'Log SSRL](https://lilianweng.github.io/posts/2019-11-10-self-supervised/) |
 | [Day192](#day-192-wrapping-up-ssl-fun-reads) | 2025‑10‑05 | wrapping up ssl + fun reads | [Postgres vs SQLite](https://www.prisma.io/dataguide/postgresql/postgresql-vs-sqlite), [GPT Speculations](https://www.lesswrong.com/posts/7wqQ6j6bX5Qh5Q8bE/gpt-4-speculations) |
 | [Day193](#day-193-llama2-fine-tuning-with-qlora) | 2025‑10‑06 | llama2 fine-tuning with qlora | [QLoRA Fine-Tuning Guide](https://github.com/artidoro/qlora) |
-| [Day194](#day-194) | 2025‑10‑12 |  |  |
-| [Day195](#day-195) | 2025‑10‑13 |  |  |
-| [Day196](#day-196) | 2025‑10‑14 |  |  |
-| [Day197](#day-197) | 2025‑10‑15 |  |  |
-| [Day198](#day-198) | 2025‑10‑16 |  |  |
-| [Day199](#day-199) | 2025‑10‑17 |  |  |
-| [Day200](#day-200) | 2025‑10‑18 |  |  |
+| [Day194](#day-194-gemma-2-fine-tuning-with-unsloth) | 2025‑10‑12 | gemma 2 fine-tuning using unsloth | [Gemma2 Fine-tuning Notebook](https://github.com/paudelsamir/365DaysOfData/blob/main/15-Projects-Based-GenAI/01-Text-Generation/02-LLM-FineTuning-Playground/02_Alpaca_Gemma2_9b_Unsloth_finetuning.ipynb) |
+| [Day195](#day-195-lora-adapters-and-technical-research) | 2025‑10‑13 | saving & loading lora adapters, explored "lora without regret" | [LoRA Blog Post](https://thinkingmachines.ai/blog/lora/) |
+| [Day196](#day-196-rag-evaluation-challenges) | 2025‑10‑14 | attempted RAG evaluation, faced compatibility issues | [MCP Documentation](https://modelcontextprotocol.io/docs/develop/build-server) |
+| [Day197](#day-197-building-mcp-from-scratch) | 2025‑10‑16 | built a custom MCP server, integrated with Cursor | [Custom Implementation](https://github.com/paudelsamir/365DaysOfData) |
+| [Day198](#day-198-deep-reinforcement-learning-foundations) | 2025‑10‑18 | studied RL fundamentals: policies, MDPs, rewards | [HuggingFace RL Course](https://huggingface.co/learn/deep-rl-course/en/unit0/introduction) |
+| [Day199](#day-199-optimal-policy-in-reinforcement-learning) | 2025‑10‑20 | explored Q-learning & Deep Q-learning, lunar lander env | [HuggingFace RL Course](https://huggingface.co/learn/deep-rl-course/en/unit0/introduction) |
+| [Day200](#day-200-training-ppo-agent-for-lunar-lander) | 2025‑10‑21 | trained PPO agent on LunarLander-v3 using SB3 | [HuggingFace RL Course](https://huggingface.co/learn/deep-rl-course/en/unit0/introduction) |
 
 
 
