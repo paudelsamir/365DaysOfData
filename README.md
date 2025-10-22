@@ -4771,7 +4771,6 @@ Finished the Lil’Log SSL blog and explored fun topics, including a comparison 
 - PostgreSQL offers advanced features and scalability; SQLite is lightweight and easy to use.
 - SSL is foundational for modern AI, especially with limited labeled data.
 
----
 
 # Day 193: Llama2 Fine-Tuning with QLoRA
 
@@ -4783,6 +4782,93 @@ Fine-tuned Llama2 using 4-bit quantization and LoRA for efficient training. Swit
 - QLoRA reduces memory requirements for LLM fine-tuning.
 - LoRA adapts model weights efficiently with minimal compute.
 - Model outputs show promising results after fine-tuning.
+
+---
+
+# Day 194: Gemma 2 Fine-Tuning with Unsloth
+
+Fine-tuned the Gemma 2 9B model using Unsloth, achieving solid inference results with minimal resources. The entire process took just 10 minutes on a 6GB GPU, demonstrating the efficiency of modern fine-tuning techniques.
+
+![alt text](13-Computer-Vision-And-Other-GenAI-Paradigms/images/day194_unsloth_model_training_params_and_t4gpu_stats.png) ![alt text](13-Computer-Vision-And-Other-GenAI-Paradigms/images/day194_memory_stats_after_training.png) ![alt text](13-Computer-Vision-And-Other-GenAI-Paradigms/images/day194_inference_of_the_finetuned_model.png)
+
+**Notes:**  
+- Unsloth significantly accelerates fine-tuning process for large models.
+- 6GB GPU is sufficient for fine-tuning production-grade models with proper optimization.
+- Memory usage remains manageable throughout the training process.
+
+---
+
+# Day 195: LoRA Adapters and Technical Research
+
+Focused on saving and loading LoRA adapters to maintain fine-tuning efficiency. Explored the "LoRA Without Regret" blog which provided valuable insights on adapter architecture. Ended the day with additional reading on AI advancements.
+
+![alt text](13-Computer-Vision-And-Other-GenAI-Paradigms/images/day195_lora_wo_regret.png) ![alt text](13-Computer-Vision-And-Other-GenAI-Paradigms/images/day195_saving_and_loading_finetuned_models.png) ![alt text](13-Computer-Vision-And-Other-GenAI-Paradigms/images/day195_blog_on_ai_future.png)
+
+**Notes:**  
+- LoRA adapters can be efficiently saved and reused across model instances.
+- Technical blogs provide valuable implementation details not found in papers.
+- Proper adapter management improves workflow efficiency in LLM development.
+
+---
+
+# Day 196: RAG Evaluation Challenges
+
+Attempted to evaluate Retrieval-Augmented Generation (RAG) using Ollama but encountered compatibility issues. MLflow genAI metrics appear to only work with OpenAI endpoints, and custom functions didn't resolve the problem either.
+
+![alt text](15-Projects-Based-GenAI/01-Text-Generation/02-LLM-FineTuning-Playground/images/day196_mlflow_evaluation_but_faild.png)
+
+**Notes:**  
+- Evaluation frameworks often have hidden dependencies on specific LLM providers.
+- MLflow's genAI metrics currently have limited compatibility with open-source models.
+- Custom evaluation functions require significant engineering effort.
+
+---
+
+# Day 197: Building MCP from Scratch
+
+Built a simple Masked Conditional Prediction (MCP) server from scratch and successfully integrated it with Cursor for testing. The implementation allows for custom tool integration directly within the development environment.
+
+![alt text](16-Project-Based-AgenticAI/03-Autonomous-Applications/01-Building-A-MCP-Server-From-Scratch/197_mcp_components.png) ![alt text](16-Project-Based-AgenticAI/03-Autonomous-Applications/01-Building-A-MCP-Server-From-Scratch/197_mcp_with_cursor_tool_fully_working.png) ![alt text](16-Project-Based-AgenticAI/03-Autonomous-Applications/01-Building-A-MCP-Server-From-Scratch/197_mcpinspector_tool_using.png)
+
+- Custom MCP servers enable tight integration with development tools.
+- Calculator functionality demonstrates basic tool integration capabilities.
+- The modular architecture allows for expanding tool capabilities over time.
+
+---
+
+# Day 198: Deep Reinforcement Learning Foundations
+
+Started exploring deep reinforcement learning by revisiting fundamental concepts: policies, Markov decision processes, reward structures, and state spaces. Found high-quality courses to guide further learning in this domain.
+
+![alt text](17-Deep-Reinfrocement-Learning/images/day198_cumulative_rewards.png) ![alt text](17-Deep-Reinfrocement-Learning/images/day198_hf_deep_reinforcement_learning_course.png) ![alt text](17-Deep-Reinfrocement-Learning/images/day198_optimization.png) ![alt text](17-Deep-Reinfrocement-Learning/images/day198_rl_policy_formula.png)
+
+- Understanding policy formulation is fundamental to reinforcement learning.
+- Cumulative rewards drive the optimization process in RL systems.
+
+---
+
+# Day 199: Optimal Policy in Reinforcement Learning
+
+Explored techniques for finding optimal policies in reinforcement learning. Attempted to train a Lunar Lander model with Stable Baselines, but encountered visualization issues. Reviewed literature on Gymnasium environments.
+
+![alt text](17-Deep-Reinfrocement-Learning/images/day199_summary_reinforcement_learning.png) ![alt text](17-Deep-Reinfrocement-Learning/images/day199_q_learning_deep_q_learning.png) ![alt text](17-Deep-Reinfrocement-Learning/images/day199_gymnasium_lunar_lander.png)
+
+- Q-learning and Deep Q-learning represent core algorithms for policy optimization.
+- Gymnasium provides standardized environments for reinforcement learning tasks.
+
+---
+
+# Day 200: Training PPO Agent for Lunar Lander
+
+Successfully trained a Proximal Policy Optimization (PPO) agent on the LunarLander-v3 environment using Stable Baselines 3. The model achieved good performance after training for 30 minutes (1 million steps). Planning to further explore Q-learning implementation.
+
+![alt text](17-Deep-Reinfrocement-Learning/images/day200_lunar_lander_training.png) ![alt text](17-Deep-Reinfrocement-Learning/images/day200_lunar_lander_model_trained_for_30mins.png)
+
+
+- PPO provides stable and efficient training for complex control tasks.
+- 1 million training steps can be sufficient for basic mastery of the Lunar Lander environment.
+
+
 <!--
 The remaining chapters to cover in deep......
 ===========================================================================================================================================
