@@ -61,7 +61,6 @@
 | [LangChain Intro @Pinecone](https://www.pinecone.io/learn/series/langchain/langchain-intro/) | ✅ |
 | [🌐  ML Resources](https://ml-resources.vercel.app/) | ✅ |
 | [🌐 GenAI Handbook](https://genai-handbook.github.io/) | ✅ |
-| [DeepMind x UCL — Introduction to Reinforcement Learning (David Silver)](https://www.youtube.com/playlist?list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ) | ⏳ |
 | [Deep Reinforcement Learning — Hugging Face Course](https://huggingface.co/learn/deep-rl-course/en/unit0/introduction) | ⏳ |
 | [Reinforcement Learning from Human Feedback (RLHF) — Book](https://rlhfbook.com/)  | ⏳ |
 
