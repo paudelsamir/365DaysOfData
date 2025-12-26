@@ -4904,18 +4904,39 @@ Built Q-learning from scratch and trained an agent on the Frozen Lake environmen
 
 - Q-learning successfully learns optimal policies through table-based updates.
 - Frozen Lake provides a simple benchmark for policy learning validation.
+---
 
-> [!NOTE]
-> and with that, the journey from 2024-12-14 to 2025-12-14 comes to an end.
-> missed days due to lows, endsems, fun, outings, and life itself. highs and lows, grind and pauses, everything happened.
 
-> this journey was about 365 numbers. i could not achieve all the numbers, but i achieved something more important. something i can feel now that i did not have a year back. growth that is not just measurable, but real.
-> with 2026 beginning, the plan is changing. this time, i am converting my goals into monthly, achievable targets. over the past year, i have learned that the more you compare yourself thoughtfully, the more you push yourself to improve. at every step, i will visualize the person i want to become and move toward it with intent.
-> from now on, the focus will be more practical. staying up to date with evolving technologies. building, learning, and applying consistently. 
+> [!note]
+> **and with that, the journey from `2024-12-14` → `2025-12-14` comes to an end.**  
+> missed days due to lows, endsems, fun, outings, and life itself.  
+> highs and lows, grind and pauses, everything happened.
+>
+> 
+>
+> **this journey was about `365` numbers.**  
+> i could not achieve all the numbers, but i achieved something more important.  
+> something i can feel now that i did not have a year back.  
+> **growth that is not just measurable, but real.**
+>
+> 
+>
+> **with `2026` beginning, the plan is changing.**  
+> converting goals into **monthly, achievable targets**.  
+> comparing thoughtfully to push improvement.  
+> visualizing the person i want to become and moving toward it with intent.
+>
+> 
+>
+> **from now on, the focus will be more practical.**  
+> staying up to date with evolving technologies.  
+> building, learning, and applying consistently.
+>
+> ---
+>
+> **here we go. a new journey begins.**  
+> sharing more along the way on [twitter](https://x.com/samireey).
 
-> here we go. a new journey begins.
-
-> sharing more along the way on twitter: https://x.com/samireey
 
 <!--
 The remaining chapters to cover in deep......
