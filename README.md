@@ -4868,6 +4868,55 @@ Successfully trained a Proximal Policy Optimization (PPO) agent on the LunarLand
 - 1 million training steps can be sufficient for basic mastery of the Lunar Lander environment.
 
 
+# Day 201: Bellman Equation and Value Functions
+
+Explored the mathematical foundations of value-based reinforcement learning methods. Studied the Bellman equation, which decomposes value functions into immediate rewards and discounted future values. Investigated both state value functions (V(s)) and action value functions (Q(s,a)) to understand how agents evaluate their environment.
+
+![alt text](17-Deep-Reinfrocement-Learning/images/day201_bellman_equatiion.png)
+![alt text](17-Deep-Reinfrocement-Learning/images/day201_state_value_function.png)
+![alt text](17-Deep-Reinfrocement-Learning/images/day201_action_value_function.png)
+
+- The Bellman equation provides the foundation for iterative value estimation.
+- Value functions quantify how "good" states and actions are for the agent.
+
+---
+
+# Day 202: Monte Carlo vs Temporal Difference Learning
+
+Compared Monte Carlo and Temporal Difference (TD) learning approaches, understanding when each is appropriate. Analyzed Q-learning as an off-policy algorithm and explored the distinction between on-policy and off-policy methods. Developed intuitions about these fundamental algorithms.
+
+![alt text](17-Deep-Reinfrocement-Learning/images/day202_q_learning_algo.png)
+![alt text](17-Deep-Reinfrocement-Learning/images/day202_off_policy_vs_on_policy.png)
+![alt text](17-Deep-Reinfrocement-Learning/images/day202_formula_montecarlo_tdlearning.png)
+
+- Monte Carlo requires full episodes; TD learns from partial episodes.
+- Q-learning is off-policy, enabling learning from exploratory actions.
+
+---
+
+# Day 203: Implementing Q-Learning from Scratch
+
+Built Q-learning from scratch and trained an agent on the Frozen Lake environment. The agent learned to navigate the environment, though evaluation showed perfect success rates (needs debugging to confirm this is expected behavior or an anomaly).
+
+![alt text](17-Deep-Reinfrocement-Learning/images/day203_complete_pipeline_qtable_evaulation.png)
+![alt text](17-Deep-Reinfrocement-Learning/images/day203_frozen_lake_env.png)
+![alt text](17-Deep-Reinfrocement-Learning/images/day203_training_frozen_lake.png)
+
+- Q-learning successfully learns optimal policies through table-based updates.
+- Frozen Lake provides a simple benchmark for policy learning validation.
+
+> [!NOTE]
+> and with that, the journey from 2024-12-14 to 2025-12-14 comes to an end.
+> missed days due to lows, endsems, fun, outings, and life itself. highs and lows, grind and pauses, everything happened.
+
+> this journey was about 365 numbers. i could not achieve all the numbers, but i achieved something more important. something i can feel now that i did not have a year back. growth that is not just measurable, but real.
+> with 2026 beginning, the plan is changing. this time, i am converting my goals into monthly, achievable targets. over the past year, i have learned that the more you compare yourself thoughtfully, the more you push yourself to improve. at every step, i will visualize the person i want to become and move toward it with intent.
+> from now on, the focus will be more practical. staying up to date with evolving technologies. building, learning, and applying consistently. 
+
+> here we go. a new journey begins.
+
+> sharing more along the way on twitter: https://x.com/samireey
+
 <!--
 The remaining chapters to cover in deep......
 ===========================================================================================================================================
